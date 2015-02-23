@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+
+	<comment>HMatch 2.0 configuration</comment>
+
+	<!--General-->
+	<entry key="LogConfigurationFile">Conf/log4j.properties</entry>
+	
+	<!--HMatchL-->
+	<entry key="LinguisticThreshold">0.0</entry>
+
+	<entry key="UseStringMatching">Yes</entry>
+	<entry key="UseWordnet">No</entry>
+	
+	<!--Select string metric between ... -->
+	<entry key="StringMetric">QGramsDistance</entry>
+	<!--Select wordnet metric between Simple (Default), Frequency or MaximumPath-->
+	<entry key="WordnetMetric">Simple</entry>
+	<!--Absolute path of the JWNL properties file-->
+	<entry key="JWNLPropertyFile">Conf/JWNLProperties.xml</entry>
+	
+	
+	
+	<!--HMatchC-->
+	<entry key="ContextualThreshold">0.0</entry>
+	<entry key="LinguisticAffinityWeight">0.5</entry>
+	
+	<entry key="InheritanceOverRestrictions">Yes</entry>
+	
+	<!--Select matching model between Surface, Shallow, Deep or Intensive-->
+	<entry key="MatchingModel">Intensive</entry>
+	<!--Select empty context strategy between Pessimistic, Neutral or Optimistic-->
+	<entry key="EmptyContextStrategy">Neutral</entry>
+	<!--Select matching strategy between Dice_coefficient or Standard-->
+	<entry key="MatchingStrategy">Dice_coefficient</entry>
+	
+	
+	
+	<!--HMatchI-->
+	<entry key="InstanceThreshold">0.0</entry>
+	
+	<entry key="UseMatcherChooser">No</entry>
+	<entry key="UseReasoner">No</entry>
+	
+	<entry key="ConfigurationOntologyPath">Conf/configuration.owl</entry>
+	<!--Select reasoner between Protege, Pellet or Racer-->
+	<entry key="Reasoner">Racer</entry>
+	
+	<!--Racer location parameters-->
+	<entry key="RacerAddress">localhost</entry>
+	<entry key="RacerPort">8088</entry>
+	
+	
+	<!--HMatchS-->
+	<entry key="StructuralThreshold">0.0</entry>
+	<entry key="UseRolesLinguisticAffinity">Yes</entry>
+
+</properties>

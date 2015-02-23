@@ -1,0 +1,85 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Merge Mode</title>
+</head>
+
+<body>
+
+<h1><img src="images/serving_nerd.gif" width="48" height="48">  &nbsp;Merge Mode<br>
+<img src="images/header_line.gif" width="590" height="6"></h1>
+
+Merge mode allows you to take two existing Prot&eacute;g&eacute; ontologies and
+create a new ontology which combines them, while merging similar or identical
+frames. The original ontologies are left untouched.&nbsp;
+<p>Merge is useful when you have two independent ontologies which have some
+overlap, possibly with different names or structures, and you want to combine
+them into a single, larger ontology. When merging, for each of the two
+ontologies, you can choose whether or not to incorporate the entire ontology
+into the target project. If you only want to include a part, merge mode will
+help you determine which frames you need for completeness and consistency.&nbsp;</p>
+<p> You can use merge to incorporate two additional ontologies into an existing
+project. By changing the ontologies specified on the ontology menus, you can,
+for example, merge two classes that are in the working ontology.&nbsp;</p>
+<p> You can extend this to use merge mode simply to combine frames in an existing
+project. For example, you could create two empty projects to use as dummy sources for the merge, and
+then enable merge mode and use the merging functionality to combine frames in your existing
+project. &nbsp;</p>
+<p> Examples and descriptions in the help files are given for a new, empty
+project.&nbsp;</p>
+<p>In merge mode, the <a href="prompt_tab.htm">Prompt Tab</a> has three subtabs:</p>
+    <ul>
+      <li>The Suggestions Tab</li>
+      <li>The Conflicts Tab</li>
+      <li>The New Operations Tab
+      </li>
+    </ul>
+<p>Via these tabs, PROMPT guides you through the merging process making
+suggestions, identifying conflicts, and proposing conflict-resolution
+strategies.&nbsp;</p>
+<h2>The Suggestions Tab</h2>
+<p><a href="suggestions.htm">The Suggestions Tab</a> contains a list of
+suggested <a href="operations.htm">operations</a>. At the first stage, merge suggestions
+are based solely on the
+linguistic similarity of the frame names. Using your knowledge of the source
+ontologies, you can create, edit, remove, and perform suggestions on the list.
+As you make changes, PROMPT considers the structure of the ontology around the arguments to
+the latest operations and proposes other operations that you should perform. For
+example, if you have merged two classes, creating a new class which combines all
+of their slots, PROMPT may suggest merging similar slots as well.</p>
+<p>The possible merge operations are:</p>
+<ul>
+  <li>merge two similar frames from the source ontologies</li>
+  <li>copy a frame from one of the source ontologies, usually a frame that has
+    no analog in the other ontology</li>
+  <li> remove one of the superclasses of a class; you may need to do this to break a cycle in the
+    hierarchy</li>
+</ul>
+<p>Frames that have been merged or copied are marked with a mapped <img border="0" src="images/Mapped.gif" width="15" height="16">
+icon in <a href="result_window.htm">The Result Window</a> and <a href="source_bases.htm">The Source Knowledge Bases Window</a>.</p>
+<h2>The Conflicts Tab</h2>
+<p><a href="conflicts_tab.htm">The Conflicts Tab</a> contains a list of conflicts that have arisen because of operations you
+have performed. Each time you perform an operation, PROMPT determines any conflicts the
+operation may have caused in the merged ontology and proposes possible solutions to the
+conflicts.&nbsp;</p>
+<p>When you first start a merge, the Conflicts tab is empty. When conflicts
+arise, the tab name
+is highlighted in red.</p>
+<h2>The New Operations Tab</h2>
+<p><a href="new_operations.htm">The New Operations Tab</a> is a working area
+that shows your source ontologies and allows you to
+create new operations. Icons show which frames from the source ontologies have
+already been incorporated into the working project.</p>
+
+<hr>
+
+<p><font size="3">Next: </font><a href="extract_mode.htm">Extract Mode</a></p>
+
+<p><font size="3"><a href="index.html">Prompt Table of Contents</a></font></p>
+
+</body>
+
+</html>

@@ -1,0 +1,1044 @@
+Set 10, 2008 11:51:59 AM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:219)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:205)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 11:52:01 AM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:219)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:211)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 12:10:12 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:219)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:205)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 12:10:14 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:219)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:211)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 12:16:37 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:205)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 12:16:39 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:211)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 12:21:51 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:205)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 12:21:54 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:211)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 12:31:24 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:205)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 12:31:27 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:211)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 12:36:52 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:205)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 12:36:56 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:211)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 12:46:01 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:206)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 12:46:06 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:212)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 10:18:58 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:206)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 10:19:02 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:212)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 10:24:30 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:206)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 10, 2008 10:24:32 PM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:212)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 11, 2008 09:22:40 AM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:206)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 11, 2008 09:22:43 AM: FATAL [AWT-EventQueue-0:islab.hmatch.CommandLineHMatch] java.lang.NullPointerException
+	at laWrapper.LA.getDoubleLA(LA.java:49)
+	at islab.hmatch.IntensiveMatching.getBestMatchingValue(IntensiveMatching.java:202)
+	at islab.hmatch.ShallowMatching.getDiceCoefficient(ShallowMatching.java:233)
+	at islab.hmatch.ShallowMatching.getDiceCoefficientContextualAffinity(ShallowMatching.java:218)
+	at islab.hmatch.ShallowMatching.getContextualAffinity(ShallowMatching.java:87)
+	at islab.hmatch.ShallowMatching.getSemanticAffinity(ShallowMatching.java:67)
+	at islab.hmatch.Matching.getMatchingTable(Matching.java:410)
+	at islab.hmatch.CommandLineHMatch.executeMatching(CommandLineHMatch.java:100)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:153)
+	at speed.matcher.manager.MatcherManager.executeMatching(MatcherManager.java:222)
+	at speed.gui.panels.MainPanel$3.actionPerformed(MainPanel.java:212)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+
+Set 16, 2008 10:25:35 PM: WARN [AWT-EventQueue-0:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 155 column 39): {W105} Redefinition of ID: PartOf
+Set 16, 2008 10:25:35 PM: WARN [AWT-EventQueue-0:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Set 16, 2008 10:25:35 PM: WARN [AWT-EventQueue-0:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 168 column 39): {W105} Redefinition of ID: PartOf
+Set 16, 2008 10:25:35 PM: WARN [AWT-EventQueue-0:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Set 16, 2008 11:08:21 PM: WARN [AWT-EventQueue-0:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Set 16, 2008 11:08:22 PM: WARN [AWT-EventQueue-0:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Set 16, 2008 11:08:22 PM: WARN [AWT-EventQueue-0:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Set 16, 2008 11:08:22 PM: WARN [AWT-EventQueue-0:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Set 18, 2008 10:01:18 AM: WARN [AWT-EventQueue-0:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Set 18, 2008 10:01:18 AM: WARN [AWT-EventQueue-0:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Set 18, 2008 10:01:18 AM: WARN [AWT-EventQueue-0:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Set 18, 2008 10:01:18 AM: WARN [AWT-EventQueue-0:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Sep 22, 2008 01:56:19 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Sep 22, 2008 01:56:19 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Sep 22, 2008 01:56:19 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Sep 22, 2008 01:56:19 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Sep 22, 2008 02:45:13 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Sep 22, 2008 02:45:13 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Sep 22, 2008 02:45:13 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Sep 22, 2008 02:45:13 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Sep 22, 2008 02:48:43 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Sep 22, 2008 02:48:43 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Sep 22, 2008 02:48:43 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Sep 22, 2008 02:48:43 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Sep 22, 2008 03:26:37 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Sep 22, 2008 03:26:37 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Sep 22, 2008 03:26:37 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Sep 22, 2008 03:26:37 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Sep 22, 2008 03:28:11 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Sep 22, 2008 03:28:11 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Sep 22, 2008 03:28:11 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Sep 22, 2008 03:28:11 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///C:/ThiagoPacheco/eclipseCIn/eclipseCIN/work/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:00:24 PM: FATAL [main:islab.hmatch.CommandLineHMatch] java.io.FileNotFoundException: C:\ThiagoPacheco\eclipseCIn\eclipseCIN\work\OntologyMatcher\owls\Testes10092008\AnimalCLO1.owl (O sistema não pode encontrar o caminho especificado)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:139)
+	at speed.ontologymatcher.lematching.matcher.LEMatcherManager.executeLEMAtching(LEMatcherManager.java:261)
+	at speed.ontologymatcher.lematching.matcher.LEMatcherManager.executeLEMatchingWithCMO(LEMatcherManager.java:311)
+	at speed.ontologymatcher.semanticmatching.matcher.SemanticMatcher.executeSemanticMatching(SemanticMatcher.java:37)
+	at speed.ontologymatcher.semanticmatching.matcher.SemanticMatcher.calculateSSM(SemanticMatcher.java:61)
+	at speed.ontologymatcher.console.RunSSM.main(RunSSM.java:18)
+
+Set 24, 2008 09:00:24 PM: FATAL [main:islab.hmatch.CommandLineHMatch] java.io.FileNotFoundException: C:\ThiagoPacheco\eclipseCIn\eclipseCIN\work\OntologyMatcher\owls\Testes10092008\AnimalCLO2.owl (O sistema não pode encontrar o caminho especificado)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:139)
+	at speed.ontologymatcher.lematching.matcher.LEMatcherManager.executeLEMAtching(LEMatcherManager.java:261)
+	at speed.ontologymatcher.lematching.matcher.LEMatcherManager.executeLEMatchingWithCMO(LEMatcherManager.java:312)
+	at speed.ontologymatcher.semanticmatching.matcher.SemanticMatcher.executeSemanticMatching(SemanticMatcher.java:37)
+	at speed.ontologymatcher.semanticmatching.matcher.SemanticMatcher.calculateSSM(SemanticMatcher.java:61)
+	at speed.ontologymatcher.console.RunSSM.main(RunSSM.java:18)
+
+Set 24, 2008 09:03:36 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:03:36 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:03:36 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:03:36 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:03:47 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:03:47 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:03:47 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:03:47 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:04:42 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:04:42 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:04:42 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:04:42 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:04:52 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:04:52 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:04:52 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:04:52 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:15:14 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 155 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:15:14 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:15:14 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 168 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:15:14 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:15:21 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 155 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:15:21 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:15:21 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 168 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:15:21 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:17:05 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 86 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:17:05 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 83 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:17:05 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 89 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:17:05 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 83 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:17:05 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 113 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:17:05 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 102 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:17:05 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 126 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:17:05 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 102 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:17:52 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 155 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:17:52 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:17:52 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 168 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:17:52 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:17:59 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 155 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:17:59 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:17:59 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 168 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:17:59 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:19:39 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 86 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:19:39 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 83 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:19:39 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 89 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:19:39 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 83 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:19:39 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 113 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:19:39 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 102 column 39): {W105} Previous definition of 'PartOf'.
+Set 24, 2008 09:19:39 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 126 column 39): {W105} Redefinition of ID: PartOf
+Set 24, 2008 09:19:39 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 102 column 39): {W105} Previous definition of 'PartOf'.
+Set 25, 2008 12:04:37 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 155 column 39): {W105} Redefinition of ID: PartOf
+Set 25, 2008 12:04:37 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Set 25, 2008 12:04:37 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 168 column 39): {W105} Redefinition of ID: PartOf
+Set 25, 2008 12:04:37 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Set 25, 2008 12:04:45 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 155 column 39): {W105} Redefinition of ID: PartOf
+Set 25, 2008 12:04:45 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Set 25, 2008 12:04:45 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 168 column 39): {W105} Redefinition of ID: PartOf
+Set 25, 2008 12:04:45 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Set 25, 2008 12:06:41 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 86 column 39): {W105} Redefinition of ID: PartOf
+Set 25, 2008 12:06:41 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 83 column 39): {W105} Previous definition of 'PartOf'.
+Set 25, 2008 12:06:41 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 89 column 39): {W105} Redefinition of ID: PartOf
+Set 25, 2008 12:06:41 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 83 column 39): {W105} Previous definition of 'PartOf'.
+Set 25, 2008 12:06:41 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 113 column 39): {W105} Redefinition of ID: PartOf
+Set 25, 2008 12:06:41 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 102 column 39): {W105} Previous definition of 'PartOf'.
+Set 25, 2008 12:06:41 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 126 column 39): {W105} Redefinition of ID: PartOf
+Set 25, 2008 12:06:41 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 102 column 39): {W105} Previous definition of 'PartOf'.
+Set 25, 2008 12:20:30 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Set 25, 2008 12:20:30 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Set 25, 2008 12:20:30 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Set 25, 2008 12:20:30 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Set 25, 2008 12:20:43 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Set 25, 2008 12:20:43 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Set 25, 2008 12:20:43 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Set 25, 2008 12:20:43 AM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 1, 2008 09:11:00 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 1, 2008 09:11:00 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 1, 2008 09:11:00 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 1, 2008 09:11:00 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 1, 2008 09:11:15 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 1, 2008 09:11:15 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 1, 2008 09:11:15 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 1, 2008 09:11:15 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:29:26 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 155 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:29:26 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:29:26 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 168 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:29:26 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:29:35 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 155 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:29:35 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:29:35 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 168 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:29:36 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:33:17 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 155 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:33:17 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:33:17 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 168 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:33:17 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:33:27 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 155 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:33:27 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:33:27 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 168 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:33:27 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:33:29 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 86 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:33:29 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 83 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:33:29 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 89 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:33:29 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 83 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:33:29 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 113 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:33:29 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 102 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:33:29 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 126 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:33:29 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 102 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:37:24 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:37:24 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:37:24 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:37:24 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:37:35 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:37:35 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:37:35 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:37:35 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:54:06 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:54:06 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:54:06 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:54:06 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:54:11 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:54:11 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:54:11 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:54:11 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:58:45 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:58:45 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 02:58:45 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 02:58:45 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:05:33 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:05:33 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:05:33 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:05:33 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:16:05 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:16:05 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:16:05 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:16:05 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:16:17 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:16:17 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:16:17 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:16:17 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:21:15 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:21:15 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:21:15 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:21:15 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:21:24 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:21:24 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:21:24 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:21:24 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:33:28 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:33:28 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:33:28 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:33:28 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:33:33 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:33:33 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:33:33 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:33:33 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:47:13 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:47:13 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:47:13 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:47:13 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:47:22 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:47:22 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:47:22 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:47:22 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:51:46 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:51:46 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:51:46 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:51:46 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:51:56 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:51:56 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 4, 2008 03:51:56 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 4, 2008 03:51:57 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:42:44 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:42:44 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:42:44 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:42:44 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:43:34 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:43:34 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:43:34 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:43:34 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:43:34 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 86 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:43:34 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 83 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:43:34 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 89 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:43:34 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 83 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:47:20 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:47:20 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:47:20 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:47:20 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:49:02 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:49:02 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:49:02 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:49:02 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:49:02 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 86 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:49:02 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 83 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:49:02 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 89 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:49:02 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 83 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:49:02 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 113 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:49:02 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 102 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:49:02 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 126 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:49:02 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 102 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:53:00 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 169 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:53:00 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 02:53:00 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 173 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 02:53:00 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Organism_CMO.owl(line 165 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 07:56:26 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 155 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 07:56:26 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 07:56:26 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 168 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 07:56:26 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 07:56:33 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 155 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 07:56:33 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 07:56:33 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 168 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 07:56:33 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/Education_CMO.owl(line 144 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 07:56:35 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 86 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 07:56:35 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 83 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 07:56:35 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 89 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 07:56:35 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO1.owl(line 83 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 07:56:35 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 113 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 07:56:35 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 102 column 39): {W105} Previous definition of 'PartOf'.
+Out 12, 2008 07:56:35 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 126 column 39): {W105} Redefinition of ID: PartOf
+Out 12, 2008 07:56:35 PM: WARN [main:com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler] file:///D:/CIn/workspace/eclipseCIn/OntologyMatcher/owls/Testes10092008/EducationCLO2.owl(line 102 column 39): {W105} Previous definition of 'PartOf'.
+Out 24, 2008 10:34:04 AM: FATAL [main:islab.hmatch.CommandLineHMatch] java.io.FileNotFoundException: D:\CIn\workspace\eclipseCIn\OntologyMatcher\owls\Carlos\CMO01-Education.owl (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:139)
+	at speed.ontologymatcher.lematching.matcher.LEMatcherManager.executeLEMAtching(LEMatcherManager.java:264)
+	at speed.ontologymatcher.semanticmatching.matcher.SemanticMatcher.calculateSSM(SemanticMatcher.java:110)
+	at speed.ontologymatcher.console.RunSSM.main(RunSSM.java:19)
+
+Nov 25, 2008 03:07:26 PM: FATAL [main:islab.hmatch.CommandLineHMatch] java.io.FileNotFoundException: D:\CIn\workspace\eclipseCIn\OntologyMatcher\owls\Testes10092008\AnimalCLO1.owl (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at islab.hmatch.CommandLineHMatch.main(CommandLineHMatch.java:139)
+	at speed.ontologymatcher.lematching.matcher.LEMatcherManager.executeLEMAtching(LEMatcherManager.java:267)
+	at speed.ontologymatcher.semanticmatching.matcher.SemanticMatcher.calculateSSM(SemanticMatcher.java:118)
+	at speed.ontologymatcher.console.RunSSM.main(RunSSM.java:21)
+

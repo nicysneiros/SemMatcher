@@ -1,0 +1,183 @@
+; Thu Nov 04 15:37:14 PST 2004
+; 
+;+ (version "3.0")
+;+ (build "Build -1")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(multislot day
+		(type INSTANCE)
+;+		(allowed-classes Day)
+		(create-accessor read-write))
+	(multislot hour
+		(type INTEGER)
+		(create-accessor read-write))
+	(multislot minutes
+		(type INTEGER)
+		(create-accessor read-write))
+	(multislot month
+		(type INSTANCE)
+;+		(allowed-classes Month)
+		(create-accessor read-write))
+	(multislot seconds
+		(type INTEGER)
+		(create-accessor read-write))
+	(multislot year
+		(type INTEGER)
+		(create-accessor read-write))
+	(multislot is-interval-positive
+;+		(comment "The TimeDuration can either be positive time (e.g., \"going forward into the future\") or negative time (e.g., \"receding back into the past\"). ")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(create-accessor read-write))
+	(multislot duration
+		(type INSTANCE)
+;+		(allowed-classes TimeDuration)
+		(create-accessor read-write))
+	(multislot starting-time
+		(type INSTANCE)
+;+		(allowed-classes TimeInstant)
+		(create-accessor read-write)))
+
+(defclass TermHierarchy
+	(is-a USER)
+	(role abstract))
+
+(defclass Day "A very English-Centric hierarchy. "
+	(is-a TermHierarchy)
+	(role abstract))
+
+(defclass Friday
+	(is-a Day)
+	(role abstract))
+
+(defclass Monday
+	(is-a Day)
+	(role abstract))
+
+(defclass Saturday
+	(is-a Day)
+	(role abstract))
+
+(defclass Sunday
+	(is-a Day)
+	(role abstract))
+
+(defclass Thursday
+	(is-a Day)
+	(role abstract))
+
+(defclass Tuesday
+	(is-a Day)
+	(role abstract))
+
+(defclass Wednesday
+	(is-a Day)
+	(role abstract))
+
+(defclass Month "A very English-Centric hierarchy. "
+	(is-a TermHierarchy)
+	(role abstract))
+
+(defclass April
+	(is-a Month)
+	(role abstract))
+
+(defclass August
+	(is-a Month)
+	(role abstract))
+
+(defclass December
+	(is-a Month)
+	(role abstract))
+
+(defclass February
+	(is-a Month)
+	(role abstract))
+
+(defclass January
+	(is-a Month)
+	(role abstract))
+
+(defclass July
+	(is-a Month)
+	(role abstract))
+
+(defclass June
+	(is-a Month)
+	(role abstract))
+
+(defclass March
+	(is-a Month)
+	(role abstract))
+
+(defclass May
+	(is-a Month)
+	(role abstract))
+
+(defclass November
+	(is-a Month)
+	(role abstract))
+
+(defclass October
+	(is-a Month)
+	(role abstract))
+
+(defclass September
+	(is-a Month)
+	(role abstract))
+
+(defclass TimeInstant "TimeInstant represents a combination of date and time values representing a single instant in time. Roughly based on XML Schema Data Structures document."
+	(is-a USER)
+	(role concrete)
+	(multislot day
+		(type INSTANCE)
+;+		(allowed-classes Day)
+		(create-accessor read-write))
+	(multislot hour
+		(type INTEGER)
+		(create-accessor read-write))
+	(multislot minutes
+		(type INTEGER)
+		(create-accessor read-write))
+	(multislot month
+		(type INSTANCE)
+;+		(allowed-classes Month)
+		(create-accessor read-write))
+	(multislot seconds
+		(type INTEGER)
+		(create-accessor read-write))
+	(multislot year
+		(type INTEGER)
+		(create-accessor read-write)))
+
+(defclass RecurringInstant "The difference between a TimeInstant and a RecurringInstant is mostly in the interpretation. A TimeInstant specifies a point in time (e.g. it specifies an offset from a base point on the timeline). A RecurringInstant is allows some slots to be left blank, and specifies the set of all valid matching TimeInstants which can be created. \n\nE.g., if \"day\" is left empty, but all the other slots are filled out, then there are really 365 (or 366) matching instances. And so the recurring instance specified is a particular time of day for each day during a particular year.  "
+	(is-a TimeInstant)
+	(role concrete))
+
+(defclass Date "A Date is a very particular type of RecurringInstant-- it specifies all the moments in a day. As such, it leaves the hour, minutes, and seconds slots empty."
+	(is-a RecurringInstant)
+	(role concrete))
+
+(defclass TimeDuration "The difference between a TimeInstant and a TimeDuration is mostly in the interpretation. A TimeInstant specifies a point in time (e.g. it specifies an offset from a base point on the timeline). A TimeDuration defines is the associated length of time. "
+	(is-a TimeInstant)
+	(role concrete)
+	(multislot is-interval-positive
+;+		(comment "The TimeDuration can either be positive time (e.g., \"going forward into the future\") or negative time (e.g., \"receding back into the past\"). ")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(create-accessor read-write)))
+
+(defclass TimePeriod "A Time Period consists of two things: a starting time and a duration. "
+	(is-a USER)
+	(role concrete)
+	(multislot duration
+		(type INSTANCE)
+;+		(allowed-classes TimeDuration)
+		(create-accessor read-write))
+	(multislot starting-time
+		(type INSTANCE)
+;+		(allowed-classes TimeInstant)
+		(create-accessor read-write)))

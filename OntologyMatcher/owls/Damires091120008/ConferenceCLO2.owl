@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns="http://crs_dr#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xml:base="http://crs_dr">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="event">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="person"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="program"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="document"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="article">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="abstract"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="review"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#document"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="reviewer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#person"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="conference">
+    <rdfs:subClassOf rdf:resource="#event"/>
+  </owl:Class>
+  <owl:Class rdf:about="#program">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#person"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#document"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#event"/>
+  </owl:Class>
+  <owl:Class rdf:ID="author">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#person"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="participant">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#person"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#abstract">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#document"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#article"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#review"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#review">
+    <owl:disjointWith rdf:resource="#article"/>
+    <owl:disjointWith rdf:resource="#abstract"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#document"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#person">
+    <owl:disjointWith rdf:resource="#program"/>
+    <owl:disjointWith rdf:resource="#event"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#document"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#document">
+    <owl:disjointWith rdf:resource="#event"/>
+    <owl:disjointWith rdf:resource="#person"/>
+    <owl:disjointWith rdf:resource="#program"/>
+  </owl:Class>
+  <owl:Class rdf:ID="chair">
+    <rdfs:subClassOf rdf:resource="#person"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="has_session">
+    <rdfs:domain rdf:resource="#program"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="article_written_by">
+    <rdfs:domain rdf:resource="#article"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="writes_article"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#author"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="assigns_reviewers_to_article">
+    <rdfs:range rdf:resource="#reviewer"/>
+    <rdfs:domain rdf:resource="#chair"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="writes_review">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="review_written_by"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#review"/>
+    <rdfs:domain rdf:resource="#reviewer"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#review_written_by">
+    <rdfs:subPropertyOf rdf:resource="#has_session"/>
+    <owl:inverseOf rdf:resource="#writes_review"/>
+    <rdfs:range rdf:resource="#reviewer"/>
+    <rdfs:domain rdf:resource="#review"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="program_created_by">
+    <rdfs:domain rdf:resource="#program"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="creates_program"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#chair"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="has_author">
+    <rdfs:range rdf:resource="#author"/>
+    <rdfs:domain rdf:resource="#article"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="submits_to_conference">
+    <rdfs:range rdf:resource="#conference"/>
+    <rdfs:domain rdf:resource="#participant"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#creates_program">
+    <rdfs:range rdf:resource="#program"/>
+    <rdfs:domain rdf:resource="#chair"/>
+    <owl:inverseOf rdf:resource="#program_created_by"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="assigns_article_to_conference">
+    <rdfs:domain rdf:resource="#author"/>
+    <rdfs:range rdf:resource="#article"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="has_reviewer">
+    <rdfs:domain rdf:resource="#article"/>
+    <rdfs:range rdf:resource="#reviewer"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#writes_article">
+    <rdfs:range rdf:resource="#article"/>
+    <owl:inverseOf rdf:resource="#article_written_by"/>
+    <rdfs:domain rdf:resource="#author"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="title">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:FunctionalProperty rdf:ID="has_program">
+    <rdfs:range rdf:resource="#program"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#conference"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="has_abstract">
+    <rdfs:domain rdf:resource="#article"/>
+    <rdfs:range rdf:resource="#abstract"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf>
+      <owl:InverseFunctionalProperty rdf:ID="part_of_article"/>
+    </owl:inverseOf>
+  </owl:FunctionalProperty>
+  <owl:InverseFunctionalProperty rdf:about="#part_of_article">
+    <rdfs:range rdf:resource="#article"/>
+    <owl:inverseOf rdf:resource="#has_abstract"/>
+    <rdfs:domain rdf:resource="#abstract"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:InverseFunctionalProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->

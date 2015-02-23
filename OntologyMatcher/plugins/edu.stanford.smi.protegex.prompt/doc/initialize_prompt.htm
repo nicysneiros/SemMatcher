@@ -1,0 +1,74 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Initializing PROMPT</title>
+</head>
+
+<body>
+
+<h1><img src="images/serving_nerd.gif" width="48" height="48">      Initializing the Prompt Tab<br>
+<img src="images/header_line.gif" width="590" height="6"></h1>
+
+<p>Once you have <a href="activate_prompt.htm">enabled</a> your project to
+use the Prompt tab, you can merge, extract, include, or compare projects by
+initializing the tab.&nbsp;For merge, extract, and compare, Protégé works on a
+copy of each project you select, leaving the original ontology and source files
+unchanged. If you are moving frames from an included to an including project,
+the projects are not changed at this point; however, both projects will be
+altered later, when you actually save the working project after you have moved
+selected frames.</p>
+<p>To initialize PROMPT:</p>
+<ol>
+  <li>If you have created a new project, and you have not yet saved it, save it before <i> </i>you initialize PROMPT. This will tell PROMPT where to
+    store its log.&nbsp;</li>
+  <li>Click the Prompt tab. If the Prompt Tab displays a window with subtabs and
+    options, then it has already been initialized. If the Prompt tab does not appear, you need to
+    enable PROMPT in your project first. See <a href="activate_prompt.htm">Enabling
+    the Prompt Tab</a>
+    for more information.<br>
+    <img border="0" src="images/initial1gif.gif" width="147" height="46"></li>
+  <li>Click anywhere in the Prompt Tab area to initialize PROMPT.&nbsp;<br>
+    The Open dialog box is displayed.<br>
+    <img border="0" src="images/initial_open.gif" width="488" height="263"></li>
+  <li>Select the desired operation from the pull down menu.<br>
+    <img border="0" src="images/initial_menu.gif" width="462" height="82"></li>
+  <li>Click the <img border="0" src="images/Add.gif" width="19" height="19"> button(s) to select the
+    file(s) you want to use. For <a href="merge_mode.htm"> merge</a> and <a href="compare_mode.htm">compare</a>
+    modes, you need to select two
+    files. For <a href="extract_mode.htm"> extract</a> and <a href="move_frames_mode.htm">move
+    frames</a> modes, you need to select one file. See the descriptions of each
+    mode for more information.</li>
+  <li>To help you keep track of your ontologies, Protégé attaches a suffix to
+    each frame in the projects you pull in. This suffix, the &quot;Alias&quot;,
+    that indicates the source project of the frame. By default, it is usually
+    the name of the original project, except in the case of compare, where the
+    two files are called &quot;old&quot; and &quot;new&quot;.&nbsp; To edit this
+    suffix, simply edit the text in the <b>Alias</b> entry box. Note that once
+    you have finished making all the changes in your project, you can remove
+    suffixes using the Prompt menu.</li>
+  <li>If you are merging large ontologies (several thousand frames each), you can disable the <b>Compare
+    sources</b> option. Normally, if you have selected merge, Protégé will
+    load all the frames from both ontologies into your working memory. For
+    most merges, this default behavior is&nbsp; the best option. However, if the
+    original ontologies are extremely large, this can be very expensive,
+    consuming a lot of resources. You can limit the scope of the merge by deselecting the <b>Compare
+    sources</b> option. This option is valuable if Protégé hangs during your merge.</li>
+  <li>Once you have made all your selections, click OK to initialize PROMPT.&nbsp;</li>
+</ol>
+
+<p>Once PROMPT has been initialized, Protégé loads the appropriate
+information from the source files and prepares its suggestions. The Prompt tab
+changes to reflect the choices you made during initialization.</p>
+
+<hr>
+
+<p><font size="3">Next:&nbsp;</font><a href="merge_mode.htm">Merge Mode</a></p>
+
+<p><font size="3"><a href="index.html">Prompt Table of Contents</a></font></p>
+
+</body>
+
+</html>

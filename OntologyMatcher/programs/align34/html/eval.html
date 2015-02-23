@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Evaluating alignments</title>
+<!--style type="text/css">@import url(style.css);</style-->
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body bgcolor="#ffffff">
+
+<h1 class="titre">Evaluating alignments</h1>
+
+<p>On top of the alignment API, there is an evaluation API and an
+implementation described here. It is included in the 
+<a href="align.html">Alignment toolkit</a></p>
+
+<h2>Evaluating</h2>
+<p>For demonstrating the use of the API, we implement it and use it
+  through a particular processor
+  (<tt>fr.inrialpes.exmo.align.util.EvalAlign</tt>) which:
+<ul compact="1">
+<li>Reads two OWL/RDF ontologies;</li>
+<li>Creates an alignment object;</li>
+<li>Computes the alignment between these ontologies;</li>
+<li>Displays the result.</li>
+</ul>
+Running the program is achieved through:
+<div class="fragment"><pre>
+$ java -cp lib/procalign.jar fr.inrialpes.exmo.align.util.EvalAlign
+Require two alignement filenames
+usage: EvalAlign [options] file1 file2
+options are:
+        --debug[=n] -d[=n]              Report debug info at level ,
+        --impl[=classname] -i classname Use classname for implementing Evaluator
+        --help -h                       Print this message
+</pre></div>
+or ($CWD is the current directory)
+<div class="fragment"><pre>
+$ java -cp lib/procalign.jar fr.inrialpes.exmo.align.util.EvalAlign file://$CWD/result/align1.owl file://$CWD/result/align2.owl 
+</pre></div>
+</p>
+
+<h2>Implementing and extending the API</h2>
+<p>A (default) impplementation of this API can be found in
+  the <tt>fr.inrialpes.exmo.align.impl</tt> package.</p>
+<p>Adding new evaluations methods amounts to create a
+  new <tt>Evaluator</tt> 
+  class implementing the interface. Generally, this can extend the
+  proposed <tt>fr.inrialpes.exmo.align.impl.BasicEvaluator</tt>
+  class.</p>
+<p>The <tt>BasicEvaluator</tt> has the good taste of defining the storage
+  sructures for alignment, but that is all.</p>
+<p>The <tt>BasicEvaluator</tt> has been extended so as to provide
+  different evaluation:
+<dl>
+<dt><tt>PRecEvaluator</tt></dt><dd>computes
+  Precision/Recall rates as well as derived measures.</dd>
+<dt><tt>ExtPRecEvaluator</tt></dt><dd>provide the relaxed precision
+    and recall as defined in a paper by Ehrig and Euzenat in 2005.</dd>
+<dt><tt></tt></dt><dd></dd>
+</dl>
+</p>
+</p>
+
+<address>
+<small>
+<hr />
+<center>http://alignapi.gforge.inria.fr/align.html</center>
+<hr />
+$Id: eval.html 469 2007-04-25 08:44:06Z euzenat $
+</small>
+</address>
+</body>
+</html>

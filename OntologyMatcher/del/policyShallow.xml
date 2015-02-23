@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<islab:policy xmlns:islab="http://islab.dico.unimi.it/hmatch/">
+	<linguisticAffinityWeight>
+		0.5
+	</linguisticAffinityWeight>
+	<threshold>
+		0.6
+	</threshold>
+	<matchingModel>
+                SHALLOW
+	</matchingModel>
+	<mappingType>
+		ONE_TO_ONE
+	</mappingType>
+	<inheritanceOverRestrictions>
+		true
+	</inheritanceOverRestrictions>
+	<emptyContextStrategy>
+		EMPTY_NEUTRAL
+	</emptyContextStrategy>
+	<matchingStrategy>
+		DICE_COEFFICIENT_STRATEGY
+	</matchingStrategy>
+</islab:policy>

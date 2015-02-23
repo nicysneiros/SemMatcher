@@ -1,0 +1,909 @@
+; Thu Nov 04 15:38:36 PST 2004
+; 
+;+ (version "3.0")
+;+ (build "Build -1")
+
+([BOOLEAN_FIELD_WIDGET] of  Widget
+
+	(name "Default Boolean Single")
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget"))
+
+([BOOLEAN_LIST_WIDGET] of  Widget
+
+	(name "Default Boolean Multiple")
+	(widget_class_name "edu.stanford.smi.protege.widget.BooleanListWidget"))
+
+([CLS_FIELD_WIDGET] of  Widget
+
+	(name "Default Class Single")
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget"))
+
+([CLS_INVERSE_RELATIONSHIP_WIDGET] of  Widget
+
+	(height 120)
+	(label "Inverse Relationship")
+	(name "cls_inverse_relationship_widget")
+	(property_list [ProjectKB_INSTANCE_00003])
+	(widget_class_name "edu.stanford.smi.protege.ui.ClsInverseRelationshipWidget")
+	(width 300)
+	(x 0)
+	(y 0))
+
+([CLS_LIST_WIDGET] of  Widget
+
+	(name "Default Class Multiple")
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsListWidget"))
+
+([CLSES_TAB] of  Widget
+
+	(name "Classes")
+	(property_list [CLSES_TAB_PROPERTIES])
+	(widget_class_name "edu.stanford.smi.protege.ui.ClsesTab"))
+
+([CLSES_TAB_PROPERTIES] of  Property_List
+
+	(name "classes tab properties")
+	(properties
+		[CLSES_WIDGET]
+		[CLS_INVERSE_RELATIONSHIP_WIDGET]))
+
+([CLSES_WIDGET] of  Widget
+
+	(height 400)
+	(label "Relationship:")
+	(name "clses_widget")
+	(widget_class_name "edu.stanford.smi.protege.ui.ClsesWidget")
+	(width 300)
+	(x 0)
+	(y 0))
+
+([CONTAINS_WIDGET] of  Widget
+
+	(name "Contains")
+	(widget_class_name "edu.stanford.smi.protegex.containswidget.ContainsWidget"))
+
+([DIAGRAM_WIDGET] of  Widget
+
+	(name "Diagram")
+	(widget_class_name "edu.stanford.smi.protegex.diagrams.DiagramWidget"))
+
+([FACTORY_CLASS_NAME] of  String
+
+	(name "factory_class_name")
+	(string_value "edu.stanford.smi.protege.storage.clips.ClipsKnowledgeBaseFactory"))
+
+([FLOAT_FIELD_WIDGET] of  Widget
+
+	(name "Default Float Single")
+	(widget_class_name "edu.stanford.smi.protege.widget.FloatFieldWidget"))
+
+([FLOAT_LIST_WIDGET] of  Widget
+
+	(name "Default Float Multiple")
+	(widget_class_name "edu.stanford.smi.protege.widget.FloatListWidget"))
+
+([FORMS_TAB] of  Widget
+
+	(name "Forms")
+	(property_list [FORMS_TAB_PROPERTIES])
+	(widget_class_name "edu.stanford.smi.protege.ui.FormsTab"))
+
+([FORMS_TAB_PROPERTIES] of  Property_List
+
+	(properties [FORMS_WIDGET]))
+
+([FORMS_WIDGET] of  Widget
+
+	(height 530)
+	(label "Forms")
+	(name "forms_widget")
+	(widget_class_name "edu.stanford.smi.protege.ui.FormsWidget")
+	(width 300)
+	(x 0)
+	(y 0))
+
+([IMAGE_MAP_TO_SYMBOL_WIDGET] of  Widget
+
+	(name "Image map to symbol")
+	(widget_class_name "edu.stanford.smi.protegex.imagemap.ImageMapToSymbolWidget"))
+
+([INSTANCE_FIELD_WIDGET] of  Widget
+
+	(name "Default Instance Single")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget"))
+
+([INSTANCE_LIST_WIDGET] of  Widget
+
+	(name "Default Instance Multiple")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget"))
+
+([INSTANCE_TABLE_WIDGET] of  Widget
+
+	(name "Instance Table")
+	(widget_class_name "edu.stanford.smi.protegex.instancetables.InstanceTableWidget"))
+
+([INSTANCES_TAB] of  Widget
+
+	(name "Instances")
+	(property_list [INSTANCES_TAB_PROPERTIES])
+	(widget_class_name "edu.stanford.smi.protege.ui.InstancesTab"))
+
+([INSTANCES_TAB_PROPERTIES] of  Property_List
+
+	(properties
+		[INSTANCES_WIDGET]
+		[REFERENCERS_WIDGET]))
+
+([INSTANCES_WIDGET] of  Widget
+
+	(height 400)
+	(label "Relationship")
+	(name "instances_widget")
+	(widget_class_name "edu.stanford.smi.protege.ui.InstancesWidget")
+	(width 300)
+	(x 0)
+	(y 0))
+
+([INTEGER_FIELD_WIDGET] of  Widget
+
+	(name "Default Integer Single")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget"))
+
+([INTEGER_LIST_WIDGET] of  Widget
+
+	(name "Default Integer Multiple")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerListWidget"))
+
+([NorthAmericanHistory_ProjectKB_INSTANCE_00006] of  Widget
+
+	(height 477)
+	(name "Activity")
+	(property_list [NorthAmericanHistory_ProjectKB_INSTANCE_00007])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 615)
+	(x 0)
+	(y 0))
+
+([NorthAmericanHistory_ProjectKB_INSTANCE_00007] of  Property_List
+
+	(properties
+		[NorthAmericanHistory_ProjectKB_INSTANCE_00008]
+		[NorthAmericanHistory_ProjectKB_INSTANCE_00012]
+		[Worldhistory_ProjectKB_INSTANCE_00015]
+		[Worldhistory_ProjectKB_INSTANCE_00082]
+		[Worldhistory_ProjectKB_INSTANCE_00135]))
+
+([NorthAmericanHistory_ProjectKB_INSTANCE_00008] of  Widget
+
+	(height 100)
+	(name "time-period")
+	(property_list [NorthAmericanHistory_ProjectKB_INSTANCE_00011])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 70))
+
+([NorthAmericanHistory_ProjectKB_INSTANCE_00011] of  Property_List
+)
+
+([NorthAmericanHistory_ProjectKB_INSTANCE_00012] of  Widget
+
+	(height 90)
+	(name "consequences")
+	(property_list [NorthAmericanHistory_ProjectKB_INSTANCE_00013])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 260)
+	(y 10))
+
+([NorthAmericanHistory_ProjectKB_INSTANCE_00013] of  Property_List
+)
+
+([PROJECT] of  Project
+
+	(all_knowledge_base_factory_names
+		"edu.stanford.smi.protege.storage.clips.ClipsKnowledgeBaseFactory"
+		"edu.stanford.smi.protege.storage.jdbc.JdbcKnowledgeBaseFactory")
+	(browser_slot_names [ProjectKB_INSTANCE_00001])
+	(customized_instance_widgets
+		[Worldhistory_ProjectKB_INSTANCE_00009]
+		[Worldhistory_ProjectKB_INSTANCE_00050]
+		[NorthAmericanHistory_ProjectKB_INSTANCE_00006]
+		[Worldhistory_ProjectKB_INSTANCE_00016]
+		[Worldhistory_ProjectKB_INSTANCE_00033]
+		[Worldhistory_ProjectKB_INSTANCE_00001])
+	(default_cls_metaclass ":STANDARD-CLASS")
+	(default_facet_metaclass ":STANDARD-FACET")
+	(default_instance_widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(default_slot_metaclass ":STANDARD-SLOT")
+	(included_projects "DatesAndTimes.pprj")
+	(next_frame_number 0)
+	(options [ProjectKB_INSTANCE_00002])
+	(sources [SOURCES])
+	(tabs
+		[Worldhistory_ProjectKB_Instance_91]
+		[Worldhistory_ProjectKB_Instance_89]
+		[Worldhistory_ProjectKB_Instance_111]
+		[Worldhistory_ProjectKB_Instance_107]
+		[Worldhistory_ProjectKB_Instance_103]
+		[Worldhistory_ProjectKB_Instance_97]
+		[Worldhistory_ProjectKB_Instance_99]
+		[Worldhistory_ProjectKB_Instance_101]
+		[Worldhistory_ProjectKB_Instance_93]
+		[Worldhistory_ProjectKB_Instance_95]
+		[Worldhistory_ProjectKB_Instance_105]
+		[Worldhistory_ProjectKB_Instance_109])
+	(widget_mapper_properties [WIDGETS]))
+
+([ProjectKB_INSTANCE_00001] of  Property_List
+
+	(properties
+		[Worldhistory_ProjectKB_Instance_114]
+		[Worldhistory_ProjectKB_Instance_115]
+		[Worldhistory_ProjectKB_Instance_116]))
+
+([ProjectKB_INSTANCE_00002] of  Options
+
+	(confirm_on_remove FALSE)
+	(display_hidden_classes TRUE)
+	(display_multi_parent_class_icon TRUE)
+	(is_readonly FALSE)
+	(update_modification_slots FALSE))
+
+([ProjectKB_INSTANCE_00003] of  Property_List
+)
+
+([ProjectKB_INSTANCE_00007] of  String
+
+	(name "classes_file_name")
+	(string_value "Worldhistory.pont"))
+
+([ProjectKB_INSTANCE_00008] of  String
+
+	(name "instances_file_name")
+	(string_value "Worldhistory.pins"))
+
+([RADIO_BUTTON_WIDGET] of  Widget
+
+	(name "Radio Button")
+	(widget_class_name "edu.stanford.smi.protegex.selectors.radiobuttonwidget.RadioButtonWidget"))
+
+([RDF_ALTERNATIVE_WIDGET] of  Widget
+
+	(name "Default rdf:Alt Single")
+	(widget_class_name "edu.stanford.smi.protegex.rdf.container.alternative.RDFAlternativeWidget"))
+
+([RDF_SEQUENCE_WIDGET] of  Widget
+
+	(name "Default rdf:Seq Single")
+	(widget_class_name "edu.stanford.smi.protegex.rdf.container.sequence.RDFSequenceWidget"))
+
+([REFERENCERS_WIDGET] of  Widget
+
+	(height 120)
+	(label "Referencing Instances")
+	(name "referencers_widget")
+	(widget_class_name "edu.stanford.smi.protege.ui.ReferencersWidget")
+	(width 300)
+	(x 0)
+	(y 0))
+
+([SLIDER_WIDGET] of  Widget
+
+	(name "Slider")
+	(widget_class_name "edu.stanford.smi.protegex.sliderwidget.SliderWidget"))
+
+([SLOT_CLSES_WIDGET] of  Widget
+
+	(height 120)
+	(label "Associated Classes")
+	(name "slot_clses_widget")
+	(widget_class_name "edu.stanford.smi.protege.ui.SlotClsesWidget")
+	(width 300)
+	(x 0)
+	(y 0))
+
+([SLOTS_TAB] of  Widget
+
+	(is_hidden TRUE)
+	(name "Slots")
+	(property_list [SLOTS_TAB_PROPERTIES])
+	(widget_class_name "edu.stanford.smi.protege.ui.SlotsTab"))
+
+([SLOTS_TAB_PROPERTIES] of  Property_List
+
+	(properties
+		[SLOTS_WIDGET]
+		[SLOT_CLSES_WIDGET]))
+
+([SLOTS_WIDGET] of  Widget
+
+	(height 400)
+	(label "Slots")
+	(name "slots_widget")
+	(widget_class_name "edu.stanford.smi.protege.ui.SlotsWidget")
+	(width 300)
+	(x 0)
+	(y 0))
+
+([SOURCES] of  Property_List
+
+	(name "knowledge base sources")
+	(properties
+		[FACTORY_CLASS_NAME]
+		[ProjectKB_INSTANCE_00007]
+		[ProjectKB_INSTANCE_00008]))
+
+([STRING_FIELD_WIDGET] of  Widget
+
+	(name "Default String Single")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget"))
+
+([STRING_LIST_WIDGET] of  Widget
+
+	(name "Default String Multiple")
+	(widget_class_name "edu.stanford.smi.protege.widget.StringListWidget"))
+
+([SYMBOL_FIELD_WIDGET] of  Widget
+
+	(name "Default Symbol Single")
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget"))
+
+([SYMBOL_LIST_WIDGET] of  Widget
+
+	(name "Default Symbol Multiple")
+	(widget_class_name "edu.stanford.smi.protege.widget.SymbolListWidget"))
+
+([TEXT_AREA_WIDGET] of  Widget
+
+	(name "Text Area")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget"))
+
+([WIDGETS] of  Property_List
+
+	(name "widgets")
+	(properties
+		[BOOLEAN_FIELD_WIDGET]
+		[CLS_FIELD_WIDGET]
+		[FLOAT_FIELD_WIDGET]
+		[INSTANCE_FIELD_WIDGET]
+		[INTEGER_FIELD_WIDGET]
+		[STRING_FIELD_WIDGET]
+		[SYMBOL_FIELD_WIDGET]
+		[BOOLEAN_LIST_WIDGET]
+		[CLS_LIST_WIDGET]
+		[FLOAT_LIST_WIDGET]
+		[INSTANCE_LIST_WIDGET]
+		[INTEGER_LIST_WIDGET]
+		[STRING_LIST_WIDGET]
+		[SYMBOL_LIST_WIDGET]
+		[TEXT_AREA_WIDGET]
+		[DIAGRAM_WIDGET]
+		[CONTAINS_WIDGET]
+		[IMAGE_MAP_TO_SYMBOL_WIDGET]
+		[RADIO_BUTTON_WIDGET]
+		[SLIDER_WIDGET]
+		[INSTANCE_TABLE_WIDGET]
+		[RDF_SEQUENCE_WIDGET]
+		[RDF_ALTERNATIVE_WIDGET]))
+
+([Worldhistory_ProjectKB_INSTANCE_00001] of  Widget
+
+	(height 477)
+	(name "Person")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00002])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 615)
+	(x 0)
+	(y 0))
+
+([Worldhistory_ProjectKB_INSTANCE_00002] of  Property_List
+
+	(properties
+		[Worldhistory_ProjectKB_INSTANCE_00003]
+		[Worldhistory_ProjectKB_INSTANCE_00005]
+		[Worldhistory_ProjectKB_INSTANCE_00006]
+		[Worldhistory_ProjectKB_INSTANCE_00008]
+		[Worldhistory_ProjectKB_INSTANCE_00075]))
+
+([Worldhistory_ProjectKB_INSTANCE_00003] of  Widget
+
+	(height 60)
+	(name "born-on")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00004])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 0)
+	(y 70))
+
+([Worldhistory_ProjectKB_INSTANCE_00004] of  Property_List
+)
+
+([Worldhistory_ProjectKB_INSTANCE_00005] of  Widget
+
+	(height 60)
+	(name "name")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([Worldhistory_ProjectKB_INSTANCE_00006] of  Widget
+
+	(height 60)
+	(name "died-on")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00007])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 0)
+	(y 140))
+
+([Worldhistory_ProjectKB_INSTANCE_00007] of  Property_List
+)
+
+([Worldhistory_ProjectKB_INSTANCE_00008] of  Property_List
+
+	(name "layout properties"))
+
+([Worldhistory_ProjectKB_INSTANCE_00009] of  Widget
+
+	(height 477)
+	(name "Event")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00010])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 615)
+	(x 0)
+	(y 0))
+
+([Worldhistory_ProjectKB_INSTANCE_00010] of  Property_List
+
+	(properties
+		[Worldhistory_ProjectKB_INSTANCE_00011]
+		[Worldhistory_ProjectKB_INSTANCE_00014]
+		[Worldhistory_ProjectKB_INSTANCE_00077]
+		[Worldhistory_ProjectKB_INSTANCE_00081]))
+
+([Worldhistory_ProjectKB_INSTANCE_00011] of  Widget
+
+	(height 120)
+	(name "time-period")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00012])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 70))
+
+([Worldhistory_ProjectKB_INSTANCE_00012] of  Property_List
+)
+
+([Worldhistory_ProjectKB_INSTANCE_00014] of  Property_List
+
+	(name "layout properties"))
+
+([Worldhistory_ProjectKB_INSTANCE_00015] of  Widget
+
+	(height 200)
+	(name "description")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 260)
+	(y 100))
+
+([Worldhistory_ProjectKB_INSTANCE_00016] of  Widget
+
+	(height 477)
+	(name "Conquest")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00083])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 615)
+	(x 0)
+	(y 0))
+
+([Worldhistory_ProjectKB_INSTANCE_00033] of  Widget
+
+	(height 477)
+	(name "Exploration")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00092])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 615)
+	(x 0)
+	(y 0))
+
+([Worldhistory_ProjectKB_INSTANCE_00050] of  Widget
+
+	(height 477)
+	(name "Entertainment")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00101])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 615)
+	(x 0)
+	(y 0))
+
+([Worldhistory_ProjectKB_INSTANCE_00075] of  Widget
+
+	(height 200)
+	(name "participated-in")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00076])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 260)
+	(y 0))
+
+([Worldhistory_ProjectKB_INSTANCE_00076] of  Property_List
+)
+
+([Worldhistory_ProjectKB_INSTANCE_00077] of  Widget
+
+	(height 190)
+	(name "description")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 250)
+	(y 0))
+
+([Worldhistory_ProjectKB_INSTANCE_00081] of  Widget
+
+	(height 60)
+	(name "historical-name")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([Worldhistory_ProjectKB_INSTANCE_00082] of  Widget
+
+	(height 60)
+	(name "historical-name")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 10))
+
+([Worldhistory_ProjectKB_INSTANCE_00083] of  Property_List
+
+	(properties
+		[Worldhistory_ProjectKB_INSTANCE_00084]
+		[Worldhistory_ProjectKB_INSTANCE_00086]
+		[Worldhistory_ProjectKB_INSTANCE_00088]
+		[Worldhistory_ProjectKB_INSTANCE_00090]
+		[Worldhistory_ProjectKB_INSTANCE_00091]
+		[Worldhistory_ProjectKB_INSTANCE_00112]))
+
+([Worldhistory_ProjectKB_INSTANCE_00084] of  Widget
+
+	(height 100)
+	(name "time-period")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00085])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 70))
+
+([Worldhistory_ProjectKB_INSTANCE_00085] of  Property_List
+)
+
+([Worldhistory_ProjectKB_INSTANCE_00086] of  Widget
+
+	(height 90)
+	(name "consequences")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00087])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 260)
+	(y 10))
+
+([Worldhistory_ProjectKB_INSTANCE_00087] of  Property_List
+)
+
+([Worldhistory_ProjectKB_INSTANCE_00088] of  Widget
+
+	(height 120)
+	(name "key-actors")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00089])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 180))
+
+([Worldhistory_ProjectKB_INSTANCE_00089] of  Property_List
+)
+
+([Worldhistory_ProjectKB_INSTANCE_00090] of  Widget
+
+	(height 200)
+	(name "description")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 260)
+	(y 100))
+
+([Worldhistory_ProjectKB_INSTANCE_00091] of  Widget
+
+	(height 60)
+	(name "historical-name")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 10))
+
+([Worldhistory_ProjectKB_INSTANCE_00092] of  Property_List
+
+	(properties
+		[Worldhistory_ProjectKB_INSTANCE_00093]
+		[Worldhistory_ProjectKB_INSTANCE_00095]
+		[Worldhistory_ProjectKB_INSTANCE_00097]
+		[Worldhistory_ProjectKB_INSTANCE_00099]
+		[Worldhistory_ProjectKB_INSTANCE_00100]
+		[Worldhistory_ProjectKB_INSTANCE_00110]))
+
+([Worldhistory_ProjectKB_INSTANCE_00093] of  Widget
+
+	(height 100)
+	(name "time-period")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00094])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 70))
+
+([Worldhistory_ProjectKB_INSTANCE_00094] of  Property_List
+)
+
+([Worldhistory_ProjectKB_INSTANCE_00095] of  Widget
+
+	(height 90)
+	(name "consequences")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00096])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 260)
+	(y 10))
+
+([Worldhistory_ProjectKB_INSTANCE_00096] of  Property_List
+)
+
+([Worldhistory_ProjectKB_INSTANCE_00097] of  Widget
+
+	(height 120)
+	(name "key-actors")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00098])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 180))
+
+([Worldhistory_ProjectKB_INSTANCE_00098] of  Property_List
+)
+
+([Worldhistory_ProjectKB_INSTANCE_00099] of  Widget
+
+	(height 200)
+	(name "description")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 260)
+	(y 100))
+
+([Worldhistory_ProjectKB_INSTANCE_00100] of  Widget
+
+	(height 60)
+	(name "historical-name")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 10))
+
+([Worldhistory_ProjectKB_INSTANCE_00101] of  Property_List
+
+	(properties
+		[Worldhistory_ProjectKB_INSTANCE_00102]
+		[Worldhistory_ProjectKB_INSTANCE_00104]
+		[Worldhistory_ProjectKB_INSTANCE_00106]
+		[Worldhistory_ProjectKB_INSTANCE_00108]
+		[Worldhistory_ProjectKB_INSTANCE_00109]))
+
+([Worldhistory_ProjectKB_INSTANCE_00102] of  Widget
+
+	(height 100)
+	(name "time-period")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00103])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 70))
+
+([Worldhistory_ProjectKB_INSTANCE_00103] of  Property_List
+)
+
+([Worldhistory_ProjectKB_INSTANCE_00104] of  Widget
+
+	(height 90)
+	(name "consequences")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00105])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 260)
+	(y 10))
+
+([Worldhistory_ProjectKB_INSTANCE_00105] of  Property_List
+)
+
+([Worldhistory_ProjectKB_INSTANCE_00106] of  Widget
+
+	(height 120)
+	(name "key-actors")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00107])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 180))
+
+([Worldhistory_ProjectKB_INSTANCE_00107] of  Property_List
+)
+
+([Worldhistory_ProjectKB_INSTANCE_00108] of  Widget
+
+	(height 200)
+	(name "description")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 260)
+	(y 100))
+
+([Worldhistory_ProjectKB_INSTANCE_00109] of  Widget
+
+	(height 60)
+	(name "historical-name")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 10))
+
+([Worldhistory_ProjectKB_INSTANCE_00110] of  Property_List
+
+	(name "layout properties"))
+
+([Worldhistory_ProjectKB_INSTANCE_00112] of  Property_List
+
+	(name "layout properties"))
+
+([Worldhistory_ProjectKB_INSTANCE_00135] of  Widget
+
+	(height 120)
+	(name "key-actors")
+	(property_list [Worldhistory_ProjectKB_INSTANCE_00136])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 180))
+
+([Worldhistory_ProjectKB_INSTANCE_00136] of  Property_List
+)
+
+([Worldhistory_ProjectKB_Instance_100] of  Property_List
+)
+
+([Worldhistory_ProjectKB_Instance_101] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [Worldhistory_ProjectKB_Instance_102])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.cls.OWLClsesTab"))
+
+([Worldhistory_ProjectKB_Instance_102] of  Property_List
+)
+
+([Worldhistory_ProjectKB_Instance_103] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [Worldhistory_ProjectKB_Instance_104])
+	(widget_class_name "edu.stanford.smi.protege.widget.KAToolTab"))
+
+([Worldhistory_ProjectKB_Instance_104] of  Property_List
+)
+
+([Worldhistory_ProjectKB_Instance_105] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [Worldhistory_ProjectKB_Instance_106])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.OWLPropertiesTab"))
+
+([Worldhistory_ProjectKB_Instance_106] of  Property_List
+)
+
+([Worldhistory_ProjectKB_Instance_107] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [Worldhistory_ProjectKB_Instance_108])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstancesTab"))
+
+([Worldhistory_ProjectKB_Instance_108] of  Property_List
+)
+
+([Worldhistory_ProjectKB_Instance_109] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [Worldhistory_ProjectKB_Instance_110])
+	(widget_class_name "edu.stanford.smi.protegex.owl.jena.rdql.RDQLTab"))
+
+([Worldhistory_ProjectKB_Instance_110] of  Property_List
+)
+
+([Worldhistory_ProjectKB_Instance_111] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [Worldhistory_ProjectKB_Instance_112])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormsTab"))
+
+([Worldhistory_ProjectKB_Instance_112] of  Property_List
+)
+
+([Worldhistory_ProjectKB_Instance_113] of  String
+
+	(name "SearchTab_Query"))
+
+([Worldhistory_ProjectKB_Instance_114] of  String
+
+	(name "Event")
+	(string_value "historical-name"))
+
+([Worldhistory_ProjectKB_Instance_115] of  String
+
+	(name "Activity")
+	(string_value "historical-name"))
+
+([Worldhistory_ProjectKB_Instance_116] of  String
+
+	(name "Person")
+	(string_value "name"))
+
+([Worldhistory_ProjectKB_Instance_89] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [Worldhistory_ProjectKB_Instance_90])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesTab"))
+
+([Worldhistory_ProjectKB_Instance_90] of  Property_List
+)
+
+([Worldhistory_ProjectKB_Instance_91] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [Worldhistory_ProjectKB_Instance_92])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesAndInstancesTab"))
+
+([Worldhistory_ProjectKB_Instance_92] of  Property_List
+)
+
+([Worldhistory_ProjectKB_Instance_93] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [Worldhistory_ProjectKB_Instance_94])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.OWLIndividualsTab"))
+
+([Worldhistory_ProjectKB_Instance_94] of  Property_List
+)
+
+([Worldhistory_ProjectKB_Instance_95] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [Worldhistory_ProjectKB_Instance_96])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadatatab.OWLMetadataTab"))
+
+([Worldhistory_ProjectKB_Instance_96] of  Property_List
+)
+
+([Worldhistory_ProjectKB_Instance_97] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [Worldhistory_ProjectKB_Instance_98])
+	(widget_class_name "edu.stanford.smi.protegex.queries_tab.QueriesTab"))
+
+([Worldhistory_ProjectKB_Instance_98] of  Property_List
+
+	(properties [Worldhistory_ProjectKB_Instance_113]))
+
+([Worldhistory_ProjectKB_Instance_99] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [Worldhistory_ProjectKB_Instance_100])
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotsTab"))

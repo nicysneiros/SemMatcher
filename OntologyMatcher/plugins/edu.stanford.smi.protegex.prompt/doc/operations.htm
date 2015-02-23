@@ -1,0 +1,312 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Available PROMPT Operations</title>
+</head>
+
+<body>
+
+<h1><img src="images/serving_nerd.gif" width="48" height="48">  PROMPT
+Operations&nbsp;<br>
+<img src="images/header_line.gif" width="590" height="6"></h1>
+
+<p>Depending on the way you are working with your ontologies, you can copy,
+merge, or move frames from your source ontologie(s) into your working project.
+Except for the move operations, the source ontologie(s) remain unchanged. For
+the move operations, if you move a frame from the source ontology, it is
+removed from the source ontology and incorporated into the working project.</p>
+
+<h4>
+<a NAME="notes"></a>Notes</h4>
+
+<ol>
+
+<li>
+PROMPT keeps track of the original subclass–superclass relations and reestablishes
+them. For example, suppose <tt>Dog</tt> was a subclass of <tt>Mammal</tt>
+in the <tt>animals</tt> project. Suppose you copy <tt>Dog</tt> first (PROMPT
+creates <tt>Dog--animals</tt> class), and then copy <tt>Mammal</tt>.
+PROMPT will move <tt>Dog--animals</tt> to become a subclass of <tt>Mammal-animals</tt>.</li>
+
+<li>
+You can perform multiple operations using the same source frame(s). For example,
+you can copy a frame more than once; in this case, Protégé will append a
+character to the name of the second copy to ensure that the frames in the working
+ontology all have unique names. Or you could incorporate a copy of a frame into
+the working ontology, and also merge that frame with another frame.</li>
+
+<li>
+For merge and copy class operations, PROMPT will automatically copy any slots
+directly attached to the source classes. By default, however, it will not copy
+inherited slots. To have PROMPT copy all slots, whether directly attached or
+inherited, select <b>Consider inherited slots</b> in the <a href="prompt_configure_box.htm">PROMPT Configuration Dialog Box</a>.</li>
+
+<li>
+PROMPT keeps the log (along with some statistics) in the <tt>&lt;project-name>.mlog</tt>
+file</li>
+</ol>
+
+<p>The following PROMPT operations are available:</p>
+
+<ul>
+  <li><a href="#merge">Merge operations</a> (merge mode)</li>
+  <li><a href="#copy">Copy operations</a> (merge and extract mode)</li>
+  <li><a href="move_frames_mode.htm">Move operations</a> (move frames mode). <b>Note:
+    </b>Move operations will alter the source (included) ontology, as well as
+    the working (including) ontology. These are the only operations which alter
+    the source ontology.</li>
+  <li><a href="#remove parent">Remove parent operation</a> (merge mode)</li>
+</ul>
+
+<p>The operations available depend on your initial choice of how the mode for
+incorporating your source ontologies into the working project. The available operations
+for each type of PROMPT action are as follows:</p>
+
+<table border="1" width="100%">
+  <tr>
+    <td width="27%">
+      <p align="center"><b>Mode</b></td>
+    <td width="73%">
+      <p align="center"><b>Available Operations</b></td>
+  </tr>
+  <tr>
+    <td width="27%" valign="top"><a href="merge_mode.htm">merge mode</a></td>
+    <td width="73%">merge classes,
+      merge slots,
+      merge instances<br>
+      copy class,
+      copy slot, copy instance<br>
+      remove parent</td>
+  </tr>
+  <tr>
+    <td width="27%" valign="top"><a href="extract_mode.htm">extract mode</a></td>
+    <td width="73%">copy class,
+      copy instance,
+      copy slot</td>
+  </tr>
+  <tr>
+    <td width="27%" valign="top"><a href="move_frames_mode.htm">moving frames
+      mode</a></td>
+    <td width="73%">move class,
+      move all instances of class, move instance,
+      move slot</td>
+  </tr>
+  <tr>
+    <td width="27%" valign="top"><a href="compare_mode.htm">compare mode</a></td>
+    <td width="73%"><i>view only; no operations available</i></td>
+  </tr>
+</table>
+<p>For most operations, options allow you to choose whether you also want to
+operate on related frames. You can set or change options using the <a href="new_operations.htm"> New Operations Tab</a>,
+the <a href="create_op_dialog.htm"> Create Operation Dialog Box</a><a href="create_op_dialog.htm">,</a>
+or the <a href="edit_dialog.htm"> Edit Operation Dialog Box</a>. See <a href="creating.htm">Creating an Operation</a>
+or <a href="edit_operation.htm">Editing an Operation</a> for more information.</p>
+
+<h2><a name="merge"></a>Merge Operations</h2>
+
+<p>Merge operations take two frames of the same type from the ontologies
+specified on the ontology menus and create a single frame that combines them in the working ontology. Merge
+operations are only available for <a href="merge_mode.htm">merge mode</a>. They have
+two arguments, which must be frames of the same type (i.e., two classes, two
+slots, or two instances).&nbsp;</p>
+
+<p>Most often, you will merge frames from the two source ontologies. However, by
+changing the ontologies specified on the ontology menus, you can, for example,
+merge two frames that are in the working ontology. You might do this, for
+example, if you have already copied the frames from the source ontologies and
+want to merge them. If you started with a non-empty working ontology, you can
+also merge pre-existing frames within the working ontology.&nbsp;&nbsp;</p>
+
+<p> Merge operations are as follows:</p>
+
+<ul>
+  <li><b>Merge classes</b> (merge only): merges two classes and
+    their slots. If the slots directly attached to the classes do not already exist in
+    the working ontology, PROMPT will copy the slots and attach them to the
+    merged class. (In some cases, it will suggest merging some of the copied
+    slots.) If the classes you are
+    merging have different names, documentation, or roles, PROMPT will ask you
+    to choose the name, documentation, or role for the merged class.<br>
+    The following options are available:
+    <ul>
+      <li><b>parents (up to the root): </b>when copying the class, copy all its
+        parents as well
+      <li><b>subclasses</b>: when copying the class, copy all its subclasses as
+        well
+      <li><b>instances</b>: when copying the class, copy all its subclasses as
+        well</li>
+    </ul>
+    <b>Note</b>: The only classes that PROMPT will <i>merge</i> are the two
+    classes that are arguments to the operation. It will simply <i>copy</i> the
+    parents, subclasses, and instances of both arguments and make them parents,
+    subclasses, and instances of the merged class respectively.</li>
+  <li><b>Merge slots</b> (merge only): merges two slots. If the
+    original slots are attached to the same class and the constraints
+    (cardinality, value type, etc.) on slot values are different, PROMPT will
+    ask you to choose the set of constraints to use for the merged slot at that
+    class. If the original slots have different classes as the allowed classes
+    for slot values, PROMPT will suggest merging those classes</li>
+  <li><b>Merge instances</b> (merge only): merges two
+    instances. If the classes that are the types of these instances have not yet
+    been copied into the merged ontology, PROMPT will copy them. If
+    multiple-cardinality slots have different values in the argument instances,
+    PROMPT will put all the values in the slot. If a single-cardinality slot has
+    different values in the argument instances, PROMPT will ask you to choose
+    the value.
+</ul>
+
+<p>When you perform a merge operation, the merged frame is added to the working
+ontology. It appears in the normal color of any frame and there is no indication
+as to its source.&nbsp;</p>
+
+<p> When you are merging
+    two frames with different names, documentation strings, or roles (that is,
+    different own slot values), PROMPT asks you to choose the value for the
+    merged frame. You can also set one of the two source onotogies as &quot;preferred&quot;;
+this tells PROMPT to
+    automatically choose the name, documentation, and role of the frame that
+    comes from the preferred ontology. See <a href="configure_prompt.htm">Configuring
+Prompt</a> for more information.</p>
+<p>In the <a href="source_bases.htm">Source Knowledge Bases Window</a>, the
+source frames to the merge are marked with a mapped <img border="0" src="images/Mapped.gif" width="15" height="16">
+icon to indicate that they have been mapped to the working ontology.&nbsp;</p>
+<h2><a name="copy"></a>Copy Operations</h2>
+<p>Copy operations copy a frame from the source ontology to the working
+ontology, leaving the source ontology unchanged. Copy operations have a single
+argument. They are available for <a href="merge_mode.htm"> merge</a> and <a href="extract_mode.htm"> extract</a> modes.</p>
+
+<ul>
+  <li><b>Copy class</b>: copy a class and its slots from the source
+    ontology to the working ontology. If the slots directly attached to the class have
+    not yet been copied to the working ontology, PROMPT will copy the slots and
+    attach them to the copied class. If the classes that are used as allowed
+    classes or parents for the slot value type are not yet in the new ontology,
+    PROMPT will create temporary frames for them (as subclasses of
+    :DUMMY-FRAMES). When you copy these frames (or merge them with others),
+    PROMPT will automatically change the references in the allowed-classes and
+    parents lists and remove the temporary frames<br>
+    The following options are available:
+    <ul>
+      <li><b>parents (up to the root): </b>when copying the class, copy all its
+        parents as well
+      <li><b>subclasses</b>: when copying the class, copy all its subclasses as
+        well
+      <li><b>instances</b>: when copying the class, copy all its instances as
+        well
+      <li><b>everything related</b>: copy not only the class, but also all the
+        slots and classes that it references, all the slots and classes that
+        they reference, and so on (a transitive closure of all the references
+        excluding the subclass and instance relations).</li>
+    </ul>
+  <li><b>Copy slot</b> (merge and extract): copy the slot from the source ontology to the
+    merged ontology. Allowed classes and parents are treated in the same way as
+    for &quot;copy class&quot;.<br>
+    The following options are available:
+    <ul>
+      <li><b>parents (up to the root): </b>when copying the slot, copy all its
+        superslots as well
+      <li><b>everything related</b>: copy not only the slot, but also all the
+        slots and classes that it references, all the slots and classes that
+        they reference, and so on (a transitive closure of all the references
+        excluding the subclass and instance relations).</li>
+    </ul>
+  <li><b>Copy instance</b> (merge and extract): copy the instance from the source ontology
+    to the merged ontology. If the class that is the direct type of this
+    instance has not yet been copied, copy that class as well.<br>
+    The following options are available:
+    <ul>
+      <li><b>everything related</b>: copy not only the instance, but also all
+        the frames it references, all the frames that they reference, and so on
+        (a transitive closure of all the references excluding the subclass and
+        instance relations).</li>
+    </ul>
+</ul>
+
+<p>When you perform a copy operation, a copy of the selected frame is added to
+the working ontology. It appears in color and there is a suffix indicating its
+source. You can <a href="remove_suffix.htm"> remove</a> all the suffixes by
+selecting <b>Remove Suffixes</b> from the <b>Prompt Menu.</b>.</p>
+<p>In the <a href="source_bases.htm"> Source Knowledge Bases Window</a>, the
+source frame to the copy is marked with a mapped <img border="0" src="images/Mapped.gif" width="15" height="16">
+icon, to indicate that it has been mapped to the working ontology.&nbsp;</p>
+<h2><a name="move"></a>Move Operations</h2>
+<p>Move operations remove a frame from an included ontology and move it to an
+including ontology, altering <i>both</i> ontologies. Move operations have a
+single argument. They are only available for <a href="move_frames_mode.htm">moving
+frames mode</a>.</p>
+
+<ul>
+  <li>Move class:&nbsp;moves a class and its slots from the included ontology to the
+    including ontology. If the slots attached to the class have
+    not yet been moved to the working ontology, PROMPT will move the slots and
+    attach them to the moved class.&nbsp;<br>
+    The following options are available:
+    <ul>
+      <li><b>parents (up to the root): </b>when moving the class, move all its
+        superclasses as well
+      <li><b>everything related</b>: move not only the class, but also all the
+        slots and classes that it references, all the slots and classes that
+        they reference, and so on (a transitive closure of all the references
+        excluding the subclass and instance relations).</li>
+    </ul>
+  </li>
+  <li>Move instance:&nbsp;move the instance from the included ontology
+    to the including ontology. If the class that is the direct type of this
+    instance has not yet been moved, move that class as well.<br>
+    The following options are available:
+    <ul>
+      <li><b>everything related</b>: move not only the instance, but also all the
+        frames it references, all the frames that
+        they reference, and so on (a transitive closure of all the references
+        excluding the subclass and instance relations).</li>
+    </ul>
+  </li>
+  <li>Move all instances of class: move all instances of the selected class from
+    the included to the including ontology.<b><br>
+    </b>
+    The following options are available:
+    <ul>
+      <li><b>everything related</b>: move not only the instances, but also all the
+        frames that they reference, and so on (a transitive closure of all the references
+        excluding the subclass relations).</li>
+    </ul>
+  </li>
+  <li>Move slot: move the slot from the included ontology to the including ontology.<br>
+    The following options are available:
+    <ul>
+      <li><b>parents (up to the root): </b>when moving the slot, move all its
+        superslots as well
+      <li><b>everything related</b>: move not only the slot, but also all the
+        slots and classes that it references, all the slots and classes that
+        they reference, and so on (a transitive closure of all the references
+        excluding the subclass and instance relations).</li>
+    </ul>
+  </li>
+</ul>
+
+<p>In the <a href="source_bases.htm"> Source Knowledge Bases Window</a>, the
+source frame to the move is marked with a local <img border="0" src="images/Local.gif" width="15" height="16">
+icon, to indicate that it is now local to the including ontology.&nbsp;</p>
+
+<h2><a name="remove parent"></a>Remove Parent Operation</h2>
+
+<p>The remove parent operation allows you break cycles in the hierarchy created
+during a <a href="merge_mode.htm">merge</a>.</p>
+
+<ul>
+  <li><b>Remove parent</b>: remove one of the superclasses of a class
+    from the superclass list to break a cycle in the hierarchy.</li>
+</ul>
+
+<hr>
+
+<p><font size="3">Next: </font><a href="creating.htm">Creating an Operation</a></p>
+
+<p><font size="3"><a href="index.html">Prompt Table of Contents</a></font></p>
+
+</body>
+
+</html>

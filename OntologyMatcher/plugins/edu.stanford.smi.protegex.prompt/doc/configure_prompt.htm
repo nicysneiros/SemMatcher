@@ -1,0 +1,76 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Internal Prompt Configuration</title>
+</head>
+
+<body>
+
+<h1><img src="images/serving_nerd.gif" width="48" height="48">   &nbsp;Configuring
+Prompt<br>
+<img src="images/header_line.gif" width="590" height="6"></h1>
+
+<p>You can configure PROMPT's behavior using the PROMPT Configuration
+dialog.&nbsp;</p>
+
+<p align="center"><img border="0" src="images/config1.gif" width="307" height="183"></p>
+
+<p align="left">To change PROMPT configuration:</p>
+
+<ol>
+  <li>
+    <p align="left">Select <b>Configure</b> from the <b>Prompt</b> menu. This
+    menu appears to the right of the other menus when you enable PROMPT.</li>
+  <li>
+    <p align="left">To change the way PROMPT handles slots when you copy or
+    merge a class, check <b>Consider inherited slots</b>. In general, classes
+    have two kinds of slots: slots that are directly attached to a class and
+    inherited slots. If <b>Consider inherited slots</b> is not selected, then
+    each time you copy or merge a class, PROMPT only copies direct slots. If <b>Consider
+    inherited slots</b> is selected, PROMPT also copies any inherited slots.</li>
+  <li>
+    <p>To change whether or not frame names that are the same
+    except for capitalization should be considered to be identical, check <b>Case
+    sensitive ontology</b>. If this item is selected, frames that differ only in
+    their capitalization are considered to be different.&nbsp;If this item is
+    deselected, frames that have the same spelling but different capitalization
+    are considered to have the same name. In this case, frames with the
+    &quot;same&quot; name may show up at the <a href="conflicts_tab.htm">Conflicts</a>
+    tab.&nbsp;</li>
+  <li>
+    <p align="left">&nbsp;When <a href="merge_mode.htm">merging</a> ontologies,
+    to set one of the source ontologies as &quot;preferred&quot; for names,
+    documentation strings, or roles, click <b>Set preferred ontology</b> and
+    select the ontology you want from the menu. Normally, when you are merging
+    two frames with different names, documentation strings, or roles (that is,
+    different own slot values), PROMPT asks you to choose the value for the
+    merged class. Setting an ontology as &quot;preferred&quot; tells PROMPT to
+    automatically choose the name, documentation, and role of the frame that
+    comes from the preferred ontology. Note that the ontology that is selected
+    at the time that the operation is performed is the one that is used. This
+    allows you to choose a different preferred ontology for different parts of
+    the merge. For example, suppose you had two patient database ontologies, one
+    of which was better structured for personal and billing information, and the
+    other of which was better structured for medical history and medications.
+    You could set the first one as the default and incorporate the personal
+    information, then change the default to the second, without changing the
+    frames you had already incorporated, and then continue your merge,
+    incorporating the medical history.</li>
+</ol>
+<p align="left"><b>Note:</b> PROMPT configuration can only take place after you
+have enabled PROMPT and chosen your source ontologies. To learn about enabling
+PROMPT by selecting <b>Configure</b> from the <b>Project</b> menu, see <a href="activate_prompt.htm">Enabling
+the Prompt Tab</a>.</p>
+
+<hr>
+
+<p><font size="3">Next: </font><a href="remove_suffix.htm">Removing Suffixes</a></p>
+
+<p><font size="3"><a href="index.html">Prompt Table of Contents</a></font></p>
+
+</body>
+
+</html>

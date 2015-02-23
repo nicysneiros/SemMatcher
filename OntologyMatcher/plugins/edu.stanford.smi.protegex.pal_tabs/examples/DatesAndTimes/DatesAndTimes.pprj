@@ -1,0 +1,1251 @@
+; Thu Nov 04 15:37:14 PST 2004
+; 
+;+ (version "3.0")
+;+ (build "Build -1")
+
+([BOOLEAN_FIELD_WIDGET] of  Widget
+
+	(name "Default Boolean Single")
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget"))
+
+([BOOLEAN_LIST_WIDGET] of  Widget
+
+	(name "Default Boolean Multiple")
+	(widget_class_name "edu.stanford.smi.protege.widget.BooleanListWidget"))
+
+([CLASS_WIDGET] of  Widget
+
+	(name ":STANDARD-CLASS")
+	(property_list [KB_530115_Instance_0])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([CLS_FIELD_WIDGET] of  Widget
+
+	(name "Default Class Single")
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget"))
+
+([CLS_LIST_WIDGET] of  Widget
+
+	(name "Default Class Multiple")
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsListWidget"))
+
+([CONTAINS_WIDGET] of  Widget
+
+	(name "Contains")
+	(widget_class_name "edu.stanford.smi.protegex.containswidget.ContainsWidget"))
+
+([DatesAndTimes_ProjectKB_Instance_0] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_1])
+	(widget_class_name "TGViztab.TGVizTab"))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00001] of  Property_List
+
+	(properties
+		[DatesAndTimes_ProjectKB_Instance_10056]
+		[DatesAndTimes_ProjectKB_Instance_10057]
+		[DatesAndTimes_ProjectKB_Instance_10058]))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00002] of  Options
+
+	(confirm_on_remove FALSE)
+	(display_hidden_classes TRUE)
+	(display_multi_parent_class_icon TRUE)
+	(is_readonly FALSE)
+	(update_modification_slots FALSE))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00007] of  String
+
+	(name "classes_file_name")
+	(string_value "DatesAndTimes.pont"))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00008] of  String
+
+	(name "instances_file_name")
+	(string_value "DatesAndTimes.pins"))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00020] of  Widget
+
+	(height 457)
+	(name "TimeDuration")
+	(property_list [DatesAndTimes_ProjectKB_INSTANCE_00060])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 530)
+	(x 0)
+	(y 0))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00031] of  Widget
+
+	(height 355)
+	(name "TimeInstant")
+	(property_list [DatesAndTimes_ProjectKB_INSTANCE_00032])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 477)
+	(x 0)
+	(y 0))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00032] of  Property_List
+
+	(properties
+		[DatesAndTimes_ProjectKB_INSTANCE_00033]
+		[DatesAndTimes_ProjectKB_INSTANCE_00034]
+		[DatesAndTimes_ProjectKB_INSTANCE_00035]
+		[DatesAndTimes_ProjectKB_INSTANCE_00037]
+		[DatesAndTimes_ProjectKB_INSTANCE_00038]
+		[DatesAndTimes_ProjectKB_INSTANCE_00039]))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00033] of  Widget
+
+	(height 60)
+	(name "seconds")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 125)
+	(x 260)
+	(y 130))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00034] of  Widget
+
+	(height 60)
+	(name "hour")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 125)
+	(x 260)
+	(y 0))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00035] of  Widget
+
+	(height 60)
+	(name "month")
+	(property_list [DatesAndTimes_ProjectKB_INSTANCE_00036])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 10)
+	(y 60))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00036] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_INSTANCE_00037] of  Widget
+
+	(height 60)
+	(name "year")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 125)
+	(x 10)
+	(y 0))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00038] of  Widget
+
+	(height 60)
+	(name "minutes")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 125)
+	(x 260)
+	(y 60))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00039] of  Widget
+
+	(height 60)
+	(name "day")
+	(property_list [DatesAndTimes_ProjectKB_INSTANCE_00040])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 10)
+	(y 130))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00040] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_INSTANCE_00041] of  Widget
+
+	(height 457)
+	(name "RecurringInstant")
+	(property_list [DatesAndTimes_ProjectKB_INSTANCE_00051])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 530)
+	(x 0)
+	(y 0))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00051] of  Property_List
+
+	(properties
+		[DatesAndTimes_ProjectKB_INSTANCE_00052]
+		[DatesAndTimes_ProjectKB_INSTANCE_00053]
+		[DatesAndTimes_ProjectKB_INSTANCE_00054]
+		[DatesAndTimes_ProjectKB_INSTANCE_00056]
+		[DatesAndTimes_ProjectKB_INSTANCE_00057]
+		[DatesAndTimes_ProjectKB_INSTANCE_00058]))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00052] of  Widget
+
+	(height 60)
+	(name "seconds")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 125)
+	(x 260)
+	(y 130))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00053] of  Widget
+
+	(height 60)
+	(name "hour")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 125)
+	(x 260)
+	(y 0))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00054] of  Widget
+
+	(height 60)
+	(name "month")
+	(property_list [DatesAndTimes_ProjectKB_INSTANCE_00055])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 10)
+	(y 60))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00055] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_INSTANCE_00056] of  Widget
+
+	(height 60)
+	(name "year")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 125)
+	(x 10)
+	(y 0))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00057] of  Widget
+
+	(height 60)
+	(name "minutes")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 125)
+	(x 260)
+	(y 60))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00058] of  Widget
+
+	(height 60)
+	(name "day")
+	(property_list [DatesAndTimes_ProjectKB_INSTANCE_00059])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 10)
+	(y 130))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00059] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_INSTANCE_00060] of  Property_List
+
+	(properties
+		[DatesAndTimes_ProjectKB_INSTANCE_00061]
+		[DatesAndTimes_ProjectKB_INSTANCE_00062]
+		[DatesAndTimes_ProjectKB_INSTANCE_00063]
+		[DatesAndTimes_ProjectKB_INSTANCE_00065]
+		[DatesAndTimes_ProjectKB_INSTANCE_00066]
+		[DatesAndTimes_ProjectKB_INSTANCE_00067]
+		[DatesAndTimes_ProjectKB_INSTANCE_00069]))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00061] of  Widget
+
+	(height 60)
+	(name "seconds")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 125)
+	(x 260)
+	(y 130))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00062] of  Widget
+
+	(height 60)
+	(name "hour")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 125)
+	(x 260)
+	(y 0))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00063] of  Widget
+
+	(height 60)
+	(name "month")
+	(property_list [DatesAndTimes_ProjectKB_INSTANCE_00064])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 10)
+	(y 60))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00064] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_INSTANCE_00065] of  Widget
+
+	(height 60)
+	(name "year")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 125)
+	(x 10)
+	(y 0))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00066] of  Widget
+
+	(height 60)
+	(name "minutes")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 125)
+	(x 260)
+	(y 60))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00067] of  Widget
+
+	(height 60)
+	(name "day")
+	(property_list [DatesAndTimes_ProjectKB_INSTANCE_00068])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 10)
+	(y 130))
+
+([DatesAndTimes_ProjectKB_INSTANCE_00068] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_INSTANCE_00069] of  Widget
+
+	(height 60)
+	(name "is-interval-positive")
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 210)
+	(x 10)
+	(y 190))
+
+([DatesAndTimes_ProjectKB_Instance_1] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_10] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_11])
+	(widget_class_name "edu.stanford.smi.RemoteKBTab.WordNetTab"))
+
+([DatesAndTimes_ProjectKB_Instance_10046] of  Property_List
+
+	(properties
+		[DatesAndTimes_ProjectKB_Instance_10047]
+		[DatesAndTimes_ProjectKB_Instance_10048]))
+
+([DatesAndTimes_ProjectKB_Instance_10047] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([DatesAndTimes_ProjectKB_Instance_10048] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([DatesAndTimes_ProjectKB_Instance_10049] of  Property_List
+
+	(properties
+		[DatesAndTimes_ProjectKB_Instance_10050]
+		[DatesAndTimes_ProjectKB_Instance_10051]))
+
+([DatesAndTimes_ProjectKB_Instance_10050] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move up"))
+
+([DatesAndTimes_ProjectKB_Instance_10051] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move down"))
+
+([DatesAndTimes_ProjectKB_Instance_10052] of  Property_List
+
+	(name "layout properties"))
+
+([DatesAndTimes_ProjectKB_Instance_10053] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_10054] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_10055] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_10056] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
+
+([DatesAndTimes_ProjectKB_Instance_10057] of  String
+
+	(name ":STANDARD-SLOT")
+	(string_value "%3ANAME"))
+
+([DatesAndTimes_ProjectKB_Instance_10058] of  String
+
+	(name ":STANDARD-CLASS")
+	(string_value "%3ANAME"))
+
+([DatesAndTimes_ProjectKB_Instance_11] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_12] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_13])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadatatab.OWLMetadataTab"))
+
+([DatesAndTimes_ProjectKB_Instance_13] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_133] of  String
+
+	(name "SearchTab_Query"))
+
+([DatesAndTimes_ProjectKB_Instance_14] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_15])
+	(widget_class_name "edu.stanford.smi.protegex.psm.PSMTab"))
+
+([DatesAndTimes_ProjectKB_Instance_15] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_16] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_17])
+	(widget_class_name "edu.stanford.smi.protegex.queries_tab.QueriesTab"))
+
+([DatesAndTimes_ProjectKB_Instance_17] of  Property_List
+
+	(properties [DatesAndTimes_ProjectKB_Instance_133]))
+
+([DatesAndTimes_ProjectKB_Instance_18] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_19])
+	(widget_class_name "ezOWLTab"))
+
+([DatesAndTimes_ProjectKB_Instance_19] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_2] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_3])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesTab"))
+
+([DatesAndTimes_ProjectKB_Instance_20] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_21])
+	(widget_class_name "ezpal.EZPalTab"))
+
+([DatesAndTimes_ProjectKB_Instance_21] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_22] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_23])
+	(widget_class_name "edu.stanford.smi.protegex.fctab.FacetConstraintsTab"))
+
+([DatesAndTimes_ProjectKB_Instance_23] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_24] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_25])
+	(widget_class_name "edu.stanford.smi.protegex.xml.tab.XMLTab"))
+
+([DatesAndTimes_ProjectKB_Instance_25] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_26] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_27])
+	(widget_class_name "edu.stanford.smi.protegex.prompt.PromptTab"))
+
+([DatesAndTimes_ProjectKB_Instance_27] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_28] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_29])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.cls.OWLClsesTab"))
+
+([DatesAndTimes_ProjectKB_Instance_29] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_3] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_30] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_31])
+	(widget_class_name "edu.stanford.smi.protege.widget.KAToolTab"))
+
+([DatesAndTimes_ProjectKB_Instance_31] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_32] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_33])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.OWLPropertiesTab"))
+
+([DatesAndTimes_ProjectKB_Instance_33] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_34] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_35])
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalConstraintsTab"))
+
+([DatesAndTimes_ProjectKB_Instance_35] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_36] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_37])
+	(widget_class_name "DataGenieTab.DataGenieTab"))
+
+([DatesAndTimes_ProjectKB_Instance_37] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_38] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_39])
+	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.KnowledgeTreeTab"))
+
+([DatesAndTimes_ProjectKB_Instance_39] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_4] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_5])
+	(widget_class_name "dfki.protege.ontoviz_tab.OntovizTab"))
+
+([DatesAndTimes_ProjectKB_Instance_40] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_41])
+	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.InstanceTreeTab"))
+
+([DatesAndTimes_ProjectKB_Instance_41] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_42] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_43])
+	(widget_class_name "ca.uvic.csr.shrimp.protegeTab.JambalayaTab"))
+
+([DatesAndTimes_ProjectKB_Instance_43] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_44] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_45])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.OWLIndividualsTab"))
+
+([DatesAndTimes_ProjectKB_Instance_45] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_46] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_47])
+	(widget_class_name "org.algernon.kb.okbc.protege.plugins.AlgernonTab"))
+
+([DatesAndTimes_ProjectKB_Instance_47] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_48] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_49])
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalQueriesTab"))
+
+([DatesAndTimes_ProjectKB_Instance_49] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_5] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_50] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_51])
+	(widget_class_name "edu.stanford.smi.RemoteKBTab.UMLSTab"))
+
+([DatesAndTimes_ProjectKB_Instance_51] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_52] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_53])
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotsTab"))
+
+([DatesAndTimes_ProjectKB_Instance_53] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_54] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_55])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstancesTab"))
+
+([DatesAndTimes_ProjectKB_Instance_55] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_56] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_57])
+	(widget_class_name "edu.stanford.smi.protegex.owl.jena.rdql.RDQLTab"))
+
+([DatesAndTimes_ProjectKB_Instance_57] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_58] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_59])
+	(widget_class_name "uk.ac.man.cs.mig.coode.owlviz.ui.OWLVizTab"))
+
+([DatesAndTimes_ProjectKB_Instance_59] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_6] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_7])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesAndInstancesTab"))
+
+([DatesAndTimes_ProjectKB_Instance_60] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_61])
+	(widget_class_name "jot.JythonOntologyTab"))
+
+([DatesAndTimes_ProjectKB_Instance_61] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_62] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_63])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormsTab"))
+
+([DatesAndTimes_ProjectKB_Instance_63] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_7] of  Property_List
+)
+
+([DatesAndTimes_ProjectKB_Instance_8] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [DatesAndTimes_ProjectKB_Instance_9])
+	(widget_class_name "edu.stanford.smi.protege.keywordsearch.StringSearch"))
+
+([DatesAndTimes_ProjectKB_Instance_9] of  Property_List
+)
+
+([DIAGRAM_WIDGET] of  Widget
+
+	(name "Diagram")
+	(widget_class_name "edu.stanford.smi.protegex.diagrams.DiagramWidget"))
+
+([FACTORY_CLASS_NAME] of  String
+
+	(name "factory_class_name")
+	(string_value "edu.stanford.smi.protege.storage.clips.ClipsKnowledgeBaseFactory"))
+
+([FLOAT_FIELD_WIDGET] of  Widget
+
+	(name "Default Float Single")
+	(widget_class_name "edu.stanford.smi.protege.widget.FloatFieldWidget"))
+
+([FLOAT_LIST_WIDGET] of  Widget
+
+	(name "Default Float Multiple")
+	(widget_class_name "edu.stanford.smi.protege.widget.FloatListWidget"))
+
+([IMAGE_MAP_TO_SYMBOL_WIDGET] of  Widget
+
+	(name "Image map to symbol")
+	(widget_class_name "edu.stanford.smi.protegex.imagemap.ImageMapToSymbolWidget"))
+
+([INSTANCE_FIELD_WIDGET] of  Widget
+
+	(name "Default Instance Single")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget"))
+
+([INSTANCE_LIST_WIDGET] of  Widget
+
+	(name "Default Instance Multiple")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget"))
+
+([INSTANCE_TABLE_WIDGET] of  Widget
+
+	(name "Instance Table")
+	(widget_class_name "edu.stanford.smi.protegex.instancetables.InstanceTableWidget"))
+
+([INTEGER_FIELD_WIDGET] of  Widget
+
+	(name "Default Integer Single")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget"))
+
+([INTEGER_LIST_WIDGET] of  Widget
+
+	(name "Default Integer Multiple")
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerListWidget"))
+
+([KB_530115_Instance_0] of  Property_List
+
+	(name "class widget properties")
+	(properties
+		[KB_530115_Instance_1]
+		[KB_530115_Instance_2]
+		[KB_530115_Instance_3]
+		[KB_530115_Instance_4]
+		[KB_530115_Instance_5]
+		[KB_530115_Instance_6]
+		[KB_530115_Instance_7]
+		[KB_530115_Instance_8]
+		[KB_530115_Instance_9]
+		[KB_530115_Instance_10]))
+
+([KB_530115_Instance_1] of  Widget
+
+	(height 120)
+	(label "Constraints")
+	(name ":SLOT-CONSTRAINTS")
+	(property_list [DatesAndTimes_ProjectKB_Instance_10046])
+	(widget_class_name "edu.stanford.smi.protege.widget.ConstraintsWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([KB_530115_Instance_10] of  Property_List
+
+	(name "layout properties")
+	(properties [KB_530115_Instance_11]))
+
+([KB_530115_Instance_11] of  String
+
+	(name "vertical_stretcher")
+	(string_value ":DIRECT-TEMPLATE-SLOTS"))
+
+([KB_530115_Instance_12] of  Property_List
+
+	(name "slot widget properties")
+	(properties
+		[KB_530115_Instance_13]
+		[KB_530115_Instance_14]
+		[KB_530115_Instance_15]
+		[KB_530115_Instance_16]
+		[KB_530115_Instance_17]
+		[KB_530115_Instance_18]
+		[KB_530115_Instance_19]
+		[KB_530115_Instance_20]
+		[KB_530115_Instance_21]
+		[KB_530115_Instance_22]
+		[KB_530115_Instance_23]
+		[KB_530115_Instance_24]
+		[KB_530115_Instance_25]
+		[KB_530115_Instance_26]
+		[KB_530115_Instance_27]
+		[KB_530115_Instance_28]
+		[DatesAndTimes_ProjectKB_Instance_10052]))
+
+([KB_530115_Instance_13] of  Widget
+
+	(height 60)
+	(label "Cardinality")
+	(name ":SLOT-MINIMUM-CARDINALITY")
+	(widget_class_name "edu.stanford.smi.protege.widget.MinimumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 120))
+
+([KB_530115_Instance_14] of  Widget
+
+	(height 35)
+	(name ":SLOT-MAXIMUM-CARDINALITY")
+	(widget_class_name "edu.stanford.smi.protege.widget.MaximumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 180))
+
+([KB_530115_Instance_15] of  Widget
+
+	(name ":SLOT-CONSTRAINTS"))
+
+([KB_530115_Instance_16] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([KB_530115_Instance_17] of  Widget
+
+	(height 95)
+	(label "Domain")
+	(name ":DIRECT-DOMAIN")
+	(property_list [DatesAndTimes_ProjectKB_Instance_10053])
+	(widget_class_name "edu.stanford.smi.protege.widget.DirectDomainWidget")
+	(width 200)
+	(x 400)
+	(y 180))
+
+([KB_530115_Instance_18] of  Widget
+
+	(height 90)
+	(label "Template Values")
+	(name ":SLOT-VALUES")
+	(property_list [DatesAndTimes_ProjectKB_Instance_10054])
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotValuesWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([KB_530115_Instance_19] of  Widget
+
+	(name ":DIRECT-SUPERSLOTS"))
+
+([KB_530115_Instance_2] of  Widget
+
+	(name ":DIRECT-INSTANCES"))
+
+([KB_530115_Instance_20] of  Widget
+
+	(name ":DIRECT-SUBSLOTS"))
+
+([KB_530115_Instance_21] of  Widget
+
+	(height 90)
+	(label "Default")
+	(name ":SLOT-DEFAULTS")
+	(property_list [DatesAndTimes_ProjectKB_Instance_10055])
+	(widget_class_name "edu.stanford.smi.protege.widget.DefaultValuesWidget")
+	(width 200)
+	(x 400)
+	(y 90))
+
+([KB_530115_Instance_22] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_530115_Instance_23] of  Widget
+
+	(height 60)
+	(label "Maximum")
+	(name ":SLOT-NUMERIC-MAXIMUM")
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMaximumWidget")
+	(width 100)
+	(x 100)
+	(y 215))
+
+([KB_530115_Instance_24] of  Widget
+
+	(height 60)
+	(label "Minimum")
+	(name ":SLOT-NUMERIC-MINIMUM")
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMinimumWidget")
+	(width 100)
+	(x 0)
+	(y 215))
+
+([KB_530115_Instance_25] of  Widget
+
+	(name ":ASSOCIATED-FACET"))
+
+([KB_530115_Instance_26] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_530115_Instance_27] of  Widget
+
+	(height 60)
+	(label "Inverse Slot")
+	(name ":SLOT-INVERSE")
+	(widget_class_name "edu.stanford.smi.protege.widget.InverseSlotWidget")
+	(width 200)
+	(x 200)
+	(y 215))
+
+([KB_530115_Instance_28] of  Widget
+
+	(height 155)
+	(label "Value Type")
+	(name ":SLOT-VALUE-TYPE")
+	(widget_class_name "edu.stanford.smi.protege.widget.ValueTypeWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_530115_Instance_29] of  Widget
+
+	(is_hidden FALSE)
+	(name ":STANDARD-FACET")
+	(property_list [KB_530115_Instance_30])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([KB_530115_Instance_3] of  Widget
+
+	(name ":DIRECT-SUBCLASSES"))
+
+([KB_530115_Instance_30] of  Property_List
+
+	(name "facet widget properties")
+	(properties
+		[KB_530115_Instance_31]
+		[KB_530115_Instance_32]
+		[KB_530115_Instance_33]))
+
+([KB_530115_Instance_31] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_530115_Instance_32] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_530115_Instance_33] of  Widget
+
+	(height 60)
+	(label "Associated Slot")
+	(name ":ASSOCIATED-SLOT")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_530115_Instance_34] of  Widget
+
+	(is_hidden FALSE)
+	(name ":INSTANCE-ANNOTATION")
+	(property_list [KB_530115_Instance_35])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([KB_530115_Instance_35] of  Property_List
+
+	(properties
+		[KB_530115_Instance_36]
+		[KB_530115_Instance_37]
+		[KB_530115_Instance_38]
+		[KB_530115_Instance_39]))
+
+([KB_530115_Instance_36] of  Widget
+
+	(name ":ANNOTATED-INSTANCE"))
+
+([KB_530115_Instance_37] of  Widget
+
+	(name ":CREATOR"))
+
+([KB_530115_Instance_38] of  Widget
+
+	(name ":CREATION-TIMESTAMP"))
+
+([KB_530115_Instance_39] of  Widget
+
+	(height 100)
+	(is_hidden FALSE)
+	(name ":ANNOTATION-TEXT")
+	(widget_class_name "edu.stanford.smi.protege.widget.YellowStickyWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_530115_Instance_4] of  Widget
+
+	(name ":DIRECT-SUPERCLASSES"))
+
+([KB_530115_Instance_40] of  Widget
+
+	(is_hidden FALSE)
+	(name ":PAL-CONSTRAINT")
+	(property_list [KB_530115_Instance_41])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([KB_530115_Instance_41] of  Property_List
+
+	(properties
+		[KB_530115_Instance_42]
+		[KB_530115_Instance_43]
+		[KB_530115_Instance_44]
+		[KB_530115_Instance_45]))
+
+([KB_530115_Instance_42] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Name")
+	(name ":PAL-NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 275)
+	(x 0)
+	(y 0))
+
+([KB_530115_Instance_43] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(label "Range")
+	(name ":PAL-RANGE")
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalRangeWidget")
+	(width 250)
+	(x 275)
+	(y 180))
+
+([KB_530115_Instance_44] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(label "Description")
+	(name ":PAL-DESCRIPTION")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 275)
+	(y 0))
+
+([KB_530115_Instance_45] of  Widget
+
+	(height 300)
+	(is_hidden FALSE)
+	(label "Statement")
+	(name ":PAL-STATEMENT")
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalConstraintWidget")
+	(width 275)
+	(x 0)
+	(y 60))
+
+([KB_530115_Instance_5] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_530115_Instance_6] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_530115_Instance_7] of  Widget
+
+	(height 60)
+	(label "Role")
+	(name ":ROLE")
+	(widget_class_name "edu.stanford.smi.protege.widget.RoleWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_530115_Instance_8] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([KB_530115_Instance_9] of  Widget
+
+	(height 150)
+	(label "Template Slots")
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(property_list [DatesAndTimes_ProjectKB_Instance_10049])
+	(widget_class_name "edu.stanford.smi.protege.widget.TemplateSlotsWidget")
+	(width 600)
+	(x 0)
+	(y 120))
+
+([PROJECT] of  Project
+
+	(all_knowledge_base_factory_names
+		"edu.stanford.smi.protege.storage.clips.ClipsKnowledgeBaseFactory"
+		"edu.stanford.smi.protege.storage.jdbc.JdbcKnowledgeBaseFactory")
+	(browser_slot_names [DatesAndTimes_ProjectKB_INSTANCE_00001])
+	(customized_instance_widgets
+		[KB_530115_Instance_29]
+		[KB_530115_Instance_34]
+		[KB_530115_Instance_40]
+		[DatesAndTimes_ProjectKB_INSTANCE_00041]
+		[DatesAndTimes_ProjectKB_INSTANCE_00020]
+		[SLOT_WIDGET]
+		[CLASS_WIDGET]
+		[DatesAndTimes_ProjectKB_INSTANCE_00031])
+	(default_cls_metaclass ":STANDARD-CLASS")
+	(default_facet_metaclass ":STANDARD-FACET")
+	(default_instance_widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(default_slot_metaclass ":STANDARD-SLOT")
+	(next_frame_number 0)
+	(options [DatesAndTimes_ProjectKB_INSTANCE_00002])
+	(sources [SOURCES])
+	(tabs
+		[DatesAndTimes_ProjectKB_Instance_46]
+		[DatesAndTimes_ProjectKB_Instance_6]
+		[DatesAndTimes_ProjectKB_Instance_2]
+		[DatesAndTimes_ProjectKB_Instance_36]
+		[DatesAndTimes_ProjectKB_Instance_18]
+		[DatesAndTimes_ProjectKB_Instance_52]
+		[DatesAndTimes_ProjectKB_Instance_22]
+		[DatesAndTimes_ProjectKB_Instance_62]
+		[DatesAndTimes_ProjectKB_Instance_54]
+		[DatesAndTimes_ProjectKB_Instance_40]
+		[DatesAndTimes_ProjectKB_Instance_42]
+		[DatesAndTimes_ProjectKB_Instance_60]
+		[DatesAndTimes_ProjectKB_Instance_30]
+		[DatesAndTimes_ProjectKB_Instance_38]
+		[DatesAndTimes_ProjectKB_Instance_4]
+		[DatesAndTimes_ProjectKB_Instance_26]
+		[DatesAndTimes_ProjectKB_Instance_14]
+		[DatesAndTimes_ProjectKB_Instance_16]
+		[DatesAndTimes_ProjectKB_Instance_34]
+		[DatesAndTimes_ProjectKB_Instance_8]
+		[DatesAndTimes_ProjectKB_Instance_0]
+		[DatesAndTimes_ProjectKB_Instance_50]
+		[DatesAndTimes_ProjectKB_Instance_24]
+		[DatesAndTimes_ProjectKB_Instance_20]
+		[DatesAndTimes_ProjectKB_Instance_28]
+		[DatesAndTimes_ProjectKB_Instance_44]
+		[DatesAndTimes_ProjectKB_Instance_12]
+		[DatesAndTimes_ProjectKB_Instance_32]
+		[DatesAndTimes_ProjectKB_Instance_58]
+		[DatesAndTimes_ProjectKB_Instance_48]
+		[DatesAndTimes_ProjectKB_Instance_56]
+		[DatesAndTimes_ProjectKB_Instance_10])
+	(widget_mapper_properties [WIDGETS]))
+
+([RADIO_BUTTON_WIDGET] of  Widget
+
+	(name "Radio Button")
+	(widget_class_name "edu.stanford.smi.protegex.selectors.radiobuttonwidget.RadioButtonWidget"))
+
+([RDF_ALTERNATIVE_WIDGET] of  Widget
+
+	(name "Default rdf:Alt Single")
+	(widget_class_name "edu.stanford.smi.protegex.rdf.container.alternative.RDFAlternativeWidget"))
+
+([RDF_SEQUENCE_WIDGET] of  Widget
+
+	(name "Default rdf:Seq Single")
+	(widget_class_name "edu.stanford.smi.protegex.rdf.container.sequence.RDFSequenceWidget"))
+
+([SLIDER_WIDGET] of  Widget
+
+	(name "Slider")
+	(widget_class_name "edu.stanford.smi.protegex.sliderwidget.SliderWidget"))
+
+([SLOT_WIDGET] of  Widget
+
+	(name ":STANDARD-SLOT")
+	(property_list [KB_530115_Instance_12])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([SOURCES] of  Property_List
+
+	(name "knowledge base sources")
+	(properties
+		[FACTORY_CLASS_NAME]
+		[DatesAndTimes_ProjectKB_INSTANCE_00007]
+		[DatesAndTimes_ProjectKB_INSTANCE_00008]))
+
+([STRING_FIELD_WIDGET] of  Widget
+
+	(name "Default String Single")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget"))
+
+([STRING_LIST_WIDGET] of  Widget
+
+	(name "Default String Multiple")
+	(widget_class_name "edu.stanford.smi.protege.widget.StringListWidget"))
+
+([SYMBOL_FIELD_WIDGET] of  Widget
+
+	(name "Default Symbol Single")
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget"))
+
+([SYMBOL_LIST_WIDGET] of  Widget
+
+	(name "Default Symbol Multiple")
+	(widget_class_name "edu.stanford.smi.protege.widget.SymbolListWidget"))
+
+([TEXT_AREA_WIDGET] of  Widget
+
+	(name "Text Area")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget"))
+
+([WIDGETS] of  Property_List
+
+	(name "widgets")
+	(properties
+		[BOOLEAN_FIELD_WIDGET]
+		[CLS_FIELD_WIDGET]
+		[FLOAT_FIELD_WIDGET]
+		[INSTANCE_FIELD_WIDGET]
+		[INTEGER_FIELD_WIDGET]
+		[STRING_FIELD_WIDGET]
+		[SYMBOL_FIELD_WIDGET]
+		[BOOLEAN_LIST_WIDGET]
+		[CLS_LIST_WIDGET]
+		[FLOAT_LIST_WIDGET]
+		[INSTANCE_LIST_WIDGET]
+		[INTEGER_LIST_WIDGET]
+		[STRING_LIST_WIDGET]
+		[SYMBOL_LIST_WIDGET]
+		[TEXT_AREA_WIDGET]
+		[DIAGRAM_WIDGET]
+		[CONTAINS_WIDGET]
+		[IMAGE_MAP_TO_SYMBOL_WIDGET]
+		[RADIO_BUTTON_WIDGET]
+		[SLIDER_WIDGET]
+		[INSTANCE_TABLE_WIDGET]
+		[RDF_SEQUENCE_WIDGET]
+		[RDF_ALTERNATIVE_WIDGET]))

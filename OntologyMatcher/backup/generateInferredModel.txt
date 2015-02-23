@@ -1,0 +1,102 @@
+private InfModel generateInferredModel(Model model) {
+		PrintUtil.registerPrefix("speed", OntologyMatcherProperties.SPEED_URI);
+		PrintUtil.registerPrefix("CMO", this.uriCMO);
+
+		List rules = new Vector();
+
+		// Varrendo a maior lista teremos como ter ctz q todos serão varridos.
+		ArrayList<LEAlignment> biggerList = null;
+		ArrayList<LEAlignment> smallerList = null;
+
+		boolean cloiIsBigger = false;
+
+		if (this.matchingsCLOi.size() >= this.matchingsCLOj.size()) {
+			biggerList = this.matchingsCLOi;
+			smallerList = this.matchingsCLOj;
+			cloiIsBigger = true;
+		} else {
+			biggerList = this.matchingsCLOj;
+			smallerList = this.matchingsCLOi;
+		}
+
+		for (LEAlignment itemBigger : biggerList) {
+			for (LEAlignment itemSmaller : smallerList) {
+				if (itemSmaller != null) {
+					if (cloiIsBigger)
+						rules.addAll(Rule.parseRules(this
+								.formatRules(itemBigger.getClass1(),
+										itemSmaller.getClass1(), itemBigger
+												.getClass2(), itemSmaller
+												.getClass2())));
+					else
+						rules.addAll(Rule.parseRules(this
+								.formatRules(itemSmaller.getClass1(),
+										itemBigger.getClass1(), itemSmaller
+												.getClass2(), itemBigger
+												.getClass2())));
+
+					if (itemBigger.getMeasure() == 1
+							&& itemSmaller.getMeasure() == 1) {
+
+						if (cloiIsBigger) {
+							if (this.isDisjointWith(itemBigger.getClass2(),
+									itemSmaller.getClass2())) {
+								Resource resourceSubject = this.model
+										.createResource(itemBigger.getClass1());
+								Property propertyPredicate = this.model
+										.createProperty(OntologyMatcherProperties.SPEED_URI
+												+ "isDisjointWith");
+
+								this.model.add(resourceSubject,
+										propertyPredicate, itemSmaller
+												.getClass1());
+							}
+
+							if (this.isCloseTo(itemBigger.getClass2(),
+									itemSmaller.getClass2())) {
+								Resource resourceSubject = this.model
+										.createResource(itemBigger.getClass1());
+								Property propertyPredicate = this.model
+										.createProperty(OntologyMatcherProperties.SPEED_URI
+												+ "isCloseTo");
+
+								this.model.add(resourceSubject,
+										propertyPredicate, itemSmaller
+												.getClass1());
+							}
+						} else {
+							if (this.isDisjointWith(itemSmaller.getClass2(),
+									itemBigger.getClass2())) {
+								Resource resourceSubject = this.model
+										.createResource(itemSmaller.getClass1());
+								Property propertyPredicate = this.model
+										.createProperty(OntologyMatcherProperties.SPEED_URI
+												+ "isDisjointWith");
+
+								this.model.add(resourceSubject,
+										propertyPredicate, itemBigger
+												.getClass1());
+							}
+
+							if (this.isCloseTo(itemSmaller.getClass2(),
+									itemBigger.getClass2())) {
+								Resource resourceSubject = this.model
+										.createResource(itemSmaller.getClass1());
+								Property propertyPredicate = this.model
+										.createProperty(OntologyMatcherProperties.SPEED_URI
+												+ "isCloseTo");
+
+								this.model.add(resourceSubject,
+										propertyPredicate, itemBigger
+												.getClass1());
+							}
+						}
+					}
+				}
+			}
+		}
+
+		GenericRuleReasoner reasoner = new GenericRuleReasoner(rules);
+
+		return ModelFactory.createInfModel(reasoner, this.model);
+	}

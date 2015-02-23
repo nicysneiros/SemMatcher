@@ -1,0 +1,1444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <Alignment>
+    <xml>yes</xml>
+    <level>0</level>
+    <type>**</type>
+    <onto1>http://www.owl-ontologies.com/Ontology1217266757.owl</onto1>
+    <onto2>http://www.owl-ontologies.com/Ontology1217266757.owl</onto2>
+    <uri1>http://www.owl-ontologies.com/Ontology1217266757.owl</uri1>
+    <uri2>http://www.owl-ontologies.com/Ontology1217266757.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tyger"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tyger"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tyger"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tyger"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tyger"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tyger"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tyger"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tyger"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tyger"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tyger"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tyger"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tyger"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tyger"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tyger"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Vertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Vertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Vertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Vertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Vertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Vertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Vertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Vertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Vertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Vertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Vertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Vertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Vertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Vertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Invertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Invertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Invertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Invertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Invertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Invertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Invertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Invertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Invertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Invertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Invertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Invertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Invertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Invertebrate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Virus"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Virus"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Virus"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Virus"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Virus"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Virus"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Virus"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Virus"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Virus"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Virus"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Virus"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Virus"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Virus"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Virus"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fish"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fish"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fish"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fish"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fish"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fish"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fish"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fish"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fish"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fish"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fish"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fish"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fish"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fish"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bird"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bird"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bird"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bird"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bird"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bird"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bird"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bird"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bird"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bird"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bird"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bird"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bird"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bird"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Organism"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Organism"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Organism"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Organism"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Organism"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Organism"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Organism"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Organism"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Organism"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Organism"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Organism"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Organism"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Organism"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Organism"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5640000000000001</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5640000000000001</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5640000000000001</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5640000000000001</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5640000000000001</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5640000000000001</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Brain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tail"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

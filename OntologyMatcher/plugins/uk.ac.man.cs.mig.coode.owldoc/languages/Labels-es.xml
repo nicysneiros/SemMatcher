@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OWLDoc>
+    <Description name="Espa&#241;ol"/>
+    <Labels>
+        <label labelname="DisjointClasses" value="Clases inconexas"/>
+        <label labelname="Relationships" value="Relaciones"/>
+        <label labelname="AbstractSyntax" value="Sintaxis Abstracta"/>
+        <label labelname="DifferentFrom" value="Diferente de"/>
+        <label labelname="Class" value="Clase"/>
+        <label labelname="Annotations" value="Anotaciones"/>
+        <label labelname="AllAnnotationProperties" value="Todas las propiedades anotaciones"/>
+	<label labelname="AnnotationProperties" value="Propiedades anotaciones"/>
+	<label labelname="Symmetric" value="Sym&#233;trica"/>
+        <label labelname="AllObjectProperties" value="Todas las propiedades objeto"/>
+        <label labelname="AllResource" value="Todo los recurso"/>
+        <label labelname="Individuals" value="Instancias"/>
+        <label labelname="Types" value="Tipos"/>
+        <label labelname="Contents" value="Sumario"/>
+        <label labelname="InverseFunctional" value="Funcional Inversa"/>
+        <label labelname="Imports" value="Importar"/>
+        <label labelname="SameAs" value="Igual que"/>
+        <label labelname="Characteristics" value="Caracter&#237;sticas"/>
+        <label labelname="Resources" value="Recursos"/>
+        <label labelname="Range" value="Rango"/>
+        <label labelname="EquivalentClasses" value="Clases equivalentes (Condiciones suficientes y necesarias)"/>
+        <label labelname="AllDatatypeProperties" value="Todas las propiedades tipo de dato"/>
+        <label labelname="Domain" value="Dominio"/>
+        <label labelname="DomainOf" value="Dominio de"/>
+        <label labelname="Superclasses" value="Super Clases"/>
+        <label labelname="DefaultNamespace" value="Espacio de nombre por defecto"/>
+        <label labelname="Functional" value="Funcional"/>
+        <label labelname="AllClasses" value="Todas las Clases"/>
+        <label labelname="SuperProperties" value="Super Propiedades"/>
+        <label labelname="AllIndividuals" value="Todas las instancias"/>
+        <label labelname="InverseProperty" value="Propiedad inversa"/>
+        <label labelname="Usage" value="Uso"/>
+        <label labelname="DatatypeProperties" value="Propiedades tipo de dato"/>
+        <label labelname="EquivalentProperties" value="Propiedades equivalentes"/>
+        <label labelname="ClassDescriptionDefinition" value="Definici&#243;n/descripci&amp;oacute;n de clase (Condiciones necesarias)"/>
+        <label labelname="Transitive" value="Transitiva"/>
+        <label labelname="Classes" value="Clases"/>
+        <label labelname="ObjectProperties" value="Propiedades objeto"/>
+        <label labelname="Hierarchy" value="Jerarqu&#237;a"/>
+        <label labelname="Ontology" value="Ontolog&#237;a"/>
+        <label labelname="Namespaces" value="Espacios de nombre"/>
+    </Labels>
+</OWLDoc>

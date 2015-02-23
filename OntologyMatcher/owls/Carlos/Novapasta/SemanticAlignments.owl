@@ -1,0 +1,1602 @@
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Publication</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Department</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Department</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Faculty</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Lecturer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Lecturer</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#UndergraduateStudent</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#University</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#University</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#GraduateStudent</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Student</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#UnofficialPublication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#UnofficialPublication</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Institute</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Institute</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Organization</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Organization</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AdministrativeStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#AdministrativeStaff</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#TechnicalReport</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#TechnicalReport</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#FullProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#FullProfessor</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssistantProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#AssistantProfessor</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Manual</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Manual</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#ResearchProject</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#ResearchProject</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Book</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Book</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssociateProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#AssociateProfessor</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Article</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#ResearchGroup</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#ResearchGroup</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AdministrativeStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Department</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Organization</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#College</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Organization</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#UnofficialPublication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Chair</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#AdministrativeStaff</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Professor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#SystemsStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssistantProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Director</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#AdministrativeStaff</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Specification</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Lecturer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#FullProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Software</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Director</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#PostDoc</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Dean</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#VisitingProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#ResearchAssistant</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Dean</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Assistant</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#VisitingProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Student</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#ResearchGroup</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Organization</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssistantProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssociateProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Program</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Organization</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#TeachingAssistant</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Dean</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#AdministrativeStaff</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#ResearchProject</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Project</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Lecturer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssociateProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Institute</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Organization</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#ClericalStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Chair</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#ResearchAssistant</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#TechnicalReport</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Manual</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Assistant</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#ConferencePaper</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Article</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#PostDoc</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssistantProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#FullProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#ClericalStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Professor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Chair</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Lecturer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AdministrativeStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#ConferencePaper</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#TeachingAssistant</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssociateProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Book</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#PostDoc</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#FullProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#TechnicalReport</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Article</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#ClericalStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#AdministrativeStaff</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#JournalArticle</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Article</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#VisitingProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#SystemsStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Professor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Student</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Director</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Software</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Product</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#SystemsStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#AdministrativeStaff</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#University</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Organization</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#JournalArticle</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Thesis</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#PhDStudent</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Proceedings</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Organization</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Institute</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Work</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Project</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Student</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#UndergraduateStudent</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Organization</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#ResearchGroup</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Manual</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#TechnicalReport</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Software</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#SoftwareComponent</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#UnofficialPublication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#GraduateStudent</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#AdministrativeStaff</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Lecturer</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Professor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#AssistantProfessor</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Professor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#FullProfessor</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Organization</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Department</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Organization</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#University</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#TechnicalStaff</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Article</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Professor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#AssociateProfessor</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Book</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Worker</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#GraduateStudent</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Publication</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssociateProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#FullProfessor</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#UndergraduateStudent</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Course</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Project</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Schedule</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Organization</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#FullProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#AssistantProfessor</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Organization</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#FullProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#AssociateProfessor</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Product</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AdministrativeStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#TechnicalStaff</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssistantProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#FullProfessor</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Work</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Person</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssociateProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#AssistantProfessor</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Topic</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssistantProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#AssociateProfessor</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#UndergraduateStudent</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://swrc.ontoware.org/ontology/portal#Event</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#ResearchProject</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#ResearchProject</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#FullProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#FullProfessor</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Faculty</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Manual</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Manual</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Lecturer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Lecturer</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#UnofficialPublication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#UnofficialPublication</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#TechnicalReport</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#TechnicalReport</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AssistantProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssistantProfessor</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Department</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Department</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Student</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Institute</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Institute</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#UndergraduateStudent</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#University</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#University</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Article</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#ResearchGroup</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#ResearchGroup</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Organization</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Organization</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Book</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Book</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AssociateProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssociateProfessor</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#GraduateStudent</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AdministrativeStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#AdministrativeStaff</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#ResearchGroup</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Organization</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Thesis</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#TechnicalStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#PhDStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#GraduateStudent</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Student</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AssistantProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Lecturer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#ResearchProject</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Work</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AssistantProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#PhDStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Student</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AssistantProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Student</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#TechnicalStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AssociateProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#SoftwareComponent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#DoctoralThesis</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Proceedings</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AssociateProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Professor</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Lecturer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#FullProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Professor</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#UnofficialPublication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Lecturer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#TechnicalReport</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#TechnicalReport</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Article</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AssociateProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#FullProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#University</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Organization</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AssociateProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AdministrativeStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AdministrativeStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Project</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Work</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Book</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#SoftwareComponent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Software</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Institute</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Organization</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#SoftwareProject</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Work</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Department</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Organization</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#DevelopmentProject</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Work</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#FullProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Manual</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AssistantProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Professor</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#FullProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#PhDStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#MasterThesis</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Project</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#ResearchProject</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Organization</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#University</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AdministrativeStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Chair</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#GraduateStudent</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AdministrativeStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Director</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Organization</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#ResearchGroup</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#UnofficialPublication</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Professor</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AdministrativeStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Dean</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#AdministrativeStaff</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Organization</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Institute</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Book</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Manual</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#JournalArticle</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AdministrativeStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#SystemsStaff</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Lecturer</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AdministrativeStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#ClericalStaff</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#PostDoc</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Article</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Organization</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Department</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Organization</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Program</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Student</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#UndergraduateStudent</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Product</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Software</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Assistant</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#TechnicalReport</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#ConferencePaper</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Software</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Specification</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Organization</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#College</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Organization</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#GraduateStudent</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Schedule</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Worker</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AssistantProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#FullProfessor</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Project</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Course</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Work</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AssistantProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssociateProfessor</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AssociateProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#FullProfessor</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#UndergraduateStudent</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#FullProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssociateProfessor</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Organization</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Topic</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Event</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#AssociateProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssistantProfessor</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Publication</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#UndergraduateStudent</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#TechnicalStaff</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#AdministrativeStaff</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Publication</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#FullProfessor</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#AssistantProfessor</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://swrc.ontoware.org/ontology/portal#Product</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.lehigh.edu/~zhp2/univ-bench.owl#Person</Object>
+	<Similarity>0.0</Similarity>
+</Match>

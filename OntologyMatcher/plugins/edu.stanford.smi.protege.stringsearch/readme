@@ -1,0 +1,3 @@
+JAR file(s) MUST be unzipped into the Protege "plugins" subdirectory.  Please preserve 
+the path information provided in the ZIP file so that the proper subdirectory for the 
+plug-in is created under the "plugins" subdirectory.

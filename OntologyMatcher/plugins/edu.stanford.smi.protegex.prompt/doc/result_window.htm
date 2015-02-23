@@ -1,0 +1,110 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>The Result Window</title>
+</head>
+
+<body>
+
+<h1><img src="images/serving_nerd.gif" width="48" height="48">  &nbsp;The Result
+Window<br>
+<img src="images/header_line.gif" width="590" height="6"></h1>
+
+<p>The Result Window at the right of the <a href="prompt_tab.htm">Prompt Tab</a>
+shows the current state of the working ontology.&nbsp;Tabs allow you to view
+classes, slots, or instances.</p>
+
+<p align="center"><img border="0" src="images/result_window.gif" width="377" height="239"></p>
+
+<h2>Result Frame Codes</h2>
+
+<p>The status of merged, copied, or moved frames is indicated as follows:</p>
+
+<ul>
+  <li>Merged frames appear as normal frames, with no suffix or
+    color-coding.&nbsp;</li>
+  <li>If you are working in <a href="merge_mode.htm">merge</a> mode, copied
+    frames indicate their source ontology in two ways:
+    <ul>
+      <li>a suffix (selected during the <font size="3"><a href="initialize_prompt.htm">initialization</a>
+        </font>process) is appended to the frame name to indicate the source
+        ontology; suffixes can be <a href="remove_suffix.htm"> removed</a> at the end of a session using the
+<b> RemoveSuffixes</b>
+option on the Prompt Menu.</li>
+      <li>the frame is highlighted in the color associated with its ontology.
+        Usually, the ontology first selected during <font size="3"><a href="initialize_prompt.htm">initialization</a>
+        </font> is red and the other ontology is blue.&nbsp;</li>
+    </ul>
+  </li>
+  <li>If you are working in <a href="extract_mode.htm">extract</a> mode, copied
+    frames appear as normal frames, with no suffix or color-coding.</li>
+  <li>If you are working in <a href="move_frames_mode.htm">moving frames</a>
+    mode, frames that have been moved are indicated with a local <img border="0" src="images/Local.gif" width="15" height="16">
+    icon, to indicate they are now part of the working project.</li>
+</ul>
+
+<h2>Result Buttons</h2>
+
+<p>The buttons at the top right of the window allow you to view the following
+information:</p>
+
+<table border="0" width="100%">
+  <tr>
+    <td width="15%" valign="top"><img border="0" src="images/View.gif" width="15" height="15"></td>
+    <td width="85%"><b>V(iew)
+button:</b> Click this button to open the Class, Slot, or Instance Form for the highlighted
+      frame. This may be useful, for example, to see the slots for a merged
+      class.</td>
+  </tr>
+  <tr>
+      <td width="11%"> <img border="0" src="images/BackReferences.gif" width="13" height="13"> </td>
+      <td width="89%"><font size="3"><b>Back-references button:</b> Click this
+        button to view all the objects in the working ontology that reference the highlighted
+        frame.&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td width="7%" valign="top"><img border="0" src="images/Source.gif" width="15" height="15"></td>
+    <td width="93%"><b>Show Sources button:</b> Displays the <a href="source_bases.htm"> Source Knowledge
+      Bases</a>  window, which shows the source ontologie(s), and indicates which
+      frames have been incorporated into the working project.&nbsp;When a frame
+      is highlighted in the Result window, its source frame(s) are highlighted
+      in the Source Knowledge Bases window.</td>
+  </tr>
+</table>
+
+<h2>Temporary Frames</h2>
+
+<p>When you are creating a new ontology from your source ontologie(s), you may
+incorporate (copy, merge, or move) frames that have as parents other frames that
+are not yet included in the working ontology. Prot&eacute;g&eacute; keeps track
+of the original relationships in the source ontologies. If you incorporate a
+parent later, the correct relationship will be preserved.&nbsp;</p>
+
+<p>Similarly, you may incorporate a frame that references another
+not-yet-included frame in the source ontology. In order to maintain internal
+relationships and to be able to restore them if a frame is incorporated later, Prot&eacute;g&eacute;
+creates &quot;dummy&quot; frames for frames that are referenced but not
+incorporated. These frames are created as subframes of the system class
+:DUMMY-FRAMES. They will show up in the <a href="conflicts_tab.htm">Conflicts tab</a>
+as conflicts to be resolved.&nbsp;</p>
+
+<p align="center"><img border="0" src="images/dummy.gif" width="331" height="326"> <img border="0" src="images/dummy_conflict.gif" align="top" width="343" height="175"></p>
+
+<p align="left">When you incorporate the original frame from the source
+ontology, the corresponding &quot;dummy&quot; frame is automatically removed.
+However, if you finish the project and <a href="remove_suffix.htm">remove
+suffixes</a> without ever incorporating the relevant frame, the
+&quot;dummy&quot; frame remains part of the project.&nbsp;</p>
+
+<hr>
+
+<p><font size="3">Next: </font><a href="image_table.htm">The Image Table</a></p>
+
+<p><font size="3"><a href="index.html">Prompt Table of Contents</a></font></p>
+
+</body>
+
+</html>

@@ -1,0 +1,243 @@
+; Sat Feb 01 11:17:27 PST 2003
+; 
+;+ (version "1.7")
+;+ (build "Build 930")
+
+([At^least^one^instance^of^class^___^contains^value^___^in^slot^___.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties [haha])
+	(Machine-Readable^Template^Code "At least one instance of {Class A} has {NVariation A 0}.")
+	(Sample^Usage "Example: At least one member on the organizational committee is a senior member (year>10).<=>At least one instance of Class Organizational-Committee has Slot year : Class Organizational-Committee value > 10.")
+	(Axiom^Translation "(defrange ?{Class A} :FRAME {Class A})\n^(exists ?{Class A} \n         {NVariation A 0})\n")
+	(Difficulty^Level 2))
+
+([Every^instance^of^class^___^appears^at^least^once^in^slot^___^of^any^instance^of^class^___] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[haha]
+		[template_00144])
+	(Machine-Readable^Template^Code "Every instance of {Class A} appears at least once in {Slot B 0} of any instance of {Class B} .")
+	(Sample^Usage "Every student has at least one advisor. <=> Every instance of Class Student appears at least once in Slot advisee : Class Professor of any instance of Class Professor.")
+	(Axiom^Translation "(defrange ?{Class A} :FRAME {Class A})\n(defrange ?{Class B} :FRAME {Class B})\n^(forall ?{Class A} \n        (exists ?{Class B}\n                (=> (own-slot-not-null {Slot B 0} ?{Class B})\n                    ({Slot B 0} ?{Class B} ?{Class A}))))")
+	(Difficulty^Level 3))
+
+([Every^instance^of^class^___^has^a^value^in^slot^___^^(>,=,<)^than^every/at^least^one^value^of^slot^___^of^class^___.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[hamster]
+		[haha])
+	(Machine-Readable^Template^Code "Every instance of {Class A} has a value in slot {Slot A 0} {Equality e1} {Enumeration e2} value of {Slot B 0} of {Class B}.")
+	(Sample^Usage "A senior manager makes more than any entry-level manager. <=> Every instance of Class Senoir_Manager has a value in Slot Salary: Class Manager > every value of Slot Salary: Class Junior_Manager of Class Junior_Manager.")
+	(Axiom^Translation "(defrange ?{Class A}1 :FRAME {Class A})\n(defrange ?{Class B}2 :FRAME {Class B})\n^(forall ?{Class A}1 \n       ({Enumeration e2} ?{Class B}2\n            ({Equality e1} ({Slot A 0} ?{Class A}1) ({Slot B 0} ?{Class B}2))))")
+	(Difficulty^Level 7))
+
+([Every^instance^of^class^___^must^have^a^unique^value^in^slot^___.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[g]
+		[haha])
+	(Machine-Readable^Template^Code "Every instance of {Class A} must have a unique value in {Slot A 0} .")
+	(Sample^Usage "Every employee (class employee) has a unique ID (slot ID of class employee). ")
+	(Axiom^Translation "(defrange ?{Class A}1 :FRAME {Class A})\n(defrange ?{Class A}2 :FRAME {Class A}) \n^ (forall ?{Class A}1 \n        (forall ?{Class A}2 \n                (=> (and (own-slot-not-null {Slot A 0} ?{Class A}1) \n                         (own-slot-not-null {Slot A 0} ?{Class A}2))\n                    (=> (not (= ?{Class A}1 ?{Class A}2))\n	(not (= ({Slot A 0} ?{Class A}1) ({Slot A 0} ?{Class A}2)))))))")
+	(Difficulty^Level 1))
+
+([Every^instance^of^class^___^that^contains^value^___^in^slot^___^must^have^values^in^slot^___^that^are^instances^of^class^___.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[template2_00030]
+		[hamster])
+	(Machine-Readable^Template^Code "Every instance of {Class A} whose {NVariation A 0} {Boolean b1} have values in {Slot A 1} that are instances of {Class B}.")
+	(Sample^Usage "If a student is tired, he is only involved in leisure activites. <=> Every instance of Class Student whose Slot fitness-level : Class Student has value < 5 must have Slot activities : Class Student values that are instances of Leisure-Activities.")
+	(Axiom^Translation "(defrange ?{Class A} :FRAME {Class A})\n(defrange ?{Class A}-SlotVal :FRAME {Class A} {Slot A 1})\n^(forall ?{Class A} \n       (forall ?{Class A}-SlotVal\n            (=> {NVariation A 0}\n                   (instance-of ?{Class A}-SlotVal {Class B}))))")
+	(Difficulty^Level 9))
+
+([Every^instance^of^class^___^that^share^the^same^value^in^slot^___^must/cannot^have^identical^values^in^slot^___.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[g]
+		[hamster]
+		[haha])
+	(Machine-Readable^Template^Code "Every instance of {Class A} that share the same value in {Slot A 0} {Boolean b1} share values in slot {Slot A 1}.")
+	(Sample^Usage "All staff members who share an office are assigned different desks.\n<=> Every Instance of Class Staff that share the same value in Slot office-number : Class Staff must share/not share values in Slot desk-number : Class Staff.")
+	(Axiom^Translation "(defrange ?{Class A}1 :FRAME {Class A})\n(defrange ?{Class A}2 :FRAME {Class A})\n^(forall ?{Class A}1\n     (forall ?{Class A}2\n         (=> (and (own-slot-not-null {Slot A 0} ?{Class A}1) \n                         (own-slot-not-null {Slot A 0} ?{Class A}2))\n                    (=> (and (not (= ?{Class A}1 ?{Class A}2))\n	       (= ({Slot A 0} ?{Class A}1) ({Slot A 0} ?{Class A}1)))\n	({Boolean b1} (= ({Slot A 1} ?{Class A}1) ({Slot A 1} ?{Class A}2)))))))")
+	(Difficulty^Level 6))
+
+([EZPal-CONSTRAINT] of Template^MetaClass)
+
+([For^every^instance^I1^of^class^___,^if^the^value^of^slot^___^has^an^instance^I2^of^class^___,^then^if^slot^___^of^I1^has^value^___,^slot^___^I2^must^have^value^___.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[template2_00030]
+		[hamster]
+		[haha]
+		[template_00144])
+	(Machine-Readable^Template^Code "For every instance I1 of {Class A}, if the value of {Slot A 0} has an instance I2 of {Class B A 0} , then if  if I1 has {Value A 1} then I2 has {NVariation B 0}. ")
+	(Sample^Usage "A classroom for which a SITN class is scheduled requires broadcasting equipment. <=> If instance I1 of Class Course has instance I2 of Class Room in Slot room : Class Course, then if Slot SITN: Class Course of I1 has value \"yes\" then Slot has_BEquipment: Class Room has value \"yes\".")
+	(Axiom^Translation "(defrange ?{Class A} :FRAME {Class A})\n(defrange ?{Class B} :FRAME {Class B})\n^(forall ?{Class A} \n       (forall ?{Class B}\n             (=> (and ({Slot A 0} ?{Class A} ?{Class B})\n                             {Value A 1})\n                    {NVariation B 0})))")
+	(Difficulty^Level 9))
+
+([For^every^instance^I1^of^class^___,^if^the^value^of^slot^___^has^an^instance^I2^of^class^___,^then^slot^___^of^I1^has^a^value^(>,=,<)^then^value^of^slot^___^of^I2.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[hamster]
+		[haha]
+		[template_00144])
+	(Machine-Readable^Template^Code "For every instance I1 of {Class B} , if the value of {Slot B 0} is an instance I2 of {Class A B 0}, then {Slot B 1} of I1 has a value {Equality e1} {Slot A 0} of I2.")
+	(Sample^Usage "Example: An editor earns more than the staff members he is responsible for.\n<=>For every instance I1 of Class Editor, if the value of Slot responsible for : Class Editor has instance I2 of class Staff, then Slot salary: Class Editor of I1 has a value > to Slot salary: Class Staff of I2.")
+	(Axiom^Translation "(defrange ?{Class A}1 :FRAME {Class A})\n(defrange ?{Class B}2 :FRAME {Class B})\n^(forall ?{Class A}1\n       (forall ?{Class B}2\n             (=> ({Slot B 0} ?{Class A}1 ?{Class B}2)\n                    ({Equality e1} ({Slot A 0} ?{Class A}1) ({Slot B 1} ?{Class B}2)))))\n ")
+	(Difficulty^Level 8))
+
+([For^every^instance^I1^of^class^___,^if^the^value^of^slot^___^has^an^instance^I2^of^class^___,^then^there^is^an^instance^of^class^___^that^contains^I2^in^slot^___.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[haha]
+		[template_00144])
+	(Machine-Readable^Template^Code "For every instance I1 of {Class A}, if {Slot A 0} contains an instance I2 of {Class B A 0} , then there is an instance of {Class C} that contains I2 in {Slot C 0}.")
+	(Sample^Usage "Every student athelete must major in a department. <=> For every instance I1 of Class Sport_Program, if the value of slot students : Class Sport_Program has instance I2 of Class Student, then there is an instance of Class Department that contains I2 in slot students : Class Department. ")
+	(Axiom^Translation "(defrange ?{Class A}1 :FRAME {Class A})\n(defrange ?{Class B}2 :FRAME {Class B})\n(defrange ?{Class C}3 :FRAME {Class C})\n^(forall ?{Class A}1 \n       (forall ?{Class B}2\n            (exists ?{Class C}3\n                  (=> ({Slot A 0} ?{Class A}1 ?{Class B}2)\n                         ({Slot C 0} ?{Class C}3 ?{Class B}2)))))")
+	(Difficulty^Level 7))
+
+([For^every^instance^I1^of^class^___,^if^the^value^of^slot^___^is^^instance^I2^of^class^___,^they^must^share^the^same^value^in^slot^___^for^I1^and^slot^___^for^I2.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[hamster]
+		[haha]
+		[template_00144])
+	(Machine-Readable^Template^Code "For every instance I1 of {Class B} ,  if the value of {Slot B 0} contains instance I2 of class {Class A B 0} , they  must share the same value in {Slot B 1} for I1 and {Slot A 0} for I2.")
+	(Sample^Usage "Example: Every student project that is a continuation of a previous project has the same starting data available as the final data available of the previous project. <=> For every instance I1 of Class Project, if the value of  Slot continuation-of contains instance I2 of Class Project, they must share the same value in Slot starting-data : Class Project of I1 and Slot final-data : Class Project of I2.")
+	(Axiom^Translation "(defrange ?{Class A} :FRAME {Class A})\n(defrange ?{Class B} :FRAME {Class B}) \n^(forall ?{Class A}\n     (forall ?{Class B}\n	(=> ({Slot B 0} ?{Class B} ?{Class A})\n               (= ({Slot A 0} ?{Class A}) ({Slot B 1} ?{Class B})))))")
+	(Difficulty^Level 7))
+
+([For^every^instance^I1^of^class^___,^if^the^value^of^slot^___^is^an^instance^of^I2,^then^there^is^an^instance^of^class^___^that^contains^I1^in^slot^___^and^I2^in^slot^___.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[template2_00030]
+		[hamster]
+		[haha]
+		[template_00144])
+	(Machine-Readable^Template^Code "For every instance I1 of {Class A} , if the value of {Slot A 0} is an instance I2 of {Class B A 0} , then there is an instance of {Class C} that contains I1 in {Slot C 0} and I2 in {Slot C 1}.")
+	(Sample^Usage "For any shuttle bus stop and any neighbor bus stop, there is a particular route that has both stops. <=> For every instance I1 of Class Bus_stop, if the value of slot adjacent_stop : Class Bus_stop has instance I2 of Class Bus_stop , then there is an instance of Class Route that contains I1 in Slot stops: Class Route and I2 in Slot stops: Class Route.")
+	(Axiom^Translation "(defrange ?{Class A}1 :FRAME {Class A})\n(defrange ?{Class B}2 :FRAME {Class B})\n(defrange ?{Class C}3 :FRAME {Class C})\n^(forall ?{Class A}1 \n       (forall ?{Class B}2\n            (exists ?{Class C}3\n                  (=> ({Slot A 0} ?{Class A}1 ?{Class B}2)\n                         (and ({Slot C 0} ?{Class C}3 ?{Class A}1)\n                                   ({Slot C 1} ?{Class C}3 ?{Class B}2))))))")
+	(Difficulty^Level 8))
+
+([For^every^instance^I1^of^class^___,^there^must^be^an^instance^I2^of^class^___^that^contains^I1^in^slot^___.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[haha]
+		[template_00144])
+	(Machine-Readable^Template^Code "For every instance I1 of {Class A B 0}, there must be an instance I2 of {Class B} that contains I1 in {Slot B 0}. ")
+	(Sample^Usage "Every student is an advisee of a professor <=> For every instance I1 of Class Student, there must be an instance I2 of Class Professor that contains I1 in slot advisee: Class Professor.")
+	(Axiom^Translation "(defrange ?{Class A}1 :FRAME {Class A})\n(defrange ?{Class B}2 :FRAME {Class B})\n^(forall ?{Class A}1 \n       (exists ?{Class B}2\n             ({Slot B 0} ?{Class B}2 ?{Class A}1)))")
+	(Difficulty^Level 4))
+
+([For^every^instance^of^class^___,^slot^___^and^slot^___^must^have^instances^of^the^same^class] of Template^MetaClass
+	(Verified FALSE)
+	(Properties [hamster])
+	(Machine-Readable^Template^Code "For every instance of {Class A} , {Slot A 0} and {Slot A 1} must have instances of the same class.")
+	(Sample^Usage "The advisor an honor thesis and the student must be from the same department. <=> For every instance of Class Honor-Thesis, Slot advisor : Class Honor-Thesis and Slot student : Class Honor-Thesis must have instances of the same class.")
+	(Axiom^Translation "(defrange ?{Class A} :FRAME {Class A})\n^(forall ?{Class A} \n     (= (get-class ({Slot A 0} ?{Class A})) (get-class ({Slot A 1} ?{Class A}))))")
+	(Difficulty^Level 4))
+
+([For^every^instance^of^class^___,^slot^___^must^have^values^that^are^instances^of^classes^specified^by^slot^___] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[template2_00030]
+		[hamster])
+	(Machine-Readable^Template^Code "For every instance of {Class A} , {Slot A 0} must have values that are instances of classes specified by {Slot A 1}.")
+	(Sample^Usage "Students are only allowed to take courses offered by their departments.\n<=>For every instance of Class Student, Slot courses-in-progress : Class Student must have values that are instances of classes specified by Slot program : Class Department.")
+	(Axiom^Translation "(defrange ?{Class A} :FRAME {Class A})\n^(forall ?{Class A}\n         (direct-instance-of ({Slot A 0} {Class A}) ({Slot A 1} {Class A})))")
+	(Difficulty^Level 7))
+
+([For^every^instance^of^class^___,^slots^___^and^___^cannot^have^the^same^value.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[template2_00030]
+		[hamster])
+	(Machine-Readable^Template^Code "For every instance of {Class A} , {Slot A 0} and {Slot A 1} cannot have the same value")
+	(Sample^Usage "A student does not have an activity he both likes an dislikes.\n<=>For every instance of Class Student, Slot favorite-activities : Class Student and Slot disliked-activities : Class Student cannot have the same value.")
+	(Axiom^Translation "(defrange ?{Class A} :FRAME {Class A})\n^(forall ?{Class A}\n        (=> (and (own-slot-not-null {Slot A 0} ?{Class A}) \n                        (own-slot-not-null {Slot A 1} ?{Class A}))\n                (not (= ({Slot A 0} ?{Class A}) ({Slot A 1} ?{Class A})))))")
+	(Difficulty^Level 2))
+
+([For^every^instance^of^class^___,^value^of^slot^___^must^be^(>,=,<)^than^the^value^of^slot^___.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties [hamster])
+	(Machine-Readable^Template^Code "For every instance of {Class A} , value of {Slot A 0} must be {Equality e} than the value of {Slot A 1}.")
+	(Sample^Usage "The number of courses a student can take is limited by his course-tuition units.\n<=>For every instance of Class Student, Slot num-courses : Class Student contains the number of values less than or equal to the value of Slot tuition-units: Class Student.")
+	(Axiom^Translation "(defrange ?{Class A} :FRAME {Class A})\n^(forall ?{Class A} \n             ({Equality e} ( {Slot A 0} ?{Class A}) ({Slot A 1} ?{Class A})))")
+	(Difficulty^Level 4))
+
+([For^every^instance^of^class___,^value^of^slot^___^must^also^be^a^value^of^slot^___^of^an^instance^of^class^___] of Template^MetaClass
+	(Verified TRUE)
+	(Properties [haha])
+	(Machine-Readable^Template^Code "For every instance of {Class A}, value of {Slot A 0} must also be a value of {Slot B 0} of an instance of {Class B}.")
+	(Sample^Usage "Every research project conducted by an undergraduate student must be offered by a department. <=>For every isntance of Class Student, value of slot Project: Class Student must also be a value of slot Projects : Department of an instance of class Department.")
+	(Axiom^Translation "(defrange ?{Class A} :FRAME {Class A})\n(defrange ?{Class B} :FRAME {Class B})\n^(forall ?{Class A} \n       (exists ?{Class B}\n             (= ({Slot A 0} ?{Class A}) ({Slot B 0} ?{Class B}))))\n            \n")
+	(Difficulty^Level 6))
+
+([For^every^instances^of^class^___,^slot^___^cannot^contain^both^instances^of^class^___^and^___.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties [hamster])
+	(Machine-Readable^Template^Code "For every instances of {Class A}, {Slot A 0} cannot contain both instances of class {Class B} and {Class C}.")
+	(Sample^Usage "An Entree cannot be recommended to both meat-eaters and vegetarians. <=>For every instances of Class Food, Slot recommended-to : Class Food cannot contain both instances of Class Carnivore and Class Herbivore.")
+	(Axiom^Translation "(defrange ?{Class A} :FRAME {Class A})\n(defrange ?{Class B} :FRAME {Class B})\n(defrange ?{Class C} :FRAME {Class C})\n^(forall ?{Class A} \n       (forall ?{Class B}\n            (forall ?{Class C}\n                 (not (and ({Slot A 0} ?{Class A} ?{Class B})\n	     ({Slot A 0} ?{Class A} ?{Class C}))))))")
+	(Difficulty^Level 6))
+
+([g] of Property
+	(Property^Name "A condition constrains values of a slot for all instances of one class"))
+
+([haha] of Property
+	(Property^Name "Values of a slot contrain slot values for related instances"))
+
+([hamster] of Property
+	(Property^Name "Values of a slot constrain other slot values for the same instance"))
+
+([If^an^instance^of^class^___^contains^value^___^in^slot^___,^it^^must^contain^value^___^in^slot^___.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[template2_00030]
+		[hamster])
+	(Machine-Readable^Template^Code "Every instance of {Class A} whose {NVariation A 0} must have {NVariation A 1} .")
+	(Sample^Usage "A student who has fewer than 180 units or who has not completed the distribution requirement cannot graduate <=> Every instance of Class Student whose Slot units-completed : Class Student has value < 180 OR Slot distribution-completed : Class student has false must have Slot is-graduating : Class student has false.")
+	(Axiom^Translation "(defrange ?{Class A} :FRAME {Class A})\n^(forall ?{Class A} \n        (=> {NVariation A 0}\n                {NVariation A 1}))")
+	(Difficulty^Level 3))
+
+([If^instance^I1^of^class^___^has^instance^I2^of^class^___^in^slot^___^of^I1,^and^I2^has^instance^I3^of^class^___^in^slot^___^of^I2,^then^I3^must/cannot^have^I1^in^slot^___^.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[template2_00030]
+		[hamster]
+		[haha]
+		[template_00144])
+	(Machine-Readable^Template^Code "If instance I1 of {Class A} has an instance I2 of {Class B A 0} in {Slot A 0} of I1, and I2 has instance I3 of {Class C B 0} in {Slot B 0} of I2, then I3 {Boolean b1} have I1 in slot {Slot C 0} .")
+	(Sample^Usage "If student A is a peer advisor of student B, and student B is a peer advisor of student C, then student C cannot be a peer advisor of student A.<=>If instance I1 of Class Student has instance I2 of Class Student in Slot peer-advisor-of : Class Student, and I2 has an instance I3 of Class Student in Slot peer-advisor-of : Class Student, then I3 cannot have I1 in Slot peer-advisor-of : Class Student.")
+	(Axiom^Translation "(defrange ?{Class A}1 :FRAME {Class A})\n(defrange ?{Class B}2 :FRAME {Class B})\n(defrange ?{Class C}3 :FRAME {Class C})\n^(forall ?{Class A}1 (forall ?{Class B}2 (forall ?{Class C}3 \n             (=> (and ({Slot A 0} ?{Class A}1 ?{Class B}2)\n	({Slot B 0} ?{Class B}2 ?{Class C}3))\n                    ({Boolean b1} ({Slot C 0} ?{Class C}3 ?{Class A}1))))))")
+	(Difficulty^Level 9))
+
+([If^Instance^I1of^class^___^has^slot^___^that^contains^value^___,^then^I2^of^class^___^must/cannot^contain^I1^in^slot^___.^] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[haha]
+		[template_00144])
+	(Machine-Readable^Template^Code "If Instance I1 of {Class B A 0} has {Value B 0}, then I2 of {Class A} {Boolean b1} contain I1 in {Slot A 0}. ")
+	(Sample^Usage "An upper-division course can only be taken by advanced undergraduate students. <=> If Instance I1of Class Course has Slot advanced: Class Course that contains value \"yes\", then I2 of Class Undergrad cannot contain I1 in Slot Courses: Class Undergrad. ")
+	(Axiom^Translation "(defrange ?{Class A} :FRAME {Class A})\n(defrange ?{Class B} :FRAME {Class B})\n^(forall ?{Class A}\n       (forall ?{Class B}\n             (=> ({Slot A 0} ?{Class A} ?{Class B})\n                           ({Boolean b1} {Value B 0}))))")
+	(Difficulty^Level 7))
+
+([IFor^every^instance^I1^of^class^___,^if^the^value^of^slot^___^has^an^instance^I2^of^class^___,^I2^must^have^value^___^in^slot^___.] of Template^MetaClass
+	(Verified TRUE)
+	(Properties
+		[haha]
+		[template2_00030]
+		[template_00144])
+	(Machine-Readable^Template^Code "For every instance I1 of {Class A} , if the value of {Slot A 0} has instance I2 of {Class B A 0}, I2 has {NVariation B 0}. ")
+	(Sample^Usage "A computer scientist only works in an office with computer in it. <=> For every instance I1 of Class Computer_Scientist, if the slot work_place : Class Computer_Scientist contains an Instance I2 of Class Office, I2 must have value \"true\" in slot has_computer: Class Office.")
+	(Axiom^Translation "(defrange ?{Class A} :FRAME {Class A})\n(defrange ?{Class B} :FRAME {Class B})\n^(forall ?{Class A} \n       (forall ?{Class B}\n             (=> ({Slot A 0} ?{Class A} ?{Class B})\n                    {NVariation B 0})))")
+	(Difficulty^Level 7))
+
+([Template] of Template^MetaClass)
+
+([template2_00030] of Property
+	(Property^Name "Multiple constraining slots or multiple constrained slots"))
+
+([template_00144] of Property
+	(Property^Name "new feature"))

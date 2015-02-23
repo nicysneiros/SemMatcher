@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.owl-ontologies.com/Ontology1217266757.owl#"
+  xml:base="http://www.owl-ontologies.com/Ontology1217266757.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Carnivore">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Animal"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Sheep">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Herbivore"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Dog">
+    <rdfs:subClassOf rdf:resource="#Carnivore"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cat">
+    <rdfs:subClassOf rdf:resource="#Carnivore"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Herbivore">
+    <rdfs:subClassOf rdf:resource="#Animal"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Horse">
+    <rdfs:subClassOf rdf:resource="#Herbivore"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Hyena">
+    <rdfs:subClassOf rdf:resource="#Carnivore"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BodyPart"/>
+  <owl:Class rdf:ID="Tail">
+    <rdfs:subClassOf rdf:resource="#BodyPart"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Eyes">
+    <rdfs:subClassOf rdf:resource="#BodyPart"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Brain">
+    <rdfs:subClassOf rdf:resource="#BodyPart"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Lion">
+    <rdfs:subClassOf rdf:resource="#Carnivore"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Skeleton">
+    <rdfs:subClassOf rdf:resource="#BodyPart"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="PartOf">
+    <rdfs:domain rdf:resource="#BodyPart"/>
+    <rdfs:range rdf:resource="#Animal"/>
+  </owl:ObjectProperty>
+  <Horse rdf:ID="Horse_1"/>
+  <Hyena rdf:ID="Hyena_1"/>
+  <Lion rdf:ID="Lion_1"/>
+  <Cat rdf:ID="Cat_2"/>
+  <Sheep rdf:ID="Sheep_2"/>
+  <Cat rdf:ID="Cat_1"/>
+  <Hyena rdf:ID="Hyena_2"/>
+  <Sheep rdf:ID="Sheep_1"/>
+  <Dog rdf:ID="Dog_2"/>
+  <Lion rdf:ID="Lion_2"/>
+  <Dog rdf:ID="Dog_1"/>
+  <Horse rdf:ID="Horse_2"/>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->

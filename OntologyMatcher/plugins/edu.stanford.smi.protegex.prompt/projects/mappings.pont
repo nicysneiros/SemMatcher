@@ -1,0 +1,406 @@
+; Mon Dec 20 16:54:06 PST 2004
+; 
+;+ (version "3.0")
+;+ (build "Build 107")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot mapping-name
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot on-demand
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot const-val
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot aux-source-classes-desc
+		(type INSTANCE)
+;+		(allowed-classes source-class-description)
+		(create-accessor read-write))
+	(multislot per-instance-pre-execute-code
+;+		(comment "ZP: Code is executed only if condition evaluates to true! ")
+		(type INSTANCE)
+;+		(allowed-classes executable-code)
+		(create-accessor read-write))
+	(multislot pre-execute-code
+		(type INSTANCE)
+;+		(allowed-classes executable-code)
+		(create-accessor read-write))
+	(single-slot code-name
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot code
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot target-slot
+		(type INSTANCE)
+;+		(allowed-classes target-slot-description)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot per-instance-post-execute-code
+;+		(comment "ZP: Code is executed only if condition evaluates to true! ")
+		(type INSTANCE)
+;+		(allowed-classes executable-code)
+		(create-accessor read-write))
+	(single-slot target-class
+		(type INSTANCE)
+;+		(allowed-classes target-class-description)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot mappings
+		(type INSTANCE)
+;+		(allowed-classes instance-mapping)
+		(create-accessor read-write))
+	(single-slot source-slot
+		(type INSTANCE)
+;+		(allowed-classes source-slot-description)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot slot-maps
+		(type INSTANCE)
+;+		(allowed-classes slot-mapping)
+		(create-accessor read-write))
+	(single-slot condition
+;+		(comment "value consists of an optional language spec prefix, followed by the expr to eval.\nE.g.: \"<LANG:TCL>(< *<.size>* 5)\"")
+		(type STRING)
+		(default "t")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot append-slotmap-values%3F
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot slot-map-name
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot post-execute-code
+		(type INSTANCE)
+;+		(allowed-classes executable-code)
+		(create-accessor read-write))
+	(single-slot reverse-mapping
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot language
+		(type SYMBOL)
+		(allowed-values TCL Python)
+		(default Python)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot subclasses-accepted%3F
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot global-source-slot
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot source-class-desc
+		(type INSTANCE)
+;+		(allowed-classes source-class-description)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot name_
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot apply-to-subclass-instances%3F
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot source-slot-composition
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot global-target-slot
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass GLOBAL-MAPPING-METACLASS
+	(is-a %3ASTANDARD-CLASS)
+	(role concrete)
+	(single-slot %3ADIRECT-INSTANCES
+		(type INSTANCE)
+;+		(allowed-classes %3ATHING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass mapping
+	(is-a USER)
+	(role abstract)
+	(multislot pre-execute-code
+		(type INSTANCE)
+;+		(allowed-classes executable-code)
+		(create-accessor read-write))
+	(multislot post-execute-code
+		(type INSTANCE)
+;+		(allowed-classes executable-code)
+		(create-accessor read-write)))
+
+(defclass slot-mapping "MC: Should we factor source-slot here, declined to have 0, 1 or multiple values depending on subclasses?\nActually, should be called \"source-slots\"."
+	(is-a mapping)
+	(role abstract)
+	(single-slot target-slot
+		(type INSTANCE)
+;+		(allowed-classes target-slot-description)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot append-slotmap-values%3F
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot slot-map-name
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass renaming-slot-mapping
+	(is-a slot-mapping)
+	(role concrete)
+	(single-slot source-slot
+		(type INSTANCE)
+;+		(allowed-classes source-slot-description)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass constant-slot-mapping
+	(is-a slot-mapping)
+	(role concrete)
+	(single-slot const-val
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass lexical-slot-mapping
+	(is-a slot-mapping)
+	(role concrete)
+	(single-slot source-slot-composition
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass functional-slot-mapping
+	(is-a slot-mapping)
+	(role concrete)
+	(single-slot source-slot-composition
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot language
+		(type SYMBOL)
+		(allowed-values TCL Python)
+		(default Python)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass recursive-slot-mapping "source-slot must refer to a slot that contains instances, for a recursive-slot-map to work!"
+	(is-a slot-mapping)
+	(role concrete)
+	(single-slot subclasses-accepted%3F
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3ADOCUMENTATION
+		(type STRING)
+;+		(value "\"source-slot\" must refer to a slot that contains an instance (or several) of the \"source-class\" for the specified instance mappings. If \"Subclasses Accepted\" is checked, then subclasses of an instance mapping's \"source class\" will also be accepted.")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot mappings
+		(type INSTANCE)
+;+		(allowed-classes instance-mapping)
+		(create-accessor read-write))
+	(single-slot source-slot
+		(type INSTANCE)
+;+		(allowed-classes source-slot-description)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass instance-mapping "MC: factored slot-maps at this level. Why do we need source-class-desc, just for the \"inherit\" flag?"
+	(is-a mapping)
+	(role concrete)
+	(multislot pre-execute-code
+		(type INSTANCE)
+;+		(allowed-classes global-scope-code)
+		(create-accessor read-write))
+	(multislot post-execute-code
+		(type INSTANCE)
+;+		(allowed-classes global-scope-code)
+		(create-accessor read-write))
+	(multislot slot-maps
+		(type INSTANCE)
+;+		(allowed-classes slot-mapping)
+		(create-accessor read-write))
+	(single-slot mapping-name
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot on-demand
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot condition
+;+		(comment "value consists of an optional language spec prefix, followed by the expr to eval.\nE.g.: \"<LANG:TCL>(< *<.size>* 5)\"")
+		(type STRING)
+		(default "t")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot per-instance-pre-execute-code
+;+		(comment "ZP: Code is executed only if condition evaluates to true! ")
+		(type INSTANCE)
+;+		(allowed-classes executable-code)
+		(create-accessor read-write))
+	(multislot aux-source-classes-desc
+		(type INSTANCE)
+;+		(allowed-classes source-class-description)
+		(create-accessor read-write))
+	(single-slot reverse-mapping
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot per-instance-post-execute-code
+;+		(comment "ZP: Code is executed only if condition evaluates to true! ")
+		(type INSTANCE)
+;+		(allowed-classes executable-code)
+		(create-accessor read-write))
+	(single-slot source-class-desc
+		(type INSTANCE)
+;+		(allowed-classes source-class-description)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot target-class
+		(type INSTANCE)
+;+		(allowed-classes target-class-description)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot apply-to-subclass-instances%3F
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass global-mapping
+	(is-a mapping)
+	(role concrete)
+	(multislot pre-execute-code
+		(type INSTANCE)
+;+		(allowed-classes global-scope-code)
+		(create-accessor read-write))
+	(multislot post-execute-code
+		(type INSTANCE)
+;+		(allowed-classes global-scope-code)
+		(create-accessor read-write))
+	(single-slot %3ADOCUMENTATION
+		(type STRING)
+;+		(value "Do not create more than one instance of this class!")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3ANAME
+		(type STRING)
+		(default "Global Mapping")
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass global-slot-mapping
+	(is-a mapping)
+	(role concrete)
+	(single-slot global-source-slot
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot global-target-slot
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass executable-code
+	(is-a USER)
+	(role abstract)
+	(single-slot %3ADOCUMENTATION
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot code-name
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot code
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot language
+		(type SYMBOL)
+		(allowed-values TCL Python)
+		(default Python)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass instance-scope-code "*<class.slot>* lexical expansions are valid within these code blocks."
+	(is-a executable-code)
+	(role concrete)
+	(single-slot %3ADOCUMENTATION
+		(type STRING)
+;+		(value "*<class.slot>* lexical expansions are valid within this code block.")
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass global-scope-code "*<class.slot>* syntax is NOT valid within these code blocks."
+	(is-a executable-code)
+	(role concrete)
+	(single-slot %3ADOCUMENTATION
+		(type STRING)
+;+		(value "*<class.slot>* syntax is NOT valid within this code block.")
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass frame-description
+	(is-a USER)
+	(role abstract)
+	(single-slot name_
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass source-class-description
+	(is-a frame-description)
+	(role concrete))
+
+(defclass source-slot-description
+	(is-a frame-description)
+	(role concrete))
+
+(defclass target-class-description
+	(is-a frame-description)
+	(role concrete))
+
+(defclass target-slot-description
+	(is-a frame-description)
+	(role concrete))

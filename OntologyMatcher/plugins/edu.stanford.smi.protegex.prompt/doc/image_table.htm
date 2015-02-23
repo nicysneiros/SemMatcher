@@ -1,0 +1,157 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>The Image Table</title>
+</head>
+
+<body>
+
+<h1><img src="images/serving_nerd.gif" width="48" height="48"> &nbsp;The Image
+Table<br>
+<img src="images/header_line.gif" width="590" height="6"></h1>
+
+<p>For <a href="compare_mode.htm">compare mode</a>, the Prompt tab consists of a single window, the Image
+table, which shows all the frames in the two compared projects and lists the
+similarities and differences. This interface is informational only; you cannot
+edit or change any project from the Image Table.</p>
+
+<p>The Image Table consists of columns listing information about the
+relationship of frames in the old and new ontologies. In addition, the Image
+Table buttons allow you to view, but not edit, further information about the
+highlighted row. You can use the information in the Image Table, along with your
+own knowledge of your project, to determine what changes have been made between
+the versions.</p>
+
+<p><b>Note: </b>If you are familiar with UNIX, note that the functionality is intended to be similar to
+the UNIX tool <code>diff</code>, but is based on the ontological structure of the project,
+rather than the line-by-line difference between the files. Additional
+information is given to indicate the heuristics Prot&eacute;g&eacute; has used
+to make the determination.</p>
+
+<p><img border="0" src="images/compare_mode.gif" width="1020" height="556"></p>
+
+<h2>Image Table Columns</h2>
+
+<p>The Image Table shows the result of the compare operation. The first two
+columns show the frames in the old and new versions. If there are frames in both
+columns, the other columns show the relationship between the two frames and the
+reason they have been identified. If there is a frame in only one of the first
+two columns, the other columns tell whether that frame has been removed or
+added.</p>
+
+<h3>f1</h3>
+<p>This column lists all the frames in the old version of the ontology. Frames
+that have been changed in some way (added, removed, renamed, etc.) are displayed
+at the top of the list. If there is no corresponding frame in f2, the frame has
+been removed.</p>
+
+<h3>f2</h3>
+<p>This column lists all the frames in the new version of the ontology. Frames
+that have been changed in some way (added, removed, renamed, etc.) are displayed
+at the top of the list. If there is no corresponding frame f1, the frame has
+been added.</p>
+
+<h3>renamed</h3>
+
+<p>A Yes in this column indicates that Prot&eacute;g&eacute; suggests that the
+two frames in columns f1 and f2 correspond to each other, except for a name
+change. This correspondence is based on simple heuristics, described in the
+rename explanation column.</p>
+
+<h3>operation</h3>
+
+<p>The operation column summarizes how the frames in columns f1 and f2 are
+related. If there are frames in both columns, then the identification is Map. If
+there is a frame in f1 but none in f2, then the action has been to Remove the
+frame. If there is no frame in f1, but one in f2, then the action was Add.</p>
+
+<h3>map level</h3>
+<p>Indicates how closely the frames in f1 and f2 match. The levels are as
+follows:</p>
+<table border="0" width="100%">
+  <tr>
+    <td width="24%"><b>Level</b></td>
+    <td width="76%"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td width="24%" valign="top">Changed</td>
+    <td width="76%">Some essential attribute has changed.&nbsp;
+      <p>Examples:<br>
+      A class which has a different number of slots in the two versions<br>
+      A class which has the same number of slots in both versions, but has at
+      least one slot which is neither matches nor is isomorphic to any slot in
+      the changed class.&nbsp;</p>
+      <p>Changed frames are strongly different in the two versions and should be
+      looked at for version reconciliation.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="24%" valign="top">Isomorphic</td>
+    <td width="76%">The frames in the two versions are matched, but there is
+      some difference in how they are presented or structured in the two
+      versions.&nbsp;
+      <p>Examples:<br>
+      Two frames that have the same names and the same direct information, but
+      now have different metaslots; in this case, they would have different
+      template slots and would look different.<br>
+      Two classes that have the same names, the same number of slots, but there
+      is a slot that has a different name in the two versions.&nbsp;</p>
+      <p>Isomorphic frames are superficially different in the two versions, and
+      you may want to examine them to verify their similarity.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="24%" valign="top">Unchanged</td>
+    <td width="76%">The frame name and all attributes are unchanged.
+      <p>There is no reason to examine Unchanged frames.</p>
+    </td>
+  </tr>
+</table>
+<p>If one of the columns is blank, no explanation is given.</p>
+
+<h3>rename explanation</h3>
+
+<p>If there is a Yes in the renamed column, gives the reason Prot&eacute;g&eacute;
+suggests that a frame in the new ontology is a renaming of a frame with a
+different name in the old ontology.&nbsp;&nbsp;</p>
+
+<h3>operation explanation</h3>
+
+<p>If the frames are Changed or Isomorphic, gives the reason.</p>
+
+<h2>Image Table Buttons</h2>
+<p>The buttons at the upper right of the Image table allow you to view more
+information about a highlighted item:</p>
+<table border="0" width="100%">
+  <tr>
+    <td width="7%" valign="top"><img border="0" src="images/View.gif" width="15" height="15"></td>
+    <td width="93%"><b>View button: </b>Displays a view-only version of the
+      Class, Slot, or Instance form for the selected frame(s). No changes can be
+      made.</td>
+  </tr>
+  <tr>
+    <td width="7%" valign="top"><img border="0" src="images/BackReferences.gif" width="13" height="13"></td>
+    <td width="93%"><b>Back-references button:</b> For each ontology, displays
+      the list <font size="3">of all the frames in the original ontology that reference the highlighted
+        frame.&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td width="7%" valign="top"><img border="0" src="images/Source.gif" width="15" height="15"></td>
+    <td width="93%"><b>Show Sources button:</b> Displays the <a href="source_bases.htm"> Source Knowledge
+      Bases window</a>, which shows the source ontologies. The frames which are
+      highlighted in the Image table are also highlighted here.&nbsp;</td>
+  </tr>
+</table>
+
+<hr>
+
+<p><font size="3">Next: </font><a href="source_bases.htm">The Source Knowledge Bases Window</a></p>
+
+<p><font size="3"><a href="index.html">Prompt Table of Contents</a></font></p>
+
+</body>
+
+</html>

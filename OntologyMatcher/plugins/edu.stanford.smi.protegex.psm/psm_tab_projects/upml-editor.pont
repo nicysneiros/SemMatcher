@@ -1,0 +1,1216 @@
+; Mon Jan 31 13:48:06 PST 2005
+; 
+;+ (version "3.0")
+;+ (build "Build 124")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot description
+;+		(comment "An account of the content of the resource.\nDescription may include but is not limited to: an abstract, table of contents, reference to a graphical representation of content or a free-text account of the content.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot ontologies
+		(type INSTANCE)
+;+		(allowed-classes Ontology)
+		(create-accessor read-write))
+	(single-slot inference-structure
+		(type INSTANCE)
+;+		(allowed-classes InferenceStructure)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot communication
+;+		(comment "Communication holds a PSM's communication policy. ")
+		(type INSTANCE)
+;+		(allowed-classes Communication)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot format
+;+		(comment "The physical or digital manifestation of the resource.\nTypically, Format may include the media-type or dimensions of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Examples of dimensions include size and duration.\nRecommended best practice is to select a value from a controlled vocabulary (for example, the list of Internet Media Types [MIME] defining computer media formats).")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot signature-elements
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+		(create-accessor read-write))
+	(multislot task-domain-bridges
+;+		(comment "This bridge type instantiates tasks for specific domains and enables therefore their domain-independent and reusable description.")
+		(type INSTANCE)
+;+		(allowed-classes TaskDomainBridge)
+		(create-accessor read-write))
+	(multislot application-descriptors
+		(type INSTANCE)
+;+		(allowed-classes PragmaticsDescriptor)
+		(create-accessor read-write))
+	(multislot psm-task-bridges
+;+		(comment "This bridge type instantiates problem-solving methods for specific tasks and enables therefore their task-independent and reusable description.")
+		(type INSTANCE)
+;+		(allowed-classes PSMTaskBridge)
+		(create-accessor read-write))
+	(multislot reasoning-resources
+;+		(comment "Reasoning resources is one of the two types of Problems-solving methods in UPML that make assumptions about domain knowledge to perform a primitive reasoning step. They do not describe its internal structure, which is regarded as an implementational aspect not of any interest for the architectural specification of the knowledge-based system. Reasoning resources replace problem-solving methods from the previous version of UPML 1.0.")
+		(type INSTANCE)
+;+		(allowed-classes ReasoningResource)
+		(create-accessor read-write))
+	(multislot reasoning-resource-refiners
+		(type INSTANCE)
+;+		(allowed-classes ReasoningResourceRefiner)
+		(create-accessor read-write))
+	(single-slot subject
+;+		(comment "The topic of the content of the resource.\nTypically, a Subject will be expressed as keywords, key phrases or classification codes that describe a topic of the resource. Recommended best practice is to select a value from a controlled vocabulary or formal classification scheme.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot properties
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(single-slot output-from
+		(type INSTANCE)
+;+		(allowed-classes PSM Task)
+;+		(cardinality 0 1)
+;+		(inverse-slot output-roles)
+		(create-accessor read-write))
+	(multislot output-roles
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+;+		(inverse-slot output-from)
+		(create-accessor read-write))
+	(single-slot date
+;+		(comment "A date associated with an event in the life cycle of the resource.\nTypically, Date will be associated with the creation or\navailability of the resource.  Recommended best practice\nfor encoding the date value is defined in a profile of ISO 8601 [W3CDTF] and follows the YYYY-MM-DD format.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot programs
+		(type INSTANCE)
+;+		(allowed-classes Program)
+		(create-accessor read-write))
+	(multislot task-refiners
+		(type INSTANCE)
+;+		(allowed-classes TaskRefiner)
+		(create-accessor read-write))
+	(multislot inference-nodes
+		(type INSTANCE)
+;+		(allowed-classes InferenceNode)
+		(create-accessor read-write))
+	(multislot domain-models
+		(type INSTANCE)
+;+		(allowed-classes DomainModel)
+		(create-accessor read-write))
+	(multislot problem-decomposer-refiners
+		(type INSTANCE)
+;+		(allowed-classes ProblemDecomposerRefiner)
+		(create-accessor read-write))
+	(multislot input-roles
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+;+		(inverse-slot input-to)
+		(create-accessor read-write))
+	(multislot input-to
+		(type INSTANCE)
+;+		(allowed-classes PSM Task)
+;+		(inverse-slot input-roles)
+		(create-accessor read-write))
+	(multislot tasks
+;+		(comment "The task specifies the problem that is solved by the knowledge-based system. Contrary to most approaches in software engineering this problem definition is kept domain independent, which enables the reuse of generic problem definitions for different applications. It defines the problem in terms of goals that should be achieved and the definition of assumptions about domain knowledge and preconditions on the input. The input and output roles of the task define its roles in the knowledge system. Input roles specify input of case data and output roles specify output of case data.")
+		(type INSTANCE)
+;+		(allowed-classes Task)
+		(create-accessor read-write))
+	(multislot assumptions
+;+		(comment "Assumptions of a component describe the context in which it can be applied properly. The assumptions of a task characterize the properties that a domain model must have in order to guarantee that the task can be solved. If these assumptions are minimal then they represent necessary conditions for task fulfillment. The assumptions of a reasoning resource characterize the properties that a domain model must have in order to guarantee that the problem-solving method behaves properly. Assumptions of a domain model characterize the properties that a domain must have in order to be described properly by the domain model.")
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(single-slot node_slot
+		(type INSTANCE)
+;+		(allowed-classes %3ASTANDARD-SLOT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot problem-decomposers
+;+		(comment "Problem decomposers are one of the two types of Problems-solving methods in UPML that decompose a task into subtasks and infer reasoning resources to solve that task. Problem decomposers replace complex problem-solving methods from the previous version of UPML 1.0.")
+		(type INSTANCE)
+;+		(allowed-classes ProblemDecomposer)
+		(create-accessor read-write))
+	(single-slot language
+;+		(comment "A language of the intellectual content of the resource. Recommended best practice for the values of the Language\nelement is defined by RFC 1766 [RFC1766] which includes a two-letter Language Code (taken from the ISO 639\nstandard [ISO639]), followed optionally, by a two-letter Country Code (taken from the ISO 3166 standard [ISO3166]). \nFor example, 'en' for English, 'fr' for French, or  'en-uk' for English used in the United Kingdom.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot intermediate-roles
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+		(create-accessor read-write))
+	(single-slot value
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot out
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot operational-description
+;+		(comment "The operational description of a problem-solving method provides the description of the actual reasoning process of the method. It explains how the desired competence can be achieved. It defines the data and control flow between the main reasoning steps so as to achieve the functionality of the problem-solving method with a program.")
+		(type INSTANCE)
+;+		(allowed-classes OperationalDescription)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot program
+;+		(comment "Program is a program that defines the control structure over the subtasks of a Problem Decomposer, using a given object language. ")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot ontology-refiners
+		(type INSTANCE)
+;+		(allowed-classes OntologyRefiner)
+		(create-accessor read-write))
+	(single-slot publisher
+;+		(comment "An entity responsible for making the resource available\nExamples of a Publisher include a person, an organisation, or a service.\nTypically, the name of a Publisher should be used to\nindicate the entity.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot axioms
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(single-slot argument1
+		(type INSTANCE)
+;+		(allowed-classes Concept)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot signature
+;+		(comment "The Signature lists the ontological elements that are used by a component. ")
+		(type INSTANCE)
+;+		(allowed-classes Signature)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot pragmatics
+;+		(comment "Pragmatics holds the attributes that describe practical information about a component. This description includes all the descriptors recommended by the Dublin Core metadata recommendation and allows a user to define his own specific application descriptors in the form of the pairs descriptor name-descriptor value.")
+		(type INSTANCE)
+;+		(allowed-classes Pragmatics)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot psm-domain-bridges
+;+		(comment "This bridge type instantiates problem-solving methods for specific domains and enables therefore their domain-independent and reusable description.")
+		(type INSTANCE)
+;+		(allowed-classes PSMDomainBridge)
+		(create-accessor read-write))
+	(single-slot rights-management
+;+		(comment "Information about rights held in and over the resource.\nTypically, a Rights element will contain a rights management statement for the resource, or reference a service providing such information. Rights information often encompasses Intellectual Property Rights (IPR), Copyright, and various Property Rights. If the Rights element is absent, no assumptions can be made about the status of these and other rights with respect to the resource.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot communication-policy
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot uses
+;+		(comment "Monotonic extension of a component. \nA component can import another component via the uses attribute. This way, it can make use its imported definitions and monotonically refine and extend them. In this case, the uses relationship is not modeled by an explicit entity in the UPML specification but rather via an attribute of an existing component (the one that imports another component).\n")
+		(type INSTANCE)
+;+		(allowed-classes Entity)
+		(create-accessor read-write))
+	(multislot postconditions
+;+		(comment "Postconditions define necessary properties that a state must fulfil after a problem-solving method has terminated.")
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(single-slot where-and-when-be-used
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot argument2
+		(type INSTANCE)
+;+		(allowed-classes Concept)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot renamings
+;+		(comment "Renaming defines the naming correspondence between two elements of a signature and they are used in Adapters. ")
+		(type INSTANCE)
+;+		(allowed-classes Renaming)
+		(create-accessor read-write))
+	(multislot subtasks
+;+		(comment "\n")
+		(type INSTANCE)
+;+		(allowed-classes Task)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(multislot mapping-axioms
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(single-slot name_
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot preconditions
+;+		(comment "Preconditions define necessary properties an input must fulfill to ensure that a component can be applied to or a task is well defined (i.e., solvable). They must either be checked during runtime or if the input is provided as output by another component one has to check during system development that its postcondition fulfils the precondition.")
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(multislot knowledge
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(single-slot evaluation
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot resource-type
+;+		(comment "The nature or genre of the content of the resource. \nType includes terms describing general categories, functions,\ngenres, or aggregation levels for content. Recommended best practice is to select a value from a controlled vocabulary (for example, the working draft list of Dublin Core Types  [DCT1]). To describe the physical or digital manifestation of the resource, use the FORMAT element.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot relation
+;+		(comment "A reference to a related resource.\nRecommended best practice is to reference the resource by means of a string or number conforming to a formal identification system.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot documentation
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot theorems
+;+		(comment "\n")
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(multislot arcs
+		(type INSTANCE)
+;+		(allowed-classes UPMLConnector)
+		(create-accessor read-write))
+	(single-slot resource-identifier
+;+		(comment "An unambiguous reference to the resource within a given context.\nRecommended best practice is to identify the resource by means of a string or number conforming to a formal identification system. \nExample formal identification systems include the Uniform\nResource Identifier (URI) (including the Uniform Resource Locator (URL)), the Digital Object Identifier (DOI) and the International Standard Book Number (ISBN).")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot domain-refiners
+		(type INSTANCE)
+;+		(allowed-classes DomainRefiner)
+		(create-accessor read-write))
+	(single-slot control-structure
+		(type INSTANCE)
+;+		(allowed-classes ControlStructure)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot source
+;+		(comment "A Reference to a resource from which the present resource\nis derived.\nThe present resource may be derived from the Source resource in whole or in part.  Recommended best practice is to reference the resource by means of a string or number conforming to a formal identification system.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot metaknowledge
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(single-slot other-contributor
+;+		(comment "An entity responsible for making contributions to the\ncontent of the resource.\nExamples of a Contributor include a person, an organisation, or a service.\nTypically, the name of a Contributor should be used to\nindicate the entity.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot creator
+;+		(comment "An entity primarily responsible for making the content of  the resource. \nExamples of a Creator include a person, an organisation, or a service. Typically, the name of a Creator should be used to indicate the entity.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot in
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot title
+;+		(comment "A name given to the resource.\nTypically, a Title will be a name by which the resource is                 formally known.")
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot knowledge-roles
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+		(create-accessor read-write))
+	(multislot control-nodes
+		(type INSTANCE)
+;+		(allowed-classes ControNode)
+		(create-accessor read-write))
+	(single-slot formula
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot last-date-of-modification
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot competence
+;+		(comment "The competence description of a problem-solving method or a task provides a functional specification of it. It also introduces preconditions that restrict valid inputs and postconditions that describe the output of the method.")
+		(type INSTANCE)
+;+		(allowed-classes Competence)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Entity "The top-level ontology of UPML defines two basic classes: concept and binary relation, which both are subclasses of the Entity root class of UPML."
+	(is-a USER)
+	(role concrete))
+
+(defclass BinaryRelation "Binary Relation defines the interactions between UPML knowledge components. \nBinary relation is an abstract class from the top-level ontology of UPML; all adapters are described as subclasses of the Binary relation. Binary relation is introduced to separate the UPML components from binary relations between the components."
+	(is-a Entity)
+	(role abstract)
+	(single-slot argument2
+		(type INSTANCE)
+;+		(allowed-classes Concept)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot argument1
+		(type INSTANCE)
+;+		(allowed-classes Concept)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Adapter "The root binary relation of UPML is Adapter. Like UPML knowledge components, an Adapter has pragmatics information and refers to specific ontologies. It also holds renamings correspondence between the terms of both arguments.\nAdapters are necessary to adjust the (reusable) parts of a UPML library to each other and to the specific application problem. UPML provides two types of adapters: bridges and refiners."
+	(is-a BinaryRelation)
+	(role abstract)
+	(single-slot argument2
+		(type INSTANCE)
+;+		(allowed-classes KnowledgeComponent)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot argument1
+		(type INSTANCE)
+;+		(allowed-classes KnowledgeComponent)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot renamings
+;+		(comment "Renaming defines the naming correspondence between two elements of a signature and they are used in Adapters. ")
+		(type INSTANCE)
+;+		(allowed-classes Renaming)
+		(create-accessor read-write))
+	(multislot ontologies
+		(type INSTANCE)
+;+		(allowed-classes Ontology)
+		(create-accessor read-write))
+	(single-slot pragmatics
+;+		(comment "Pragmatics holds the attributes that describe practical information about a component. This description includes all the descriptors recommended by the Dublin Core metadata recommendation and allows a user to define his own specific application descriptors in the form of the pairs descriptor name-descriptor value.")
+		(type INSTANCE)
+;+		(allowed-classes Pragmatics)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Bridge "A Bridge connects two Knowledge Components of different kinds. A Bridge defines mapping axioms and additional assumptions about the components that it relates. \nBridges explicitly model the relationships between two distinguished knowledge components of the architecture, e.g. between domains and tasks or tasks and problem-solving methods.\nEach subrelation restricts possible values of the attributes argument1 and argument2, and redefines the uses attribute to ensure that the subrelation will be applicable only to the specific pair of components. Note that we do not define a bridge between the Ontology component and the other knowledge components, because this relationship is already part of the description of Task, PSM and Domain Model: Each has an inherited ontologies attribute that directly defines their universe of discourse."
+	(is-a Adapter)
+	(role abstract)
+	(single-slot argument2
+		(type INSTANCE)
+;+		(allowed-classes KnowledgeComponent)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot argument1
+		(type INSTANCE)
+;+		(allowed-classes KnowledgeComponent)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot mapping-axioms
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(multislot uses
+;+		(comment "Monotonic extension of a component. \nA component can import another component via the uses attribute. This way, it can make use its imported definitions and monotonically refine and extend them. In this case, the uses relationship is not modeled by an explicit entity in the UPML specification but rather via an attribute of an existing component (the one that imports another component).\n")
+		(type INSTANCE)
+;+		(allowed-classes Bridge)
+		(create-accessor read-write))
+	(multislot assumptions
+;+		(comment "Assumptions of a component describe the context in which it can be applied properly. The assumptions of a task characterize the properties that a domain model must have in order to guarantee that the task can be solved. If these assumptions are minimal then they represent necessary conditions for task fulfillment. The assumptions of a reasoning resource characterize the properties that a domain model must have in order to guarantee that the problem-solving method behaves properly. Assumptions of a domain model characterize the properties that a domain must have in order to be described properly by the domain model.")
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write)))
+
+(defclass PSMDomainBridge "PSM-Domain Bridge that connects a PSM with a Domain Model."
+	(is-a Bridge)
+	(role concrete)
+	(multislot uses
+;+		(comment "Monotonic extension of a component. \nA component can import another component via the uses attribute. This way, it can make use its imported definitions and monotonically refine and extend them. In this case, the uses relationship is not modeled by an explicit entity in the UPML specification but rather via an attribute of an existing component (the one that imports another component).\n")
+		(type INSTANCE)
+;+		(allowed-classes TaskDomainBridge PSMDomainBridge PSMTaskBridge)
+		(create-accessor read-write))
+	(single-slot argument2
+		(type INSTANCE)
+;+		(allowed-classes DomainModel)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot argument1
+		(type INSTANCE)
+;+		(allowed-classes PSM)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass PSMTaskBridge "PSM-Task Bridge that connects a PSM and a Task."
+	(is-a Bridge)
+	(role concrete)
+	(multislot uses
+;+		(comment "Monotonic extension of a component. \nA component can import another component via the uses attribute. This way, it can make use its imported definitions and monotonically refine and extend them. In this case, the uses relationship is not modeled by an explicit entity in the UPML specification but rather via an attribute of an existing component (the one that imports another component).\n")
+		(type INSTANCE)
+;+		(allowed-classes PSMTaskBridge)
+		(create-accessor read-write))
+	(single-slot argument2
+		(type INSTANCE)
+;+		(allowed-classes Task)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot argument1
+		(type INSTANCE)
+;+		(allowed-classes PSM)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass TaskDomainBridge "Task-Domain Bridge that connects a Task and a Domain Model."
+	(is-a Bridge)
+	(role concrete)
+	(multislot uses
+;+		(comment "Monotonic extension of a component. \nA component can import another component via the uses attribute. This way, it can make use its imported definitions and monotonically refine and extend them. In this case, the uses relationship is not modeled by an explicit entity in the UPML specification but rather via an attribute of an existing component (the one that imports another component).\n")
+		(type INSTANCE)
+;+		(allowed-classes TaskDomainBridge)
+		(create-accessor read-write))
+	(single-slot argument2
+		(type INSTANCE)
+;+		(allowed-classes DomainModel)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot argument1
+		(type INSTANCE)
+;+		(allowed-classes Task)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Refiner "A Refiner connects two knowledge components of the same type and is used to express the stepwise adaptation of components, e.g. the refinement of a task or a problem-solving method. Very generic problem-solving methods and tasks can be refined to more specific ones by applying a sequence of refiners to them. \nA Refiner assumes that its two attributes in and out (argument1 & 2) are of the same type. This guarantees that a refiner modifies a given component, as opposed to mapping it to a different component via a Bridge relation. \nEach main UPML component has its own associated type of refiner. The definition of a refiner holds in the attributes that are specific to each kind of component. Each refiner has its own restrictions on in-put and out-put.\nA component can be defined as a refinement of another component via a Refiner relation. In this case, the former component can rewrite aspects of the latter component via the renamings attribute. Also, in this case we model the uses-relationship by an explicit entity of the UPML specification, i.e., the Refiner. Non-monotonic modification of a component via an explicit element of the architecture."
+	(is-a Adapter)
+	(role abstract)
+	(single-slot argument2
+;+		(comment "out")
+		(type INSTANCE)
+;+		(allowed-classes KnowledgeComponent)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot argument1
+;+		(comment "in")
+		(type INSTANCE)
+;+		(allowed-classes KnowledgeComponent)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass OntologyRefiner "Ontology Refiner contains refined signature, theorems, and axioms."
+	(is-a Refiner)
+	(role concrete)
+	(single-slot argument2
+;+		(comment "out")
+		(type INSTANCE)
+;+		(allowed-classes Ontology)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot argument1
+;+		(comment "in")
+		(type INSTANCE)
+;+		(allowed-classes Ontology)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot signature
+;+		(comment "The Signature lists the ontological elements that are used by a component. ")
+		(type INSTANCE)
+;+		(allowed-classes Signature)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot theorems
+;+		(comment "\n")
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(multislot axioms
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write)))
+
+(defclass DomainRefiner "Domain Refiner contains redefined properties, metaknowledge and knowledge in the refined component"
+	(is-a Refiner)
+	(role concrete)
+	(single-slot argument2
+;+		(comment "out")
+		(type INSTANCE)
+;+		(allowed-classes DomainModel)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot argument1
+;+		(comment "in")
+		(type INSTANCE)
+;+		(allowed-classes DomainModel)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot properties
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(multislot knowledge
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(multislot metaknowledge
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write)))
+
+(defclass PSMRefiner "PSM Refiner has refined communication and competence.\n"
+	(is-a Refiner)
+	(role abstract)
+	(single-slot argument2
+;+		(comment "out")
+		(type INSTANCE)
+;+		(allowed-classes PSM)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot argument1
+;+		(comment "in")
+		(type INSTANCE)
+;+		(allowed-classes PSM)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot communication
+;+		(comment "Communication holds a PSM's communication policy. ")
+		(type INSTANCE)
+;+		(allowed-classes Communication)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot output-roles
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+		(create-accessor read-write))
+	(multislot input-roles
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+		(create-accessor read-write))
+	(single-slot competence
+;+		(comment "The competence description of a problem-solving method or a task provides a functional specification of it. It also introduces preconditions that restrict valid inputs and postconditions that describe the output of the method.")
+		(type INSTANCE)
+;+		(allowed-classes Competence)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass ProblemDecomposerRefiner "Problem Decomposer Refiner has the list of subtasks used to decompose the task.\nNote that UPML does not allow to refine the task decomposition or the operational description of a Problem Decomposer: One cannot add new subtasks, decompose further a subtask into smaller subtasks, nor change the control flow over the subtasks. Therefore, the subtasks attribute of a Problem Decomposer Refiner must refer to refined versions of the subtasks of the input Problem Decomposer."
+	(is-a PSMRefiner)
+	(role concrete)
+	(single-slot argument2
+;+		(comment "out")
+		(type INSTANCE)
+;+		(allowed-classes ProblemDecomposer)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot argument1
+;+		(comment "in")
+		(type INSTANCE)
+;+		(allowed-classes ProblemDecomposer)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot subtasks
+;+		(comment "\n")
+		(type INSTANCE)
+;+		(allowed-classes Task)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write)))
+
+(defclass ReasoningResourceRefiner "Reasoning Resource Refiner refines knowledge roles and assumptions about problem solving and a task."
+	(is-a PSMRefiner)
+	(role concrete)
+	(single-slot argument2
+;+		(comment "out")
+		(type INSTANCE)
+;+		(allowed-classes ReasoningResource)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot argument1
+;+		(comment "in")
+		(type INSTANCE)
+;+		(allowed-classes ReasoningResource)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot knowledge-roles
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+		(create-accessor read-write))
+	(multislot assumptions
+;+		(comment "Assumptions of a component describe the context in which it can be applied properly. The assumptions of a task characterize the properties that a domain model must have in order to guarantee that the task can be solved. If these assumptions are minimal then they represent necessary conditions for task fulfillment. The assumptions of a reasoning resource characterize the properties that a domain model must have in order to guarantee that the problem-solving method behaves properly. Assumptions of a domain model characterize the properties that a domain must have in order to be described properly by the domain model.")
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write)))
+
+(defclass TaskRefiner "Task Refiner has refined competence and assumptions."
+	(is-a Refiner)
+	(role concrete)
+	(single-slot argument2
+;+		(comment "out")
+		(type INSTANCE)
+;+		(allowed-classes Task)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot argument1
+;+		(comment "in")
+		(type INSTANCE)
+;+		(allowed-classes Task)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot output-roles
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+		(create-accessor read-write))
+	(multislot input-roles
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+		(create-accessor read-write))
+	(multislot assumptions
+;+		(comment "Assumptions of a component describe the context in which it can be applied properly. The assumptions of a task characterize the properties that a domain model must have in order to guarantee that the task can be solved. If these assumptions are minimal then they represent necessary conditions for task fulfillment. The assumptions of a reasoning resource characterize the properties that a domain model must have in order to guarantee that the problem-solving method behaves properly. Assumptions of a domain model characterize the properties that a domain must have in order to be described properly by the domain model.")
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(single-slot competence
+;+		(comment "The competence description of a problem-solving method or a task provides a functional specification of it. It also introduces preconditions that restrict valid inputs and postconditions that describe the output of the method.")
+		(type INSTANCE)
+;+		(allowed-classes Competence)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Concept "The concepts of UPML define parts of a problem-solving system. They are represented by subclasses of the class Concept.\nConcept is an abstract class from the meta-meta ontology of UPML; all the components and help concepts are described as subclasses of the Concept. Concept is introduced to separate the UPML components from binary relations between the components."
+	(is-a Entity)
+	(role abstract))
+
+(defclass Library "The knowledge base of the brokering service is represented with the Library of UPML concepts. Library is the overarching concept of the UPML ontology: it holds a pointer to each component of a UPML specification. "
+	(is-a Concept)
+	(role concrete)
+	(multislot problem-decomposers
+;+		(comment "Problem decomposers are one of the two types of Problems-solving methods in UPML that decompose a task into subtasks and infer reasoning resources to solve that task. Problem decomposers replace complex problem-solving methods from the previous version of UPML 1.0.")
+		(type INSTANCE)
+;+		(allowed-classes ProblemDecomposer)
+		(create-accessor read-write))
+	(multislot ontologies
+		(type INSTANCE)
+;+		(allowed-classes Ontology)
+		(create-accessor read-write))
+	(single-slot pragmatics
+;+		(comment "Pragmatics holds the attributes that describe practical information about a component. This description includes all the descriptors recommended by the Dublin Core metadata recommendation and allows a user to define his own specific application descriptors in the form of the pairs descriptor name-descriptor value.")
+		(type INSTANCE)
+;+		(allowed-classes Pragmatics)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot psm-domain-bridges
+;+		(comment "This bridge type instantiates problem-solving methods for specific domains and enables therefore their domain-independent and reusable description.")
+		(type INSTANCE)
+;+		(allowed-classes PSMDomainBridge)
+		(create-accessor read-write))
+	(multislot domain-refiners
+		(type INSTANCE)
+;+		(allowed-classes DomainRefiner)
+		(create-accessor read-write))
+	(multislot task-domain-bridges
+;+		(comment "This bridge type instantiates tasks for specific domains and enables therefore their domain-independent and reusable description.")
+		(type INSTANCE)
+;+		(allowed-classes TaskDomainBridge)
+		(create-accessor read-write))
+	(multislot psm-task-bridges
+;+		(comment "This bridge type instantiates problem-solving methods for specific tasks and enables therefore their task-independent and reusable description.")
+		(type INSTANCE)
+;+		(allowed-classes PSMTaskBridge)
+		(create-accessor read-write))
+	(multislot reasoning-resources
+;+		(comment "Reasoning resources is one of the two types of Problems-solving methods in UPML that make assumptions about domain knowledge to perform a primitive reasoning step. They do not describe its internal structure, which is regarded as an implementational aspect not of any interest for the architectural specification of the knowledge-based system. Reasoning resources replace problem-solving methods from the previous version of UPML 1.0.")
+		(type INSTANCE)
+;+		(allowed-classes ReasoningResource)
+		(create-accessor read-write))
+	(multislot reasoning-resource-refiners
+		(type INSTANCE)
+;+		(allowed-classes ReasoningResourceRefiner)
+		(create-accessor read-write))
+	(multislot task-refiners
+		(type INSTANCE)
+;+		(allowed-classes TaskRefiner)
+		(create-accessor read-write))
+	(multislot ontology-refiners
+		(type INSTANCE)
+;+		(allowed-classes OntologyRefiner)
+		(create-accessor read-write))
+	(multislot domain-models
+		(type INSTANCE)
+;+		(allowed-classes DomainModel)
+		(create-accessor read-write))
+	(multislot problem-decomposer-refiners
+		(type INSTANCE)
+;+		(allowed-classes ProblemDecomposerRefiner)
+		(create-accessor read-write))
+	(multislot tasks
+;+		(comment "The task specifies the problem that is solved by the knowledge-based system. Contrary to most approaches in software engineering this problem definition is kept domain independent, which enables the reuse of generic problem definitions for different applications. It defines the problem in terms of goals that should be achieved and the definition of assumptions about domain knowledge and preconditions on the input. The input and output roles of the task define its roles in the knowledge system. Input roles specify input of case data and output roles specify output of case data.")
+		(type INSTANCE)
+;+		(allowed-classes Task)
+		(create-accessor read-write)))
+
+(defclass KnowledgeComponent "Each component has a pragmatics description and relies on one or more ontologies that define its universe of discourse."
+	(is-a Concept)
+	(role abstract)
+	(multislot ontologies
+		(type INSTANCE)
+;+		(allowed-classes Ontology)
+		(create-accessor read-write))
+	(single-slot pragmatics
+;+		(comment "Pragmatics holds the attributes that describe practical information about a component. This description includes all the descriptors recommended by the Dublin Core metadata recommendation and allows a user to define his own specific application descriptors in the form of the pairs descriptor name-descriptor value.")
+		(type INSTANCE)
+;+		(allowed-classes Pragmatics)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Ontology "An Ontology defines a terminology and its properties, used by tasks, problem-solving methods, and domain models. The core of an ontology specification is its signature definition, which defines signature elements that hold terms. An ontology also provides the axioms that characterize logical properties of the signature elements. Additional theorems may list useful statements which are implied by the axioms. Unlike Task and Domain Model concepts, an Ontology has no uses attribute, but it may import other ontologies via the ontology attribute inherited from the Knowledge Component concept, and refine them with additional terminology and axioms. "
+	(is-a KnowledgeComponent)
+	(role concrete)
+	(single-slot signature
+;+		(comment "The Signature lists the ontological elements that are used by a component. ")
+		(type INSTANCE)
+;+		(allowed-classes Signature)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot theorems
+;+		(comment "\n")
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(multislot axioms
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write)))
+
+(defclass DomainModel "The description of a domain model introduces domain knowledge, as required by the problem-solving method and the task definition.\nA Domain Model introduces domain knowledge, merely the formulas that are then used by problem-solving methods and tasks. A Domain Model consists of three elements: properties, meta-knowledge, and domain knowledge itself. The Meta-knowledge captures the implicit and explicit assumptions made while building a domain model of the real world. Meta-knowledge is assumed to be true, i.e. it has not been proven or cannot be proven. The domain knowledge is the knowledge base of the domain that is necessary to define the task in the given application domain and to carry out the inference steps of the chosen problem-solving method. The domain knowledge is build under the assumption that the meta-knowledge is true. Properties (the synonym for theorems) can be derived from the domain knowledge and they are visible to and directly used by the broker."
+	(is-a KnowledgeComponent)
+	(role concrete)
+	(multislot properties
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(multislot knowledge
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(multislot uses
+;+		(comment "Monotonic extension of a component. \nA component can import another component via the uses attribute. This way, it can make use its imported definitions and monotonically refine and extend them. In this case, the uses relationship is not modeled by an explicit entity in the UPML specification but rather via an attribute of an existing component (the one that imports another component).\n")
+		(type INSTANCE)
+;+		(allowed-classes DomainModel)
+		(create-accessor read-write))
+	(multislot metaknowledge
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write)))
+
+(defclass Pragmatics "Pragmatics holds attributes that describe practical and reference information about a component. Following the Dublin Core metadata recommendation (http://purl.org/dc/), the Pragmatics concept provides a title for a component, a description (also known as the explanation), names of the authors, and other supporting information, like references (publisher) and information about where the component can be found. But the Dublin Core set does not provide descriptors for other important information in UPML, like the cost of using the component, where and when the component has been used, what was the resulting experience of using it, and so on ([Fensel et al., 1999(a)], [Gennari et al., 1998], [Gennari & Ackerman, 1999]). We include several most important descriptors into Pragmatics definition, starting from last date of modification. However, knowledge components used in certain environments might need to be described with more specific descriptors. \nTherefore, we have included in the Pragmatics concept an application descriptors property, that allows users to add attributes to hold user- or application-specific descriptors. Each Pragmatics Descriptor refers to composite objects, that have a name for the descriptor itself (tags like where-and-when-be-used, an so on) and the value of the attribute for a particular instance of Pragmatics. In the UPML specification we define only a core set of application descriptors. Users will extend this core set with their own set of application descriptors. "
+	(is-a Concept)
+	(role concrete)
+	(single-slot relation
+;+		(comment "A reference to a related resource.\nRecommended best practice is to reference the resource by means of a string or number conforming to a formal identification system.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot description
+;+		(comment "An account of the content of the resource.\nDescription may include but is not limited to: an abstract, table of contents, reference to a graphical representation of content or a free-text account of the content.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot language
+;+		(comment "A language of the intellectual content of the resource. Recommended best practice for the values of the Language\nelement is defined by RFC 1766 [RFC1766] which includes a two-letter Language Code (taken from the ISO 639\nstandard [ISO639]), followed optionally, by a two-letter Country Code (taken from the ISO 3166 standard [ISO3166]). \nFor example, 'en' for English, 'fr' for French, or  'en-uk' for English used in the United Kingdom.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot rights-management
+;+		(comment "Information about rights held in and over the resource.\nTypically, a Rights element will contain a rights management statement for the resource, or reference a service providing such information. Rights information often encompasses Intellectual Property Rights (IPR), Copyright, and various Property Rights. If the Rights element is absent, no assumptions can be made about the status of these and other rights with respect to the resource.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot resource-identifier
+;+		(comment "An unambiguous reference to the resource within a given context.\nRecommended best practice is to identify the resource by means of a string or number conforming to a formal identification system. \nExample formal identification systems include the Uniform\nResource Identifier (URI) (including the Uniform Resource Locator (URL)), the Digital Object Identifier (DOI) and the International Standard Book Number (ISBN).")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot format
+;+		(comment "The physical or digital manifestation of the resource.\nTypically, Format may include the media-type or dimensions of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Examples of dimensions include size and duration.\nRecommended best practice is to select a value from a controlled vocabulary (for example, the list of Internet Media Types [MIME] defining computer media formats).")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot application-descriptors
+		(type INSTANCE)
+;+		(allowed-classes PragmaticsDescriptor)
+		(create-accessor read-write))
+	(single-slot where-and-when-be-used
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot subject
+;+		(comment "The topic of the content of the resource.\nTypically, a Subject will be expressed as keywords, key phrases or classification codes that describe a topic of the resource. Recommended best practice is to select a value from a controlled vocabulary or formal classification scheme.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot source
+;+		(comment "A Reference to a resource from which the present resource\nis derived.\nThe present resource may be derived from the Source resource in whole or in part.  Recommended best practice is to reference the resource by means of a string or number conforming to a formal identification system.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot other-contributor
+;+		(comment "An entity responsible for making contributions to the\ncontent of the resource.\nExamples of a Contributor include a person, an organisation, or a service.\nTypically, the name of a Contributor should be used to\nindicate the entity.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot date
+;+		(comment "A date associated with an event in the life cycle of the resource.\nTypically, Date will be associated with the creation or\navailability of the resource.  Recommended best practice\nfor encoding the date value is defined in a profile of ISO 8601 [W3CDTF] and follows the YYYY-MM-DD format.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot creator
+;+		(comment "An entity primarily responsible for making the content of  the resource. \nExamples of a Creator include a person, an organisation, or a service. Typically, the name of a Creator should be used to indicate the entity.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot publisher
+;+		(comment "An entity responsible for making the resource available\nExamples of a Publisher include a person, an organisation, or a service.\nTypically, the name of a Publisher should be used to\nindicate the entity.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot title
+;+		(comment "A name given to the resource.\nTypically, a Title will be a name by which the resource is                 formally known.")
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot evaluation
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot last-date-of-modification
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot resource-type
+;+		(comment "The nature or genre of the content of the resource. \nType includes terms describing general categories, functions,\ngenres, or aggregation levels for content. Recommended best practice is to select a value from a controlled vocabulary (for example, the working draft list of Dublin Core Types  [DCT1]). To describe the physical or digital manifestation of the resource, use the FORMAT element.")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Competence "Competence represents the functional input/output specification of a PSM or Task component. Competence includes preconditions restricting valid inputs and postconditions that describe what a method or task will produce as output."
+	(is-a Concept)
+	(role concrete)
+	(multislot preconditions
+;+		(comment "Preconditions define necessary properties an input must fulfill to ensure that a component can be applied to or a task is well defined (i.e., solvable). They must either be checked during runtime or if the input is provided as output by another component one has to check during system development that its postcondition fulfils the precondition.")
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(multislot postconditions
+;+		(comment "Postconditions define necessary properties that a state must fulfil after a problem-solving method has terminated.")
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write)))
+
+(defclass Signature "Signature captures the ontological elements that are used by a component. "
+	(is-a Concept)
+	(role concrete)
+	(multislot signature-elements
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+		(create-accessor read-write)))
+
+(defclass Formula "Formula holds a logical expression using a given object language. Formula is a root concept that can be subclassed to describe kinds of expressions specific to a given object language, like Signature Element."
+	(is-a Concept)
+	(role concrete)
+	(single-slot documentation
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot formula
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Communication "Communication holds a PSM's communication policy. "
+	(is-a Concept)
+	(role concrete)
+	(single-slot documentation
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot communication-policy
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass OperationalDescription "Operational Description represents the control scheme and internal data flow over the subtasks of a Problem Decomposer. It defines a program attribute and intermediate roles. "
+	(is-a Concept)
+	(role concrete)
+	(multislot programs
+		(type INSTANCE)
+;+		(allowed-classes Program)
+		(create-accessor read-write))
+	(single-slot inference-structure
+		(type INSTANCE)
+;+		(allowed-classes InferenceStructure)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot intermediate-roles
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+		(create-accessor read-write)))
+
+(defclass Program "Program is a program that defines the control structure over the subtasks of a Problem Decomposer, using a given object language."
+	(is-a Concept)
+	(role concrete)
+	(single-slot documentation
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot control-structure
+		(type INSTANCE)
+;+		(allowed-classes ControlStructure)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot program
+;+		(comment "Program is a program that defines the control structure over the subtasks of a Problem Decomposer, using a given object language. ")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Renaming "Renaming defines the naming correspondence between two elements of a signature, used in Adapters."
+	(is-a Concept)
+	(role concrete)
+	(single-slot in
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot out
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass PragmaticsDescriptor "In order to reduce the risk of introducing different descriptor names for similar descriptor meanings, the name of each pragmatics descriptor should be bound to a user-defined set of symbols."
+	(is-a Concept)
+	(role concrete)
+	(single-slot name_
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot value
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass UPMLDiagramEntity
+	(is-a USER)
+	(role abstract))
+
+(defclass UPMLNetwork
+	(is-a UPMLDiagramEntity)
+	(role abstract)
+	(multislot arcs
+		(type INSTANCE)
+;+		(allowed-classes UPMLConnector)
+		(create-accessor read-write)))
+
+(defclass InferenceStructure
+	(is-a UPMLNetwork)
+	(role concrete)
+	(single-slot name_
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot inference-nodes
+		(type INSTANCE)
+;+		(allowed-classes InferenceNode)
+		(create-accessor read-write)))
+
+(defclass ControlStructure
+	(is-a UPMLNetwork)
+	(role concrete)
+	(single-slot name_
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot control-nodes
+		(type INSTANCE)
+;+		(allowed-classes ControNode)
+		(create-accessor read-write)))
+
+(defclass UPMLConnector
+	(is-a UPMLDiagramEntity %3ADIRECTED-BINARY-RELATION)
+	(role abstract))
+
+(defclass InferenceConnector
+	(is-a UPMLConnector)
+	(role abstract)
+	(single-slot %3AFROM
+		(type INSTANCE)
+;+		(allowed-classes PSM Task SignatureElement)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3ATO
+		(type INSTANCE)
+;+		(allowed-classes PSM Task SignatureElement)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass DecomposesIn
+	(is-a InferenceConnector)
+	(role concrete)
+	(single-slot %3AFROM
+		(type INSTANCE)
+;+		(allowed-classes ProblemDecomposer)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3ATO
+		(type INSTANCE)
+;+		(allowed-classes Task)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass InputsTo
+	(is-a InferenceConnector)
+	(role concrete)
+	(single-slot %3AFROM
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3ATO
+		(type INSTANCE)
+;+		(allowed-classes PSM Task)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass OutputsTo
+	(is-a InferenceConnector)
+	(role concrete)
+	(single-slot %3AFROM
+		(type INSTANCE)
+;+		(allowed-classes PSM Task)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3ATO
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass ControlConnector
+	(is-a UPMLConnector)
+	(role abstract)
+	(single-slot %3AFROM
+		(type INSTANCE)
+;+		(allowed-classes ControNode)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3ATO
+		(type INSTANCE)
+;+		(allowed-classes ControNode)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass UPMLNode
+	(is-a UPMLDiagramEntity)
+	(role concrete))
+
+(defclass InferenceNode
+	(is-a UPMLNode)
+	(role abstract))
+
+(defclass PSM "A PSM represents a problem-solving method, merely defined by its competence and communication properties. The input roles and output roles of a PSM specify its inputs and outputs. Input roles specify input of case data and output roles specify output of case data. Its communication property describes the protocol of communications with the environment of the PSM, in particular other (PSM) components.\nProblem-solving methods describe which reasoning steps and which type of knowledge is needed to perform a task. UPML distinguishes two different types of problem-solving methods: problem decomposers that decompose a task into subtasks and reasoning resources that make assumptions about domain knowledge to perform a primitive reasoning step. The input and output roles of the problem-solving method define its roles in the knowledge system. Input roles specify input of case data and output roles specify output of case data."
+	(is-a KnowledgeComponent InferenceNode)
+	(role abstract)
+	(single-slot communication
+;+		(comment "Communication holds a PSM's communication policy. ")
+		(type INSTANCE)
+;+		(allowed-classes Communication)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot output-roles
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+		(create-accessor read-write))
+	(multislot input-roles
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+		(create-accessor read-write))
+	(single-slot competence
+;+		(comment "The competence description of a problem-solving method or a task provides a functional specification of it. It also introduces preconditions that restrict valid inputs and postconditions that describe the output of the method.")
+		(type INSTANCE)
+;+		(allowed-classes Competence)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass ProblemDecomposer "A Problem Decomposer decomposes a task to solve into subtasks; its operational description specifies the control structure over the subtasks. "
+	(is-a PSM)
+	(role concrete)
+	(multislot subtasks
+;+		(comment "\n")
+		(type INSTANCE)
+;+		(allowed-classes Task)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot operational-description
+;+		(comment "The operational description of a problem-solving method provides the description of the actual reasoning process of the method. It explains how the desired competence can be achieved. It defines the data and control flow between the main reasoning steps so as to achieve the functionality of the problem-solving method with a program.")
+		(type INSTANCE)
+;+		(allowed-classes OperationalDescription)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass ReasoningResource "A Reasoning Resource solves a subtask provided by a problem decomposer: It specifies the assumptions on the domain knowledge to perform a primitive reasoning step. It does not describe its internal structure, which is regarded as an implementational aspect not of any interest for the architectural specification of the knowledge-based system. The knowledge roles attribute specifies the input of (domain) knowledge for the reasoning resource."
+	(is-a PSM)
+	(role concrete)
+	(multislot knowledge-roles
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+		(create-accessor read-write))
+	(multislot assumptions
+;+		(comment "Assumptions of a component describe the context in which it can be applied properly. The assumptions of a task characterize the properties that a domain model must have in order to guarantee that the task can be solved. If these assumptions are minimal then they represent necessary conditions for task fulfillment. The assumptions of a reasoning resource characterize the properties that a domain model must have in order to guarantee that the problem-solving method behaves properly. Assumptions of a domain model characterize the properties that a domain must have in order to be described properly by the domain model.")
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write)))
+
+(defclass Task "A Task specifies the task to be achieved by the PSMs of the library. A Task can also define a subtask of a Problem Decomposer. The input roles and output roles together with the competence property define the input/output specification of the task. Input roles specify input of case data and output roles specify output of case data. Its assumptions property defines requirements on the knowledge that is used to define the goal. A Task can import and refine other tasks via its uses attribute."
+	(is-a KnowledgeComponent InferenceNode)
+	(role concrete)
+	(multislot uses
+;+		(comment "Monotonic extension of a component. \nA component can import another component via the uses attribute. This way, it can make use its imported definitions and monotonically refine and extend them. In this case, the uses relationship is not modeled by an explicit entity in the UPML specification but rather via an attribute of an existing component (the one that imports another component).\n")
+		(type INSTANCE)
+;+		(allowed-classes Task)
+		(create-accessor read-write))
+	(multislot output-roles
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+		(create-accessor read-write))
+	(multislot input-roles
+		(type INSTANCE)
+;+		(allowed-classes SignatureElement)
+		(create-accessor read-write))
+	(multislot assumptions
+;+		(comment "Assumptions of a component describe the context in which it can be applied properly. The assumptions of a task characterize the properties that a domain model must have in order to guarantee that the task can be solved. If these assumptions are minimal then they represent necessary conditions for task fulfillment. The assumptions of a reasoning resource characterize the properties that a domain model must have in order to guarantee that the problem-solving method behaves properly. Assumptions of a domain model characterize the properties that a domain must have in order to be described properly by the domain model.")
+		(type INSTANCE)
+;+		(allowed-classes Formula)
+		(create-accessor read-write))
+	(single-slot competence
+;+		(comment "The competence description of a problem-solving method or a task provides a functional specification of it. It also introduces preconditions that restrict valid inputs and postconditions that describe the output of the method.")
+		(type INSTANCE)
+;+		(allowed-classes Competence)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass SignatureElement "Signature Element is a root concept that is a placeholder for terms and primitives of the language used to express the signature. It can be refined with additional concepts, depending on the object language used to express formulas. \nFor example, in UPML version 1, we used the MCL object language with sorted logic [Fensel et al., 1999(a)]: To hold the primitives of this language, we subclass Signature Element with concepts like Constant, Sort, Predicate and Function. Users wishing to use another object language will subclass Signature Element in a similar way."
+	(is-a Concept InferenceNode)
+	(role concrete)
+	(single-slot output-from
+		(type INSTANCE)
+;+		(allowed-classes PSM Task)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot name_
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot input-to
+		(type INSTANCE)
+;+		(allowed-classes PSM Task)
+		(create-accessor read-write)))
+
+(defclass ControNode
+	(is-a UPMLNode)
+	(role abstract))

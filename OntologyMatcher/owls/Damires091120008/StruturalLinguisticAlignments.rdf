@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <Alignment>
+    <xml>yes</xml>
+    <level>0</level>
+    <type>**</type>
+    <onto1>http://crs_dr</onto1>
+    <onto2>http://crs_dr</onto2>
+    <uri1>http://crs_dr</uri1>
+    <uri2>http://crs_dr</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#chair"/>
+        <entity2 rdf:resource="http://crs_dr#abstract"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#chair"/>
+        <entity2 rdf:resource="http://crs_dr#article"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#chair"/>
+        <entity2 rdf:resource="http://crs_dr#author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#chair"/>
+        <entity2 rdf:resource="http://crs_dr#chair"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#chair"/>
+        <entity2 rdf:resource="http://crs_dr#conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#chair"/>
+        <entity2 rdf:resource="http://crs_dr#document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#chair"/>
+        <entity2 rdf:resource="http://crs_dr#event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#chair"/>
+        <entity2 rdf:resource="http://crs_dr#participant"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#chair"/>
+        <entity2 rdf:resource="http://crs_dr#person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#chair"/>
+        <entity2 rdf:resource="http://crs_dr#program"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#chair"/>
+        <entity2 rdf:resource="http://crs_dr#review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#chair"/>
+        <entity2 rdf:resource="http://crs_dr#reviewer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#paper"/>
+        <entity2 rdf:resource="http://crs_dr#abstract"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#paper"/>
+        <entity2 rdf:resource="http://crs_dr#article"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#paper"/>
+        <entity2 rdf:resource="http://crs_dr#author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#paper"/>
+        <entity2 rdf:resource="http://crs_dr#chair"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#paper"/>
+        <entity2 rdf:resource="http://crs_dr#conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#paper"/>
+        <entity2 rdf:resource="http://crs_dr#document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#paper"/>
+        <entity2 rdf:resource="http://crs_dr#event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#paper"/>
+        <entity2 rdf:resource="http://crs_dr#participant"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#paper"/>
+        <entity2 rdf:resource="http://crs_dr#person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#paper"/>
+        <entity2 rdf:resource="http://crs_dr#program"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#paper"/>
+        <entity2 rdf:resource="http://crs_dr#review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#paper"/>
+        <entity2 rdf:resource="http://crs_dr#reviewer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#author"/>
+        <entity2 rdf:resource="http://crs_dr#abstract"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#author"/>
+        <entity2 rdf:resource="http://crs_dr#article"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5128</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#author"/>
+        <entity2 rdf:resource="http://crs_dr#author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#author"/>
+        <entity2 rdf:resource="http://crs_dr#chair"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#author"/>
+        <entity2 rdf:resource="http://crs_dr#conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.50512</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#author"/>
+        <entity2 rdf:resource="http://crs_dr#document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#author"/>
+        <entity2 rdf:resource="http://crs_dr#event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#author"/>
+        <entity2 rdf:resource="http://crs_dr#participant"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#author"/>
+        <entity2 rdf:resource="http://crs_dr#person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#author"/>
+        <entity2 rdf:resource="http://crs_dr#program"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#author"/>
+        <entity2 rdf:resource="http://crs_dr#review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5128</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#author"/>
+        <entity2 rdf:resource="http://crs_dr#reviewer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#conference"/>
+        <entity2 rdf:resource="http://crs_dr#abstract"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.50512</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#conference"/>
+        <entity2 rdf:resource="http://crs_dr#article"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#conference"/>
+        <entity2 rdf:resource="http://crs_dr#author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.50512</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#conference"/>
+        <entity2 rdf:resource="http://crs_dr#chair"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#conference"/>
+        <entity2 rdf:resource="http://crs_dr#conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#conference"/>
+        <entity2 rdf:resource="http://crs_dr#document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#conference"/>
+        <entity2 rdf:resource="http://crs_dr#event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#conference"/>
+        <entity2 rdf:resource="http://crs_dr#participant"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#conference"/>
+        <entity2 rdf:resource="http://crs_dr#person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#conference"/>
+        <entity2 rdf:resource="http://crs_dr#program"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.064</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#conference"/>
+        <entity2 rdf:resource="http://crs_dr#review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.532</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#conference"/>
+        <entity2 rdf:resource="http://crs_dr#reviewer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.50512</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#pc_meeting"/>
+        <entity2 rdf:resource="http://crs_dr#abstract"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#pc_meeting"/>
+        <entity2 rdf:resource="http://crs_dr#article"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#pc_meeting"/>
+        <entity2 rdf:resource="http://crs_dr#author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#pc_meeting"/>
+        <entity2 rdf:resource="http://crs_dr#chair"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#pc_meeting"/>
+        <entity2 rdf:resource="http://crs_dr#conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#pc_meeting"/>
+        <entity2 rdf:resource="http://crs_dr#document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#pc_meeting"/>
+        <entity2 rdf:resource="http://crs_dr#event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#pc_meeting"/>
+        <entity2 rdf:resource="http://crs_dr#participant"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#pc_meeting"/>
+        <entity2 rdf:resource="http://crs_dr#person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#pc_meeting"/>
+        <entity2 rdf:resource="http://crs_dr#program"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#pc_meeting"/>
+        <entity2 rdf:resource="http://crs_dr#review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#pc_meeting"/>
+        <entity2 rdf:resource="http://crs_dr#reviewer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#participant"/>
+        <entity2 rdf:resource="http://crs_dr#abstract"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#participant"/>
+        <entity2 rdf:resource="http://crs_dr#article"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#participant"/>
+        <entity2 rdf:resource="http://crs_dr#author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#participant"/>
+        <entity2 rdf:resource="http://crs_dr#chair"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#participant"/>
+        <entity2 rdf:resource="http://crs_dr#conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#participant"/>
+        <entity2 rdf:resource="http://crs_dr#document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#participant"/>
+        <entity2 rdf:resource="http://crs_dr#event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#participant"/>
+        <entity2 rdf:resource="http://crs_dr#participant"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#participant"/>
+        <entity2 rdf:resource="http://crs_dr#person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#participant"/>
+        <entity2 rdf:resource="http://crs_dr#program"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#participant"/>
+        <entity2 rdf:resource="http://crs_dr#review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#participant"/>
+        <entity2 rdf:resource="http://crs_dr#reviewer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#person"/>
+        <entity2 rdf:resource="http://crs_dr#abstract"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#person"/>
+        <entity2 rdf:resource="http://crs_dr#article"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#person"/>
+        <entity2 rdf:resource="http://crs_dr#author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#person"/>
+        <entity2 rdf:resource="http://crs_dr#chair"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#person"/>
+        <entity2 rdf:resource="http://crs_dr#conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#person"/>
+        <entity2 rdf:resource="http://crs_dr#document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#person"/>
+        <entity2 rdf:resource="http://crs_dr#event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#person"/>
+        <entity2 rdf:resource="http://crs_dr#participant"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#person"/>
+        <entity2 rdf:resource="http://crs_dr#person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#person"/>
+        <entity2 rdf:resource="http://crs_dr#program"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#person"/>
+        <entity2 rdf:resource="http://crs_dr#review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#person"/>
+        <entity2 rdf:resource="http://crs_dr#reviewer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#event"/>
+        <entity2 rdf:resource="http://crs_dr#abstract"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#event"/>
+        <entity2 rdf:resource="http://crs_dr#article"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#event"/>
+        <entity2 rdf:resource="http://crs_dr#author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#event"/>
+        <entity2 rdf:resource="http://crs_dr#chair"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#event"/>
+        <entity2 rdf:resource="http://crs_dr#conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#event"/>
+        <entity2 rdf:resource="http://crs_dr#document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#event"/>
+        <entity2 rdf:resource="http://crs_dr#event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#event"/>
+        <entity2 rdf:resource="http://crs_dr#participant"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#event"/>
+        <entity2 rdf:resource="http://crs_dr#person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#event"/>
+        <entity2 rdf:resource="http://crs_dr#program"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#event"/>
+        <entity2 rdf:resource="http://crs_dr#review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#event"/>
+        <entity2 rdf:resource="http://crs_dr#reviewer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#reviewer"/>
+        <entity2 rdf:resource="http://crs_dr#abstract"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#reviewer"/>
+        <entity2 rdf:resource="http://crs_dr#article"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5128</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#reviewer"/>
+        <entity2 rdf:resource="http://crs_dr#author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#reviewer"/>
+        <entity2 rdf:resource="http://crs_dr#chair"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#reviewer"/>
+        <entity2 rdf:resource="http://crs_dr#conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.50512</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#reviewer"/>
+        <entity2 rdf:resource="http://crs_dr#document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#reviewer"/>
+        <entity2 rdf:resource="http://crs_dr#event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#reviewer"/>
+        <entity2 rdf:resource="http://crs_dr#participant"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#reviewer"/>
+        <entity2 rdf:resource="http://crs_dr#person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#reviewer"/>
+        <entity2 rdf:resource="http://crs_dr#program"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#reviewer"/>
+        <entity2 rdf:resource="http://crs_dr#review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5128</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#reviewer"/>
+        <entity2 rdf:resource="http://crs_dr#reviewer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#review"/>
+        <entity2 rdf:resource="http://crs_dr#abstract"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5128</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#review"/>
+        <entity2 rdf:resource="http://crs_dr#article"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#review"/>
+        <entity2 rdf:resource="http://crs_dr#author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5128</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#review"/>
+        <entity2 rdf:resource="http://crs_dr#chair"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#review"/>
+        <entity2 rdf:resource="http://crs_dr#conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.532</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#review"/>
+        <entity2 rdf:resource="http://crs_dr#document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#review"/>
+        <entity2 rdf:resource="http://crs_dr#event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#review"/>
+        <entity2 rdf:resource="http://crs_dr#participant"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#review"/>
+        <entity2 rdf:resource="http://crs_dr#person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#review"/>
+        <entity2 rdf:resource="http://crs_dr#program"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#review"/>
+        <entity2 rdf:resource="http://crs_dr#review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#review"/>
+        <entity2 rdf:resource="http://crs_dr#reviewer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5128</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#session"/>
+        <entity2 rdf:resource="http://crs_dr#abstract"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#session"/>
+        <entity2 rdf:resource="http://crs_dr#article"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5128</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#session"/>
+        <entity2 rdf:resource="http://crs_dr#author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#session"/>
+        <entity2 rdf:resource="http://crs_dr#chair"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#session"/>
+        <entity2 rdf:resource="http://crs_dr#conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.50512</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#session"/>
+        <entity2 rdf:resource="http://crs_dr#document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#session"/>
+        <entity2 rdf:resource="http://crs_dr#event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#session"/>
+        <entity2 rdf:resource="http://crs_dr#participant"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#session"/>
+        <entity2 rdf:resource="http://crs_dr#person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#session"/>
+        <entity2 rdf:resource="http://crs_dr#program"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#session"/>
+        <entity2 rdf:resource="http://crs_dr#review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5128</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#session"/>
+        <entity2 rdf:resource="http://crs_dr#reviewer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#document"/>
+        <entity2 rdf:resource="http://crs_dr#abstract"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#document"/>
+        <entity2 rdf:resource="http://crs_dr#article"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#document"/>
+        <entity2 rdf:resource="http://crs_dr#author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#document"/>
+        <entity2 rdf:resource="http://crs_dr#chair"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#document"/>
+        <entity2 rdf:resource="http://crs_dr#conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#document"/>
+        <entity2 rdf:resource="http://crs_dr#document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#document"/>
+        <entity2 rdf:resource="http://crs_dr#event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#document"/>
+        <entity2 rdf:resource="http://crs_dr#participant"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#document"/>
+        <entity2 rdf:resource="http://crs_dr#person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#document"/>
+        <entity2 rdf:resource="http://crs_dr#program"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#document"/>
+        <entity2 rdf:resource="http://crs_dr#review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#document"/>
+        <entity2 rdf:resource="http://crs_dr#reviewer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#article"/>
+        <entity2 rdf:resource="http://crs_dr#abstract"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5128</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#article"/>
+        <entity2 rdf:resource="http://crs_dr#article"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#article"/>
+        <entity2 rdf:resource="http://crs_dr#author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5128</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#article"/>
+        <entity2 rdf:resource="http://crs_dr#chair"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#article"/>
+        <entity2 rdf:resource="http://crs_dr#conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#article"/>
+        <entity2 rdf:resource="http://crs_dr#document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#article"/>
+        <entity2 rdf:resource="http://crs_dr#event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#article"/>
+        <entity2 rdf:resource="http://crs_dr#participant"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#article"/>
+        <entity2 rdf:resource="http://crs_dr#person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#article"/>
+        <entity2 rdf:resource="http://crs_dr#program"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#article"/>
+        <entity2 rdf:resource="http://crs_dr#review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://crs_dr#article"/>
+        <entity2 rdf:resource="http://crs_dr#reviewer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5128</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

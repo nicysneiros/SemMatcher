@@ -1,0 +1,153 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.speed.com/Speed.owl#" > 
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Virus">
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</j.0:isDisjointWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore">
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</j.0:isSubConceptOf>
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</j.0:isSubConceptOf>
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</j.0:isSubConceptOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal">
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</j.0:isDisjointWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal">
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</j.0:isDisjointWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium">
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</j.0:isDisjointWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being">
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</j.0:isDisjointWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Dog">
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</j.0:isSubConceptOf>
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</j.0:isSubConceptOf>
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</j.0:isSubConceptOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep">
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</j.0:isSubConceptOf>
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</j.0:isSubConceptOf>
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</j.0:isSubConceptOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Lion">
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</j.0:isSubConceptOf>
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</j.0:isSubConceptOf>
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</j.0:isSubConceptOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Cat">
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</j.0:isSubConceptOf>
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</j.0:isSubConceptOf>
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</j.0:isSubConceptOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Organism">
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</j.0:isDisjointWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile">
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</j.0:isDisjointWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian">
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</j.0:isDisjointWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#isPartOf">
+    <j.0:isEquivalentTo>http://www.owl-ontologies.com/Ontology1217266757.owl#isPartOf</j.0:isEquivalentTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore">
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</j.0:isSubConceptOf>
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</j.0:isSubConceptOf>
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</j.0:isSubConceptOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant">
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</j.0:isDisjointWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Fish">
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</j.0:isDisjointWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga">
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</j.0:isDisjointWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Bird">
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</j.0:isDisjointWith>
+    <j.0:isDisjointWith>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</j.0:isDisjointWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1217266757.owl#Horse">
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</j.0:isSubConceptOf>
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</j.0:isSubConceptOf>
+    <j.0:isSubConceptOf>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</j.0:isSubConceptOf>
+  </rdf:Description>
+</rdf:RDF>

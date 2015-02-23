@@ -1,0 +1,137 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>The Suggestions Tab</title>
+</head>
+
+<body>
+
+<h1><img src="images/serving_nerd.gif" width="48" height="48">   &nbsp;The
+Suggestions Tab<br>
+<img src="images/header_line.gif" width="590" height="6"></h1>
+
+<p>The Suggestions Tab shows a list of frames from the sources ontologie(s) and
+suggests an action for each frame shown. A pane at the bottom displays the Protégé
+heuristics for the suggestion.&nbsp;The Suggestions Tab is only available for
+the <a href="merge_mode.htm">merge</a> and <a href="move_frames_mode.htm">moving
+frames</a> modes.</p>
+
+<p> When you begin a new merge project, this list
+only contains classes. As you modify your project, the To Do list is updated to
+include other frames, such as slots, that are logically necessary for project
+completeness and consistency.&nbsp;When you begin a moving frames project, the
+list is empty.
+As you make changes, PROMPT considers the structure of the ontology around the arguments to
+the latest operations and proposes other operations that you should perform. For
+example, if you have merged two classes, creating a new class which combines all
+of their slots, PROMPT may suggest merging similar slots as well.</p>
+
+<p>Using the Suggestions Tab, you can:</p>
+
+<ul>
+  <li><a href="edit_operation.htm">edit</a> suggestions and change their parameters</li>
+  <li><a href="creating.htm">add</a> suggestions to the list</li>
+  <li><a href="remove_operation.htm">remove</a> suggestions from the list</li>
+  <li><a href="perform_operation.htm">perform</a> the operations on the To Do list</li>
+</ul>
+<p>You can also modify and create suggestions using the <a href="new_operations.htm">New
+Operations</a> tab.&nbsp;</p>
+
+<p align="center"><img border="0" src="images/suggest_tab.gif" width="577" height="526"></p>
+
+<p>The To Do list has the following columns: <a href="#name">Name</a>, <a href="#arguments">Arg</a>, and
+<a href="#params">Params</a>. These
+display the following information.</p>
+
+<h3><a name="name"></a>Name</h3>
+
+<p>Gives the name of the suggested <a href="operations.htm">operation</a>. If Protégé supplied the
+suggestion, the name is in normal type. If you have created or edited the suggestion,
+the name is in <b>bold</b>.&nbsp;</p>
+
+<p>Operations include merge, copy, move, and remove parent operations. See <a href="operations.htm"> PROMPT Operations</a>
+for more information on the individual operations.</p>
+
+<h3><a name="arguments"></a>Args</h3>
+<p>Shows the name of the frame(s) that are arguments to the suggested operation.
+Copy, Move, and Remove Parent operations have one argument; merge operations have two.
+If you are extracting or including an ontology, only copy or move operations are
+possible, so you will see only one column of arguments.&nbsp;</p>
+<p>For <a href="merge_mode.htm">merge</a> mode, frame names are color-coded
+according to their source ontology. The first ontology that was loaded in the
+initialization dialog is in <font color="#FF0000">red</font>; the second
+ontology is in <font color="#0000FF">blue</font>.&nbsp; In addition, any Alias
+you chose during initialization is shown. If you copy frames to the working
+ontology, the color-coding and Alias are retained; if you merge frames, this
+information is not preserved.</p>
+<h3><a name="params"></a>Params</h3>
+<p>Shows the parameters (options) selected for the <a href="operations.htm">operation</a>. These options
+can be modified by highlighting the suggestion and clicking the View <img border="0" src="images/View.gif" width="15" height="15">
+button. See <a href="operations.htm"> PROMPT Operations</a>
+for more information on the individual options.</p>
+<h3><a name="buttons"></a>Suggestion Buttons</h3>
+<p>The buttons at the upper right of the Suggestions tab allow you to modify the
+list:</p>
+<table border="0" width="100%">
+  <tr>
+    <td width="7%" valign="top"><img border="0" src="images/View.gif" width="15" height="15"></td>
+    <td width="93%"><b>View button: </b>Displays the <a href="edit_dialog.htm"> Edit Operation</a> dialog box
+      for the highlighted suggestion. This dialog allows you to modify the
+      operation and change its options. You can then perform the operation, or
+      you can leave it on the Suggestions list. You can also display the Edit
+      Operation dialog box by double-clicking a suggestion.</td>
+  </tr>
+  <tr>
+    <td width="7%" valign="top"><img border="0" src="images/Create.gif" width="15" height="15"></td>
+    <td width="93%"><b>Create button:</b> Displays the <a href="create_op_dialog.htm"> Create Operation</a> dialog
+      box. From this dialog, you can select any of the above operations, choose
+      the classes, slots or instances for the operation, and set the options.
+      You can perform the action now or place it on the Suggestions list.</td>
+  </tr>
+  <tr>
+    <td width="7%" valign="top"><img border="0" src="images/Delete.gif" width="16" height="15"></td>
+    <td width="93%"><b>Delete button:</b> Removes the highlighted suggestion(s)
+      from the list.</td>
+  </tr>
+  <tr>
+    <td width="7%" valign="top"><img border="0" src="images/Source.gif" width="15" height="15"></td>
+    <td width="93%"><b>Show Sources button:</b> Displays the <a href="source_bases.htm"> Source Knowledge
+      Bases</a> dialog box, which shows the source ontologie(s), and indicates which
+      frames have been incorporated into the working project.&nbsp;The argument
+      of the first suggestion highlighted on the list is highlighted in the
+      Source Knowledge Bases window.</td>
+  </tr>
+</table>
+
+<h3><a name="actions"></a>Actions</h3>
+
+<p>You can <a href="edit_operation.htm">edit</a> a suggestion by double-clicking it, or by highlighting it
+and clicking the View <img border="0" src="images/View.gif" width="15" height="15"> button to display
+the <a href="edit_dialog.htm"> Edit Operation</a> dialog box.</p>
+
+<p>You can <a href="creating.htm"> create</a> a suggestion by clicking the Create <img border="0" src="images/Create.gif" width="15" height="15">
+button to display the <a href="create_op_dialog.htm"> Create Operation</a> dialog box.</p>
+
+<p>You can <b>delete</b> one or more suggestions by highlighting them and
+clicking the Delete <img border="0" src="images/Delete.gif" width="16" height="15"> button. To
+highlight multiple selections, use the Ctrl or Shift key, or use Ctrl-A to
+select the entire list.</p>
+
+<p>You can <a href="perform_operation.htm"> perform</a> one or more suggested operations by highlighting them and
+clicking <b>Do It</b>. To highlight multiple selections, use the Ctrl or Shift
+key, or use Ctrl-A to select the entire list. Once you have performed one or
+more operations, the Suggestions list will be updated to reflect the new
+situation.</p>
+
+<hr>
+
+<p><font size="3">Next: </font><a href="conflicts_tab.htm">The Conflicts Tab</a></p>
+
+<p><font size="3"><a href="index.html">Prompt Table of Contents</a></font></p>
+
+</body>
+
+</html>

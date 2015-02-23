@@ -1,0 +1,12 @@
+speed.ontologymatcher.console
+speed.ontologymatcher.gui
+speed.ontologymatcher.gui.panels
+speed.ontologymatcher.lematching.basics
+speed.ontologymatcher.lematching.enums
+speed.ontologymatcher.lematching.matcher
+speed.ontologymatcher.lematching.util
+speed.ontologymatcher.semanticmatching.basics
+speed.ontologymatcher.semanticmatching.jena
+speed.ontologymatcher.semanticmatching.matcher
+speed.ontologymatcher.sparql
+speed.ontologymatcher.util

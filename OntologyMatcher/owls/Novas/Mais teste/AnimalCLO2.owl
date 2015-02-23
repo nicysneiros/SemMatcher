@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.owl-ontologies.com/Ontology1217266757.owl#"
+  xml:base="http://www.owl-ontologies.com/Ontology1217266757.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Herbivorous_Animal">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Animal"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Mineral_Water">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Mineral"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Animal">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Mineral"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Plant"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="Alga">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Plant"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Fungi">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Plant"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Mineral">
+    <owl:disjointWith rdf:resource="#Animal"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Hyena">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Flesh-Eating_Animal"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Salt">
+    <rdfs:subClassOf rdf:resource="#Mineral"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Chemical_Composition"/>
+  <owl:Class rdf:about="#Flesh-Eating_Animal">
+    <rdfs:subClassOf rdf:resource="#Animal"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Tiger">
+    <rdfs:subClassOf rdf:resource="#Flesh-Eating_Animal"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Plant">
+    <owl:disjointWith rdf:resource="#Animal"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="eats">
+    <rdfs:domain rdf:resource="#Herbivorous_Animal"/>
+    <rdfs:range rdf:resource="#Plant"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="isPartOf">
+    <rdfs:domain rdf:resource="#Chemical_Composition"/>
+    <rdfs:range rdf:resource="#Mineral"/>
+  </owl:ObjectProperty>
+  <Hyena rdf:ID="Hyena_1"/>
+  <Alga rdf:ID="Alga_11"/>
+  <Fungi rdf:ID="Fungi_9"/>
+  <Fungi rdf:ID="Fungi_10"/>
+  <Salt rdf:ID="Salt_7"/>
+  <Tiger rdf:ID="Tiger_3"/>
+  <Hyena rdf:ID="Hyena_2"/>
+  <Alga rdf:ID="Alga_8"/>
+  <Mineral_Water rdf:ID="Mineral_Water_6"/>
+  <Tiger rdf:ID="Tiger_4"/>
+  <Tiger rdf:ID="Tiger_12"/>
+  <Herbivorous_Animal rdf:ID="Herbivorous_Animal_5"/>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->

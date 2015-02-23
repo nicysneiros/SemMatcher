@@ -1,0 +1,21 @@
+EZPal Tab System Requirements
+-----------------------------
+
+1. You must have the PAL Tabs installed.
+2. You must include the "template.pprj" project (located in the "doc" directory)
+   in your project.  This step has to be performed before you can configure 
+   Protege to show the EZPal Tab.
+
+
+EZPal Installation Instructions
+-------------------------------
+
+Please note that these installation instructions are applicable to users 
+who download the EZPal Tab from our Web site.  If you installed the EZPal 
+Tab during the Protege installation process, all you need to do is make sure 
+you've met the system requirements listed above.
+
+Unzip the contents of the ZIP file into the Protege "plugins" subdirectory. 
+Please preserve the path information provided in the ZIP file so that the 
+proper subdirectory for the EZPal Tab is created under the "plugins" 
+subdirectory.

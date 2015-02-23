@@ -1,0 +1,46 @@
+; Thu Nov 04 15:38:35 PST 2004
+; 
+;+ (version "3.0")
+;+ (build "Build -1")
+
+([NorthAmericanHistory_INSTANCE_00005] of  Person
+
+	(name "Julius Caesar"))
+
+([NorthAmericanHistory_INSTANCE_00006] of  Person
+
+	(name "Julius Erving"))
+
+([NorthAmericanHistory_INSTANCE_00007] of  Person
+
+	(name "Julius Antony"))
+
+([Worldhistory_INSTANCE_00002] of  Person
+
+	(name "Christopher Columbus"))
+
+([Worldhistory_INSTANCE_00003] of  Person
+
+	(name "Christopher Cross"))
+
+([Worldhistory_INSTANCE_00009] of  Event
+
+	(historical-name "Egypt becomes Roman Province"))
+
+([Worldhistory_INSTANCE_00010] of  Event
+
+	(historical-name "North America is \"Discovered\""))
+
+([Worldhistory_INSTANCE_00011] of  Exploration
+
+	(historical-name "Discovery of North America")
+	(key-actors [Worldhistory_INSTANCE_00003]))
+
+([Worldhistory_INSTANCE_00012] of  Conquest
+
+	(consequences [Worldhistory_INSTANCE_00009])
+	(historical-name "Roman Conquest of Egypt"))
+
+([Worldhistory_INSTANCE_00013] of  RecurringInstant
+
+	(hour 45))

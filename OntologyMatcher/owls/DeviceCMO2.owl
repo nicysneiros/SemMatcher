@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.owl-ontologies.com/unnamed.owl#"
+  xml:base="http://www.owl-ontologies.com/unnamed.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="LCD">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Monitor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Mouse">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ElectronicDevice"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="NoteBook">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Computer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Processor"/>
+  <owl:Class rdf:ID="PC">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Computer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Screen">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ElectronicDevice"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="optical">
+    <rdfs:subClassOf rdf:resource="#Mouse"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ReadingMaterial">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Material"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="MacPC">
+    <rdfs:subClassOf rdf:resource="#PC"/>
+  </owl:Class>
+  <owl:Class rdf:about="#ElectronicDevice">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ElectronicMaterial"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Normal">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Monitor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#ElectronicMaterial">
+    <rdfs:subClassOf rdf:resource="#Material"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Mainframe">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Computer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Keyboard">
+    <rdfs:subClassOf rdf:resource="#ElectronicDevice"/>
+  </owl:Class>
+  <owl:Class rdf:ID="IntelPC">
+    <rdfs:subClassOf rdf:resource="#PC"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Computer">
+    <rdfs:subClassOf rdf:resource="#ElectronicDevice"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Monitor">
+    <rdfs:subClassOf rdf:resource="#Screen"/>
+  </owl:Class>
+  <owl:Class rdf:ID="orthopedical">
+    <rdfs:subClassOf rdf:resource="#optical"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Joystick">
+    <rdfs:subClassOf rdf:resource="#ElectronicDevice"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Display"/>
+  <owl:Class rdf:ID="PalmTop">
+    <rdfs:subClassOf rdf:resource="#Computer"/>
+  </owl:Class>
+  <owl:FunctionalProperty rdf:ID="PartOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Monitor"/>
+          <owl:Class rdf:about="#Keyboard"/>
+          <owl:Class rdf:about="#Mouse"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="SynOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Computer"/>
+  </owl:FunctionalProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->

@@ -1,0 +1,236 @@
+; Sat Feb 01 11:17:27 PST 2003
+; 
+;+ (version "1.7")
+;+ (build "Build 930")
+
+
+(defclass :CLIPS_TOP_LEVEL_SLOT_CLASS
+	(is-a USER)
+	(role concrete)
+	(single-slot test_instances
+		(type INSTANCE)
+;+		(allowed-classes Template :SLOT Property)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Property^Name
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot source
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Instance
+		(type INSTANCE)
+;+		(allowed-classes)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Boolean
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot string
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Sample^Usage
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Difficulty^Level
+		(type INTEGER)
+		(range 1 10)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Verified
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Int
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Axiom^Translation
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot template_00106
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Instantiated-Values
+		(type SYMBOL)
+;+		(allowed-parents)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Machine-Readable^Template^Code
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Template-Name
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Properties
+		(type INSTANCE)
+;+		(allowed-classes Property)
+		(create-accessor read-write))
+	(single-slot Cls
+		(type SYMBOL)
+;+		(allowed-parents :THING Template)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Float
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Template^MetaClass
+	(is-a :STANDARD-CLASS)
+	(role concrete)
+	(single-slot Verified
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Properties
+		(type INSTANCE)
+;+		(allowed-classes Property)
+		(create-accessor read-write))
+	(single-slot Machine-Readable^Template^Code
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Sample^Usage
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot :DIRECT-TYPE
+		(type SYMBOL)
+;+		(allowed-parents :CLASS)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Axiom^Translation
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Difficulty^Level
+		(type INTEGER)
+		(range 1 10)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass EZPal-CONSTRAINT
+	(is-a :PAL-CONSTRAINT)
+	(role concrete)
+	(single-slot source
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Property
+	(is-a USER)
+	(role concrete)
+	(single-slot Property^Name
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot test_instances
+		(type INSTANCE)
+;+		(allowed-classes Template)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Template
+	(is-a USER)
+	(role concrete))
+
+(defclass For^every^instance^I1^of^class^___,^if^the^value^of^slot^___^is^^instance^I2^of^class^___,^they^must^share^the^same^value^in^slot^___^for^I1^and^slot^___^for^I2.
+	(is-a Template)
+	(role concrete))
+
+(defclass Every^instance^of^class^___^must^have^a^unique^value^in^slot^___.
+	(is-a Template)
+	(role concrete))
+
+(defclass If^an^instance^of^class^___^contains^value^___^in^slot^___,^it^^must^contain^value^___^in^slot^___.
+	(is-a Template)
+	(role concrete))
+
+(defclass For^every^instance^of^class^___,^slots^___^and^___^cannot^have^the^same^value.
+	(is-a Template)
+	(role concrete))
+
+(defclass Every^instance^of^class^___^appears^at^least^once^in^slot^___^of^any^instance^of^class^___
+	(is-a Template)
+	(role concrete))
+
+(defclass For^every^instance^of^class^___,^slot^___^must^have^values^that^are^instances^of^classes^specified^by^slot^___
+	(is-a Template)
+	(role concrete))
+
+(defclass If^instance^I1^of^class^___^has^instance^I2^of^class^___^in^slot^___^of^I1,^and^I2^has^instance^I3^of^class^___^in^slot^___^of^I2,^then^I3^must/cannot^have^I1^in^slot^___^.
+	(is-a Template)
+	(role concrete))
+
+(defclass For^every^instance^I1^of^class^___,^if^the^value^of^slot^___^is^an^instance^of^I2,^then^there^is^an^instance^of^class^___^that^contains^I1^in^slot^___^and^I2^in^slot^___.
+	(is-a Template)
+	(role concrete))
+
+(defclass For^every^instance^of^class^___,^value^of^slot^___^must^be^(>,=,<)^than^the^value^of^slot^___.
+	(is-a Template)
+	(role concrete))
+
+(defclass Every^instance^of^class^___^that^share^the^same^value^in^slot^___^must/cannot^have^identical^values^in^slot^___.
+	(is-a Template)
+	(role concrete))
+
+(defclass For^every^instance^of^class___,^value^of^slot^___^must^also^be^a^value^of^slot^___^of^an^instance^of^class^___
+	(is-a Template)
+	(role concrete))
+
+(defclass For^every^instance^I1^of^class^___,^if^the^value^of^slot^___^has^an^instance^I2^of^class^___,^then^slot^___^of^I1^has^a^value^(>,=,<)^then^value^of^slot^___^of^I2.
+	(is-a Template)
+	(role concrete))
+
+(defclass At^least^one^instance^of^class^___^contains^value^___^in^slot^___.
+	(is-a Template)
+	(role concrete))
+
+(defclass For^every^instance^I1^of^class^___,^if^the^value^of^slot^___^has^an^instance^I2^of^class^___,^then^if^slot^___^of^I1^has^value^___,^slot^___^I2^must^have^value^___.
+	(is-a Template)
+	(role concrete))
+
+(defclass If^Instance^I1of^class^___^has^slot^___^that^contains^value^___,^then^I2^of^class^___^must/cannot^contain^I1^in^slot^___.^
+	(is-a Template)
+	(role concrete))
+
+(defclass For^every^instances^of^class^___,^slot^___^cannot^contain^both^instances^of^class^___^and^___.
+	(is-a Template)
+	(role concrete))
+
+(defclass For^every^instance^of^class^___,^slot^___^and^slot^___^must^have^instances^of^the^same^class
+	(is-a Template)
+	(role concrete))
+
+(defclass Every^instance^of^class^___^has^a^value^in^slot^___^^(>,=,<)^than^every/at^least^one^value^of^slot^___^of^class^___.
+	(is-a Template)
+	(role concrete))
+
+(defclass Every^instance^of^class^___^that^contains^value^___^in^slot^___^must^have^values^in^slot^___^that^are^instances^of^class^___.
+	(is-a Template)
+	(role concrete))
+
+(defclass IFor^every^instance^I1^of^class^___,^if^the^value^of^slot^___^has^an^instance^I2^of^class^___,^I2^must^have^value^___^in^slot^___.
+	(is-a Template)
+	(role concrete))
+
+(defclass For^every^instance^I1^of^class^___,^if^the^value^of^slot^___^has^an^instance^I2^of^class^___,^then^there^is^an^instance^of^class^___^that^contains^I2^in^slot^___.
+	(is-a Template)
+	(role concrete))
+
+(defclass For^every^instance^I1^of^class^___,^there^must^be^an^instance^I2^of^class^___^that^contains^I1^in^slot^___.
+	(is-a Template)
+	(role concrete))

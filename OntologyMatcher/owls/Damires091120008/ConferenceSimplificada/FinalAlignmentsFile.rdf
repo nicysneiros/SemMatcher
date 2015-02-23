@@ -1,0 +1,540 @@
+<Match>
+	<Subject>http://crs_dr#chair</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#chair</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#review</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#review</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#document</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#document</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#author</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#author</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#participant</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#participant</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#event</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#event</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#conference</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#conference</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#article</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#reviewer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#reviewer</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#person</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#chair</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#chair</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#review</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#review</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#document</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#document</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#author</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#author</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#participant</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#participant</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#event</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#event</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#conference</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#conference</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#article</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#reviewer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#reviewer</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#person</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#event</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#event</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#chair</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#chair</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#participant</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#participant</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#article</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#author</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#author</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#document</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#document</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#review</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#review</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#conference</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#conference</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#reviewer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#reviewer</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#person</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#review</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#review</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#chair</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#chair</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#participant</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#participant</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#article</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#author</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#author</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#document</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#document</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#event</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#event</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#conference</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#conference</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#reviewer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#reviewer</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#person</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#chair</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#chair</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#review</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#review</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#document</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#document</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#author</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#author</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#participant</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#participant</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#event</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#event</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#conference</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#conference</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#article</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#reviewer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#reviewer</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#person</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#chair</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#chair</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#review</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#review</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#document</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#document</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#author</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#author</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#participant</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#participant</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#event</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#event</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#conference</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#conference</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#article</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#reviewer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#reviewer</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#person</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#chair</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#chair</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#review</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#review</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#document</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#document</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#author</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#author</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#participant</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#participant</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#event</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#event</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#conference</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#conference</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#article</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#reviewer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#reviewer</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#person</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#chair</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#chair</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#review</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#review</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#document</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#document</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#author</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#author</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#participant</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#participant</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#event</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#event</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#conference</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#conference</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#article</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#reviewer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#reviewer</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#person</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#chair</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#chair</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#review</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#review</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#document</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#document</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#author</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#author</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#participant</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#participant</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#event</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#event</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#conference</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#conference</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#article</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#article</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#reviewer</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#reviewer</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://crs_dr#person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://crs_dr#person</Object>
+	<Similarity>1.0</Similarity>
+</Match>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF
+  xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <Alignment>
+    <xml>yes</xml>
+    <level>0</level>
+    <type>**</type>
+    <onto1>http://www.owl-ontologies.com/Ontology1220896776.owl#</onto1>
+    <onto2>http://www.owl-ontologies.com/Ontology1220896776.owl#</onto2>
+    <uri1>http://www.owl-ontologies.com/Ontology1220896776.owl#</uri1>
+    <uri2>http://www.owl-ontologies.com/Ontology1220896776.owl#</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Email"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Email"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#CellPhone"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#CellPhone"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#BirthDate"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#BirthDate"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Name"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Name"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8333333333333333</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Person"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Student"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.75</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Education"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Education"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.75</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#AssistantProfessor"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6666666666666666</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#GraduateStudent"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#AssistantProfessor"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6666666666666666</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Researcher"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#AssistantProfessor"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6666666666666666</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Teacher"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#AssistantProfessor"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6666666666666666</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Worker"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#isAdvisorOf"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#HelpsIn"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#CommercialPhone"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#CellPhone"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Identity"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#CellPhone"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>~</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#Nickname"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1220896776.owl#CellPhone"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>~</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

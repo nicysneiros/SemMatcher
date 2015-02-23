@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.owl-ontologies.com/Ontology1214943639.owl#"
+  xml:base="http://www.owl-ontologies.com/Ontology1214943639.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Camera">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ElectronicDevice"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Screen">
+    <rdfs:subClassOf rdf:resource="#ElectronicDevice"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Notebook">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Computer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PC">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Computer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="IntelPC">
+    <rdfs:subClassOf rdf:resource="#PC"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Mouse">
+    <rdfs:subClassOf rdf:resource="#ElectronicDevice"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Keyboard">
+    <rdfs:subClassOf rdf:resource="#ElectronicDevice"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Display">
+    <rdfs:subClassOf rdf:resource="#Screen"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Computer">
+    <rdfs:subClassOf rdf:resource="#ElectronicDevice"/>
+  </owl:Class>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->

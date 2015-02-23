@@ -1,0 +1,4055 @@
+; Mon Dec 20 16:54:07 PST 2004
+; 
+;+ (version "3.0")
+;+ (build "Build 107")
+
+([CLASS_WIDGET] of  Widget
+
+	(height 522)
+	(name ":STANDARD-CLASS")
+	(property_list [KB_986455_Instance_0])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 860)
+	(x 0)
+	(y 0))
+
+([CLS_INVERSE_RELATIONSHIP_WIDGET] of  Widget
+
+	(height 368)
+	(label "Inverse Relationship")
+	(name "cls_inverse_relationship_widget")
+	(property_list [KB_INSTANCE_00002])
+	(widget_class_name "edu.stanford.smi.protege.ui.ClsInverseRelationshipWidget")
+	(width 360)
+	(x 0)
+	(y 426))
+
+([CLSES_TAB] of  Widget
+
+	(height 539)
+	(is_hidden FALSE)
+	(label "Classes")
+	(name "Classes")
+	(property_list [CLSES_TAB_PROPERTIES])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesTab")
+	(width 876)
+	(x 0)
+	(y 0))
+
+([CLSES_TAB_PROPERTIES] of  Property_List
+
+	(name "classes tab properties")
+	(properties
+		[CLSES_WIDGET]
+		[CLS_INVERSE_RELATIONSHIP_WIDGET]
+		[mapping-onto_ProjectKB_00025]
+		[mapping-onto_ProjectKB_00026]))
+
+([CLSES_WIDGET] of  Widget
+
+	(height 794)
+	(label "Relationship:")
+	(name "clses_widget")
+	(widget_class_name "edu.stanford.smi.protege.ui.ClsesWidget")
+	(width 390)
+	(x 0)
+	(y 0))
+
+([FACTORY_CLASS_NAME] of  String
+
+	(name "factory_class_name")
+	(string_value "edu.stanford.smi.protege.storage.clips.ClipsKnowledgeBaseFactory"))
+
+([FORMS_TAB] of  Widget
+
+	(height 353)
+	(is_hidden FALSE)
+	(label "Forms")
+	(name "Forms")
+	(property_list [FORMS_TAB_PROPERTIES])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormsTab")
+	(width 468)
+	(x 0)
+	(y 0))
+
+([FORMS_TAB_PROPERTIES] of  Property_List
+
+	(properties
+		[FORMS_WIDGET]
+		[mapping-onto_ProjectKB_00029]))
+
+([FORMS_WIDGET] of  Widget
+
+	(height 794)
+	(label "Forms")
+	(name "forms_widget")
+	(widget_class_name "edu.stanford.smi.protege.ui.FormsWidget")
+	(width 300)
+	(x 0)
+	(y 0))
+
+([INSTANCES_TAB] of  Widget
+
+	(height 373)
+	(is_hidden TRUE)
+	(label "Instances")
+	(name "Instances")
+	(property_list [INSTANCES_TAB_PROPERTIES])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstancesTab")
+	(width 505)
+	(x 0)
+	(y 0))
+
+([INSTANCES_TAB_PROPERTIES] of  Property_List
+
+	(properties
+		[INSTANCES_WIDGET]
+		[REFERENCERS_WIDGET]
+		[mapping-onto_ProjectKB_00030]
+		[mapping-onto_ProjectKB_00031]))
+
+([INSTANCES_WIDGET] of  Widget
+
+	(height 400)
+	(label "Relationship")
+	(name "instances_widget")
+	(widget_class_name "edu.stanford.smi.protege.ui.InstancesWidget")
+	(width 300)
+	(x 0)
+	(y 0))
+
+([KB_986455_Instance_0] of  Property_List
+
+	(name "class widget properties")
+	(properties
+		[KB_986455_Instance_1]
+		[KB_986455_Instance_2]
+		[KB_986455_Instance_3]
+		[KB_986455_Instance_4]
+		[KB_986455_Instance_5]
+		[KB_986455_Instance_6]
+		[KB_986455_Instance_7]
+		[KB_986455_Instance_8]
+		[KB_986455_Instance_9]
+		[KB_986455_Instance_10]))
+
+([KB_986455_Instance_1] of  Widget
+
+	(height 120)
+	(label "Constraints")
+	(name ":SLOT-CONSTRAINTS")
+	(property_list [mappings_ProjectKB_Instance_57])
+	(widget_class_name "edu.stanford.smi.protege.widget.ConstraintsWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([KB_986455_Instance_10] of  Property_List
+
+	(name "layout properties")
+	(properties [KB_986455_Instance_11]))
+
+([KB_986455_Instance_11] of  String
+
+	(name "vertical_stretcher")
+	(string_value ":DIRECT-TEMPLATE-SLOTS"))
+
+([KB_986455_Instance_12] of  Property_List
+
+	(name "slot widget properties")
+	(properties
+		[KB_986455_Instance_13]
+		[KB_986455_Instance_14]
+		[KB_986455_Instance_15]
+		[KB_986455_Instance_16]
+		[KB_986455_Instance_17]
+		[KB_986455_Instance_18]
+		[KB_986455_Instance_19]
+		[KB_986455_Instance_20]
+		[KB_986455_Instance_21]
+		[KB_986455_Instance_22]
+		[KB_986455_Instance_23]
+		[KB_986455_Instance_24]
+		[KB_986455_Instance_25]
+		[KB_986455_Instance_26]
+		[KB_986455_Instance_27]
+		[KB_986455_Instance_28]
+		[mappings_ProjectKB_Instance_63]))
+
+([KB_986455_Instance_13] of  Widget
+
+	(height 60)
+	(label "Cardinality")
+	(name ":SLOT-MINIMUM-CARDINALITY")
+	(widget_class_name "edu.stanford.smi.protege.widget.MinimumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 120))
+
+([KB_986455_Instance_14] of  Widget
+
+	(height 35)
+	(name ":SLOT-MAXIMUM-CARDINALITY")
+	(widget_class_name "edu.stanford.smi.protege.widget.MaximumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 180))
+
+([KB_986455_Instance_15] of  Widget
+
+	(name ":SLOT-CONSTRAINTS"))
+
+([KB_986455_Instance_16] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([KB_986455_Instance_17] of  Widget
+
+	(height 95)
+	(label "Domain")
+	(name ":DIRECT-DOMAIN")
+	(property_list [mappings_ProjectKB_Instance_64])
+	(widget_class_name "edu.stanford.smi.protege.widget.DirectDomainWidget")
+	(width 200)
+	(x 400)
+	(y 180))
+
+([KB_986455_Instance_18] of  Widget
+
+	(height 90)
+	(label "Template Values")
+	(name ":SLOT-VALUES")
+	(property_list [mappings_ProjectKB_Instance_65])
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotValuesWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([KB_986455_Instance_19] of  Widget
+
+	(name ":DIRECT-SUPERSLOTS"))
+
+([KB_986455_Instance_2] of  Widget
+
+	(name ":DIRECT-INSTANCES"))
+
+([KB_986455_Instance_20] of  Widget
+
+	(name ":DIRECT-SUBSLOTS"))
+
+([KB_986455_Instance_21] of  Widget
+
+	(height 90)
+	(label "Default")
+	(name ":SLOT-DEFAULTS")
+	(property_list [mappings_ProjectKB_Instance_66])
+	(widget_class_name "edu.stanford.smi.protege.widget.DefaultValuesWidget")
+	(width 200)
+	(x 400)
+	(y 90))
+
+([KB_986455_Instance_22] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_986455_Instance_23] of  Widget
+
+	(height 60)
+	(label "Maximum")
+	(name ":SLOT-NUMERIC-MAXIMUM")
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMaximumWidget")
+	(width 100)
+	(x 100)
+	(y 215))
+
+([KB_986455_Instance_24] of  Widget
+
+	(height 60)
+	(label "Minimum")
+	(name ":SLOT-NUMERIC-MINIMUM")
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMinimumWidget")
+	(width 100)
+	(x 0)
+	(y 215))
+
+([KB_986455_Instance_25] of  Widget
+
+	(name ":ASSOCIATED-FACET"))
+
+([KB_986455_Instance_26] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_986455_Instance_27] of  Widget
+
+	(height 60)
+	(label "Inverse Slot")
+	(name ":SLOT-INVERSE")
+	(widget_class_name "edu.stanford.smi.protege.widget.InverseSlotWidget")
+	(width 200)
+	(x 200)
+	(y 215))
+
+([KB_986455_Instance_28] of  Widget
+
+	(height 155)
+	(label "Value Type")
+	(name ":SLOT-VALUE-TYPE")
+	(widget_class_name "edu.stanford.smi.protege.widget.ValueTypeWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_986455_Instance_29] of  Property_List
+
+	(name "facet widget properties")
+	(properties
+		[KB_986455_Instance_30]
+		[KB_986455_Instance_31]
+		[KB_986455_Instance_32]))
+
+([KB_986455_Instance_3] of  Widget
+
+	(name ":DIRECT-SUBCLASSES"))
+
+([KB_986455_Instance_30] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_986455_Instance_31] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_986455_Instance_32] of  Widget
+
+	(height 60)
+	(label "Associated Slot")
+	(name ":ASSOCIATED-SLOT")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_986455_Instance_33] of  Property_List
+
+	(properties
+		[KB_986455_Instance_34]
+		[KB_986455_Instance_35]
+		[KB_986455_Instance_36]
+		[KB_986455_Instance_37]))
+
+([KB_986455_Instance_34] of  Widget
+
+	(name ":ANNOTATED-INSTANCE"))
+
+([KB_986455_Instance_35] of  Widget
+
+	(name ":CREATOR"))
+
+([KB_986455_Instance_36] of  Widget
+
+	(name ":CREATION-TIMESTAMP"))
+
+([KB_986455_Instance_37] of  Widget
+
+	(height 100)
+	(is_hidden FALSE)
+	(name ":ANNOTATION-TEXT")
+	(widget_class_name "edu.stanford.smi.protege.widget.YellowStickyWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_986455_Instance_38] of  Property_List
+
+	(properties
+		[KB_986455_Instance_39]
+		[KB_986455_Instance_40]
+		[KB_986455_Instance_41]
+		[KB_986455_Instance_42]))
+
+([KB_986455_Instance_39] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Name")
+	(name ":PAL-NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 275)
+	(x 0)
+	(y 0))
+
+([KB_986455_Instance_4] of  Widget
+
+	(name ":DIRECT-SUPERCLASSES"))
+
+([KB_986455_Instance_40] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(label "Range")
+	(name ":PAL-RANGE")
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalRangeWidget")
+	(width 250)
+	(x 275)
+	(y 180))
+
+([KB_986455_Instance_41] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(label "Description")
+	(name ":PAL-DESCRIPTION")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 275)
+	(y 0))
+
+([KB_986455_Instance_42] of  Widget
+
+	(height 300)
+	(is_hidden FALSE)
+	(label "Statement")
+	(name ":PAL-STATEMENT")
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalConstraintWidget")
+	(width 275)
+	(x 0)
+	(y 60))
+
+([KB_986455_Instance_5] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_986455_Instance_6] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_986455_Instance_7] of  Widget
+
+	(height 60)
+	(label "Role")
+	(name ":ROLE")
+	(widget_class_name "edu.stanford.smi.protege.widget.RoleWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_986455_Instance_8] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([KB_986455_Instance_9] of  Widget
+
+	(height 150)
+	(label "Template Slots")
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(property_list [mappings_ProjectKB_Instance_60])
+	(widget_class_name "edu.stanford.smi.protege.widget.TemplateSlotsWidget")
+	(width 600)
+	(x 0)
+	(y 120))
+
+([KB_INSTANCE_00001] of  Property_List
+
+	(properties
+		[mappings_ProjectKB_Instance_10094]
+		[mappings_ProjectKB_Instance_10095]
+		[mappings_ProjectKB_Instance_10096]
+		[mappings_ProjectKB_Instance_10097]
+		[mappings_ProjectKB_Instance_10098]
+		[mappings_ProjectKB_Instance_10099]
+		[mappings_ProjectKB_Instance_10100]
+		[mappings_ProjectKB_Instance_10101]
+		[mappings_ProjectKB_Instance_10102]
+		[mappings_ProjectKB_Instance_10103]))
+
+([KB_INSTANCE_00002] of  Property_List
+)
+
+([KB_INSTANCE_00005] of  String
+
+	(name "classes_file_name")
+	(string_value "mappings.pont"))
+
+([KB_INSTANCE_00006] of  String
+
+	(name "instances_file_name")
+	(string_value "mappings.pins"))
+
+([mapping-onto_ProjectKB_00025] of  Integer
+
+	(integer_value 264)
+	(name "ClsesTab.left_right"))
+
+([mapping-onto_ProjectKB_00026] of  Integer
+
+	(integer_value 374)
+	(name "ClsesTab.left.top_bottom"))
+
+([mapping-onto_ProjectKB_00027] of  Integer
+
+	(integer_value 209)
+	(name "SlotsTab.left_right"))
+
+([mapping-onto_ProjectKB_00028] of  Integer
+
+	(integer_value 182)
+	(name "SlotTab.left.top_bottom"))
+
+([mapping-onto_ProjectKB_00029] of  Integer
+
+	(integer_value 255)
+	(name "FormsTab.left_right"))
+
+([mapping-onto_ProjectKB_00030] of  Integer
+
+	(integer_value 202)
+	(name "InstancesTab.left_right"))
+
+([mapping-onto_ProjectKB_00031] of  Integer
+
+	(integer_value 260)
+	(name "InstancesTab.right.left_right"))
+
+([mappings_ProjectKB_00002] of  Widget
+
+	(height 658)
+	(is_hidden FALSE)
+	(name "instance-mapping")
+	(property_list [mappings_ProjectKB_00003])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 1023)
+	(x 0)
+	(y 0))
+
+([mappings_ProjectKB_00003] of  Property_List
+
+	(properties
+		[mappings_ProjectKB_00004]
+		[mappings_ProjectKB_00012]
+		[mappings_ProjectKB_00020]
+		[mappings_ProjectKB_00022]
+		[mappings_ProjectKB_00024]
+		[mappings_ProjectKB_00026]
+		[mappings_ProjectKB_00234]
+		[mappings_ProjectKB_00236]
+		[ZP-mappings_ProjectKB_00391]
+		[ZP-mappings_ProjectKB_00399]
+		[ZP-mappings_ProjectKB_01242]
+		[ZP-mappings_ProjectKB_01312]
+		[ZP-mappings_ProjectKB_00931]
+		[ZP-mappings_ProjectKB_01041]))
+
+([mappings_ProjectKB_00004] of  Widget
+
+	(height 150)
+	(is_hidden FALSE)
+	(label "Slot-maps")
+	(name "slot-maps")
+	(property_list [mappings_ProjectKB_00005])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 250)
+	(y 140))
+
+([mappings_ProjectKB_00005] of  Property_List
+
+	(properties
+		[mappings_ProjectKB_01179]
+		[mappings_ProjectKB_01180]
+		[mappings_ProjectKB_01181]
+		[mappings_ProjectKB_01182]
+		[mappings_ProjectKB_01183]
+		[mappings_ProjectKB_01184]
+		[mappings_ProjectKB_Instance_37]
+		[mappings_ProjectKB_Instance_38]))
+
+([mappings_ProjectKB_00012] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "Aux-source-classes")
+	(name "aux-source-classes-desc")
+	(property_list [mappings_ProjectKB_00013])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 250)
+	(y 0))
+
+([mappings_ProjectKB_00013] of  Property_List
+
+	(properties
+		[mappings_ProjectKB_00014]
+		[mappings_ProjectKB_00015]
+		[mappings_ProjectKB_00016]
+		[mappings_ProjectKB_00017]
+		[mappings_ProjectKB_00018]
+		[mappings_ProjectKB_00019]
+		[mappings_ProjectKB_00954]
+		[mappings_ProjectKB_00955]
+		[mappings_ProjectKB_00956]
+		[mappings_ProjectKB_00957]
+		[mappings_ProjectKB_00958]
+		[mappings_ProjectKB_00959]
+		[mappings_ProjectKB_01285]
+		[mappings_ProjectKB_01286]
+		[mappings_ProjectKB_Instance_39]
+		[mappings_ProjectKB_Instance_10040]))
+
+([mappings_ProjectKB_00014] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([mappings_ProjectKB_00015] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create"))
+
+([mappings_ProjectKB_00016] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([mappings_ProjectKB_00017] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([mappings_ProjectKB_00018] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([mappings_ProjectKB_00019] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete"))
+
+([mappings_ProjectKB_00020] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "condition")
+	(property_list [mappings_ProjectKB_00021])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 230))
+
+([mappings_ProjectKB_00021] of  Property_List
+)
+
+([mappings_ProjectKB_00022] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(name "on-demand")
+	(property_list [mappings_ProjectKB_00023])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 120)
+	(x 130)
+	(y 140))
+
+([mappings_ProjectKB_00023] of  Property_List
+)
+
+([mappings_ProjectKB_00024] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "target-class")
+	(property_list [mappings_ProjectKB_00025])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 0)
+	(y 170))
+
+([mappings_ProjectKB_00025] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_01043]
+		[ZP-mappings_ProjectKB_01044]
+		[ZP-mappings_ProjectKB_01045]
+		[ZP-mappings_ProjectKB_01046]
+		[ZP-mappings_ProjectKB_01047]
+		[ZP-mappings_ProjectKB_01048]
+		[mappings_ProjectKB_Instance_10041]))
+
+([mappings_ProjectKB_00026] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Source-class")
+	(name "source-class-desc")
+	(property_list [mappings_ProjectKB_00128])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 0)
+	(y 60))
+
+([mappings_ProjectKB_00128] of  Property_List
+
+	(properties
+		[mappings_ProjectKB_00228]
+		[mappings_ProjectKB_00229]
+		[mappings_ProjectKB_00230]
+		[mappings_ProjectKB_00231]
+		[mappings_ProjectKB_00232]
+		[mappings_ProjectKB_00233]
+		[mappings_ProjectKB_00948]
+		[mappings_ProjectKB_00949]
+		[mappings_ProjectKB_00950]
+		[mappings_ProjectKB_00951]
+		[mappings_ProjectKB_00952]
+		[mappings_ProjectKB_00953]
+		[mappings_ProjectKB_01287]
+		[mappings_ProjectKB_01288]
+		[mappings_ProjectKB_Instance_10042]))
+
+([mappings_ProjectKB_00228] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([mappings_ProjectKB_00229] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([mappings_ProjectKB_00230] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create"))
+
+([mappings_ProjectKB_00231] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([mappings_ProjectKB_00232] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([mappings_ProjectKB_00233] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete"))
+
+([mappings_ProjectKB_00234] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Reverse-mapping")
+	(name "reverse-mapping")
+	(property_list [mappings_ProjectKB_00235])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 130)
+	(x 0)
+	(y 140))
+
+([mappings_ProjectKB_00235] of  Property_List
+)
+
+([mappings_ProjectKB_00236] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "mapping-name")
+	(property_list [mappings_ProjectKB_00237])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([mappings_ProjectKB_00237] of  Property_List
+)
+
+([mappings_ProjectKB_00428] of  Widget
+
+	(is_hidden FALSE)
+	(name ":STANDARD-FACET")
+	(property_list [KB_986455_Instance_29])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([mappings_ProjectKB_00432] of  Widget
+
+	(is_hidden FALSE)
+	(label "Classes & Instances")
+	(property_list [mappings_ProjectKB_00433])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesAndInstancesTab"))
+
+([mappings_ProjectKB_00433] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00884]
+		[ZP-mappings_ProjectKB_00885]
+		[ZP-mappings_ProjectKB_00886]))
+
+([mappings_ProjectKB_00436] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [mappings_ProjectKB_00437])
+	(widget_class_name "edu.stanford.smi.protege.widget.KAToolTab"))
+
+([mappings_ProjectKB_00437] of  Property_List
+)
+
+([mappings_ProjectKB_00532] of  Widget
+
+	(height 658)
+	(is_hidden FALSE)
+	(name "constant-slot-mapping")
+	(property_list [mappings_ProjectKB_00655])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 1023)
+	(x 0)
+	(y 0))
+
+([mappings_ProjectKB_00551] of  Widget
+
+	(height 658)
+	(is_hidden FALSE)
+	(name "lexical-slot-mapping")
+	(property_list [mappings_ProjectKB_00660])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 1023)
+	(x 0)
+	(y 0))
+
+([mappings_ProjectKB_00585] of  Widget
+
+	(height 658)
+	(is_hidden FALSE)
+	(name "functional-slot-mapping")
+	(property_list [mappings_ProjectKB_00906])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 1023)
+	(x 0)
+	(y 0))
+
+([mappings_ProjectKB_00610] of  Widget
+
+	(height 658)
+	(is_hidden FALSE)
+	(name "recursive-slot-mapping")
+	(property_list [mappings_ProjectKB_00704])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 1023)
+	(x 0)
+	(y 0))
+
+([mappings_ProjectKB_00633] of  Widget
+
+	(is_hidden FALSE)
+	(name ":INSTANCE-ANNOTATION")
+	(property_list [KB_986455_Instance_33])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([mappings_ProjectKB_00639] of  Widget
+
+	(is_hidden FALSE)
+	(name ":PAL-CONSTRAINT")
+	(property_list [KB_986455_Instance_38])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([mappings_ProjectKB_00655] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00035]
+		[ZP-mappings_ProjectKB_00037]
+		[ZP-mappings_ProjectKB_00039]
+		[ZP-mappings_ProjectKB_00321]
+		[ZP-mappings_ProjectKB_00329]
+		[ZP-mappings_ProjectKB_00337]
+		[ZP-mappings_ProjectKB_01160]))
+
+([mappings_ProjectKB_00660] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00041]
+		[ZP-mappings_ProjectKB_00043]
+		[ZP-mappings_ProjectKB_00045]
+		[ZP-mappings_ProjectKB_00340]
+		[ZP-mappings_ProjectKB_00348]
+		[ZP-mappings_ProjectKB_01158]
+		[mappings_ProjectKB_Instance_18]))
+
+([mappings_ProjectKB_00704] of  Property_List
+
+	(properties
+		[mappings_ProjectKB_00705]
+		[ZP-mappings_ProjectKB_00055]
+		[ZP-mappings_ProjectKB_00372]
+		[ZP-mappings_ProjectKB_00380]
+		[ZP-mappings_ProjectKB_00866]
+		[ZP-mappings_ProjectKB_00868]
+		[ZP-mappings_ProjectKB_00002]
+		[ZP-mappings_ProjectKB_01132]
+		[ZP-mappings_ProjectKB_01154]
+		[ZP-mappings_ProjectKB_00910]))
+
+([mappings_ProjectKB_00705] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "target-slot")
+	(property_list [mappings_ProjectKB_00706])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 250)
+	(y 60))
+
+([mappings_ProjectKB_00706] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_01061]
+		[ZP-mappings_ProjectKB_01062]
+		[ZP-mappings_ProjectKB_01063]
+		[ZP-mappings_ProjectKB_01064]
+		[ZP-mappings_ProjectKB_01065]
+		[ZP-mappings_ProjectKB_01066]
+		[mappings_ProjectKB_Instance_29]))
+
+([mappings_ProjectKB_00866] of  Property_List
+
+	(properties [mappings_ProjectKB_00867]))
+
+([mappings_ProjectKB_00867] of  String
+
+	(name "SearchTab_Query"))
+
+([mappings_ProjectKB_00906] of  Property_List
+
+	(properties
+		[mappings_ProjectKB_00907]
+		[mappings_ProjectKB_00914]
+		[mappings_ProjectKB_00916]
+		[ZP-mappings_ProjectKB_00052]
+		[ZP-mappings_ProjectKB_00356]
+		[ZP-mappings_ProjectKB_00364]
+		[ZP-mappings_ProjectKB_00388]
+		[ZP-mappings_ProjectKB_01156]))
+
+([mappings_ProjectKB_00907] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "target-slot")
+	(property_list [mappings_ProjectKB_00908])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 500)
+	(x 0)
+	(y 320))
+
+([mappings_ProjectKB_00908] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_01067]
+		[ZP-mappings_ProjectKB_01068]
+		[ZP-mappings_ProjectKB_01069]
+		[ZP-mappings_ProjectKB_01070]
+		[ZP-mappings_ProjectKB_01071]
+		[ZP-mappings_ProjectKB_01072]
+		[mappings_ProjectKB_Instance_24]))
+
+([mappings_ProjectKB_00914] of  Widget
+
+	(height 200)
+	(is_hidden FALSE)
+	(name "source-slot-composition")
+	(property_list [mappings_ProjectKB_00915])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 500)
+	(x 0)
+	(y 120))
+
+([mappings_ProjectKB_00915] of  Property_List
+)
+
+([mappings_ProjectKB_00916] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Language")
+	(name "language")
+	(property_list [mappings_ProjectKB_00917])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 500)
+	(x 0)
+	(y 60))
+
+([mappings_ProjectKB_00917] of  Property_List
+)
+
+([mappings_ProjectKB_00948] of  String
+
+	(name "ButtonDescription-View Instance")
+	(string_value "View Instance"))
+
+([mappings_ProjectKB_00949] of  String
+
+	(name "ButtonDescription-References")
+	(string_value "Display references to selected instance"))
+
+([mappings_ProjectKB_00950] of  String
+
+	(name "ButtonDescription-Create")
+	(string_value "Create Instance"))
+
+([mappings_ProjectKB_00951] of  String
+
+	(name "ButtonDescription-Add")
+	(string_value "Add Instance"))
+
+([mappings_ProjectKB_00952] of  String
+
+	(name "ButtonDescription-Remove")
+	(string_value "Remove Instance"))
+
+([mappings_ProjectKB_00953] of  String
+
+	(name "ButtonDescription-Delete")
+	(string_value "Delete Instance"))
+
+([mappings_ProjectKB_00954] of  String
+
+	(name "ButtonDescription-View Selected Instances")
+	(string_value "View Selected Instances"))
+
+([mappings_ProjectKB_00955] of  String
+
+	(name "ButtonDescription-Create")
+	(string_value "Create Instance"))
+
+([mappings_ProjectKB_00956] of  String
+
+	(name "ButtonDescription-References")
+	(string_value "Display references to selected instance"))
+
+([mappings_ProjectKB_00957] of  String
+
+	(name "ButtonDescription-Add")
+	(string_value "Select Instances"))
+
+([mappings_ProjectKB_00958] of  String
+
+	(name "ButtonDescription-Remove")
+	(string_value "Remove Selected Instances"))
+
+([mappings_ProjectKB_00959] of  String
+
+	(name "ButtonDescription-Delete")
+	(string_value "Delete Selected Instances"))
+
+([mappings_ProjectKB_01179] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([mappings_ProjectKB_01180] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([mappings_ProjectKB_01181] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([mappings_ProjectKB_01182] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([mappings_ProjectKB_01183] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([mappings_ProjectKB_01184] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([mappings_ProjectKB_01285] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([mappings_ProjectKB_01286] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([mappings_ProjectKB_01287] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([mappings_ProjectKB_01288] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_01319] of  Map
+
+	(entries [mappings_ProjectKB_Instance_10105])
+	(referenced_maps [mappings_ProjectKB_Instance_10104]))
+
+([mappings_ProjectKB_Instance_0] of  Property_List
+
+	(name "layout properties"))
+
+([mappings_ProjectKB_Instance_1] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_10] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_10040] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_10041] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_10042] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_10043] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_10044] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_10045] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_10046] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_10047] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_10048] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_10049] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_10050] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_10051] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_10052] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_10053] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_10054] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_10058] of  Property_List
+
+	(name "layout properties"))
+
+([mappings_ProjectKB_Instance_10059] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_10060] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_10061] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_10062] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_10094] of  String
+
+	(name "instance-mapping")
+	(string_value "source-class-desc{--}target-class"))
+
+([mappings_ProjectKB_Instance_10095] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
+
+([mappings_ProjectKB_Instance_10096] of  String
+
+	(name "frame-description")
+	(string_value "name"))
+
+([mappings_ProjectKB_Instance_10097] of  String
+
+	(name "global-slot-mapping")
+	(string_value "global-source-slot{--}global-target-slot"))
+
+([mappings_ProjectKB_Instance_10098] of  String
+
+	(name "renaming-slot-mapping")
+	(string_value "source-slot{--}target-slot"))
+
+([mappings_ProjectKB_Instance_10099] of  String
+
+	(name "executable-code")
+	(string_value "code-name"))
+
+([mappings_ProjectKB_Instance_10100] of  String
+
+	(name "slot-mapping")
+	(string_value "target-slot"))
+
+([mappings_ProjectKB_Instance_10101] of  String
+
+	(name ":STANDARD-SLOT")
+	(string_value "%3ANAME"))
+
+([mappings_ProjectKB_Instance_10102] of  String
+
+	(name "recursive-slot-mapping")
+	(string_value "source-slot{--}target-slot"))
+
+([mappings_ProjectKB_Instance_10103] of  String
+
+	(name ":STANDARD-CLASS")
+	(string_value "%3ANAME"))
+
+([mappings_ProjectKB_Instance_10104] of  Map
+)
+
+([mappings_ProjectKB_Instance_10105] of  Map_Entry
+
+	(key "InstanceDisplay.yellow_stickies")
+	(key_class "java.lang.String")
+	(value "mappings_ProjectKB_Instance_10104")
+	(value_class "java.util.Map"))
+
+([mappings_ProjectKB_Instance_11] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_12] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_13] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_14] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_15] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_16] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_17] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_18] of  Property_List
+
+	(name "layout properties"))
+
+([mappings_ProjectKB_Instance_19] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_2] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_20] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_21] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_22] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_23] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_24] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_25] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_26] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_27] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_28] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_29] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_3] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_30] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_31] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_32] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_33] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_34] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_35] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_36] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_37] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_38] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_39] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_4] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_40] of  Property_List
+
+	(name "layout properties"))
+
+([mappings_ProjectKB_Instance_41] of  Property_List
+
+	(name "layout properties"))
+
+([mappings_ProjectKB_Instance_43] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [mappings_ProjectKB_Instance_44])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.OWLIndividualsTab"))
+
+([mappings_ProjectKB_Instance_44] of  Property_List
+)
+
+([mappings_ProjectKB_Instance_45] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [mappings_ProjectKB_Instance_46])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadatatab.OWLMetadataTab"))
+
+([mappings_ProjectKB_Instance_46] of  Property_List
+)
+
+([mappings_ProjectKB_Instance_47] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [mappings_ProjectKB_Instance_48])
+	(widget_class_name "ezOWLTab"))
+
+([mappings_ProjectKB_Instance_48] of  Property_List
+)
+
+([mappings_ProjectKB_Instance_49] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [mappings_ProjectKB_Instance_50])
+	(widget_class_name "edu.stanford.smi.protegex.owl.swrl.ui.tab.SWRLTab"))
+
+([mappings_ProjectKB_Instance_5] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_50] of  Property_List
+)
+
+([mappings_ProjectKB_Instance_51] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [mappings_ProjectKB_Instance_52])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.cls.OWLClsesTab"))
+
+([mappings_ProjectKB_Instance_52] of  Property_List
+)
+
+([mappings_ProjectKB_Instance_53] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [mappings_ProjectKB_Instance_54])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.OWLPropertiesTab"))
+
+([mappings_ProjectKB_Instance_54] of  Property_List
+)
+
+([mappings_ProjectKB_Instance_55] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [mappings_ProjectKB_Instance_56])
+	(widget_class_name "uk.ac.man.cs.mig.coode.owlviz.ui.OWLVizTab"))
+
+([mappings_ProjectKB_Instance_56] of  Property_List
+)
+
+([mappings_ProjectKB_Instance_57] of  Property_List
+
+	(properties
+		[mappings_ProjectKB_Instance_58]
+		[mappings_ProjectKB_Instance_59]))
+
+([mappings_ProjectKB_Instance_58] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_59] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_6] of  Property_List
+
+	(name "layout properties"))
+
+([mappings_ProjectKB_Instance_60] of  Property_List
+
+	(properties
+		[mappings_ProjectKB_Instance_61]
+		[mappings_ProjectKB_Instance_62]))
+
+([mappings_ProjectKB_Instance_61] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move up"))
+
+([mappings_ProjectKB_Instance_62] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move down"))
+
+([mappings_ProjectKB_Instance_63] of  Property_List
+
+	(name "layout properties"))
+
+([mappings_ProjectKB_Instance_64] of  Property_List
+)
+
+([mappings_ProjectKB_Instance_65] of  Property_List
+)
+
+([mappings_ProjectKB_Instance_66] of  Property_List
+)
+
+([mappings_ProjectKB_Instance_67] of  Property_List
+
+	(name "layout properties"))
+
+([mappings_ProjectKB_Instance_7] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([mappings_ProjectKB_Instance_8] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([mappings_ProjectKB_Instance_9] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([okbctab_ProjectKB_INSTANCE_00001] of  Options
+
+	(confirm_on_remove FALSE)
+	(display_abstract_class_icon FALSE)
+	(display_hidden_classes TRUE)
+	(display_multi_parent_class_icon FALSE)
+	(is_readonly FALSE)
+	(update_modification_slots FALSE))
+
+([PROJECT] of  Project
+
+	(browser_slot_names [KB_INSTANCE_00001])
+	(customized_instance_widgets
+		[ZP-mappings_ProjectKB_00814]
+		[mappings_ProjectKB_00002]
+		[mappings_ProjectKB_00551]
+		[mappings_ProjectKB_00428]
+		[mappings_ProjectKB_00633]
+		[ZP-mappings_ProjectKB_00274]
+		[ZP-mappings_ProjectKB_00818]
+		[mappings_ProjectKB_00585]
+		[SLOT_WIDGET]
+		[mappings_ProjectKB_00610]
+		[ZP-mappings_ProjectKB_00629]
+		[ZP-mappings_ProjectKB_00006]
+		[ZP-mappings_ProjectKB_00810]
+		[mappings_ProjectKB_00639]
+		[ZP-mappings_ProjectKB_00252]
+		[mappings_ProjectKB_00532]
+		[ZP-mappings_ProjectKB_00706]
+		[CLASS_WIDGET]
+		[ZP-mappings_ProjectKB_00839])
+	(default_cls_metaclass ":STANDARD-CLASS")
+	(default_facet_metaclass ":STANDARD-FACET")
+	(default_instance_widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(default_slot_metaclass ":STANDARD-SLOT")
+	(next_frame_number 0)
+	(options [okbctab_ProjectKB_INSTANCE_00001])
+	(property_map [mappings_ProjectKB_01319])
+	(sources [SOURCES])
+	(tabs
+		[mappings_ProjectKB_00432]
+		[CLSES_TAB]
+		[SLOTS_TAB]
+		[FORMS_TAB]
+		[mappings_ProjectKB_Instance_49]
+		[mappings_ProjectKB_Instance_47]
+		[INSTANCES_TAB]
+		[mappings_ProjectKB_00436]
+		[ZP-mappings_ProjectKB_00501]
+		[QUERIES_TAB]
+		[mappings_ProjectKB_Instance_51]
+		[mappings_ProjectKB_Instance_43]
+		[mappings_ProjectKB_Instance_45]
+		[mappings_ProjectKB_Instance_53]
+		[mappings_ProjectKB_Instance_55]))
+
+([QUERIES_TAB] of  Widget
+
+	(is_hidden TRUE)
+	(label "Queries")
+	(property_list [mappings_ProjectKB_00866])
+	(widget_class_name "edu.stanford.smi.protegex.queries_tab.QueriesTab"))
+
+([REFERENCERS_WIDGET] of  Widget
+
+	(height 120)
+	(label "Referencing Instances")
+	(name "referencers_widget")
+	(widget_class_name "edu.stanford.smi.protege.ui.ReferencersWidget")
+	(width 300)
+	(x 0)
+	(y 0))
+
+([SLOT_CLSES_WIDGET] of  Widget
+
+	(height 120)
+	(label "Associated Classes")
+	(name "slot_clses_widget")
+	(widget_class_name "edu.stanford.smi.protege.ui.SlotClsesWidget")
+	(width 300)
+	(x 0)
+	(y 0))
+
+([SLOT_WIDGET] of  Widget
+
+	(height 300)
+	(name ":STANDARD-SLOT")
+	(property_list [KB_986455_Instance_12])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 600)
+	(x 0)
+	(y 0))
+
+([SLOTS_TAB] of  Widget
+
+	(height 347)
+	(is_hidden FALSE)
+	(label "Slots")
+	(name "Slots")
+	(property_list [SLOTS_TAB_PROPERTIES])
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotsTab")
+	(width 821)
+	(x 0)
+	(y 0))
+
+([SLOTS_TAB_PROPERTIES] of  Property_List
+
+	(properties
+		[SLOTS_WIDGET]
+		[SLOT_CLSES_WIDGET]
+		[mapping-onto_ProjectKB_00027]
+		[mapping-onto_ProjectKB_00028]))
+
+([SLOTS_WIDGET] of  Widget
+
+	(height 400)
+	(label "Slots")
+	(name "slots_widget")
+	(widget_class_name "edu.stanford.smi.protege.ui.SlotsWidget")
+	(width 300)
+	(x 0)
+	(y 0))
+
+([SOURCES] of  Property_List
+
+	(name "knowledge base sources")
+	(properties
+		[FACTORY_CLASS_NAME]
+		[KB_INSTANCE_00005]
+		[KB_INSTANCE_00006]))
+
+([ZP-mappings_ProjectKB_00002] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(name "mappings")
+	(property_list [ZP-mappings_ProjectKB_00003])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 120))
+
+([ZP-mappings_ProjectKB_00003] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00004]
+		[ZP-mappings_ProjectKB_00005]
+		[ZP-mappings_ProjectKB_00107]
+		[ZP-mappings_ProjectKB_00208]
+		[ZP-mappings_ProjectKB_00609]
+		[ZP-mappings_ProjectKB_00709]
+		[mappings_ProjectKB_Instance_34]
+		[mappings_ProjectKB_Instance_35]))
+
+([ZP-mappings_ProjectKB_00004] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00005] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00006] of  Widget
+
+	(height 658)
+	(is_hidden FALSE)
+	(name "executable-code")
+	(property_list [ZP-mappings_ProjectKB_00007])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 1023)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00007] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00008]
+		[ZP-mappings_ProjectKB_00111]
+		[ZP-mappings_ProjectKB_00212]
+		[ZP-mappings_ProjectKB_00214]
+		[ZP-mappings_ProjectKB_01181]))
+
+([ZP-mappings_ProjectKB_00008] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "code-name")
+	(property_list [ZP-mappings_ProjectKB_00009])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00009] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00035] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "const-val")
+	(property_list [ZP-mappings_ProjectKB_00036])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 60))
+
+([ZP-mappings_ProjectKB_00036] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00037] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "slot-map-name")
+	(property_list [ZP-mappings_ProjectKB_00038])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00038] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00039] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "target-slot")
+	(property_list [ZP-mappings_ProjectKB_00040])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 0)
+	(y 120))
+
+([ZP-mappings_ProjectKB_00040] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_01079]
+		[ZP-mappings_ProjectKB_01080]
+		[ZP-mappings_ProjectKB_01081]
+		[ZP-mappings_ProjectKB_01082]
+		[ZP-mappings_ProjectKB_01083]
+		[ZP-mappings_ProjectKB_01084]
+		[mappings_ProjectKB_Instance_13]))
+
+([ZP-mappings_ProjectKB_00041] of  Widget
+
+	(height 240)
+	(is_hidden FALSE)
+	(name "source-slot-composition")
+	(property_list [ZP-mappings_ProjectKB_00042])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 500)
+	(x 0)
+	(y 60))
+
+([ZP-mappings_ProjectKB_00042] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00043] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "slot-map-name")
+	(property_list [ZP-mappings_ProjectKB_00044])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 500)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00044] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00045] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "target-slot")
+	(property_list [ZP-mappings_ProjectKB_00046])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 500)
+	(x 0)
+	(y 300))
+
+([ZP-mappings_ProjectKB_00046] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_01073]
+		[ZP-mappings_ProjectKB_01074]
+		[ZP-mappings_ProjectKB_01075]
+		[ZP-mappings_ProjectKB_01076]
+		[ZP-mappings_ProjectKB_01077]
+		[ZP-mappings_ProjectKB_01078]
+		[mappings_ProjectKB_Instance_19]))
+
+([ZP-mappings_ProjectKB_00052] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "slot-map-name")
+	(property_list [ZP-mappings_ProjectKB_00053])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 500)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00053] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00055] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "slot-map-name")
+	(property_list [ZP-mappings_ProjectKB_00056])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 500)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00056] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00107] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00111] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "language")
+	(property_list [ZP-mappings_ProjectKB_00211])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 250)
+	(x 0)
+	(y 60))
+
+([ZP-mappings_ProjectKB_00208] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00211] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00212] of  Widget
+
+	(height 170)
+	(is_hidden FALSE)
+	(name "code")
+	(property_list [ZP-mappings_ProjectKB_00213])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 0)
+	(y 120))
+
+([ZP-mappings_ProjectKB_00213] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00214] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[ZP-mappings_ProjectKB_00215]
+		[ZP-mappings_ProjectKB_00216]))
+
+([ZP-mappings_ProjectKB_00215] of  String
+
+	(name "horizontal_stretcher"))
+
+([ZP-mappings_ProjectKB_00216] of  String
+
+	(name "vertical_stretcher")
+	(string_value "code"))
+
+([ZP-mappings_ProjectKB_00252] of  Widget
+
+	(height 658)
+	(is_hidden FALSE)
+	(name "slot-mapping")
+	(property_list [ZP-mappings_ProjectKB_00253])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 1023)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00253] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00254]
+		[ZP-mappings_ProjectKB_00262]
+		[ZP-mappings_ProjectKB_00270]
+		[ZP-mappings_ProjectKB_00272]
+		[ZP-mappings_ProjectKB_01150]
+		[mappings_ProjectKB_Instance_0]))
+
+([ZP-mappings_ProjectKB_00254] of  Widget
+
+	(height 90)
+	(is_hidden FALSE)
+	(name "pre-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00255])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 120))
+
+([ZP-mappings_ProjectKB_00255] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00256]
+		[ZP-mappings_ProjectKB_00257]
+		[ZP-mappings_ProjectKB_00258]
+		[ZP-mappings_ProjectKB_00259]
+		[ZP-mappings_ProjectKB_00260]
+		[ZP-mappings_ProjectKB_00261]
+		[mappings_ProjectKB_Instance_1]
+		[mappings_ProjectKB_Instance_2]))
+
+([ZP-mappings_ProjectKB_00256] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00257] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00258] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00259] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00260] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00261] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00262] of  Widget
+
+	(height 90)
+	(is_hidden FALSE)
+	(name "post-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00263])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 210))
+
+([ZP-mappings_ProjectKB_00263] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00264]
+		[ZP-mappings_ProjectKB_00265]
+		[ZP-mappings_ProjectKB_00266]
+		[ZP-mappings_ProjectKB_00267]
+		[ZP-mappings_ProjectKB_00268]
+		[ZP-mappings_ProjectKB_00269]
+		[mappings_ProjectKB_Instance_3]
+		[mappings_ProjectKB_Instance_4]))
+
+([ZP-mappings_ProjectKB_00264] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00265] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00266] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00267] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00268] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00269] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00270] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "slot-map-name")
+	(property_list [ZP-mappings_ProjectKB_00271])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00271] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00272] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "target-slot")
+	(property_list [ZP-mappings_ProjectKB_00273])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 0)
+	(y 60))
+
+([ZP-mappings_ProjectKB_00273] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_01049]
+		[ZP-mappings_ProjectKB_01050]
+		[ZP-mappings_ProjectKB_01051]
+		[ZP-mappings_ProjectKB_01052]
+		[ZP-mappings_ProjectKB_01053]
+		[ZP-mappings_ProjectKB_01054]
+		[mappings_ProjectKB_Instance_5]))
+
+([ZP-mappings_ProjectKB_00274] of  Widget
+
+	(height 658)
+	(is_hidden FALSE)
+	(name "renaming-slot-mapping")
+	(property_list [ZP-mappings_ProjectKB_00298])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 1023)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00298] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00299]
+		[ZP-mappings_ProjectKB_00307]
+		[ZP-mappings_ProjectKB_00315]
+		[ZP-mappings_ProjectKB_00317]
+		[ZP-mappings_ProjectKB_01152]
+		[ZP-mappings_ProjectKB_00603]
+		[mappings_ProjectKB_Instance_6]))
+
+([ZP-mappings_ProjectKB_00299] of  Widget
+
+	(height 90)
+	(is_hidden FALSE)
+	(name "pre-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00300])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 250)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00300] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00301]
+		[ZP-mappings_ProjectKB_00302]
+		[ZP-mappings_ProjectKB_00303]
+		[ZP-mappings_ProjectKB_00304]
+		[ZP-mappings_ProjectKB_00305]
+		[ZP-mappings_ProjectKB_00306]
+		[mappings_ProjectKB_Instance_7]
+		[mappings_ProjectKB_Instance_8]))
+
+([ZP-mappings_ProjectKB_00301] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00302] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00303] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00304] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00305] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00306] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00307] of  Widget
+
+	(height 90)
+	(is_hidden FALSE)
+	(name "post-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00308])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 250)
+	(y 90))
+
+([ZP-mappings_ProjectKB_00308] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00309]
+		[ZP-mappings_ProjectKB_00310]
+		[ZP-mappings_ProjectKB_00311]
+		[ZP-mappings_ProjectKB_00312]
+		[ZP-mappings_ProjectKB_00313]
+		[ZP-mappings_ProjectKB_00314]
+		[mappings_ProjectKB_Instance_9]
+		[mappings_ProjectKB_Instance_10]))
+
+([ZP-mappings_ProjectKB_00309] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00310] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00311] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00312] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00313] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00314] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00315] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "slot-map-name")
+	(property_list [ZP-mappings_ProjectKB_00316])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00316] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00317] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "target-slot")
+	(property_list [ZP-mappings_ProjectKB_00318])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 0)
+	(y 120))
+
+([ZP-mappings_ProjectKB_00318] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_01055]
+		[ZP-mappings_ProjectKB_01056]
+		[ZP-mappings_ProjectKB_01057]
+		[ZP-mappings_ProjectKB_01058]
+		[ZP-mappings_ProjectKB_01059]
+		[ZP-mappings_ProjectKB_01060]
+		[mappings_ProjectKB_Instance_11]))
+
+([ZP-mappings_ProjectKB_00321] of  Widget
+
+	(height 90)
+	(is_hidden FALSE)
+	(name "pre-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00322])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 250)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00322] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00323]
+		[ZP-mappings_ProjectKB_00324]
+		[ZP-mappings_ProjectKB_00325]
+		[ZP-mappings_ProjectKB_00326]
+		[ZP-mappings_ProjectKB_00327]
+		[ZP-mappings_ProjectKB_00328]
+		[mappings_ProjectKB_Instance_14]
+		[mappings_ProjectKB_Instance_15]))
+
+([ZP-mappings_ProjectKB_00323] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00324] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00325] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00326] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00327] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00328] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00329] of  Widget
+
+	(height 90)
+	(is_hidden FALSE)
+	(name "post-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00330])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 250)
+	(y 90))
+
+([ZP-mappings_ProjectKB_00330] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00331]
+		[ZP-mappings_ProjectKB_00332]
+		[ZP-mappings_ProjectKB_00333]
+		[ZP-mappings_ProjectKB_00334]
+		[ZP-mappings_ProjectKB_00335]
+		[ZP-mappings_ProjectKB_00336]
+		[mappings_ProjectKB_Instance_16]
+		[mappings_ProjectKB_Instance_17]))
+
+([ZP-mappings_ProjectKB_00331] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00332] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00333] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00334] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00335] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00336] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00337] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[ZP-mappings_ProjectKB_00338]
+		[ZP-mappings_ProjectKB_00339]))
+
+([ZP-mappings_ProjectKB_00338] of  String
+
+	(name "horizontal_stretcher"))
+
+([ZP-mappings_ProjectKB_00339] of  String
+
+	(name "vertical_stretcher"))
+
+([ZP-mappings_ProjectKB_00340] of  Widget
+
+	(height 90)
+	(is_hidden FALSE)
+	(name "pre-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00341])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 380))
+
+([ZP-mappings_ProjectKB_00341] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00342]
+		[ZP-mappings_ProjectKB_00343]
+		[ZP-mappings_ProjectKB_00344]
+		[ZP-mappings_ProjectKB_00345]
+		[ZP-mappings_ProjectKB_00346]
+		[ZP-mappings_ProjectKB_00347]
+		[mappings_ProjectKB_Instance_20]
+		[mappings_ProjectKB_Instance_21]))
+
+([ZP-mappings_ProjectKB_00342] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00343] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00344] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00345] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00346] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00347] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00348] of  Widget
+
+	(height 90)
+	(is_hidden FALSE)
+	(name "post-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00349])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 250)
+	(y 380))
+
+([ZP-mappings_ProjectKB_00349] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00350]
+		[ZP-mappings_ProjectKB_00351]
+		[ZP-mappings_ProjectKB_00352]
+		[ZP-mappings_ProjectKB_00353]
+		[ZP-mappings_ProjectKB_00354]
+		[ZP-mappings_ProjectKB_00355]
+		[mappings_ProjectKB_Instance_22]
+		[mappings_ProjectKB_Instance_23]))
+
+([ZP-mappings_ProjectKB_00350] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00351] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00352] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00353] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00354] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00355] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00356] of  Widget
+
+	(height 100)
+	(is_hidden FALSE)
+	(name "post-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00357])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 250)
+	(y 400))
+
+([ZP-mappings_ProjectKB_00357] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00358]
+		[ZP-mappings_ProjectKB_00359]
+		[ZP-mappings_ProjectKB_00360]
+		[ZP-mappings_ProjectKB_00361]
+		[ZP-mappings_ProjectKB_00362]
+		[ZP-mappings_ProjectKB_00363]
+		[mappings_ProjectKB_Instance_25]
+		[mappings_ProjectKB_Instance_26]))
+
+([ZP-mappings_ProjectKB_00358] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00359] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00360] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00361] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00362] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00363] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00364] of  Widget
+
+	(height 100)
+	(is_hidden FALSE)
+	(name "pre-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00365])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 400))
+
+([ZP-mappings_ProjectKB_00365] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00366]
+		[ZP-mappings_ProjectKB_00367]
+		[ZP-mappings_ProjectKB_00368]
+		[ZP-mappings_ProjectKB_00369]
+		[ZP-mappings_ProjectKB_00370]
+		[ZP-mappings_ProjectKB_00371]
+		[mappings_ProjectKB_Instance_27]
+		[mappings_ProjectKB_Instance_28]))
+
+([ZP-mappings_ProjectKB_00366] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00367] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00368] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00369] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00370] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00371] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00372] of  Widget
+
+	(height 90)
+	(is_hidden FALSE)
+	(name "pre-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00373])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 250)
+	(y 120))
+
+([ZP-mappings_ProjectKB_00373] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00374]
+		[ZP-mappings_ProjectKB_00375]
+		[ZP-mappings_ProjectKB_00376]
+		[ZP-mappings_ProjectKB_00377]
+		[ZP-mappings_ProjectKB_00378]
+		[ZP-mappings_ProjectKB_00379]
+		[mappings_ProjectKB_Instance_30]
+		[mappings_ProjectKB_Instance_31]))
+
+([ZP-mappings_ProjectKB_00374] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00375] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00376] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00377] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00378] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00379] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00380] of  Widget
+
+	(height 90)
+	(is_hidden FALSE)
+	(name "post-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00381])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 250)
+	(y 210))
+
+([ZP-mappings_ProjectKB_00381] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00382]
+		[ZP-mappings_ProjectKB_00383]
+		[ZP-mappings_ProjectKB_00384]
+		[ZP-mappings_ProjectKB_00385]
+		[ZP-mappings_ProjectKB_00386]
+		[ZP-mappings_ProjectKB_00387]
+		[mappings_ProjectKB_Instance_32]
+		[mappings_ProjectKB_Instance_33]))
+
+([ZP-mappings_ProjectKB_00382] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00383] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00384] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00385] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00386] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00387] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00388] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[ZP-mappings_ProjectKB_00389]
+		[ZP-mappings_ProjectKB_00390]))
+
+([ZP-mappings_ProjectKB_00389] of  String
+
+	(name "horizontal_stretcher"))
+
+([ZP-mappings_ProjectKB_00390] of  String
+
+	(name "vertical_stretcher"))
+
+([ZP-mappings_ProjectKB_00391] of  Widget
+
+	(height 90)
+	(is_hidden FALSE)
+	(label "Execute after all mappings finish")
+	(name "post-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00392])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 250)
+	(y 290))
+
+([ZP-mappings_ProjectKB_00392] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00393]
+		[ZP-mappings_ProjectKB_00394]
+		[ZP-mappings_ProjectKB_00395]
+		[ZP-mappings_ProjectKB_00396]
+		[ZP-mappings_ProjectKB_00397]
+		[ZP-mappings_ProjectKB_00398]
+		[ZP-mappings_ProjectKB_01448]
+		[ZP-mappings_ProjectKB_01449]
+		[ZP-mappings_ProjectKB_01450]
+		[ZP-mappings_ProjectKB_01451]
+		[ZP-mappings_ProjectKB_01452]
+		[ZP-mappings_ProjectKB_01453]
+		[mappings_ProjectKB_Instance_10043]
+		[mappings_ProjectKB_Instance_10044]))
+
+([ZP-mappings_ProjectKB_00393] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00394] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00395] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00396] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00397] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00398] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00399] of  Widget
+
+	(height 90)
+	(is_hidden FALSE)
+	(label "Execute before any mapping")
+	(name "pre-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00400])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 290))
+
+([ZP-mappings_ProjectKB_00400] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00401]
+		[ZP-mappings_ProjectKB_00402]
+		[ZP-mappings_ProjectKB_00403]
+		[ZP-mappings_ProjectKB_00404]
+		[ZP-mappings_ProjectKB_00405]
+		[ZP-mappings_ProjectKB_00406]
+		[ZP-mappings_ProjectKB_01442]
+		[ZP-mappings_ProjectKB_01443]
+		[ZP-mappings_ProjectKB_01444]
+		[ZP-mappings_ProjectKB_01445]
+		[ZP-mappings_ProjectKB_01446]
+		[ZP-mappings_ProjectKB_01447]
+		[mappings_ProjectKB_Instance_10045]
+		[mappings_ProjectKB_Instance_10046]))
+
+([ZP-mappings_ProjectKB_00401] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00402] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00403] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00404] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00405] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00406] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00501] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [ZP-mappings_ProjectKB_00601])
+	(widget_class_name "edu.stanford.smi.protegex.prompt.PromptTab"))
+
+([ZP-mappings_ProjectKB_00601] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00603] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "source-slot")
+	(property_list [ZP-mappings_ProjectKB_00703])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 0)
+	(y 60))
+
+([ZP-mappings_ProjectKB_00609] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00629] of  Widget
+
+	(height 522)
+	(is_hidden FALSE)
+	(name "mapping")
+	(property_list [ZP-mappings_ProjectKB_00630])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 860)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00630] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00631]
+		[ZP-mappings_ProjectKB_00639]
+		[mappings_ProjectKB_Instance_10058]))
+
+([ZP-mappings_ProjectKB_00631] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "pre-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00632])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00632] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00633]
+		[ZP-mappings_ProjectKB_00634]
+		[ZP-mappings_ProjectKB_00635]
+		[ZP-mappings_ProjectKB_00636]
+		[ZP-mappings_ProjectKB_00637]
+		[ZP-mappings_ProjectKB_00638]
+		[mappings_ProjectKB_Instance_10059]
+		[mappings_ProjectKB_Instance_10060]))
+
+([ZP-mappings_ProjectKB_00633] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00634] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00635] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00636] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00637] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00638] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00639] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "post-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00640])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 120))
+
+([ZP-mappings_ProjectKB_00640] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00641]
+		[ZP-mappings_ProjectKB_00642]
+		[ZP-mappings_ProjectKB_00643]
+		[ZP-mappings_ProjectKB_00644]
+		[ZP-mappings_ProjectKB_00645]
+		[ZP-mappings_ProjectKB_00646]
+		[mappings_ProjectKB_Instance_10061]
+		[mappings_ProjectKB_Instance_10062]))
+
+([ZP-mappings_ProjectKB_00641] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00642] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00643] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00644] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00645] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00646] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00703] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00704]
+		[ZP-mappings_ProjectKB_00705]
+		[ZP-mappings_ProjectKB_00807]
+		[ZP-mappings_ProjectKB_00907]
+		[ZP-mappings_ProjectKB_00908]
+		[ZP-mappings_ProjectKB_00909]
+		[mappings_ProjectKB_Instance_12]))
+
+([ZP-mappings_ProjectKB_00704] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([ZP-mappings_ProjectKB_00705] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00706] of  Widget
+
+	(height 658)
+	(is_hidden FALSE)
+	(name "source-class-description")
+	(property_list [ZP-mappings_ProjectKB_00707])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 1023)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00707] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00708]
+		[mappings_ProjectKB_Instance_40]))
+
+([ZP-mappings_ProjectKB_00708] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Source class name")
+	(name "name")
+	(property_list [ZP-mappings_ProjectKB_00710])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00709] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00710] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00807] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00810] of  Widget
+
+	(height 658)
+	(is_hidden FALSE)
+	(name "source-slot-description")
+	(property_list [ZP-mappings_ProjectKB_00811])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 1023)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00811] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00812]
+		[mappings_ProjectKB_Instance_67]))
+
+([ZP-mappings_ProjectKB_00812] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Source slot name")
+	(name "name")
+	(property_list [ZP-mappings_ProjectKB_00813])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00813] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00814] of  Widget
+
+	(height 658)
+	(is_hidden FALSE)
+	(name "target-class-description")
+	(property_list [ZP-mappings_ProjectKB_00815])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 1023)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00815] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00816]
+		[mappings_ProjectKB_Instance_41]))
+
+([ZP-mappings_ProjectKB_00816] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Target class name")
+	(name "name")
+	(property_list [ZP-mappings_ProjectKB_00817])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00817] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00818] of  Widget
+
+	(height 658)
+	(is_hidden FALSE)
+	(name "target-slot-description")
+	(property_list [ZP-mappings_ProjectKB_00819])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 1023)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00819] of  Property_List
+
+	(properties [ZP-mappings_ProjectKB_00820]))
+
+([ZP-mappings_ProjectKB_00820] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Target slot name")
+	(name "name")
+	(property_list [ZP-mappings_ProjectKB_00821])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00821] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00839] of  Widget
+
+	(height 658)
+	(is_hidden FALSE)
+	(name "global-mapping")
+	(property_list [ZP-mappings_ProjectKB_00840])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 1023)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00840] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00841]
+		[ZP-mappings_ProjectKB_00849]
+		[ZP-mappings_ProjectKB_00857]
+		[ZP-mappings_ProjectKB_00861]
+		[ZP-mappings_ProjectKB_00863]))
+
+([ZP-mappings_ProjectKB_00841] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "pre-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00842])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 30))
+
+([ZP-mappings_ProjectKB_00842] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00843]
+		[ZP-mappings_ProjectKB_00844]
+		[ZP-mappings_ProjectKB_00845]
+		[ZP-mappings_ProjectKB_00846]
+		[ZP-mappings_ProjectKB_00847]
+		[ZP-mappings_ProjectKB_00848]
+		[mappings_ProjectKB_Instance_10051]
+		[mappings_ProjectKB_Instance_10052]))
+
+([ZP-mappings_ProjectKB_00843] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00844] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00845] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00846] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00847] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00848] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00849] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "post-execute-code")
+	(property_list [ZP-mappings_ProjectKB_00850])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 150))
+
+([ZP-mappings_ProjectKB_00850] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00851]
+		[ZP-mappings_ProjectKB_00852]
+		[ZP-mappings_ProjectKB_00853]
+		[ZP-mappings_ProjectKB_00854]
+		[ZP-mappings_ProjectKB_00855]
+		[ZP-mappings_ProjectKB_00856]
+		[mappings_ProjectKB_Instance_10053]
+		[mappings_ProjectKB_Instance_10054]))
+
+([ZP-mappings_ProjectKB_00851] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_00852] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00853] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00854] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00855] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00856] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_00857] of  Widget
+
+	(height 0)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [ZP-mappings_ProjectKB_00858])
+	(width 0)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00858] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00861] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label ":DOCUMENTATION")
+	(name ":DOCUMENTATION")
+	(property_list [ZP-mappings_ProjectKB_00862])
+	(widget_class_name "edu.stanford.smi.protege.widget.YellowStickyWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([ZP-mappings_ProjectKB_00862] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00863] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[ZP-mappings_ProjectKB_00864]
+		[ZP-mappings_ProjectKB_00865]))
+
+([ZP-mappings_ProjectKB_00864] of  String
+
+	(name "horizontal_stretcher"))
+
+([ZP-mappings_ProjectKB_00865] of  String
+
+	(name "vertical_stretcher"))
+
+([ZP-mappings_ProjectKB_00866] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":DOCUMENTATION")
+	(property_list [ZP-mappings_ProjectKB_00867])
+	(widget_class_name "edu.stanford.smi.protege.widget.YellowStickyWidget")
+	(width 500)
+	(x 0)
+	(y 330))
+
+([ZP-mappings_ProjectKB_00867] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_00868] of  Property_List
+
+	(name "layout properties"))
+
+([ZP-mappings_ProjectKB_00884] of  Integer
+
+	(integer_value 250)
+	(name "ClsesAndInstancesTab.left_right"))
+
+([ZP-mappings_ProjectKB_00885] of  Integer
+
+	(integer_value 458)
+	(name "ClsesAndInstancesTab.left, top_bottom"))
+
+([ZP-mappings_ProjectKB_00886] of  Integer
+
+	(integer_value 200)
+	(name "ClsesAndInstancesTab.right.left_right"))
+
+([ZP-mappings_ProjectKB_00907] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00908] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00909] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([ZP-mappings_ProjectKB_00910] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "source-slot")
+	(property_list [ZP-mappings_ProjectKB_00911])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 250)
+	(x 0)
+	(y 60))
+
+([ZP-mappings_ProjectKB_00911] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_00912]
+		[ZP-mappings_ProjectKB_00913]
+		[ZP-mappings_ProjectKB_00914]
+		[ZP-mappings_ProjectKB_00915]
+		[ZP-mappings_ProjectKB_00916]
+		[ZP-mappings_ProjectKB_00917]
+		[mappings_ProjectKB_Instance_36]))
+
+([ZP-mappings_ProjectKB_00912] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([ZP-mappings_ProjectKB_00913] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_00914] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_00915] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_00916] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_00917] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([ZP-mappings_ProjectKB_00931] of  Property_List
+
+	(name "layout properties"))
+
+([ZP-mappings_ProjectKB_01041] of  Widget
+
+	(height 40)
+	(is_hidden FALSE)
+	(label "Apply mapping to subclasses of source-class?")
+	(name "apply-to-subclass-instances?")
+	(property_list [ZP-mappings_ProjectKB_01042])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 360)
+	(x 0)
+	(y 110))
+
+([ZP-mappings_ProjectKB_01042] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_01043] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([ZP-mappings_ProjectKB_01044] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_01045] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_01046] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_01047] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_01048] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([ZP-mappings_ProjectKB_01049] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([ZP-mappings_ProjectKB_01050] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_01051] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_01052] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_01053] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_01054] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([ZP-mappings_ProjectKB_01055] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([ZP-mappings_ProjectKB_01056] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_01057] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_01058] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_01059] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_01060] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([ZP-mappings_ProjectKB_01061] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([ZP-mappings_ProjectKB_01062] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_01063] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_01064] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_01065] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_01066] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([ZP-mappings_ProjectKB_01067] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([ZP-mappings_ProjectKB_01068] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_01069] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_01070] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_01071] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_01072] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([ZP-mappings_ProjectKB_01073] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([ZP-mappings_ProjectKB_01074] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_01075] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_01076] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_01077] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_01078] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([ZP-mappings_ProjectKB_01079] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([ZP-mappings_ProjectKB_01080] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_01081] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_01082] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_01083] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_01084] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([ZP-mappings_ProjectKB_01132] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(name "subclasses-accepted?")
+	(property_list [ZP-mappings_ProjectKB_01133])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 160)
+	(x 0)
+	(y 290))
+
+([ZP-mappings_ProjectKB_01133] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_01150] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Append results to preexisting target-slot values? (Requires multiple-cardinality slot.)")
+	(name "append-slotmap-values?")
+	(property_list [ZP-mappings_ProjectKB_01151])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 250)
+	(x 0)
+	(y 300))
+
+([ZP-mappings_ProjectKB_01151] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_01152] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Append results to preexisting target-slot values? (Requires multiple-cardinality slot.)")
+	(name "append-slotmap-values?")
+	(property_list [ZP-mappings_ProjectKB_01153])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 510)
+	(x 0)
+	(y 180))
+
+([ZP-mappings_ProjectKB_01153] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_01154] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Append results to preexisting target-slot values? (Requires multiple-cardinality slot.)")
+	(name "append-slotmap-values?")
+	(property_list [ZP-mappings_ProjectKB_01155])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 510)
+	(x 0)
+	(y 310))
+
+([ZP-mappings_ProjectKB_01155] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_01156] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Append results to preexisting target-slot values? (Requires multiple-cardinality slot.)")
+	(name "append-slotmap-values?")
+	(property_list [ZP-mappings_ProjectKB_01157])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 510)
+	(x 0)
+	(y 370))
+
+([ZP-mappings_ProjectKB_01157] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_01158] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Append results to preexisting target-slot values? (Requires multiple-cardinality slot.)")
+	(name "append-slotmap-values?")
+	(property_list [ZP-mappings_ProjectKB_01159])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 510)
+	(x 0)
+	(y 350))
+
+([ZP-mappings_ProjectKB_01159] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_01160] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Append results to preexisting target-slot values? (Requires multiple-cardinality slot.)")
+	(name "append-slotmap-values?")
+	(property_list [ZP-mappings_ProjectKB_01161])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 510)
+	(x 0)
+	(y 180))
+
+([ZP-mappings_ProjectKB_01161] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_01181] of  Widget
+
+	(height 40)
+	(is_hidden FALSE)
+	(name ":DOCUMENTATION")
+	(property_list [ZP-mappings_ProjectKB_01182])
+	(widget_class_name "edu.stanford.smi.protege.widget.YellowStickyWidget")
+	(width 250)
+	(x 0)
+	(y 290))
+
+([ZP-mappings_ProjectKB_01182] of  Property_List
+)
+
+([ZP-mappings_ProjectKB_01242] of  Widget
+
+	(height 80)
+	(is_hidden FALSE)
+	(label "Execute before each mapping")
+	(name "per-instance-pre-execute-code")
+	(property_list [ZP-mappings_ProjectKB_01243])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 380))
+
+([ZP-mappings_ProjectKB_01243] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_01282]
+		[ZP-mappings_ProjectKB_01283]
+		[ZP-mappings_ProjectKB_01284]
+		[ZP-mappings_ProjectKB_01285]
+		[ZP-mappings_ProjectKB_01286]
+		[ZP-mappings_ProjectKB_01287]
+		[ZP-mappings_ProjectKB_01454]
+		[ZP-mappings_ProjectKB_01455]
+		[ZP-mappings_ProjectKB_01456]
+		[ZP-mappings_ProjectKB_01457]
+		[ZP-mappings_ProjectKB_01458]
+		[ZP-mappings_ProjectKB_01459]
+		[mappings_ProjectKB_Instance_10047]
+		[mappings_ProjectKB_Instance_10048]))
+
+([ZP-mappings_ProjectKB_01282] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_01283] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_01284] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_01285] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_01286] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_01287] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_01312] of  Widget
+
+	(height 80)
+	(is_hidden FALSE)
+	(label "Execute after each mapping")
+	(name "per-instance-post-execute-code")
+	(property_list [ZP-mappings_ProjectKB_01313])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 250)
+	(y 380))
+
+([ZP-mappings_ProjectKB_01313] of  Property_List
+
+	(properties
+		[ZP-mappings_ProjectKB_01412]
+		[ZP-mappings_ProjectKB_01413]
+		[ZP-mappings_ProjectKB_01414]
+		[ZP-mappings_ProjectKB_01415]
+		[ZP-mappings_ProjectKB_01416]
+		[ZP-mappings_ProjectKB_01417]
+		[ZP-mappings_ProjectKB_01460]
+		[ZP-mappings_ProjectKB_01461]
+		[ZP-mappings_ProjectKB_01462]
+		[ZP-mappings_ProjectKB_01463]
+		[ZP-mappings_ProjectKB_01464]
+		[ZP-mappings_ProjectKB_01465]
+		[mappings_ProjectKB_Instance_10049]
+		[mappings_ProjectKB_Instance_10050]))
+
+([ZP-mappings_ProjectKB_01412] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ZP-mappings_ProjectKB_01413] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ZP-mappings_ProjectKB_01414] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ZP-mappings_ProjectKB_01415] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ZP-mappings_ProjectKB_01416] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ZP-mappings_ProjectKB_01417] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_01442] of  String
+
+	(name "ButtonDescription-View Selected Instances")
+	(string_value "View Selected Instances"))
+
+([ZP-mappings_ProjectKB_01443] of  String
+
+	(name "ButtonDescription-Create Instance")
+	(string_value "Create Instance"))
+
+([ZP-mappings_ProjectKB_01444] of  String
+
+	(name "ButtonDescription-References")
+	(string_value "Display references to selected instance"))
+
+([ZP-mappings_ProjectKB_01445] of  String
+
+	(name "ButtonDescription-Add")
+	(string_value "Select Instances"))
+
+([ZP-mappings_ProjectKB_01446] of  String
+
+	(name "ButtonDescription-Remove")
+	(string_value "Remove Selected Instances"))
+
+([ZP-mappings_ProjectKB_01447] of  String
+
+	(name "ButtonDescription-Delete Selected Instances")
+	(string_value "Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_01448] of  String
+
+	(name "ButtonDescription-View Selected Instances")
+	(string_value "View Selected Instances"))
+
+([ZP-mappings_ProjectKB_01449] of  String
+
+	(name "ButtonDescription-Create Instance")
+	(string_value "Create Instance"))
+
+([ZP-mappings_ProjectKB_01450] of  String
+
+	(name "ButtonDescription-References")
+	(string_value "Display references to selected instance"))
+
+([ZP-mappings_ProjectKB_01451] of  String
+
+	(name "ButtonDescription-Add")
+	(string_value "Select Instances"))
+
+([ZP-mappings_ProjectKB_01452] of  String
+
+	(name "ButtonDescription-Remove")
+	(string_value "Remove Selected Instances"))
+
+([ZP-mappings_ProjectKB_01453] of  String
+
+	(name "ButtonDescription-Delete Selected Instances")
+	(string_value "Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_01454] of  String
+
+	(name "ButtonDescription-View Selected Instances")
+	(string_value "View Selected Instances"))
+
+([ZP-mappings_ProjectKB_01455] of  String
+
+	(name "ButtonDescription-Create Instance")
+	(string_value "Create Instance"))
+
+([ZP-mappings_ProjectKB_01456] of  String
+
+	(name "ButtonDescription-References")
+	(string_value "Display references to selected instance"))
+
+([ZP-mappings_ProjectKB_01457] of  String
+
+	(name "ButtonDescription-Add")
+	(string_value "Select Instances"))
+
+([ZP-mappings_ProjectKB_01458] of  String
+
+	(name "ButtonDescription-Remove")
+	(string_value "Remove Selected Instances"))
+
+([ZP-mappings_ProjectKB_01459] of  String
+
+	(name "ButtonDescription-Delete Selected Instances")
+	(string_value "Delete Selected Instances"))
+
+([ZP-mappings_ProjectKB_01460] of  String
+
+	(name "ButtonDescription-View Selected Instances")
+	(string_value "View Selected Instances"))
+
+([ZP-mappings_ProjectKB_01461] of  String
+
+	(name "ButtonDescription-Create Instance")
+	(string_value "Create Instance"))
+
+([ZP-mappings_ProjectKB_01462] of  String
+
+	(name "ButtonDescription-References")
+	(string_value "Display references to selected instance"))
+
+([ZP-mappings_ProjectKB_01463] of  String
+
+	(name "ButtonDescription-Add")
+	(string_value "Select Instances"))
+
+([ZP-mappings_ProjectKB_01464] of  String
+
+	(name "ButtonDescription-Remove")
+	(string_value "Remove Selected Instances"))
+
+([ZP-mappings_ProjectKB_01465] of  String
+
+	(name "ButtonDescription-Delete Selected Instances")
+	(string_value "Delete Selected Instances"))

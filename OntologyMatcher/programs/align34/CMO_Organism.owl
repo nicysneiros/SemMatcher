@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns="http://www.owl-ontologies.com/Ontology1219080669.owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xml:base="http://www.owl-ontologies.com/Ontology1219080669.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Fish">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Coldblooded"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Jawless">
+    <rdfs:subClassOf rdf:resource="#Fish"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Tiger">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Carnivore"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Elephant">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Herbivore"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Dog">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Carnivore"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Flying">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Baby_Birth"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Cartilaginous">
+    <rdfs:subClassOf rdf:resource="#Fish"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Warmblooded">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Vertebrata"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Mammal">
+    <rdfs:subClassOf rdf:resource="#Warmblooded"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Organism"/>
+  <owl:Class rdf:ID="Primate">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Non_Flying"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Sheep">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Herbivore"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Reptile">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Coldblooded"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Bat">
+    <rdfs:subClassOf rdf:resource="#Flying"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Egg_Laying">
+    <rdfs:subClassOf rdf:resource="#Mammal"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Invertebrata">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Animal"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Hyena">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Carnivore"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Bacterium">
+    <rdfs:subClassOf rdf:resource="#Organism"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Baby_Birth">
+    <rdfs:subClassOf rdf:resource="#Mammal"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Monkey">
+    <rdfs:subClassOf rdf:resource="#Primate"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Salt">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Mineral"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Animal">
+    <rdfs:subClassOf rdf:resource="#Organism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cat">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Carnivore"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Carnivore">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Non_Flying"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Amphibian">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Coldblooded"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Horse">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Herbivore"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Plant">
+    <rdfs:subClassOf rdf:resource="#Organism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Human_Being">
+    <rdfs:subClassOf rdf:resource="#Primate"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Vertebrata">
+    <rdfs:subClassOf rdf:resource="#Animal"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Coldblooded">
+    <rdfs:subClassOf rdf:resource="#Vertebrata"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Mineral_Water">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Mineral"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Virus">
+    <rdfs:subClassOf rdf:resource="#Organism"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Herbivore">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Non_Flying"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Fungi">
+    <rdfs:subClassOf rdf:resource="#Plant"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Bony">
+    <rdfs:subClassOf rdf:resource="#Fish"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Bird">
+    <rdfs:subClassOf rdf:resource="#Warmblooded"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Mineral">
+    <rdfs:subClassOf rdf:resource="#Organism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Alga">
+    <rdfs:subClassOf rdf:resource="#Plant"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Non_Flying">
+    <rdfs:subClassOf rdf:resource="#Baby_Birth"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Lion">
+    <rdfs:subClassOf rdf:resource="#Carnivore"/>
+  </owl:Class>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->

@@ -1,0 +1,1290 @@
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isPartOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.3</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isPartOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.3</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isWholeOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Object>
+	<Similarity>0.3</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isWholeOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Object>
+	<Similarity>0.3</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bird</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Plant</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Alga</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Fish</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Fish</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Plant</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Alga</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Alga</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Fish</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Alga</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Fish</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Alga</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bird</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Virus</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bird</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Virus</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Fish</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Virus</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bird</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Plant</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Alga</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bird</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Plant</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Virus</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bird</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Plant</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Plant</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Fish</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Fish</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bird</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Virus</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Virus</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Organism</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isWholeOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Object>
+	<Similarity>0.3</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bird</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Plant</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Alga</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Fish</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Fish</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Plant</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Alga</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Alga</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Fish</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Alga</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Fish</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Alga</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bird</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Virus</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bird</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Virus</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Fish</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Lion</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Virus</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bird</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Plant</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Alga</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bird</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Plant</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Virus</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bird</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Animal</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Plant</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Plant</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bacterium</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Fish</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Fish</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Herbivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Bird</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Sheep</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Cat</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Eyes</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Reptile</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#BodyPart</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Virus</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Brain</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Tail</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Virus</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Carnivore</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Amphibian</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Human_Being</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Skeleton</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Mammal</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1217266757.owl#Horse</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1217266757.owl#Dog</Object>
+	<Similarity>0.7</Similarity>
+</Match>

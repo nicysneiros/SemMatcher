@@ -1,0 +1,17 @@
+fr.inrialpes.exmo.align.impl
+fr.inrialpes.exmo.align.impl.eval
+fr.inrialpes.exmo.align.impl.method
+fr.inrialpes.exmo.align.impl.rel
+fr.inrialpes.exmo.align.impl.renderer
+fr.inrialpes.exmo.align.ling
+fr.inrialpes.exmo.align.onto
+fr.inrialpes.exmo.align.onto.jena25
+fr.inrialpes.exmo.align.onto.owlapi10
+fr.inrialpes.exmo.align.parser
+fr.inrialpes.exmo.align.service
+fr.inrialpes.exmo.align.service.jade
+fr.inrialpes.exmo.align.service.jade.messageontology
+fr.inrialpes.exmo.align.util
+fr.inrialpes.exmo.queryprocessor
+org.ivml.alimo
+org.semanticweb.owl.align

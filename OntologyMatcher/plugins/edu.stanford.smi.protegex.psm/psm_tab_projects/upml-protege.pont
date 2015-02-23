@@ -1,0 +1,90 @@
+; Tue Jan 25 14:40:57 PST 2005
+; 
+;+ (version "3.0")
+;+ (build "Build 124")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot output-class
+		(type SYMBOL)
+;+		(allowed-parents ProtegeClass)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot input-classes
+		(type SYMBOL)
+;+		(allowed-parents ProtegeClass)
+		(create-accessor read-write))
+	(single-slot protege-class
+		(type SYMBOL)
+;+		(allowed-parents ProtegeClass)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass PALFormula "Should really be either a subclass of :PAL-CONSTRAINT (but pal-statement slot and formula slot would be redundant), or the formula slot should refer to a \"PAL-string\" directly."
+	(is-a Formula)
+	(role concrete)
+	(single-slot formula
+		(type INSTANCE)
+;+		(allowed-classes PALStatement %3APAL-CONSTRAINT)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass ProtegeEntity
+	(is-a USER)
+	(role concrete))
+
+(defclass ProtegeClass
+	(is-a ProtegeEntity)
+	(role concrete))
+
+(defclass PALStatement
+	(is-a ProtegeEntity)
+	(role concrete)
+	(single-slot %3APAL-STATEMENT
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass ProtegeElement
+	(is-a SignatureElement ProtegeEntity)
+	(role concrete))
+
+(defclass Variable
+	(is-a ProtegeElement)
+	(role concrete)
+	(single-slot protege-class
+		(type SYMBOL)
+;+		(allowed-parents ProtegeClass)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Function
+	(is-a ProtegeElement)
+	(role concrete)
+	(single-slot output-class
+		(type SYMBOL)
+;+		(allowed-parents ProtegeClass)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot input-classes
+		(type SYMBOL)
+;+		(allowed-parents ProtegeClass)
+		(create-accessor read-write))
+	(single-slot documentation
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Predicate
+	(is-a ProtegeElement)
+	(role concrete)
+	(multislot input-classes
+		(type SYMBOL)
+;+		(allowed-parents ProtegeClass)
+		(create-accessor read-write))
+	(single-slot documentation
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))

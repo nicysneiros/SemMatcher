@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF xml:base="http://islab.dico.unimi.it/hmatch/hmatchi/config.owl"
+         xmlns="http://islab.dico.unimi.it/hmatch/hmatchi/config.owl#"
+         xmlns:owl="&owl;"
+         xmlns:rdf="&rdf;"
+         xmlns:rdfs="&rdfs;">
+
+<!-- Ontology Information -->
+  <owl:Ontology rdf:about=""/>
+
+<!-- CLASSES -->
+
+  <owl:Class rdf:about="#type">
+    <owl:oneOf rdf:parseType="Collection">
+	<owl:Thing rdf:ID="string"/>
+    <owl:Thing rdf:ID="float"/>
+	<owl:Thing rdf:ID="integer"/>
+	<owl:Thing rdf:ID="time"/>
+	<owl:Thing rdf:ID="date"/>
+	<owl:Thing rdf:ID="timedate"/>
+    </owl:oneOf>
+  </owl:Class>
+
+	
+	<owl:Class rdf:about="#property">
+    <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
+        <owl:onProperty rdf:resource="#similarity_weight"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
+        <owl:onProperty rdf:resource="#threshold"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
+        <owl:onProperty rdf:resource="#equality_weight"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+	
+	
+	<!-- Datatype Property Categories -->
+	
+	<owl:Class rdf:about="#linguistic_property">
+    <rdfs:subClassOf rdf:resource="#property"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="#linguistic_matcher"/>
+        <owl:onProperty rdf:resource="#use_matcher"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:equivalentClass>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#type_domain"/>
+        <owl:someValuesFrom rdf:resource="#text"/>
+      </owl:Restriction>
+    </owl:equivalentClass>
+  </owl:Class>
+
+  <owl:Class rdf:about="#numeric_property">
+    <rdfs:subClassOf rdf:resource="#property"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="#numeric_matcher"/>
+        <owl:onProperty rdf:resource="#use_matcher"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:equivalentClass>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#type_domain"/>
+        <owl:someValuesFrom rdf:resource="#number"/>
+      </owl:Restriction>
+    </owl:equivalentClass>
+  </owl:Class>
+	
+	<owl:Class rdf:about="#temporal_property">
+    <rdfs:subClassOf rdf:resource="#property"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="#temporal_matcher"/>
+        <owl:onProperty rdf:resource="#use_matcher"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:equivalentClass>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#type_domain"/>
+        <owl:someValuesFrom rdf:resource="#temporal"/>
+      </owl:Restriction>
+    </owl:equivalentClass>
+  </owl:Class>
+	
+
+	<!-- Semantic Property Categories -->
+	
+	<owl:Class rdf:about="#entity_identification">
+    <rdfs:subClassOf rdf:resource="#property"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="#person_identification">
+    <rdfs:subClassOf rdf:resource="#entity_identification"/>
+  </owl:Class>
+	
+  <owl:Class rdf:about="#name">
+    <rdfs:subClassOf rdf:resource="#person_identification"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#use_matcher"/>
+        <owl:someValuesFrom>
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <rdf:Description>
+                <owl:oneOf rdf:parseType="Collection">
+                  <rdf:Description rdf:about="#q_grams_distance"/>
+                </owl:oneOf>
+              </rdf:Description>
+            </owl:unionOf>
+          </owl:Class>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>  
+	</owl:Class>
+	
+	<owl:Class rdf:about="#age">
+    <rdfs:subClassOf rdf:resource="#person_identification"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#use_matcher"/>
+        <owl:someValuesFrom>
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <rdf:Description>
+                <owl:oneOf rdf:parseType="Collection">
+                  <rdf:Description rdf:about="#string_age_difference"/>
+                </owl:oneOf>
+              </rdf:Description>
+              <rdf:Description>
+                <owl:oneOf rdf:parseType="Collection">
+                  <rdf:Description rdf:about="#numeric_age_difference"/>
+                </owl:oneOf>
+              </rdf:Description>
+            </owl:unionOf>
+          </owl:Class>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+	
+  <owl:Class rdf:about="#object_identification">
+    <rdfs:subClassOf rdf:resource="#entity_identification"/>
+		<rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#use_matcher"/>
+        <owl:someValuesFrom>
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <rdf:Description>
+                <owl:oneOf rdf:parseType="Collection">
+                  <rdf:Description rdf:about="#q_grams_distance"/>
+                </owl:oneOf>
+              </rdf:Description>
+            </owl:unionOf>
+          </owl:Class>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf> 
+  </owl:Class>
+	
+  <owl:Class rdf:about="#sport_performance">
+    <rdfs:subClassOf rdf:resource="#property"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#use_matcher"/>
+        <owl:someValuesFrom>
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <rdf:Description>
+                <owl:oneOf rdf:parseType="Collection">
+                  <rdf:Description rdf:about="#numeric_performance_difference"/>
+                </owl:oneOf>
+              </rdf:Description>
+              <rdf:Description>
+                <owl:oneOf rdf:parseType="Collection">
+                  <rdf:Description rdf:about="#string_performance_difference"/>
+                </owl:oneOf>
+              </rdf:Description>
+              <rdf:Description>
+                <owl:oneOf rdf:parseType="Collection">
+                  <rdf:Description rdf:about="#time_performance_difference"/>
+                </owl:oneOf>
+              </rdf:Description>
+            </owl:unionOf>
+          </owl:Class>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>		
+  </owl:Class>
+	
+  <owl:Class rdf:about="#geographic">
+    <rdfs:subClassOf rdf:resource="#property"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#use_matcher"/>
+        <owl:someValuesFrom>
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <rdf:Description>
+                <owl:oneOf rdf:parseType="Collection">
+                  <rdf:Description rdf:about="#geographic_wordnet_metric"/>
+                </owl:oneOf>
+              </rdf:Description>
+            </owl:unionOf>
+          </owl:Class>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>	  
+	</owl:Class>
+	
+	<owl:Class rdf:about="#time_period">
+    <rdfs:subClassOf rdf:resource="#property"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#use_matcher"/>
+        <owl:someValuesFrom>
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <rdf:Description>
+                <owl:oneOf rdf:parseType="Collection">
+                  <rdf:Description rdf:about="#date_difference"/>
+                </owl:oneOf>
+              </rdf:Description>
+              <rdf:Description>
+                <owl:oneOf rdf:parseType="Collection">
+                  <rdf:Description rdf:about="#string_date_difference"/>
+                </owl:oneOf>
+              </rdf:Description>
+            </owl:unionOf>
+          </owl:Class>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>	  
+	</owl:Class>	
+	
+
+
+	<!-- Matchers -->
+	
+	<owl:Class rdf:about="#matcher"/>
+	
+  <owl:Class rdf:about="#numeric_matcher">
+    <rdfs:subClassOf rdf:resource="#matcher"/>
+    <owl:disjointWith rdf:resource="#linguistic_matcher"/>
+		<owl:disjointWith rdf:resource="#temporal_matcher"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="#linguistic_matcher">
+    <rdfs:subClassOf rdf:resource="#matcher"/>
+    <owl:disjointWith rdf:resource="#numeric_matcher"/>
+		<owl:disjointWith rdf:resource="#temporal_matcher"/>
+  </owl:Class>
+	
+	<owl:Class rdf:about="#other_linguistic_matcher">
+    <rdfs:subClassOf rdf:resource="#linguistic_matcher"/>
+    <owl:disjointWith rdf:resource="#wordnet_matcher"/>
+		<owl:disjointWith rdf:resource="#string_matcher"/>		
+  </owl:Class>
+	
+  <owl:Class rdf:about="#string_matcher">
+    <rdfs:subClassOf rdf:resource="#linguistic_matcher"/>
+    <owl:disjointWith rdf:resource="#wordnet_matcher"/>
+		<owl:disjointWith rdf:resource="#other_linguistic_matcher"/>		
+  </owl:Class>
+		
+	<owl:Class rdf:about="#wordnet_matcher">
+    <rdfs:subClassOf rdf:resource="#linguistic_matcher"/>
+    <owl:disjointWith rdf:resource="#string_matcher"/>
+		<owl:disjointWith rdf:resource="#other_linguistic_matcher"/>	
+  </owl:Class>
+
+  <owl:Class rdf:about="#temporal_matcher">
+    <rdfs:subClassOf rdf:resource="#matcher"/>
+    <owl:disjointWith rdf:resource="#numeric_matcher"/>
+		<owl:disjointWith rdf:resource="#linguistic_matcher"/>	
+  </owl:Class>
+	
+	
+	<!-- Datatype domains -->
+	
+	
+  <owl:Class rdf:about="#text">
+    <owl:unionOf rdf:parseType="Collection">
+      <rdf:Description>
+        <owl:oneOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="#string"/>
+        </owl:oneOf>				
+      </rdf:Description>
+    </owl:unionOf>			
+  </owl:Class>	
+	
+	<owl:Class rdf:about="#number">
+    <owl:unionOf rdf:parseType="Collection">
+      <rdf:Description>
+        <owl:oneOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="#float"/>
+        </owl:oneOf>
+      </rdf:Description>
+      <rdf:Description>
+        <owl:oneOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="#integer"/>
+        </owl:oneOf>
+      </rdf:Description>
+    </owl:unionOf>
+  </owl:Class>
+	
+	<owl:Class rdf:about="#temporal">
+    <owl:unionOf rdf:parseType="Collection">
+      <rdf:Description>
+        <owl:oneOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="#time"/>
+        </owl:oneOf>
+      </rdf:Description>
+      <rdf:Description>
+        <owl:oneOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="#date"/>
+        </owl:oneOf>
+      </rdf:Description>
+			<rdf:Description>
+        <owl:oneOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="#timedate"/>
+        </owl:oneOf>
+      </rdf:Description>
+    </owl:unionOf>
+  </owl:Class>
+
+<!-- DATATYPES -->
+  <rdfs:Datatype rdf:about="&xsd;float"/>
+
+<!-- ANNOTATION PROPERTIES -->
+  <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+
+<!-- DATATYPE PROPERTIES -->
+  <owl:DatatypeProperty rdf:about="#equality_weight">
+    <rdfs:range rdf:resource="&xsd;float"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="#similarity_weight">
+    <rdfs:range rdf:resource="&xsd;float"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="#threshold">
+    <rdfs:range rdf:resource="&xsd;float"/>
+  </owl:DatatypeProperty>
+
+<!-- OBJECT PROPERTIES -->
+  <owl:ObjectProperty rdf:about="#type_domain">
+    <rdfs:domain rdf:resource="#property"/>
+    <rdfs:range rdf:resource="#type"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="#use_matcher"/>
+
+<!-- INSTANCES -->
+	
+	<other_linguistic_matcher rdf:ID="string_age_difference"/>
+	<other_linguistic_matcher rdf:ID="string_date_difference"/>
+	<other_linguistic_matcher rdf:ID="string_performance_difference"/>
+	
+  <string_matcher rdf:ID="q_grams_distance"/>
+	<string_matcher rdf:ID="levenshtein"/>
+	<string_matcher rdf:ID="jaccard_similarity"/>
+	<string_matcher rdf:ID="dice_similarity"/>
+	<string_matcher rdf:ID="cosine_similarity"/>
+	<string_matcher rdf:ID="jaro"/>
+	<string_matcher rdf:ID="jaro_winkler"/>
+	<string_matcher rdf:ID="smith_waterman"/>
+		
+  <wordnet_matcher rdf:ID="simple_wordnet_metric"/>
+	<wordnet_matcher rdf:ID="frequency_wordnet_metric"/>
+	<wordnet_matcher rdf:ID="maximum_path_wordnet_metric"/>
+	<wordnet_matcher rdf:ID="geographic_wordnet_metric"/>
+	
+	<numeric_matcher rdf:ID="numeric_age_difference"/>
+	<numeric_matcher rdf:ID="numeric_performance_difference"/>
+	
+	<temporal_matcher rdf:ID="date_difference"/>
+	<temporal_matcher rdf:ID="time_performance_difference"/>
+
+	<age rdf:about="#hasValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+    <type_domain rdf:resource="#string"/>
+  </age>
+	
+	<age rdf:about="#hasAgeValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+    <type_domain rdf:resource="#integer"/>
+  </age>
+
+  <geographic rdf:about="#hasCityNameValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#string"/>
+  </geographic>
+
+  <geographic rdf:about="#hasCountryNameValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#string"/>
+  </geographic>
+	
+	<geographic rdf:about="#hasGeographicAreaNameValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#string"/>
+  </geographic>
+	
+	<geographic rdf:about="#hasVillageNameValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#string"/>
+  </geographic>
+	
+	<!-- da cambiare -->
+	<geographic rdf:about="#hasKmValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+    <type_domain rdf:resource="#string"/>
+  </geographic>
+
+  <time_period rdf:about="#hasEndDateValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#date"/>
+  </time_period>
+
+  <sport_performance rdf:about="#hasPerformanceValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#float"/>
+  </sport_performance>
+
+  <sport_performance rdf:about="#hasUpperLimitValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#float"/>
+  </sport_performance>
+
+  <object_identification rdf:about="#hasNameValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#string"/>
+  </object_identification>
+	
+	<object_identification rdf:about="#hasSportsRoutePointNameValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#string"/>
+  </object_identification>
+	
+	<object_identification rdf:about="#hasRouteNameValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#string"/>
+  </object_identification>
+
+	<object_identification rdf:about="#hasSportsHeatNameValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#string"/>
+  </object_identification>
+	
+  <name rdf:about="#hasPersonNameValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#string"/>
+  </name>
+
+  <sport_performance rdf:about="#hasRankingValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#integer"/>
+  </sport_performance>
+
+  <object_identification rdf:about="#hasSportsNameValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#string"/>
+  </object_identification>
+
+  <object_identification rdf:about="#hasSportsEventNameValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#string"/>
+  </object_identification>
+
+  <object_identification rdf:about="#hasSportsRoundNameValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#string"/>
+  </object_identification>
+
+  <object_identification rdf:about="#hasStadiumNameValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#string"/>
+  </object_identification>
+
+  <time_period rdf:about="#hasStartDateValue">
+    <equality_weight rdf:datatype="&xsd;float">1.0</equality_weight>
+    <similarity_weight rdf:datatype="&xsd;float">1.0</similarity_weight>
+    <threshold rdf:datatype="&xsd;float">1.0</threshold>
+		<type_domain rdf:resource="#date"/>
+  </time_period>
+
+</rdf:RDF>

@@ -1,0 +1,97 @@
+; Mon Dec 20 13:09:44 PST 2004
+; 
+;+ (version "3.0")
+;+ (build "Build 107")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot starter_concept
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot slot
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot depth
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot slot_directives
+		(type INSTANCE)
+;+		(allowed-classes SlotDirective)
+		(create-accessor read-write))
+	(single-slot instances
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot subclasses
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot superclasses
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot number_of_levels
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot everything_related
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass TraversalDirective
+	(is-a USER)
+	(role concrete)
+	(single-slot starter_concept
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot slot_directives
+		(type INSTANCE)
+;+		(allowed-classes SlotDirective)
+		(create-accessor read-write))
+	(single-slot instances
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot subclasses
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot superclasses
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot number_of_levels
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot everything_related
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass SlotDirective
+	(is-a USER)
+	(role concrete)
+	(single-slot slot
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot depth
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))

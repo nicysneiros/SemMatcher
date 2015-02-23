@@ -1,0 +1,104 @@
+A {
+	color: #0000CD;
+	text-decoration: none;
+}
+
+A:HOVER {
+	color: Navy;
+	text-decoration: none;
+}
+/* Browser specific (not valid) styles to make preformatted text wrap */	pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+div.owl {
+  background: #edd;
+  border:1pt solid;
+}
+div.terminal {
+// JE: This may be a bit too much but I like it.
+// Invert color when selecting is not good.
+// I must do something for it to print correctly
+	color: #63FF00;
+	background: #000;
+	font: normal 12px "bitstream vera sans mono", monaco "lucida console", "courier new", courier, serif;
+	overflow: auto;
+}
+div.fragment {
+    margin: 0.9em 0;
+    padding: 8px;
+    width: 98%;
+    border: 1pt solid;
+    background: #dde;
+    border:1pt solid;
+    font-family: monospace;
+    white-space: pre;
+    overflow: auto;
+}
+div.logic {
+  background: #ded;
+  border:1pt solid;
+}
+
+.detail {
+  background: lightYellow;
+  border:1pt solid red;
+/*  margin-top: 0.6em;
+  margin-bottom: 0.6em; */
+}
+
+.inference {
+  background: white;
+  font-weight: bold; 
+  font-size: large;
+}
+
+.explain {
+  display:none; 
+  background: lightYellow;
+  border:1pt solid red;
+}
+
+.button {
+}
+
+/*
+.explain {
+}
+
+.button {
+  display:none; 
+}
+*/
+
+table {
+  border: solid 2pt;
+}
+
+td {
+  border: solid 1pt;
+  padding: 1px;
+}
+
+th {
+  border: solid 1pt;
+  padding: 10px;
+}
+
+.imgdiv {
+  text-align: center;
+}
+
+.facts {
+  margin: 10px;
+}
+
+body {
+  text-align: justify;
+  padding: 2em 1em 2em 1em;
+ }
+
+h2 { border-bottom: 1px solid #000088; }

@@ -1,0 +1,112 @@
+; Thu Nov 04 15:38:35 PST 2004
+; 
+;+ (version "3.0")
+;+ (build "Build -1")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(multislot consequences
+		(type INSTANCE)
+;+		(allowed-classes Event)
+		(create-accessor read-write))
+	(multislot description
+		(type STRING)
+		(create-accessor read-write))
+	(multislot historical-name
+		(type STRING)
+		(create-accessor read-write))
+	(multislot key-actors
+		(type INSTANCE)
+;+		(allowed-classes Person)
+		(create-accessor read-write))
+	(multislot time-period
+;+		(comment "There's no reason an activity is restricted to a single instant of time. While a single-cardinality class would allow us to use RecurringInstant to specify a repeated action that recurs on a regular basis, the action might occur irregularly as well. Hence the need for this to be multiple cardinality. ")
+		(type INSTANCE)
+;+		(allowed-classes TimePeriod)
+		(create-accessor read-write))
+	(multislot born-on
+		(type INSTANCE)
+;+		(allowed-classes TimeInstant)
+		(create-accessor read-write))
+	(multislot died-on
+		(type INSTANCE)
+;+		(allowed-classes TimeInstant)
+		(create-accessor read-write))
+	(multislot name_
+		(type STRING)
+		(create-accessor read-write))
+	(multislot participated-in
+		(type INSTANCE)
+;+		(allowed-classes Activity)
+		(create-accessor read-write)))
+
+(defclass Activity "An activity is something which occurs over a certain time interval. It has both performers and consequences. The semantic distinction between Events and Activities is a little fuzzy (e.g., in common english usage, the terms overlap). We're, more or less, using Event to describe the consequences of an activity."
+	(is-a USER)
+	(role abstract)
+	(multislot consequences
+		(type INSTANCE)
+;+		(allowed-classes Event)
+		(create-accessor read-write))
+	(multislot description
+		(type STRING)
+		(create-accessor read-write))
+	(multislot historical-name
+		(type STRING)
+		(create-accessor read-write))
+	(multislot key-actors
+		(type INSTANCE)
+;+		(allowed-classes Person)
+		(create-accessor read-write))
+	(multislot time-period
+;+		(comment "There's no reason an activity is restricted to a single instant of time. While a single-cardinality class would allow us to use RecurringInstant to specify a repeated action that recurs on a regular basis, the action might occur irregularly as well. Hence the need for this to be multiple cardinality. ")
+		(type INSTANCE)
+;+		(allowed-classes TimePeriod)
+		(create-accessor read-write)))
+
+(defclass Conquest
+	(is-a Activity)
+	(role concrete))
+
+(defclass Entertainment
+	(is-a Activity)
+	(role concrete))
+
+(defclass Exploration
+	(is-a Activity)
+	(role concrete))
+
+(defclass Event "A change in the state of the world. We're totally stubbing this one off (since this is an example project) and simply using a textual description.  "
+	(is-a USER)
+	(role concrete)
+	(multislot description
+		(type STRING)
+		(create-accessor read-write))
+	(multislot historical-name
+		(type STRING)
+		(create-accessor read-write))
+	(multislot time-period
+;+		(comment "There's no reason an activity is restricted to a single instant of time. While a single-cardinality class would allow us to use RecurringInstant to specify a repeated action that recurs on a regular basis, the action might occur irregularly as well. Hence the need for this to be multiple cardinality. ")
+		(type INSTANCE)
+;+		(allowed-classes TimePeriod)
+		(create-accessor read-write)))
+
+(defclass Person "Represents an individual (implicitly a human being, born on Earth, yadda yadda). "
+	(is-a USER)
+	(role concrete)
+	(multislot born-on
+		(type INSTANCE)
+;+		(allowed-classes TimeInstant)
+		(create-accessor read-write))
+	(multislot died-on
+		(type INSTANCE)
+;+		(allowed-classes TimeInstant)
+		(create-accessor read-write))
+	(multislot name_
+		(type STRING)
+		(create-accessor read-write))
+	(multislot participated-in
+		(type INSTANCE)
+;+		(allowed-classes Activity)
+		(create-accessor read-write)))

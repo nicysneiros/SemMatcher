@@ -1,0 +1,185 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>The New Operations Tab</title>
+</head>
+
+<body>
+
+<h1><img src="images/serving_nerd.gif" width="48" height="48">   &nbsp;The New
+Operations Tab<br>
+<img src="images/header_line.gif" width="590" height="6"></h1>
+
+<p>The New Operations tab shows you your source ontologie(s) and allows you to
+create new operations, which you can either perform immediately or add to the
+ToDo list at the <a href="suggestions.htm">Suggestions Tab</a>.&nbsp;</p>
+
+<p>The New Operations tab includes the following areas:</p>
+
+<ul>
+  <li>A source knowledge bases area where you can view, search, and select
+    frames</li>
+  <li>A create operations area, where you can create a new operation</li>
+  <li>Operations buttons, which allow you to choose whether to perform an
+    operation immediately, or to add it to the ToDo list at the <a href="suggestions.htm"> Suggestions Tab</a></li>
+</ul>
+
+<p><img border="0" src="images/creating_op_tab.gif" width="574" height="505"></p>
+
+<h2><a name="source bases"></a>The Source Knowledge Bases Area</h2>
+
+<p>The Source Knowledge Bases area shows you the original ontologie(s)
+that you are incorporating into your working project.&nbsp;</p>
+
+<p>The exact contents of the area depend on the mode in which you are working:</p>
+
+<ul>
+  <li>If you are <a href="merge_mode.htm"> merging</a> ontologies, the ontology
+    first selected during <a href="initialize_prompt.htm">initialization</a> is on the left.&nbsp;</li>
+  <li> If you are <a href="extract_mode.htm"> extracting</a> or <a href="move_frames_mode.htm">moving
+    frames</a>, you will see only one
+ontology.</li>
+</ul>
+
+<p>The New Operations window is not available for <a href="compare_mode.htm">compare
+mode</a>.&nbsp;</p>
+
+<p>Tabs allow you to choose whether to view classes, slots, or frames. You can
+navigate through the ontologies in the same way you would navigate through the
+Class, Slot, or Instance tab. You can also search for a frame by typing all
+or part of its name in the search bar and then clicking the Find <img border="0" src="images/Find.gif" width="16" height="15">
+button. Additional functionality is provided by the <a href="#buttons">source
+buttons</a> and the <a href="#icons">source icons</a>.</p>
+
+<p>Once you have highlighted a frame, you can load it into the create operations
+area by clicking the Load <img border="0" src="images/Load.gif" width="15" height="15">button. See the <a href="#create">Create
+Operations Area</a> on this page for further information.</p>
+
+<p><b>Note:</b> The Source Knowledge Bases area at the New Operations tab is
+similar to the <a href="source_bases.htm">Source Knowledge Bases Window</a>,
+accessed by clicking the Source <img border="0" src="images/Source.gif" width="15" height="15"> button
+in the <a href="suggestions.htm">Suggestions Tab</a>. However, the area in the
+New Operations tab is more flexible, allowing you to navigate directly through
+the hierarchy of the incorporated ontologies without reference to the selection
+in the <a href="suggestions.htm"> Suggestions Tab</a>.</p>
+
+<h3><a name="buttons"></a>Source Buttons</h3>
+
+<p>Buttons at the top of each pane allow you to view information about the
+highlighted frame:</p>
+
+<table border="0" width="100%">
+  <tr>
+    <td width="15%" valign="top"><img border="0" src="images/View.gif" width="15" height="15"></td>
+    <td width="85%"><b>V(iew)
+button:</b> Click this button to open the Class, Slot, or Instance Form for the highlighted
+      frame. Because you are viewing the original ontology, you cannot edit the
+      frame from this version of the form. However, you may be able to access
+      additional information, such as viewing the slots of a selected class.</td>
+  </tr>
+  <tr>
+      <td width="11%"> <img border="0" src="images/BackReferences.gif" width="13" height="13"> </td>
+      <td width="89%"><font size="3"><b>Back-references button:</b> Click this
+        button to view all the objects in the original ontology that reference the highlighted
+        frame.&nbsp;</font></td>
+  </tr>
+</table>
+
+<h3><a name="icons"></a>Source Icons</h3>
+
+<p>Special icons to the right of a frame indicate its status:</p>
+
+<table border="0" width="100%">
+  <tr>
+    <td width="15%" valign="top"><img border="0" src="images/Mapped.gif" width="15" height="16"></td>
+    <td width="85%">The frame has been <b>mapped</b> (merge, extract, or compare
+      ontologies). A mapped frame has been copied in some way into the working
+      project, for example, by merging, copying, or mapping after a compare. It
+      has not been altered in the original ontology.</td>
+  </tr>
+  <tr>
+    <td width="15%" valign="top"><img border="0" src="images/Local.gif" width="15" height="16"></td>
+    <td width="85%">The frame is <b>local</b> (move from included to including
+      ontology). A local frame has been moved from the original ontology to the
+      working ontology. In this case, the original ontology has been
+      altered.&nbsp;</td>
+  </tr>
+</table>
+
+<h2><a name="create"></a>The Create Operations Area</h2>
+
+<p>The Create Operations area allows you to create a new prompt operation and perform the operation.
+For <a href="merge_mode.htm">merge</a> and <a href="move_frames_mode.htm">moving
+frames</a> modes, you can also defer the operation by adding it to the To Do list in the <a href="suggestions.htm">Suggestions Tab</a>.</p>
+
+<p><b>Note</b>: A similar dialog appears when you click the Create <img border="0" src="images/Create.gif" width="15" height="15">
+button at the <a href="suggestions.htm">Suggestions Tab</a>.
+However, the dialog at the New Operations tab has additional functionality that allows you to use the information in the top
+half to load frames.</p>
+
+<p>The Create Operations area contains the following sections:</p>
+
+<ul>
+  <li>A menu allows you to choose the operation you want to create.
+    Operations may involve classes, slots, or instances. Available operations
+    depend on the mode (<a href="merge_mode.htm">merge</a>, <a href="extract_mode.htm">extract</a>,
+    or <a href="move_frames_mode.htm">moving frames</a>) in which
+    you are working. See <a href="operations.htm">PROMPT Operations</a> for more
+    information.</li>
+  <li>Menu(s) that allow you to choose the source ontologie(s) for the
+    operation. For instance, if you are merging two ontologies, and you have
+    chosen a copy operation, you can use this menu to select the ontology you
+    want to copy a frame from.</li>
+  <li>One or two entry bars allow you to choose the class(es), slot(s), or
+    instance(s) you want as arguments to the operation. Merge operations have two
+    arguments; all other operations have only one argument. The buttons to the
+    right of the entry bar allow you to view, choose, or remove the argument as
+    follows:
+    <ul>
+      <li>The View <img border="0" src="images/View.gif" width="15" height="15"> button allows you to
+        view the Class, Slot, or Instance Form for the named frame. The View
+        button is grayed out unless a frame is selected.</li>
+      <li>The Load <img border="0" src="images/Load.gif" width="15" height="15"> button allows you to
+        load the frame highlighted in the <a href="#source bases">Source
+        Knowledge Bases area</a> into the argument entry bar. If there is no
+        frame selected in the Source Knowledge Bases area, or if the frame type
+        and the operation do not match (e.g., if classes are shown above, while <b>copy
+        slot</b> is selected), this button is grayed out.</li>
+      <li>The Add <img border="0" src="images/Add.gif" width="19" height="19">
+        button displays a Select Frame dialog box, where you can select a frame
+        to load into the argument entry bar.</li>
+      <li>The Remove <img border="0" src="images/Remove.gif" width="19" height="19"> button removes the
+        frame from the argument entry bar. The Remove button is grayed out
+        unless a frame is selected.</li>
+    </ul>
+  </li>
+  <li>Check boxes allow you to select the options for the operation.
+    Options are described in <a href="operations.htm"> PROMPT Operations</a>.</li>
+</ul>
+
+<h2><a name="operations buttons"></a>Operations Buttons</h2>
+<p>Two buttons at the bottom of the New Operations tab allow you to choose how
+to perform the operation:</p>
+<ul>
+  <li> <b>Do It</b> immediately performs the specified operation, with the
+    selected arguments and options</li>
+  <li><b>ToDo list</b> adds the operation to the To Do list
+    at the <a href="suggestions.htm">Suggestions Tab</a> (<a href="merge_mode.htm">merge</a>
+    and <a href="move_frames_mode.htm">moving frames</a> modes only).</li>
+</ul>
+<p>Whenever an operation is performed, the ToDo list at the <a href="suggestions.htm">Suggestions Tab</a>
+and the <a href="conflicts_tab.htm">Conflicts Tab</a> are updated appropriately.</p>
+
+<hr>
+
+<p><font size="3">Next: </font><a href="result_window.htm">The Result Window</a>
+</p>
+
+<p><font size="3"><a href="index.html">Prompt Table of Contents</a></font></p>
+
+</body>
+
+</html>

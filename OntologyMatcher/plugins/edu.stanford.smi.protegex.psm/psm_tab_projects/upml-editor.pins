@@ -1,0 +1,60 @@
+; Mon Jan 31 13:48:06 PST 2005
+; 
+;+ (version "3.0")
+;+ (build "Build 124")
+
+([upml_00014] of  %3APAL-CONSTRAINT
+
+	(%3APAL-DESCRIPTION "Input roles of a task or PSM should be signature elements defined in its signature or in the signature of imported ontologies.")
+	(%3APAL-NAME "psm-or-task-input-roles-belong-to-ontology-signature")
+	(%3APAL-RANGE "(defrange ?input :FRAME SignatureElement input-roles)\n(defrange ?onto :FRAME Ontology ontologies)")
+	(%3APAL-STATEMENT "(forall ?psm-or-task \n        (forall ?input \n                (=> (input-roles ?psm-or-task ?input)\n                    (exists ?onto \n                            (and (or (ontologies ?psm-or-task ?onto)\n                                     (ontologies (ontologies ?psm-or-task) ?onto))\n                                 (signature-elements (signature ?onto) ?input))))))"))
+
+([upml_00015] of  %3APAL-CONSTRAINT
+
+	(%3APAL-DESCRIPTION "Output roles of a task or PSM should refer to elements defined in its signature or in imported signatures. ")
+	(%3APAL-NAME "psm-or-task-output-roles-belong-to-ontology-signature")
+	(%3APAL-RANGE "(defrange ?output :FRAME SignatureElement output-roles)\n(defrange ?onto :FRAME Ontology ontologies)")
+	(%3APAL-STATEMENT "(forall ?psm-or-task \n        (forall ?output \n                (=> (output-roles ?psm-or-task ?output)\n                    (exists ?onto\n                            (and (or (ontologies ?psm-or-task ?onto)\n                                     (ontologies (ontologies ?psm-or-task) ?onto))\n                                 (signature-elements (signature ?onto) ?output))))))"))
+
+([upml_00016] of  %3APAL-CONSTRAINT
+
+	(%3APAL-DESCRIPTION "Knowledge roles of a reasoning resource should refer to elements defined in its signature or in imported signatures. ")
+	(%3APAL-NAME "psm-knowledge-roles-belong-to-ontology-signature")
+	(%3APAL-RANGE "(defrange ?psm :FRAME ReasoningResource)\n(defrange ?k-role :FRAME SignatureElement knowledge-roles)\n(defrange ?onto :FRAME Ontology ontologies)")
+	(%3APAL-STATEMENT "(forall ?psm (forall ?k-role \n                     (=> (knowledge-roles ?psm ?k-role)\n                         (exists ?onto                          	(and (or (ontologies ?psm ?onto)                 			(ontologies (ontologies ?psm) ?onto))            (signature-elements (signature ?onto) ?k-role))))))"))
+
+([upml_00017] of  %3APAL-CONSTRAINT
+
+	(%3APAL-DESCRIPTION "Intermediate roles of a problem decomposer (defined in its operational description) should refer to elements defined in its (imported) signature. ")
+	(%3APAL-NAME "psm-intermediate-roles-belong-to-ontology-signature")
+	(%3APAL-RANGE "(defrange ?psm :FRAME ProblemDecomposer)\n(defrange ?inter-role :FRAME SignatureElement intermediate-roles)\n(defrange ?onto :FRAME Ontology ontologies)")
+	(%3APAL-STATEMENT "(forall ?psm (forall ?inter-role \n                     (=> (intermediate-roles (operational-description ?psm) ?inter-role)\n                         (exists ?onto\n                                 (and (or (ontologies ?psm ?onto)\n                                          (ontologies (ontologies ?psm) ?onto))                                      (signature-elements (signature ?onto)  ?inter-role))))))"))
+
+([upml_00018] of  %3APAL-CONSTRAINT
+
+	(%3APAL-DESCRIPTION "A knowledge component has a value for its pragmatics slot and this value is unique in the KB")
+	(%3APAL-NAME "component-has-unique-pragmatics")
+	(%3APAL-RANGE "(defrange ?other-comp :FRAME KnowledgeComponent)")
+	(%3APAL-STATEMENT "(forall ?comp \n        (and (own-slot-not-null pragmatics ?comp)\n             (forall ?other-comp\n                     (=> (not (= ?comp ?other-comp))\n                         (not (=  (pragmatics ?comp) (pragmatics ?other-comp)))))))"))
+
+([upml_00044] of  %3APAL-CONSTRAINT
+
+	(%3APAL-DESCRIPTION "Intermediate roles of a problem decomposer (defined in its operational description) are outputs of one subtask and inputs to another.\nTodo: in fact, psm-task input/output exchange can be defined through mappings in the PSM-Task bridge")
+	(%3APAL-NAME "psm-intermediate-roles-are-inputs-outputs-for-subtasks")
+	(%3APAL-RANGE "(defrange ?subtask1 :FRAME Task subtasks)\n(defrange ?subtask2 :FRAME Task subtasks)\n(defrange ?inter :FRAME SignatureElement intermediate-roles)")
+	(%3APAL-STATEMENT "(forall ?psm \n        (forall ?inter\n                (=> (intermediate-roles (operational-description ?psm) ?inter)\n                    (and (exists ?subtask1\n        (and (subtasks ?psm ?subtask1)\n             (output-roles ?subtask1 ?inter)))\n                         (exists ?subtask2\n                                 (and (subtasks ?psm ?subtask2)\n\n                                      (input-roles ?subtask2 ?inter)))))))\n"))
+
+([upml_00056] of  %3APAL-CONSTRAINT
+
+	(%3APAL-DESCRIPTION "All inputs of a problem decomposer are also inputs of at least one of its subtasks.\nTodo: in fact, psm-task input/output exchange can be defined through mappings in the PSM-Task bridge")
+	(%3APAL-NAME "psm-inputs-are-inputs-of-its-subtasks")
+	(%3APAL-RANGE "(defrange ?subtask :FRAME Task subtasks)\n(defrange ?input :FRAME SignatureElement input-roles)")
+	(%3APAL-STATEMENT "(forall ?psm \n        (forall ?input \n                (=> (input-roles ?psm ?input)\n                    (exists ?subtask\n                            (and (subtasks ?psm ?subtask)                                         (input-roles ?subtask ?input))))))"))
+
+([upml_00057] of  %3APAL-CONSTRAINT
+
+	(%3APAL-DESCRIPTION "All outputs of a problem decomposer are also outputs of at least one of its subtasks.\nTodo: in fact, psm-task input/output exchange can be defined through mappings in the PSM-Task bridge")
+	(%3APAL-NAME "psm-outputs-are-outputs-of-its-subtasks")
+	(%3APAL-RANGE "(defrange ?subtask :FRAME Task subtasks)\n(defrange ?output :FRAME SignatureElement output-roles)")
+	(%3APAL-STATEMENT "(forall ?psm \n        (forall ?output\n                (=> (output-roles ?psm ?output)\n                    (exists ?subtask \n                            (and (subtasks ?psm ?subtask)\n                                 (output-roles ?subtask ?output))))))"))

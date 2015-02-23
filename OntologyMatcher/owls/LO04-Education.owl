@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.owl-ontologies.com/Ontology1213369171.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.owl-ontologies.com/Ontology1213369171.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Professor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Faculty"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="graduateStudent">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Student"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Student">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Education"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Course">
+    <rdfs:subClassOf rdf:resource="#Education"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PostDoc">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Faculty"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Lecturer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Faculty"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Faculty">
+    <rdfs:subClassOf rdf:resource="#Education"/>
+  </owl:Class>
+  <owl:Class rdf:ID="undergraduateStudent">
+    <rdfs:subClassOf rdf:resource="#Student"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="teacherOf">
+    <rdfs:range rdf:resource="#Course"/>
+    <rdfs:domain rdf:resource="#Faculty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="has">
+    <rdfs:range rdf:resource="#Student"/>
+    <rdfs:domain rdf:resource="#Course"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="takesCourse">
+    <rdfs:domain rdf:resource="#Student"/>
+    <rdfs:range rdf:resource="#Course"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="tenured">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:domain rdf:resource="#Professor"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="emailAddress">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Faculty"/>
+          <owl:Class rdf:about="#Student"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="facultyName">
+    <rdfs:domain rdf:resource="#Faculty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="studentName">
+    <rdfs:domain rdf:resource="#Student"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->

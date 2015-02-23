@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <Alignment>
+    <xml>yes</xml>
+    <level>0</level>
+    <type>**</type>
+    <onto1>http://www.owl-ontologies.com/Ontology1224113333.owl</onto1>
+    <onto2>http://www.owl-ontologies.com/Ontology1224113118.owl</onto2>
+    <uri1>http://www.owl-ontologies.com/Ontology1224113333.owl</uri1>
+    <uri2>http://www.owl-ontologies.com/Ontology1224113118.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Employee"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Education"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Employee"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Employee"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Professor"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Employee"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Worker"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Person"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Education"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Person"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Person"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Professor"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Person"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Worker"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Education"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Education"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Education"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Education"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Professor"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Education"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Worker"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Phd"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Education"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Phd"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Phd"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Professor"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1224113333.owl#Phd"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1224113118.owl#Worker"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

@@ -1,0 +1,45 @@
+; Thu Nov 04 15:34:05 PST 2004
+; 
+;+ (version "3.0")
+;+ (build "Build 91")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(multislot SLOT-QUERIES
+		(type INSTANCE)
+;+		(allowed-classes QUERY)
+		(create-accessor read-write)))
+
+(defclass QUERYABLE-CLASS
+	(is-a %3ASTANDARD-CLASS)
+	(role concrete)
+	(multislot SLOT-QUERIES
+		(type INSTANCE)
+;+		(allowed-classes QUERY)
+		(create-accessor read-write)))
+
+(defclass QUERY
+	(is-a %3ASYSTEM-CLASS)
+	(role abstract))
+
+(defclass PAL-QUERY
+	(is-a QUERY)
+	(role concrete)
+	(single-slot %3APAL-STATEMENT
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3APAL-NAME
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3APAL-RANGE
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3APAL-DESCRIPTION
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))

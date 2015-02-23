@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.owl-ontologies.com/unnamed.owl#"
+  xml:base="http://www.owl-ontologies.com/unnamed.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="LCD">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Monitor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Mouse">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ElectronicDevice"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="NoteBook">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Computer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PC">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Computer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Screen">
+    <rdfs:subClassOf rdf:resource="#ElectronicDevice"/>
+  </owl:Class>
+  <owl:Class rdf:ID="optical">
+    <rdfs:subClassOf rdf:resource="#Mouse"/>
+  </owl:Class>
+  <owl:Class rdf:ID="MacPC">
+    <rdfs:subClassOf rdf:resource="#PC"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Normal">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Monitor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Mainframe">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Computer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Keyboard">
+    <rdfs:subClassOf rdf:resource="#ElectronicDevice"/>
+  </owl:Class>
+  <owl:Class rdf:ID="IntelPC">
+    <rdfs:subClassOf rdf:resource="#PC"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Computer">
+    <rdfs:subClassOf rdf:resource="#ElectronicDevice"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Monitor">
+    <rdfs:subClassOf rdf:resource="#Screen"/>
+  </owl:Class>
+  <owl:Class rdf:ID="orthopedical">
+    <rdfs:subClassOf rdf:resource="#optical"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Joystick">
+    <rdfs:subClassOf rdf:resource="#ElectronicDevice"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Display">
+    <rdfs:subClassOf rdf:resource="#Screen"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PalmTop">
+    <rdfs:subClassOf rdf:resource="#Computer"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:ID="Num">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#ElectronicDevice"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="Value">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="#ElectronicDevice"/>
+  </owl:DatatypeProperty>
+  <owl:FunctionalProperty rdf:ID="PartOf">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Monitor"/>
+          <owl:Class rdf:about="#Keyboard"/>
+          <owl:Class rdf:about="#Mouse"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <MacPC rdf:ID="MacPC_11">
+    <Num rdf:datatype="http://www.w3.org/2001/XMLSchema#int">76</Num>
+    <Value rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >7000.0</Value>
+  </MacPC>
+  <Monitor rdf:ID="Monitor_8">
+    <Value rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.0</Value>
+    <Num rdf:datatype="http://www.w3.org/2001/XMLSchema#int">66</Num>
+  </Monitor>
+  <Mouse rdf:ID="Mouse_7">
+    <Value rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.0</Value>
+    <Num rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43</Num>
+  </Mouse>
+  <NoteBook rdf:ID="NoteBook_4">
+    <Value rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3000.0</Value>
+    <Num rdf:datatype="http://www.w3.org/2001/XMLSchema#int">56</Num>
+  </NoteBook>
+  <Keyboard rdf:ID="Keyboard_9">
+    <Value rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.0</Value>
+    <Num rdf:datatype="http://www.w3.org/2001/XMLSchema#int">62</Num>
+  </Keyboard>
+  <MacPC rdf:ID="MacPC_10">
+    <Value rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5600.76</Value>
+    <Num rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43</Num>
+  </MacPC>
+  <PalmTop rdf:ID="PalmTop_6">
+    <Num rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</Num>
+    <Value rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.0</Value>
+  </PalmTop>
+  <IntelPC rdf:ID="IntelPC_3">
+    <Num rdf:datatype="http://www.w3.org/2001/XMLSchema#int">98</Num>
+    <Value rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.0</Value>
+  </IntelPC>
+  <NoteBook rdf:ID="NoteBook_5">
+    <Num rdf:datatype="http://www.w3.org/2001/XMLSchema#int">54</Num>
+    <Value rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6000.0</Value>
+  </NoteBook>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->

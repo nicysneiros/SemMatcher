@@ -1,0 +1,2052 @@
+; Tue Jan 25 14:40:58 PST 2005
+; 
+;+ (version "3.0")
+;+ (build "Build 124")
+
+([BROWSER_SLOT_NAMES] of  Property_List
+
+	(properties [upml-protege_ProjectKB_Instance_13228]))
+
+([CLSES_TAB] of  Widget
+
+	(label "Classes")
+	(property_list [ProjectKB_4815_00013])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesTab"))
+
+([FORMS_TAB] of  Widget
+
+	(label "Forms")
+	(property_list [ProjectKB_4815_00042])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormsTab"))
+
+([INSTANCES_TAB] of  Widget
+
+	(label "Instances")
+	(property_list [ProjectKB_4815_00045])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstancesTab"))
+
+([KB_028281_Instance_2026] of  Widget
+
+	(height 654)
+	(is_hidden FALSE)
+	(name "InferenceStructure")
+	(property_list [KB_028281_Instance_2027])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 801)
+	(x 0)
+	(y 0))
+
+([KB_028281_Instance_2027] of  Property_List
+
+	(properties
+		[KB_028281_Instance_2028]
+		[KB_028281_Instance_2031]
+		[KB_028281_Instance_2033]
+		[KB_028281_Instance_2109]))
+
+([KB_028281_Instance_2028] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[KB_028281_Instance_2029]
+		[KB_028281_Instance_2030]))
+
+([KB_028281_Instance_2029] of  String
+
+	(name "horizontal_stretcher")
+	(string_value "inference-nodes"))
+
+([KB_028281_Instance_2030] of  String
+
+	(name "vertical_stretcher")
+	(string_value "inference-nodes"))
+
+([KB_028281_Instance_2031] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "name")
+	(property_list [KB_028281_Instance_2032])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([KB_028281_Instance_2032] of  Property_List
+)
+
+([KB_028281_Instance_2033] of  Widget
+
+	(height 450)
+	(is_hidden FALSE)
+	(label "Inference Structure")
+	(name "inference-nodes")
+	(property_list [KB_028281_Instance_2034])
+	(widget_class_name "edu.stanford.smi.protegex.widget.graph.GraphWidget")
+	(width 480)
+	(x 0)
+	(y 60))
+
+([KB_028281_Instance_2034] of  Property_List
+
+	(properties
+		[KB_028281_Instance_2035]
+		[KB_028281_Instance_2036]
+		[KB_028281_Instance_2037]
+		[KB_028281_Instance_2038]
+		[KB_028281_Instance_2039]
+		[KB_028281_Instance_2040]
+		[KB_028281_Instance_2041]
+		[KB_028281_Instance_2042]
+		[KB_028281_Instance_2043]
+		[KB_028281_Instance_2044]
+		[KB_028281_Instance_2045]
+		[KB_028281_Instance_2046]
+		[KB_028281_Instance_2047]
+		[KB_028281_Instance_2048]
+		[KB_028281_Instance_2049]
+		[KB_028281_Instance_2050]
+		[KB_028281_Instance_2051]
+		[KB_028281_Instance_2052]
+		[KB_028281_Instance_2053]
+		[KB_028281_Instance_2054]
+		[KB_028281_Instance_2055]
+		[KB_028281_Instance_2056]
+		[KB_028281_Instance_2057]
+		[KB_028281_Instance_2058]
+		[KB_028281_Instance_2059]
+		[KB_028281_Instance_2060]
+		[KB_028281_Instance_2061]
+		[KB_028281_Instance_2062]
+		[KB_028281_Instance_2063]
+		[KB_028281_Instance_2064]
+		[KB_028281_Instance_2065]
+		[KB_028281_Instance_2066]
+		[KB_028281_Instance_2067]
+		[KB_028281_Instance_2068]
+		[KB_028281_Instance_2069]
+		[KB_028281_Instance_2070]
+		[KB_028281_Instance_2071]
+		[KB_028281_Instance_2072]
+		[KB_028281_Instance_2073]
+		[KB_028281_Instance_2074]
+		[KB_028281_Instance_2075]
+		[KB_028281_Instance_2076]
+		[KB_028281_Instance_2077]
+		[KB_028281_Instance_2078]
+		[KB_028281_Instance_2079]
+		[KB_028281_Instance_2080]
+		[KB_028281_Instance_2081]
+		[KB_028281_Instance_2082]
+		[KB_028281_Instance_2083]
+		[KB_028281_Instance_2084]
+		[KB_028281_Instance_2085]
+		[KB_028281_Instance_2086]
+		[KB_028281_Instance_2087]
+		[KB_028281_Instance_2088]
+		[KB_028281_Instance_2089]
+		[KB_028281_Instance_2090]
+		[KB_028281_Instance_2091]
+		[KB_028281_Instance_2092]
+		[KB_028281_Instance_2093]
+		[KB_028281_Instance_2094]
+		[KB_028281_Instance_2095]
+		[KB_028281_Instance_2096]
+		[KB_028281_Instance_2097]
+		[KB_028281_Instance_2098]
+		[KB_028281_Instance_2099]
+		[KB_028281_Instance_2100]
+		[KB_028281_Instance_2101]
+		[KB_028281_Instance_2102]
+		[KB_028281_Instance_2103]
+		[KB_028281_Instance_2104]
+		[KB_028281_Instance_2105]
+		[KB_028281_Instance_2106]
+		[KB_028281_Instance_2107]
+		[KB_028281_Instance_2108]
+		[upml-pal_ProjectKB_Instance_3253]
+		[upml-pal_ProjectKB_Instance_3254]
+		[upml-pal_ProjectKB_Instance_3255]
+		[upml-pal_ProjectKB_Instance_3256]
+		[upml-pal_ProjectKB_Instance_3257]
+		[upml-pal_ProjectKB_Instance_3258]
+		[upml-pal_ProjectKB_Instance_3259]
+		[upml-pal_ProjectKB_Instance_3260]
+		[upml-pal_ProjectKB_Instance_3261]
+		[upml-pal_ProjectKB_Instance_3262]
+		[upml-pal_ProjectKB_Instance_3263]
+		[upml-pal_ProjectKB_Instance_3264]
+		[upml-pal_ProjectKB_Instance_3265]
+		[upml-pal_ProjectKB_Instance_3266]
+		[upml-pal_ProjectKB_Instance_3267]
+		[upml-pal_ProjectKB_Instance_3268]
+		[upml-pal_ProjectKB_Instance_3269]
+		[upml-pal_ProjectKB_Instance_3270]
+		[upml-pal_ProjectKB_Instance_3271]
+		[upml-pal_ProjectKB_Instance_3272]
+		[upml-pal_ProjectKB_Instance_3273]
+		[upml-pal_ProjectKB_Instance_3274]
+		[upml-pal_ProjectKB_Instance_3275]
+		[upml-pal_ProjectKB_Instance_3276]
+		[upml-pal_ProjectKB_Instance_3277]
+		[upml-pal_ProjectKB_Instance_3278]
+		[upml-pal_ProjectKB_Instance_3279]
+		[upml-pal_ProjectKB_Instance_3280]
+		[upml-pal_ProjectKB_Instance_3281]
+		[upml-pal_ProjectKB_Instance_3282]
+		[upml-pal_ProjectKB_Instance_3283]
+		[upml-pal_ProjectKB_Instance_3284]
+		[upml-pal_ProjectKB_Instance_3285]
+		[upml-pal_ProjectKB_Instance_3286]
+		[upml-pal_ProjectKB_Instance_3287]
+		[upml-pal_ProjectKB_Instance_3288]
+		[upml-pal_ProjectKB_Instance_3289]
+		[upml-pal_ProjectKB_Instance_3290]
+		[upml-pal_ProjectKB_Instance_3291]
+		[upml-pal_ProjectKB_Instance_3292]
+		[upml-pal_ProjectKB_Instance_3293]
+		[upml-pal_ProjectKB_Instance_3294]
+		[upml-pal_ProjectKB_Instance_3295]
+		[upml-pal_ProjectKB_Instance_3296]
+		[upml-pal_ProjectKB_Instance_3297]
+		[upml-pal_ProjectKB_Instance_3298]
+		[upml-pal_ProjectKB_Instance_3299]
+		[upml-pal_ProjectKB_Instance_3300]
+		[upml-pal_ProjectKB_Instance_3301]
+		[upml-pal_ProjectKB_Instance_3302]
+		[upml-pal_ProjectKB_Instance_3303]
+		[upml-pal_ProjectKB_Instance_3304]))
+
+([KB_028281_Instance_2035] of  String
+
+	(name "ProblemDecomposer_shape")
+	(string_value "Rectangle"))
+
+([KB_028281_Instance_2036] of  Integer
+
+	(integer_value 70)
+	(name "ProblemDecomposer_shapeColorRed"))
+
+([KB_028281_Instance_2037] of  Integer
+
+	(integer_value 130)
+	(name "ProblemDecomposer_shapeColorGreen"))
+
+([KB_028281_Instance_2038] of  Integer
+
+	(integer_value 180)
+	(name "ProblemDecomposer_shapeColorBlue"))
+
+([KB_028281_Instance_2039] of  Integer
+
+	(integer_value 0)
+	(name "ProblemDecomposer_textColorRed"))
+
+([KB_028281_Instance_2040] of  Integer
+
+	(integer_value 0)
+	(name "ProblemDecomposer_textColorGreen"))
+
+([KB_028281_Instance_2041] of  Integer
+
+	(integer_value 0)
+	(name "ProblemDecomposer_textColorBlue"))
+
+([KB_028281_Instance_2042] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ProblemDecomposer_bold"))
+
+([KB_028281_Instance_2043] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ProblemDecomposer_italic"))
+
+([KB_028281_Instance_2044] of  String
+
+	(name "ProblemDecomposer_connectorSlot")
+	(string_value "subtasks"))
+
+([KB_028281_Instance_2045] of  String
+
+	(name "ProblemDecomposer_lineType")
+	(string_value "Solid"))
+
+([KB_028281_Instance_2046] of  String
+
+	(name "ProblemDecomposer_arrowheadType")
+	(string_value "< none >"))
+
+([KB_028281_Instance_2047] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ProblemDecomposer_displayText"))
+
+([KB_028281_Instance_2048] of  String
+
+	(name "ReasoningResource_shape")
+	(string_value "Ellipse"))
+
+([KB_028281_Instance_2049] of  Integer
+
+	(integer_value 70)
+	(name "ReasoningResource_shapeColorRed"))
+
+([KB_028281_Instance_2050] of  Integer
+
+	(integer_value 130)
+	(name "ReasoningResource_shapeColorGreen"))
+
+([KB_028281_Instance_2051] of  Integer
+
+	(integer_value 180)
+	(name "ReasoningResource_shapeColorBlue"))
+
+([KB_028281_Instance_2052] of  Integer
+
+	(integer_value 0)
+	(name "ReasoningResource_textColorRed"))
+
+([KB_028281_Instance_2053] of  Integer
+
+	(integer_value 0)
+	(name "ReasoningResource_textColorGreen"))
+
+([KB_028281_Instance_2054] of  Integer
+
+	(integer_value 0)
+	(name "ReasoningResource_textColorBlue"))
+
+([KB_028281_Instance_2055] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ReasoningResource_bold"))
+
+([KB_028281_Instance_2056] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ReasoningResource_italic"))
+
+([KB_028281_Instance_2057] of  String
+
+	(name "ReasoningResource_connectorSlot")
+	(string_value "output-roles"))
+
+([KB_028281_Instance_2058] of  String
+
+	(name "ReasoningResource_lineType")
+	(string_value "Solid"))
+
+([KB_028281_Instance_2059] of  String
+
+	(name "ReasoningResource_arrowheadType")
+	(string_value "Arrowhead"))
+
+([KB_028281_Instance_2060] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ReasoningResource_displayText"))
+
+([KB_028281_Instance_2061] of  String
+
+	(name "SignatureElement_shape")
+	(string_value "Rectangle"))
+
+([KB_028281_Instance_2062] of  Integer
+
+	(integer_value 192)
+	(name "SignatureElement_shapeColorRed"))
+
+([KB_028281_Instance_2063] of  Integer
+
+	(integer_value 192)
+	(name "SignatureElement_shapeColorGreen"))
+
+([KB_028281_Instance_2064] of  Integer
+
+	(integer_value 192)
+	(name "SignatureElement_shapeColorBlue"))
+
+([KB_028281_Instance_2065] of  Integer
+
+	(integer_value 0)
+	(name "SignatureElement_textColorRed"))
+
+([KB_028281_Instance_2066] of  Integer
+
+	(integer_value 0)
+	(name "SignatureElement_textColorGreen"))
+
+([KB_028281_Instance_2067] of  Integer
+
+	(integer_value 0)
+	(name "SignatureElement_textColorBlue"))
+
+([KB_028281_Instance_2068] of  Boolean
+
+	(boolean_value TRUE)
+	(name "SignatureElement_bold"))
+
+([KB_028281_Instance_2069] of  Boolean
+
+	(boolean_value FALSE)
+	(name "SignatureElement_italic"))
+
+([KB_028281_Instance_2070] of  String
+
+	(name "SignatureElement_connectorSlot")
+	(string_value "input-to"))
+
+([KB_028281_Instance_2071] of  String
+
+	(name "SignatureElement_lineType")
+	(string_value "Solid"))
+
+([KB_028281_Instance_2072] of  String
+
+	(name "SignatureElement_arrowheadType")
+	(string_value "Arrowhead"))
+
+([KB_028281_Instance_2073] of  Boolean
+
+	(boolean_value FALSE)
+	(name "SignatureElement_displayText"))
+
+([KB_028281_Instance_2074] of  String
+
+	(name "Task_shape")
+	(string_value "Rounded Rectangle"))
+
+([KB_028281_Instance_2075] of  Integer
+
+	(integer_value 0)
+	(name "Task_shapeColorRed"))
+
+([KB_028281_Instance_2076] of  Integer
+
+	(integer_value 255)
+	(name "Task_shapeColorGreen"))
+
+([KB_028281_Instance_2077] of  Integer
+
+	(integer_value 255)
+	(name "Task_shapeColorBlue"))
+
+([KB_028281_Instance_2078] of  Integer
+
+	(integer_value 0)
+	(name "Task_textColorRed"))
+
+([KB_028281_Instance_2079] of  Integer
+
+	(integer_value 0)
+	(name "Task_textColorGreen"))
+
+([KB_028281_Instance_2080] of  Integer
+
+	(integer_value 0)
+	(name "Task_textColorBlue"))
+
+([KB_028281_Instance_2081] of  Boolean
+
+	(boolean_value TRUE)
+	(name "Task_bold"))
+
+([KB_028281_Instance_2082] of  Boolean
+
+	(boolean_value FALSE)
+	(name "Task_italic"))
+
+([KB_028281_Instance_2083] of  String
+
+	(name "Task_connectorSlot")
+	(string_value "output-roles"))
+
+([KB_028281_Instance_2084] of  String
+
+	(name "Task_lineType")
+	(string_value "Solid"))
+
+([KB_028281_Instance_2085] of  String
+
+	(name "Task_arrowheadType")
+	(string_value "Arrowhead"))
+
+([KB_028281_Instance_2086] of  Boolean
+
+	(boolean_value FALSE)
+	(name "Task_displayText"))
+
+([KB_028281_Instance_2087] of  String
+
+	(name "InferenceStructure_gridStyle")
+	(string_value "Crosses"))
+
+([KB_028281_Instance_2088] of  Boolean
+
+	(boolean_value FALSE)
+	(name "InferenceStructure_wrapping"))
+
+([KB_028281_Instance_2089] of  String
+
+	(name "slotForRelations")
+	(string_value "arcs"))
+
+([KB_028281_Instance_2090] of  Integer
+
+	(integer_value 0)
+	(name "OutputsTo_lineColorRed"))
+
+([KB_028281_Instance_2091] of  Integer
+
+	(integer_value 0)
+	(name "OutputsTo_lineColorGreen"))
+
+([KB_028281_Instance_2092] of  Integer
+
+	(integer_value 0)
+	(name "OutputsTo_lineColorBlue"))
+
+([KB_028281_Instance_2093] of  String
+
+	(name "OutputsTo_lineType")
+	(string_value "Solid"))
+
+([KB_028281_Instance_2094] of  String
+
+	(name "OutputsTo_arrowheadType")
+	(string_value "Arrowhead"))
+
+([KB_028281_Instance_2095] of  Boolean
+
+	(boolean_value FALSE)
+	(name "OutputsTo_displayText"))
+
+([KB_028281_Instance_2096] of  Integer
+
+	(integer_value 0)
+	(name "InputsTo_lineColorRed"))
+
+([KB_028281_Instance_2097] of  Integer
+
+	(integer_value 0)
+	(name "InputsTo_lineColorGreen"))
+
+([KB_028281_Instance_2098] of  Integer
+
+	(integer_value 0)
+	(name "InputsTo_lineColorBlue"))
+
+([KB_028281_Instance_2099] of  String
+
+	(name "InputsTo_lineType")
+	(string_value "Solid"))
+
+([KB_028281_Instance_2100] of  String
+
+	(name "InputsTo_arrowheadType")
+	(string_value "Arrowhead"))
+
+([KB_028281_Instance_2101] of  Boolean
+
+	(boolean_value FALSE)
+	(name "InputsTo_displayText"))
+
+([KB_028281_Instance_2102] of  Integer
+
+	(integer_value 0)
+	(name "DecomposesIn_lineColorRed"))
+
+([KB_028281_Instance_2103] of  Integer
+
+	(integer_value 0)
+	(name "DecomposesIn_lineColorGreen"))
+
+([KB_028281_Instance_2104] of  Integer
+
+	(integer_value 0)
+	(name "DecomposesIn_lineColorBlue"))
+
+([KB_028281_Instance_2105] of  String
+
+	(name "DecomposesIn_lineType")
+	(string_value "Solid"))
+
+([KB_028281_Instance_2106] of  String
+
+	(name "DecomposesIn_arrowheadType")
+	(string_value "< none >"))
+
+([KB_028281_Instance_2107] of  Boolean
+
+	(boolean_value FALSE)
+	(name "DecomposesIn_displayText"))
+
+([KB_028281_Instance_2108] of  String
+
+	(name "InferenceStructure_snapOnMove")
+	(string_value "Afterwards"))
+
+([KB_028281_Instance_2109] of  Widget
+
+	(height 0)
+	(is_hidden FALSE)
+	(name "arcs")
+	(property_list [KB_028281_Instance_2110])
+	(width 0)
+	(x 0)
+	(y 0))
+
+([KB_028281_Instance_2110] of  Property_List
+)
+
+([KB_159886_Instance_0] of  Property_List
+
+	(name "class widget properties")
+	(properties
+		[KB_159886_Instance_1]
+		[KB_159886_Instance_2]
+		[KB_159886_Instance_3]
+		[KB_159886_Instance_4]
+		[KB_159886_Instance_5]
+		[KB_159886_Instance_6]
+		[KB_159886_Instance_7]
+		[KB_159886_Instance_8]
+		[KB_159886_Instance_9]
+		[KB_159886_Instance_10]))
+
+([KB_159886_Instance_1] of  Widget
+
+	(height 120)
+	(label "Constraints")
+	(name ":SLOT-CONSTRAINTS")
+	(property_list [upml-pal_ProjectKB_Instance_3218])
+	(widget_class_name "edu.stanford.smi.protege.widget.ConstraintsWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([KB_159886_Instance_10] of  Property_List
+
+	(name "layout properties")
+	(properties [KB_159886_Instance_11]))
+
+([KB_159886_Instance_11] of  String
+
+	(name "vertical_stretcher")
+	(string_value ":DIRECT-TEMPLATE-SLOTS"))
+
+([KB_159886_Instance_12] of  Property_List
+
+	(name "slot widget properties")
+	(properties
+		[KB_159886_Instance_13]
+		[KB_159886_Instance_14]
+		[KB_159886_Instance_15]
+		[KB_159886_Instance_16]
+		[KB_159886_Instance_17]
+		[KB_159886_Instance_18]
+		[KB_159886_Instance_19]
+		[KB_159886_Instance_20]
+		[KB_159886_Instance_21]
+		[KB_159886_Instance_22]
+		[KB_159886_Instance_23]
+		[KB_159886_Instance_24]
+		[KB_159886_Instance_25]
+		[KB_159886_Instance_26]
+		[KB_159886_Instance_27]
+		[KB_159886_Instance_28]
+		[upml-pal_ProjectKB_Instance_13224]))
+
+([KB_159886_Instance_13] of  Widget
+
+	(height 60)
+	(label "Cardinality")
+	(name ":SLOT-MINIMUM-CARDINALITY")
+	(widget_class_name "edu.stanford.smi.protege.widget.MinimumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 120))
+
+([KB_159886_Instance_14] of  Widget
+
+	(height 35)
+	(name ":SLOT-MAXIMUM-CARDINALITY")
+	(widget_class_name "edu.stanford.smi.protege.widget.MaximumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 180))
+
+([KB_159886_Instance_15] of  Widget
+
+	(name ":SLOT-CONSTRAINTS"))
+
+([KB_159886_Instance_16] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([KB_159886_Instance_17] of  Widget
+
+	(height 95)
+	(label "Domain")
+	(name ":DIRECT-DOMAIN")
+	(property_list [upml-pal_ProjectKB_Instance_13225])
+	(widget_class_name "edu.stanford.smi.protege.widget.DirectDomainWidget")
+	(width 200)
+	(x 400)
+	(y 180))
+
+([KB_159886_Instance_18] of  Widget
+
+	(height 90)
+	(label "Template Values")
+	(name ":SLOT-VALUES")
+	(property_list [upml-pal_ProjectKB_Instance_13226])
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotValuesWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([KB_159886_Instance_19] of  Widget
+
+	(name ":DIRECT-SUPERSLOTS"))
+
+([KB_159886_Instance_2] of  Widget
+
+	(name ":DIRECT-INSTANCES"))
+
+([KB_159886_Instance_20] of  Widget
+
+	(name ":DIRECT-SUBSLOTS"))
+
+([KB_159886_Instance_21] of  Widget
+
+	(height 90)
+	(label "Default")
+	(name ":SLOT-DEFAULTS")
+	(property_list [upml-pal_ProjectKB_Instance_13227])
+	(widget_class_name "edu.stanford.smi.protege.widget.DefaultValuesWidget")
+	(width 200)
+	(x 400)
+	(y 90))
+
+([KB_159886_Instance_22] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_159886_Instance_23] of  Widget
+
+	(height 60)
+	(label "Maximum")
+	(name ":SLOT-NUMERIC-MAXIMUM")
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMaximumWidget")
+	(width 100)
+	(x 100)
+	(y 215))
+
+([KB_159886_Instance_24] of  Widget
+
+	(height 60)
+	(label "Minimum")
+	(name ":SLOT-NUMERIC-MINIMUM")
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMinimumWidget")
+	(width 100)
+	(x 0)
+	(y 215))
+
+([KB_159886_Instance_25] of  Widget
+
+	(name ":ASSOCIATED-FACET"))
+
+([KB_159886_Instance_26] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_159886_Instance_27] of  Widget
+
+	(height 60)
+	(label "Inverse Slot")
+	(name ":SLOT-INVERSE")
+	(widget_class_name "edu.stanford.smi.protege.widget.InverseSlotWidget")
+	(width 200)
+	(x 200)
+	(y 215))
+
+([KB_159886_Instance_28] of  Widget
+
+	(height 155)
+	(label "Value Type")
+	(name ":SLOT-VALUE-TYPE")
+	(widget_class_name "edu.stanford.smi.protege.widget.ValueTypeWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_159886_Instance_29] of  Property_List
+
+	(name "facet widget properties")
+	(properties
+		[KB_159886_Instance_30]
+		[KB_159886_Instance_31]
+		[KB_159886_Instance_32]))
+
+([KB_159886_Instance_3] of  Widget
+
+	(name ":DIRECT-SUBCLASSES"))
+
+([KB_159886_Instance_30] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_159886_Instance_31] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_159886_Instance_32] of  Widget
+
+	(height 60)
+	(label "Associated Slot")
+	(name ":ASSOCIATED-SLOT")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_159886_Instance_33] of  Property_List
+
+	(properties
+		[KB_159886_Instance_34]
+		[KB_159886_Instance_35]
+		[KB_159886_Instance_36]
+		[KB_159886_Instance_37]))
+
+([KB_159886_Instance_34] of  Widget
+
+	(name ":ANNOTATED-INSTANCE"))
+
+([KB_159886_Instance_35] of  Widget
+
+	(name ":CREATOR"))
+
+([KB_159886_Instance_36] of  Widget
+
+	(name ":CREATION-TIMESTAMP"))
+
+([KB_159886_Instance_37] of  Widget
+
+	(height 100)
+	(is_hidden FALSE)
+	(name ":ANNOTATION-TEXT")
+	(widget_class_name "edu.stanford.smi.protege.widget.YellowStickyWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_159886_Instance_38] of  Property_List
+
+	(properties
+		[KB_159886_Instance_39]
+		[KB_159886_Instance_40]
+		[KB_159886_Instance_41]
+		[KB_159886_Instance_42]))
+
+([KB_159886_Instance_39] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Name")
+	(name ":PAL-NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 275)
+	(x 0)
+	(y 0))
+
+([KB_159886_Instance_4] of  Widget
+
+	(name ":DIRECT-SUPERCLASSES"))
+
+([KB_159886_Instance_40] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(label "Range")
+	(name ":PAL-RANGE")
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalRangeWidget")
+	(width 250)
+	(x 275)
+	(y 180))
+
+([KB_159886_Instance_41] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(label "Description")
+	(name ":PAL-DESCRIPTION")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 275)
+	(y 0))
+
+([KB_159886_Instance_42] of  Widget
+
+	(height 300)
+	(is_hidden FALSE)
+	(label "Statement")
+	(name ":PAL-STATEMENT")
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalConstraintWidget")
+	(width 275)
+	(x 0)
+	(y 60))
+
+([KB_159886_Instance_5] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_159886_Instance_6] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_159886_Instance_7] of  Widget
+
+	(height 60)
+	(label "Role")
+	(name ":ROLE")
+	(widget_class_name "edu.stanford.smi.protege.widget.RoleWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_159886_Instance_8] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([KB_159886_Instance_9] of  Widget
+
+	(height 150)
+	(label "Template Slots")
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(property_list [upml-pal_ProjectKB_Instance_3221])
+	(widget_class_name "edu.stanford.smi.protege.widget.TemplateSlotsWidget")
+	(width 600)
+	(x 0)
+	(y 120))
+
+([PROJECT] of  Project
+
+	(browser_slot_names [BROWSER_SLOT_NAMES])
+	(customized_instance_widgets
+		[upml-pal_ProjectKB_00035]
+		[upml-pal_ProjectKB_04864]
+		[upml-pal_ProjectKB_04036]
+		[upml-pal_ProjectKB_04061]
+		[KB_028281_Instance_2026]
+		[upml-pal_ProjectKB_00030]
+		[upml-pal_ProjectKB_00013]
+		[upml-pal_ProjectKB_00041]
+		[upml-pal_ProjectKB_03989]
+		[upml-pal_ProjectKB_00000])
+	(default_cls_metaclass ":STANDARD-CLASS")
+	(default_facet_metaclass ":STANDARD-FACET")
+	(default_instance_widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(default_slot_metaclass ":STANDARD-SLOT")
+	(included_projects "upml-editor.pprj")
+	(next_frame_number 0)
+	(options [ProjectKB_4815_00014])
+	(property_map [upml-pal_ProjectKB_04539])
+	(sources [SOURCES])
+	(tabs
+		[CLSES_TAB]
+		[SLOTS_TAB]
+		[FORMS_TAB]
+		[INSTANCES_TAB]
+		[QUERIES_TAB]
+		[ProjectKB_4815_00003]
+		[ProjectKB_4815_00005]
+		[ProjectKB_4815_00007]
+		[ProjectKB_4815_00011]
+		[upml-pal_ProjectKB_Instance_3339]
+		[upml-pal_ProjectKB_Instance_3341]))
+
+([ProjectKB_4815_00000] of  String
+
+	(name "factory_class_name")
+	(string_value "edu.stanford.smi.protege.storage.clips.ClipsKnowledgeBaseFactory"))
+
+([ProjectKB_4815_00003] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [ProjectKB_4815_00004])
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalQueriesTab"))
+
+([ProjectKB_4815_00004] of  Property_List
+)
+
+([ProjectKB_4815_00005] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [ProjectKB_4815_00006])
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalConstraintsTab"))
+
+([ProjectKB_4815_00006] of  Property_List
+)
+
+([ProjectKB_4815_00007] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [ProjectKB_4815_00008])
+	(widget_class_name "edu.stanford.smi.protege.widget.KAToolTab"))
+
+([ProjectKB_4815_00008] of  Property_List
+)
+
+([ProjectKB_4815_00011] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [ProjectKB_4815_00012])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesAndInstancesTab"))
+
+([ProjectKB_4815_00012] of  Property_List
+)
+
+([ProjectKB_4815_00013] of  Property_List
+
+	(properties
+		[upml-mcl_ProjectKB_03311]
+		[upml-mcl_ProjectKB_03312]))
+
+([ProjectKB_4815_00014] of  Options
+
+	(confirm_on_remove FALSE)
+	(display_abstract_class_icon TRUE)
+	(display_hidden_classes FALSE)
+	(display_multi_parent_class_icon TRUE)
+	(is_readonly FALSE))
+
+([ProjectKB_4815_00030] of  Property_List
+
+	(properties
+		[upml-mcl_ProjectKB_03313]
+		[upml-mcl_ProjectKB_03314]))
+
+([ProjectKB_4815_00042] of  Property_List
+
+	(properties [upml-mcl_ProjectKB_03315]))
+
+([ProjectKB_4815_00045] of  Property_List
+
+	(properties
+		[upml-mcl_ProjectKB_03316]
+		[upml-mcl_ProjectKB_03317]))
+
+([ProjectKB_4815_00046] of  Property_List
+
+	(properties [upml-mcl_ProjectKB_03318]))
+
+([ProjectKB_4815_03309] of  String
+
+	(name "classes_file_name")
+	(string_value "upml-protege.pont"))
+
+([ProjectKB_4815_03310] of  String
+
+	(name "instances_file_name")
+	(string_value "upml-protege.pins"))
+
+([QUERIES_TAB] of  Widget
+
+	(label "Queries")
+	(property_list [ProjectKB_4815_00046])
+	(widget_class_name "edu.stanford.smi.protegex.queries_tab.QueriesTab"))
+
+([SLOTS_TAB] of  Widget
+
+	(label "Slots")
+	(property_list [ProjectKB_4815_00030])
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotsTab"))
+
+([SOURCES] of  Property_List
+
+	(properties
+		[ProjectKB_4815_00000]
+		[ProjectKB_4815_03309]
+		[ProjectKB_4815_03310]))
+
+([upml-mcl_ProjectKB_03311] of  Integer
+
+	(integer_value 250)
+	(name "ClsesTab.left_right"))
+
+([upml-mcl_ProjectKB_03312] of  Integer
+
+	(integer_value 417)
+	(name "ClsesTab.left.top_bottom"))
+
+([upml-mcl_ProjectKB_03313] of  Integer
+
+	(integer_value 250)
+	(name "SlotsTab.left_right"))
+
+([upml-mcl_ProjectKB_03314] of  Integer
+
+	(integer_value 400)
+	(name "SlotTab.left.top_bottom"))
+
+([upml-mcl_ProjectKB_03315] of  Integer
+
+	(integer_value 250)
+	(name "FormsTab.left_right"))
+
+([upml-mcl_ProjectKB_03316] of  Integer
+
+	(integer_value 250)
+	(name "InstancesTab.left_right"))
+
+([upml-mcl_ProjectKB_03317] of  Integer
+
+	(integer_value 250)
+	(name "InstancesTab.right.left_right"))
+
+([upml-mcl_ProjectKB_03318] of  String
+
+	(name "SearchTab_Query"))
+
+([upml-pal_ProjectKB_00000] of  Widget
+
+	(is_hidden FALSE)
+	(name ":STANDARD-CLASS")
+	(property_list [KB_159886_Instance_0])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([upml-pal_ProjectKB_00013] of  Widget
+
+	(is_hidden FALSE)
+	(name ":STANDARD-SLOT")
+	(property_list [KB_159886_Instance_12])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([upml-pal_ProjectKB_00030] of  Widget
+
+	(is_hidden FALSE)
+	(name ":STANDARD-FACET")
+	(property_list [KB_159886_Instance_29])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([upml-pal_ProjectKB_00035] of  Widget
+
+	(is_hidden FALSE)
+	(name ":INSTANCE-ANNOTATION")
+	(property_list [KB_159886_Instance_33])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([upml-pal_ProjectKB_00041] of  Widget
+
+	(is_hidden FALSE)
+	(name ":PAL-CONSTRAINT")
+	(property_list [KB_159886_Instance_38])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([upml-pal_ProjectKB_03989] of  Widget
+
+	(height 562)
+	(is_hidden FALSE)
+	(name "PALStatement")
+	(property_list [upml-pal_ProjectKB_04010])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 793)
+	(x 0)
+	(y 0))
+
+([upml-pal_ProjectKB_04010] of  Property_List
+
+	(properties
+		[upml-pal_ProjectKB_04015]
+		[upml-pal_ProjectKB_05001]))
+
+([upml-pal_ProjectKB_04015] of  Widget
+
+	(height 200)
+	(is_hidden FALSE)
+	(label "Statement")
+	(name ":PAL-STATEMENT")
+	(property_list [upml-pal_ProjectKB_04016])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 230)
+	(x 0)
+	(y 0))
+
+([upml-pal_ProjectKB_04016] of  Property_List
+)
+
+([upml-pal_ProjectKB_04036] of  Widget
+
+	(height 654)
+	(is_hidden FALSE)
+	(name "Function")
+	(property_list [upml-pal_ProjectKB_04090])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 728)
+	(x 0)
+	(y 0))
+
+([upml-pal_ProjectKB_04061] of  Widget
+
+	(height 654)
+	(is_hidden FALSE)
+	(name "Predicate")
+	(property_list [upml-pal_ProjectKB_04072])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 728)
+	(x 0)
+	(y 0))
+
+([upml-pal_ProjectKB_04072] of  Property_List
+
+	(properties
+		[upml-pal_ProjectKB_04078]
+		[upml-pal_ProjectKB_04080]
+		[upml-pal_ProjectKB_04082]))
+
+([upml-pal_ProjectKB_04078] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "name")
+	(property_list [upml-pal_ProjectKB_04079])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([upml-pal_ProjectKB_04079] of  Property_List
+)
+
+([upml-pal_ProjectKB_04080] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(name "documentation")
+	(property_list [upml-pal_ProjectKB_04081])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 250)
+	(y 0))
+
+([upml-pal_ProjectKB_04081] of  Property_List
+)
+
+([upml-pal_ProjectKB_04082] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "Input-classes")
+	(name "input-classes")
+	(property_list [upml-pal_ProjectKB_04083])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsListWidget")
+	(width 250)
+	(x 0)
+	(y 60))
+
+([upml-pal_ProjectKB_04083] of  Property_List
+
+	(properties
+		[upml-pal_ProjectKB_04084]
+		[upml-pal_ProjectKB_04085]
+		[upml-pal_ProjectKB_04086]
+		[upml-pal_ProjectKB_04087]
+		[upml-pal_ProjectKB_04088]
+		[upml-pal_ProjectKB_04089]))
+
+([upml-pal_ProjectKB_04084] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Classes"))
+
+([upml-pal_ProjectKB_04085] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([upml-pal_ProjectKB_04086] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([upml-pal_ProjectKB_04087] of  String
+
+	(name "ButtonDescription-View Selected Classes")
+	(string_value "View Selected Classes"))
+
+([upml-pal_ProjectKB_04088] of  String
+
+	(name "ButtonDescription-Add")
+	(string_value "Select Classes"))
+
+([upml-pal_ProjectKB_04089] of  String
+
+	(name "ButtonDescription-Remove")
+	(string_value "Remove Selected Classes"))
+
+([upml-pal_ProjectKB_04090] of  Property_List
+
+	(properties
+		[upml-pal_ProjectKB_04091]
+		[upml-pal_ProjectKB_04093]
+		[upml-pal_ProjectKB_04095]
+		[upml-pal_ProjectKB_04103]))
+
+([upml-pal_ProjectKB_04091] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "name")
+	(property_list [upml-pal_ProjectKB_04092])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([upml-pal_ProjectKB_04092] of  Property_List
+)
+
+([upml-pal_ProjectKB_04093] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "documentation")
+	(property_list [upml-pal_ProjectKB_04094])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 250)
+	(y 0))
+
+([upml-pal_ProjectKB_04094] of  Property_List
+)
+
+([upml-pal_ProjectKB_04095] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "Input-classes")
+	(name "input-classes")
+	(property_list [upml-pal_ProjectKB_04096])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsListWidget")
+	(width 250)
+	(x 0)
+	(y 60))
+
+([upml-pal_ProjectKB_04096] of  Property_List
+
+	(properties
+		[upml-pal_ProjectKB_04097]
+		[upml-pal_ProjectKB_04098]
+		[upml-pal_ProjectKB_04099]
+		[upml-pal_ProjectKB_04100]
+		[upml-pal_ProjectKB_04101]
+		[upml-pal_ProjectKB_04102]))
+
+([upml-pal_ProjectKB_04097] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Classes"))
+
+([upml-pal_ProjectKB_04098] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([upml-pal_ProjectKB_04099] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([upml-pal_ProjectKB_04100] of  String
+
+	(name "ButtonDescription-View Selected Classes")
+	(string_value "View Selected Classes"))
+
+([upml-pal_ProjectKB_04101] of  String
+
+	(name "ButtonDescription-Add")
+	(string_value "Select Classes"))
+
+([upml-pal_ProjectKB_04102] of  String
+
+	(name "ButtonDescription-Remove")
+	(string_value "Remove Selected Classes"))
+
+([upml-pal_ProjectKB_04103] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "output-class")
+	(property_list [upml-pal_ProjectKB_04104])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
+	(width 250)
+	(x 250)
+	(y 120))
+
+([upml-pal_ProjectKB_04104] of  Property_List
+
+	(properties
+		[upml-pal_ProjectKB_04105]
+		[upml-pal_ProjectKB_04106]
+		[upml-pal_ProjectKB_04107]))
+
+([upml-pal_ProjectKB_04105] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Class"))
+
+([upml-pal_ProjectKB_04106] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([upml-pal_ProjectKB_04107] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([upml-pal_ProjectKB_04539] of  Map
+)
+
+([upml-pal_ProjectKB_04864] of  Widget
+
+	(height 562)
+	(is_hidden FALSE)
+	(name "PALFormula")
+	(property_list [upml-pal_ProjectKB_04964])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 793)
+	(x 0)
+	(y 0))
+
+([upml-pal_ProjectKB_04964] of  Property_List
+
+	(properties
+		[upml-pal_ProjectKB_04965]
+		[upml-pal_ProjectKB_04973]))
+
+([upml-pal_ProjectKB_04965] of  Widget
+
+	(height 240)
+	(is_hidden FALSE)
+	(label "Formula")
+	(name "formula")
+	(property_list [upml-pal_ProjectKB_04966])
+	(widget_class_name "edu.stanford.smi.protegex.widget.contains.ContainsWidget")
+	(width 250)
+	(x 0)
+	(y 120))
+
+([upml-pal_ProjectKB_04966] of  Property_List
+
+	(properties
+		[upml-pal_ProjectKB_04975]
+		[upml-pal_ProjectKB_04976]
+		[upml-pal_ProjectKB_04977]
+		[upml-pal_ProjectKB_04978]
+		[upml-pal_ProjectKB_04979]
+		[upml-pal_ProjectKB_04980]
+		[upml-pal_ProjectKB_04981]
+		[upml-pal_ProjectKB_04982]
+		[upml-pal_ProjectKB_04983]
+		[upml-pal_ProjectKB_04984]
+		[upml-pal_ProjectKB_04985]
+		[upml-pal_ProjectKB_04986]
+		[upml-pal_ProjectKB_04987]
+		[upml-pal_ProjectKB_04988]
+		[upml-pal_ProjectKB_04989]
+		[upml-pal_ProjectKB_04990]
+		[upml-pal_ProjectKB_04991]
+		[upml-pal_ProjectKB_04992]
+		[upml-pal_ProjectKB_04993]
+		[upml-pal_ProjectKB_04994]
+		[upml-pal_ProjectKB_04995]
+		[upml-pal_ProjectKB_04996]
+		[upml-pal_ProjectKB_04997]
+		[upml-pal_ProjectKB_04998]
+		[upml-pal_ProjectKB_04999]))
+
+([upml-pal_ProjectKB_04973] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "documentation")
+	(property_list [upml-pal_ProjectKB_04974])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([upml-pal_ProjectKB_04974] of  Property_List
+)
+
+([upml-pal_ProjectKB_04975] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Insert:At:Current:Selection"))
+
+([upml-pal_ProjectKB_04976] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Select:New:Insertions"))
+
+([upml-pal_ProjectKB_04977] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Create:Form:For:New:Instances"))
+
+([upml-pal_ProjectKB_04978] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Subwidget:Selection:Enabled"))
+
+([upml-pal_ProjectKB_04979] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Summary:Panel"))
+
+([upml-pal_ProjectKB_04980] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Number:Of:Subordinates"))
+
+([upml-pal_ProjectKB_04981] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Subordinate:Browser:Keys"))
+
+([upml-pal_ProjectKB_04982] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Use:Separators:Between:Subwidgets"))
+
+([upml-pal_ProjectKB_04983] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Comtain:In:Vertical:Direction"))
+
+([upml-pal_ProjectKB_04984] of  Integer
+
+	(integer_value 10)
+	(name ":Size:Of:Space:Between:Subwidgets"))
+
+([upml-pal_ProjectKB_04985] of  Integer
+
+	(integer_value 0)
+	(name ":Prototype:Depth"))
+
+([upml-pal_ProjectKB_04986] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Display:Create:Instance:Button"))
+
+([upml-pal_ProjectKB_04987] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Display:Add:Instance:Button"))
+
+([upml-pal_ProjectKB_04988] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Display:View:Instance:Button"))
+
+([upml-pal_ProjectKB_04989] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Display:Remove:Instance:Button"))
+
+([upml-pal_ProjectKB_04990] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Delete:Instance:Button"))
+
+([upml-pal_ProjectKB_04991] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Prototype:Button"))
+
+([upml-pal_ProjectKB_04992] of  String
+
+	(name ":Create:Instance:Button:Tooltip")
+	(string_value "Create a new instance"))
+
+([upml-pal_ProjectKB_04993] of  String
+
+	(name ":Add:Instance:Button:Tooltip")
+	(string_value "Select an already existing instance"))
+
+([upml-pal_ProjectKB_04994] of  String
+
+	(name ":View:Instance:Button:Tooltip")
+	(string_value "View the selected instance"))
+
+([upml-pal_ProjectKB_04995] of  String
+
+	(name ":Remove:Instance:Button:Tooltip")
+	(string_value "Remove the selected instance(s)"))
+
+([upml-pal_ProjectKB_04996] of  String
+
+	(name ":Delete:Instance:Button:Tooltip")
+	(string_value "Delete the selected instance(s) from the knowledge base"))
+
+([upml-pal_ProjectKB_04997] of  String
+
+	(name ":Prototype:Button:Tooltip")
+	(string_value "Create a new instance which is a duplicate of the selected instance"))
+
+([upml-pal_ProjectKB_04998] of  String
+
+	(name ":Create:Instance:Dialog:Title")
+	(string_value "Create a new instance"))
+
+([upml-pal_ProjectKB_04999] of  String
+
+	(name ":Add:Instance:Dialog:Title")
+	(string_value "Select an already existing instance"))
+
+([upml-pal_ProjectKB_05001] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[upml-pal_ProjectKB_05002]
+		[upml-pal_ProjectKB_05003]))
+
+([upml-pal_ProjectKB_05002] of  String
+
+	(name "horizontal_stretcher")
+	(string_value ":PAL-STATEMENT"))
+
+([upml-pal_ProjectKB_05003] of  String
+
+	(name "vertical_stretcher")
+	(string_value ":PAL-STATEMENT"))
+
+([upml-pal_ProjectKB_Instance_13224] of  Property_List
+
+	(name "layout properties"))
+
+([upml-pal_ProjectKB_Instance_13225] of  Property_List
+)
+
+([upml-pal_ProjectKB_Instance_13226] of  Property_List
+)
+
+([upml-pal_ProjectKB_Instance_13227] of  Property_List
+)
+
+([upml-pal_ProjectKB_Instance_3204] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [upml-pal_ProjectKB_Instance_3205])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.OWLIndividualsTab"))
+
+([upml-pal_ProjectKB_Instance_3205] of  Property_List
+)
+
+([upml-pal_ProjectKB_Instance_3206] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [upml-pal_ProjectKB_Instance_3207])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadatatab.OWLMetadataTab"))
+
+([upml-pal_ProjectKB_Instance_3207] of  Property_List
+)
+
+([upml-pal_ProjectKB_Instance_3208] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [upml-pal_ProjectKB_Instance_3209])
+	(widget_class_name "ezOWLTab"))
+
+([upml-pal_ProjectKB_Instance_3209] of  Property_List
+)
+
+([upml-pal_ProjectKB_Instance_3210] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [upml-pal_ProjectKB_Instance_3211])
+	(widget_class_name "edu.stanford.smi.protegex.owl.swrl.ui.tab.SWRLTab"))
+
+([upml-pal_ProjectKB_Instance_3211] of  Property_List
+)
+
+([upml-pal_ProjectKB_Instance_3212] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [upml-pal_ProjectKB_Instance_3213])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.cls.OWLClsesTab"))
+
+([upml-pal_ProjectKB_Instance_3213] of  Property_List
+)
+
+([upml-pal_ProjectKB_Instance_3214] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [upml-pal_ProjectKB_Instance_3215])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.OWLPropertiesTab"))
+
+([upml-pal_ProjectKB_Instance_3215] of  Property_List
+)
+
+([upml-pal_ProjectKB_Instance_3216] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [upml-pal_ProjectKB_Instance_3217])
+	(widget_class_name "uk.ac.man.cs.mig.coode.owlviz.ui.OWLVizTab"))
+
+([upml-pal_ProjectKB_Instance_3217] of  Property_List
+)
+
+([upml-pal_ProjectKB_Instance_3218] of  Property_List
+
+	(properties
+		[upml-pal_ProjectKB_Instance_3219]
+		[upml-pal_ProjectKB_Instance_3220]))
+
+([upml-pal_ProjectKB_Instance_3219] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([upml-pal_ProjectKB_Instance_3220] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([upml-pal_ProjectKB_Instance_3221] of  Property_List
+
+	(properties
+		[upml-pal_ProjectKB_Instance_3222]
+		[upml-pal_ProjectKB_Instance_3223]))
+
+([upml-pal_ProjectKB_Instance_3222] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move up"))
+
+([upml-pal_ProjectKB_Instance_3223] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move down"))
+
+([upml-pal_ProjectKB_Instance_3253] of  String
+
+	(name "Function_shape")
+	(string_value "Rectangle"))
+
+([upml-pal_ProjectKB_Instance_3254] of  Integer
+
+	(integer_value 192)
+	(name "Function_shapeColorRed"))
+
+([upml-pal_ProjectKB_Instance_3255] of  Integer
+
+	(integer_value 192)
+	(name "Function_shapeColorGreen"))
+
+([upml-pal_ProjectKB_Instance_3256] of  Integer
+
+	(integer_value 192)
+	(name "Function_shapeColorBlue"))
+
+([upml-pal_ProjectKB_Instance_3257] of  Integer
+
+	(integer_value 0)
+	(name "Function_textColorRed"))
+
+([upml-pal_ProjectKB_Instance_3258] of  Integer
+
+	(integer_value 0)
+	(name "Function_textColorGreen"))
+
+([upml-pal_ProjectKB_Instance_3259] of  Integer
+
+	(integer_value 0)
+	(name "Function_textColorBlue"))
+
+([upml-pal_ProjectKB_Instance_3260] of  Boolean
+
+	(boolean_value FALSE)
+	(name "Function_bold"))
+
+([upml-pal_ProjectKB_Instance_3261] of  Boolean
+
+	(boolean_value FALSE)
+	(name "Function_italic"))
+
+([upml-pal_ProjectKB_Instance_3262] of  String
+
+	(name "Function_connectorSlot")
+	(string_value "input-to"))
+
+([upml-pal_ProjectKB_Instance_3263] of  String
+
+	(name "Function_lineType")
+	(string_value "Solid"))
+
+([upml-pal_ProjectKB_Instance_3264] of  String
+
+	(name "Function_arrowheadType")
+	(string_value "Arrowhead"))
+
+([upml-pal_ProjectKB_Instance_3265] of  Boolean
+
+	(boolean_value FALSE)
+	(name "Function_displayText"))
+
+([upml-pal_ProjectKB_Instance_3266] of  String
+
+	(name "Predicate_shape")
+	(string_value "Rectangle"))
+
+([upml-pal_ProjectKB_Instance_3267] of  Integer
+
+	(integer_value 192)
+	(name "Predicate_shapeColorRed"))
+
+([upml-pal_ProjectKB_Instance_3268] of  Integer
+
+	(integer_value 192)
+	(name "Predicate_shapeColorGreen"))
+
+([upml-pal_ProjectKB_Instance_3269] of  Integer
+
+	(integer_value 192)
+	(name "Predicate_shapeColorBlue"))
+
+([upml-pal_ProjectKB_Instance_3270] of  Integer
+
+	(integer_value 0)
+	(name "Predicate_textColorRed"))
+
+([upml-pal_ProjectKB_Instance_3271] of  Integer
+
+	(integer_value 0)
+	(name "Predicate_textColorGreen"))
+
+([upml-pal_ProjectKB_Instance_3272] of  Integer
+
+	(integer_value 0)
+	(name "Predicate_textColorBlue"))
+
+([upml-pal_ProjectKB_Instance_3273] of  Boolean
+
+	(boolean_value FALSE)
+	(name "Predicate_bold"))
+
+([upml-pal_ProjectKB_Instance_3274] of  Boolean
+
+	(boolean_value FALSE)
+	(name "Predicate_italic"))
+
+([upml-pal_ProjectKB_Instance_3275] of  String
+
+	(name "Predicate_connectorSlot")
+	(string_value "input-to"))
+
+([upml-pal_ProjectKB_Instance_3276] of  String
+
+	(name "Predicate_lineType")
+	(string_value "Solid"))
+
+([upml-pal_ProjectKB_Instance_3277] of  String
+
+	(name "Predicate_arrowheadType")
+	(string_value "Arrowhead"))
+
+([upml-pal_ProjectKB_Instance_3278] of  Boolean
+
+	(boolean_value FALSE)
+	(name "Predicate_displayText"))
+
+([upml-pal_ProjectKB_Instance_3279] of  String
+
+	(name "ProtegeElement_shape")
+	(string_value "Rectangle"))
+
+([upml-pal_ProjectKB_Instance_3280] of  Integer
+
+	(integer_value 192)
+	(name "ProtegeElement_shapeColorRed"))
+
+([upml-pal_ProjectKB_Instance_3281] of  Integer
+
+	(integer_value 192)
+	(name "ProtegeElement_shapeColorGreen"))
+
+([upml-pal_ProjectKB_Instance_3282] of  Integer
+
+	(integer_value 192)
+	(name "ProtegeElement_shapeColorBlue"))
+
+([upml-pal_ProjectKB_Instance_3283] of  Integer
+
+	(integer_value 0)
+	(name "ProtegeElement_textColorRed"))
+
+([upml-pal_ProjectKB_Instance_3284] of  Integer
+
+	(integer_value 0)
+	(name "ProtegeElement_textColorGreen"))
+
+([upml-pal_ProjectKB_Instance_3285] of  Integer
+
+	(integer_value 0)
+	(name "ProtegeElement_textColorBlue"))
+
+([upml-pal_ProjectKB_Instance_3286] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ProtegeElement_bold"))
+
+([upml-pal_ProjectKB_Instance_3287] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ProtegeElement_italic"))
+
+([upml-pal_ProjectKB_Instance_3288] of  String
+
+	(name "ProtegeElement_connectorSlot")
+	(string_value "input-to"))
+
+([upml-pal_ProjectKB_Instance_3289] of  String
+
+	(name "ProtegeElement_lineType")
+	(string_value "Solid"))
+
+([upml-pal_ProjectKB_Instance_3290] of  String
+
+	(name "ProtegeElement_arrowheadType")
+	(string_value "Arrowhead"))
+
+([upml-pal_ProjectKB_Instance_3291] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ProtegeElement_displayText"))
+
+([upml-pal_ProjectKB_Instance_3292] of  String
+
+	(name "Variable_shape")
+	(string_value "Rectangle"))
+
+([upml-pal_ProjectKB_Instance_3293] of  Integer
+
+	(integer_value 192)
+	(name "Variable_shapeColorRed"))
+
+([upml-pal_ProjectKB_Instance_3294] of  Integer
+
+	(integer_value 192)
+	(name "Variable_shapeColorGreen"))
+
+([upml-pal_ProjectKB_Instance_3295] of  Integer
+
+	(integer_value 192)
+	(name "Variable_shapeColorBlue"))
+
+([upml-pal_ProjectKB_Instance_3296] of  Integer
+
+	(integer_value 0)
+	(name "Variable_textColorRed"))
+
+([upml-pal_ProjectKB_Instance_3297] of  Integer
+
+	(integer_value 0)
+	(name "Variable_textColorGreen"))
+
+([upml-pal_ProjectKB_Instance_3298] of  Integer
+
+	(integer_value 0)
+	(name "Variable_textColorBlue"))
+
+([upml-pal_ProjectKB_Instance_3299] of  Boolean
+
+	(boolean_value FALSE)
+	(name "Variable_bold"))
+
+([upml-pal_ProjectKB_Instance_3300] of  Boolean
+
+	(boolean_value FALSE)
+	(name "Variable_italic"))
+
+([upml-pal_ProjectKB_Instance_3301] of  String
+
+	(name "Variable_connectorSlot")
+	(string_value "input-to"))
+
+([upml-pal_ProjectKB_Instance_3302] of  String
+
+	(name "Variable_lineType")
+	(string_value "Solid"))
+
+([upml-pal_ProjectKB_Instance_3303] of  String
+
+	(name "Variable_arrowheadType")
+	(string_value "Arrowhead"))
+
+([upml-pal_ProjectKB_Instance_3304] of  Boolean
+
+	(boolean_value FALSE)
+	(name "Variable_displayText"))
+
+([upml-pal_ProjectKB_Instance_3339] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [upml-pal_ProjectKB_Instance_3340])
+	(widget_class_name "edu.stanford.smi.protegex.psm.PSMTab"))
+
+([upml-pal_ProjectKB_Instance_3340] of  Property_List
+)
+
+([upml-pal_ProjectKB_Instance_3341] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [upml-pal_ProjectKB_Instance_3342])
+	(widget_class_name "jot.JythonOntologyTab"))
+
+([upml-pal_ProjectKB_Instance_3342] of  Property_List
+)
+
+([upml-protege_ProjectKB_Instance_13228] of  String
+
+	(name "PALStatement")
+	(string_value "%3APAL-STATEMENT"))

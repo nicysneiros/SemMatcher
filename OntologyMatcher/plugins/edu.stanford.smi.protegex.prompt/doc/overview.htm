@@ -1,0 +1,91 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Overview of PROMPT</title>
+</head>
+
+<body>
+
+<h1><b><img src="images/serving_nerd.gif" width="48" height="48">    Overview of PROMPT<br>
+<img src="images/header_line.gif" width="590" height="6"></b></h1>
+The PROMPT tab allows you to manage multiple ontologies in Prot&eacute;g&eacute;-2000.
+Using PROMPT you can:
+<ul>
+<li>
+merge two ontologies into one;</li>
+
+<li>
+extract a part of an ontology;</li>
+
+<li>
+move frames from included to including project;</li>
+
+<li>
+compare two versions of the same ontology and create a merged version</li>
+</ul>
+
+<p>Except for move frames, these operations create a copy of the ontology in your
+working project and leave the original project intact. In the case of move
+frames,
+however, both the included and including projects are changed.</p>
+
+<h4>
+Merging ontologies</h4>
+PROMPT is an interactive ontology-merging tool. It guides you through the
+merging process making suggestions, determining conflicts, and proposing
+conflict-resolution strategies. The initial suggestions are based on the
+linguistic similarity of the frame names. After you select&nbsp; an operation
+to perform, PROMPT determines which conflicts in the merged ontology the
+operation may have caused and proposes possible solutions to the conflicts.
+It then considers the structure of the ontology around the arguments to
+the latest operations and proposes other operations that you should
+perform. For more information, see <a href="merge_mode.htm">Merge Mode</a>.
+<h4>
+Extracting a part of an ontology</h4>
+Sometimes, you may want to save only part of your ontology for various
+reasons: to use some subset of the knowledge base in a different project,
+to distribute only part of your ontology, to debug a smaller portion of
+it, and so on. The PROMPT tab allows you to pick and choose frames and
+then copy them into your local project. You can choose a frame and copy
+everything related to the frame (the transitive closure of what the frame
+refers to, except for the subclasses—otherwise you'll always get the whole
+knowledge base). Alternatively, you can copy frames one by one. In that
+case, PROMPT will show you the list of referenced frames that you have
+not yet copied. For more information, see <a href="extract_mode.htm">Extract Mode</a>.
+<h4>
+Moving frames from included to including project</h4>
+Prot&eacute;g&eacute; facilitates reuse and development of ontologies through
+the project-inclusion mechanism: One project can include one or several
+other projects and reuse all frames from the included projects.&nbsp; The
+"moving frames" mode of the PROMPT tab allows you to move frames between
+projects. You can move the frames from the included project into the including
+one, thus altering both. When moving a frame, you can choose everything
+that must be moved in order for the projects to remain consistent. An included
+project should always stand on its own, therefore, no frame in the included
+project should depend on a frame in the including project. You can also
+choose to perform the process frame-by-frame. There is a running list of
+conflicts to help you sever all the dependencies from included to including project
+in the latter mode. For more information, see <a href="move_frames_mode.htm">Moving Frames Mode</a>.
+<h4>Comparing two versions of the same ontology</h4>
+<p>This model allows you to compare two different versions of the same ontology. In this
+case, the heuristics behind the standard PROMPT merge can be modified. When
+the two projects to be merged are known to be different versions of the same
+ontology,
+Prot&eacute;g&eacute; can use stronger heuristics, suggesting, for example, that
+a single unmatched sibling of the same parent in the two different versions may
+be the same frame with a different name. By concentrating on the differences between two similar projects (rather
+than the similarities of two different projects as in merge), compare can give
+much better results for the type of reconciliation required in version
+control.&nbsp;For more information, see <a href="compare_mode.htm">Compare Mode</a>.</p>
+
+<hr align="left">
+
+<p>Next: <a href="set_up_prompt.htm">Setting Up PROMPT</a></p>
+<p><a href="index.html">Prompt Table of Contents</a></p>
+
+</body>
+
+</html>

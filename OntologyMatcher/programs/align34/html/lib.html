@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>Alignment API: Libraries</title>
+<!--style type="text/css">@import url(style.css);</style-->
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body bgcolor="#ffffff">
+
+<h1 class="titre">Alignment API: Libraries shipped with the package (release 3.1)</h1>
+
+<p>The Alignment API uses a number of external libraries. These libraries
+are shipped (in the lib directory) with the Alignment API. We provide
+here the list of these libraries together with the reason why they may
+be necessary within the API and some other information.</p>
+<p>You may use this information for restricting the libraries to only
+the one you need.</p>
+
+<h2>Required for the API implementation (procalign)</h2>
+
+<dl>
+<dt><a href="http://www.urbanophile.com/arenn/hacking/download.html">Gnu
+    getopt</a>: getopt.jar [<a href="http://www.opensource.org/licenses/bsd-license.php">BSD</a>/<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL</a>]</dt>
+<dd>Gnu library for parsing command line arguments. Required
+  everywhere (included by OWL-API).</dd>
+<dt><a href="http://logging.apache.org/log4j">Apache Log4J</a>:
+  log4j.jar [<a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache</a>]</dt>
+<dd>Required by OWL-API -- maybe used by procalign.</dd>
+<!--dt><a href=""></a>: xerces.jar xml-apis.jar</dt>
+<dd>Certainly not required anymore...</dd-->
+</dl>
+
+<h3>Required for the OWL-API part</h3>
+
+<dl>
+<dt><a href="http://owl.man.ac.uk/api.shtml">OWL API</a> 1.4.3:
+  rdfapi.jar rdfparser.jar api.jar impl.jar io.jar [<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>]</dt>
+<dd>Provides parsing and API to OWL entities. Used by
+  OWLAPIAlignments. api.jar is required for compiling, the others are
+  necessary for executing parts of the Alignment API which need the
+  OWL API.</dd>
+</dl>
+
+<h3>Required for the WSMO part</h3>
+
+<dl>
+<dt><a href="http://www.sourceforge.net/projects/mediation">OMWG Mapping API</a>:
+  mappingapilite.jar [<a href="http://www.opensource.org/licenses/afl-3.0.php">AFL</a>]</dt>
+<dd>Provides the implementation of an expressive alignment format which
+  is the basis for level 2OMWG alignments. This jarfile is generated
+  on purpose from the main build file of the mappingapi source
+  repository. It is an incomplete version of the mappingapi
+  (likewise, the OMWG mapping api does only contain a part of the
+  Alignment API).</dd>
+<!--dt><a href="http://wsmo4j.sourceforge.net/">WSMO API</a> 0.6.1:
+  wsmo-api-0.6.1.jar [<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>]</dt>
+<dd>Provide the implementation of the Web Service Modelling
+  Organisation API.</dd-->
+<dt><a href="http://jena.sourceforge.net/">Jena</a> 2.5.4:
+  jena.jar [<a href="http://www.opensource.org/licenses/bsd-license.php">BSD</a>]</dt>
+<dd>Provides the RDF parser.</dd>
+</dl>
+
+<h2>Required for the WordNet addition</h2>
+
+<dl>
+<dt><a href="http://jwordnet.sourceforge.net/">JWordNet (JWNL)</a>
+  1.3: jwnl.jar [<a href="http://www.opensource.org/licenses/bsd-license.php">BSD</a>]</dt>
+<dd>This also requires WordNet to be installed in the computer.</dd>
+<dt><a href="http://jakarta.apache.org/commons/logging/">Jakarta
+    Commons Logging</a>: commons-logging.jar [<a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache</a>]</dt>
+<dd>Necessary for alignwn.</dd>
+</dl>
+
+<h2>Required for the Alignment Server</h2>
+
+<dl>
+<dt><a href="http://dev.mysql.com/downloads/connector/j/3.0.html">MySQL
+       JDBC Connectors</a> 5.0.3: mysql-connector-java-5.0.3-bin.jar [<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL</a>]</dt>
+<dd>This also requires MySQL to be installed. Required for alignsvc.</dd>
+<dt><a href="http://jetty.mortbay.org/">Jetty</a> 6.1.2rc5: jetty.jar
+  jetty-util.jar servlet-api.jar [<a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache</a>]</dt>
+<dd>This also requires MySQL to be installed. Required for HTML and
+  web service part.</dd>
+</dl>
+
+<h3>Required for the Agent/JADE part</h3>
+
+<dl>
+<dt><a href="http://jade.tilab.com/">Java Agent Development
+    Environment (JADE)</a> 3.3: jade.jar http.jar iiop.jar [<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>]</dt>
+<dd>Required by alignsvc (Agent version).</dd>
+</dl>
+
+<h3>Required for the Web service part</h3>
+
+<dl>
+</dl>
+
+<h3>Required for the P2P/JXTA part</h3>
+
+<dl>
+</dl>
+
+<dl>
+<dd></dd>
+<dt><a href=""></a> </dt>
+<dd></dd>
+</dl>
+
+<!-- 
+commons-fileupload-1.1.1.jar
+jakarta-httpcore-4.0-alpha3.jar
+jakarta-httpcore-nio-4.0-alpha3.jar
+-->
+
+<address>
+<small>
+<hr />
+<center>http://alignapi.gforge.inria.fr/lib.html</center>
+<hr />
+$Id: lib.html 577 2008-01-26 16:38:51Z euzenat $
+</small>
+</body>
+</html>

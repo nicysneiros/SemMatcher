@@ -1,0 +1,80 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Enabling the Prompt Tab</title>
+</head>
+
+<body>
+
+<h1><img src="images/serving_nerd.gif" width="48" height="48">  Enabling the Prompt Tab<br>
+<img src="images/header_line.gif" width="590" height="6"></h1>
+
+<p>Before you can use PROMPT, you must enable and <a href="initialize_prompt.htm">initialize</a>
+the Prompt tab. You need to enable the tab in your <b>target</b> project.&nbsp;</p>
+<ul>
+  <li>
+If you are <a href="merge_mode.htm">merging</a> two ontologies, your target project is an empty
+project which will later contain the merged ontology.&nbsp;</li>
+  <li>If you are <a href="extract_mode.htm">extracting</a>
+a part of an ontology, your target project is usually a new project into which you
+will extract the part. You can also use a project that already has an ontology
+in it: in this case, the part that you extract will be added to that
+    ontology.&nbsp;</li>
+  <li> If you
+are <a href="move_frames_mode.htm">moving frames</a> from an included project to the including one,
+your target project is the including one, that is, the larger project that
+    references the included project as a part of the overarching ontology..</li>
+  <li>If you are <a href="compare_mode.htm">comparing</a> different versions of the same ontology, your
+    target project is an empty project.</li>
+</ul>
+
+<p> To enable the tab:</p>
+<ol>
+  <li>Open or create the project where you wish to use PROMPT. For example, if
+    you are planning to merge two ontologies, or to extract part of an ontology,
+    create a new project that will contain the merged or extracted ontology. If
+    you are moving frames from an included to an including project, open the
+    including project.</li>
+  <li>If you have created a new project, and you have not yet saved it, it is
+    best to save it before <i> </i>you enable PROMPT. This will tell PROMPT where to
+    store its log.&nbsp;</li>
+  <li>Select <b>Project | Configure</b> from the menu.<br>
+    The Configure dialog box is displayed.</li>
+  <li>Check the <code>PromptTab</code>.<br>
+    <img border="0" src="images/enable1.gif" width="390" height="326">&nbsp;<br>
+    NOTE: If the <code>PromptTab</code> does not appear in the <b>Configure</b>
+    dialog box, check the following:
+    <ol>
+      <li>Make sure that the file <code>prompt.jar</code> is unzipped and
+        installed in the <code>plugins</code> subdirectory of the Protégé
+        directory.</li>
+      <li>
+        <p align="left">If you have more than one copy of <font FACE="Times-Roman">Protégé
+        installed, make sure that you are running the copy for which you
+        installed the plug-in.</font></li>
+    </ol>
+  </li>
+  <li>If you wish PROMPT to use its color coding on all the standard Protégé
+    tabs, use the Up arrow <img border="0" src="images/Up.gif" width="13" height="13"> in the top-left
+    corner of the Configure dialog to move the <code>PromptTab</code> to the top
+    of the list. If you do not place <code>PromptTab</code> at the top,
+    color-coding will only be visible at the <code>PromptTab</code> itself.<br>
+    <img border="0" src="images/enable2.gif" width="428" height="319"></li>
+  <li>Click OK to close the Configure dialog box.&nbsp;<br>
+    You will be shown the Prompt tab, which at this point is simply one large button. Click
+    anywhere in this area to initialize PROMPT. See <font size="3"><a href="initialize_prompt.htm">Initializing PROMPT</a>
+    for more information.</font></li>
+</ol>
+
+<hr>
+
+<p><font size="3">Next: <a href="initialize_prompt.htm">Initializing PROMPT</a></font></p>
+
+<p><font size="3"><a href="index.html">Prompt Table of Contents</a></font></p>
+
+</body>
+
+</html>

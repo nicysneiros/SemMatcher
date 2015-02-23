@@ -1,0 +1,5 @@
+hasAge 0.2
+hasName 1.0
+hasNationality 0.3
+hasPersonName 1.0
+hasRanking 0.1

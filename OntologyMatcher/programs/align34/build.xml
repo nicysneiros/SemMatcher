@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!-- $Id: build.xml 814 2008-08-31 13:24:22Z euzenat $ -->
+
+<project name="align" default="compile" basedir=".">
+
+  <!-- tested -->
+  <target name="usage" depends="init">
+    <echo message="ant _target_ _options_"/>
+    <echo/>
+    <echo message="usage: this message"/>
+    <echo message="init: sets necessary variables"/>
+    <echo message="compile: incrementaly compiles sources"/>
+    <echo message="compileall: recompiles all sources"/>
+    <echo message="lint: compiles all sources with bug flags on"/>
+    <echo message="jar: archives compiled code"/>
+    <echo message="test: performs unit tests [nyi]"/>
+    <echo message="zip: creates a new zip file"/>
+    <echo message="javadoc: generates documentation"/>
+    <echo message="release: releases a new version"/>
+    <echo message="svnbranch: copy the version under svn"/>
+    <echo message="clean: clean-up before release"/>
+    <echo/>
+    <echo message="	-Dversion=${version}"/>
+  </target>
+
+  <!-- tested -->
+  <target name="init">
+    <tstamp><format locale="fr,fr" pattern="dd/MM/yyyy" property="TODAY"/></tstamp>
+    <property name="doing" value="running"/>
+    <property name="version" value="3.4"/>
+    <property name="date" value="${TODAY}"/>
+    <property name="login" value="${user.name}"/>
+    <property name="email" value="Jerome.Euzenat@inrialpes.fr"/>
+    <property name="libdir"  value="lib" />
+    <property name="debug" value="off"/>
+    <property name="rep" value="svn+ssh://scm.gforge.inria.fr/svn/alignapi"/>
+    <!-- This should now be handled by GForge -->
+    <property name="FTPDir" value="/Web/html/ftpexmo/software/ontoalign"/>
+    <property name="classpath"  value="classes"/>
+    
+    <filter token="DATE" value="${date}"/>
+    <filter token="VERS" value="${version}"/>
+    
+    <property name="jarclasspath" value="mappingapilite.jar api.jar impl.jar io.jar rdfparser.jar getopt.jar commons-logging.jar log4j.jar rdfapi.jar align.jar procalign.jar"/>
+
+    <!-- this is useful but introduces, Xlint:path warnings -->
+    <path id="classpath">
+      <fileset dir="./lib">
+	<include name="*.jar"/>
+      </fileset>
+    </path>
+    
+    <taskdef name="testng" classpathref="classpath"
+             classname="org.testng.TestNGAntTask" />
+
+  </target>
+
+  <!-- tested -->
+  <target name="compile" depends="init">
+    <echo message="Compiling..."/>
+    <property name="javacargs" value="-deprecation" />
+    <javac deprecation="yes" nowarn="no" verbose="no" srcdir="src" destdir="classes">
+      <compilerarg value="${javacargs}"/>
+      <classpath refid="classpath"/>
+    </javac>
+  </target>
+
+  <!-- tested -->
+  <target name="compileall" depends="init">
+    <echo message="Erasing..."/>
+    <delete>
+      <fileset dir="classes" includes="**/*.class"/>
+    </delete>
+    <antcall target="cleanjar"/>
+    <antcall target="jar"/>
+    <ant dir="plugins/neon" target="compileall" />
+  </target>
+
+  <!-- tested -->
+  <target name="lint" depends="init">
+    <!-- values: all, deprecation, unchecked[3], fallthrough, path[5], serial, finally -->
+    <echo message="Setting property..."/>
+    <property name="javacargs" value="-Xlint:all" />
+    <antcall target="compileall"/>
+  </target>
+
+  <!-- tested -->
+  <target name="jar" depends="compile">
+    <echo message="Jarchiving..."/>
+    <copy file="distrib/LICENSE.TXT" tofile="classes/LICENSE.TXT" filtering="true"/>
+    <delete file="lib/align.jar"/>
+    <jar jarfile="lib/align.jar">
+      <manifest>
+	<attribute name="Built-Date" value="${TODAY}"/>
+	<attribute name="Specification-Title" value="Alignment API"/>
+	<attribute name="Specification-Version" value="${version}"/>
+      </manifest>
+      <fileset dir="classes" includes="org/semanticweb/owl/align/*.class"/>
+      <fileset dir="classes" includes="LICENSE.TXT"/>
+    </jar>
+    <delete file="lib/procalign.jar"/>
+    <jar jarfile="lib/procalign.jar">
+      <manifest>
+	<attribute name="Built-Date" value="${TODAY}"/>
+        <attribute name="Main-Class" value="fr.inrialpes.exmo.align.util.Procalign"/>
+        <attribute name="Class-Path" value="${jarclasspath}"/>
+	<attribute name="Implementation-Title" value="Alignment API implementation"/>
+	<attribute name="Implementation-Version" value="${version}"/> 
+      </manifest>
+      <fileset dir="classes" includes="org/ivml/**/*.class"/>
+      <fileset dir="classes" includes="fr/inrialpes/exmo/align/util/**/*.class"/>
+      <fileset dir="classes" includes="fr/inrialpes/exmo/align/onto/**/*.class"/>
+      <fileset dir="classes" includes="fr/inrialpes/exmo/align/parser/**/*.class"/>
+      <fileset dir="classes" includes="fr/inrialpes/exmo/align/impl/**/*.class"/>
+      <fileset dir="classes" includes="LICENSE.TXT"/>
+    </jar>
+    <delete file="lib/alignwn.jar"/>
+    <jar jarfile="lib/alignwn.jar">
+      <manifest>
+	<attribute name="Built-Date" value="${TODAY}"/>
+        <attribute name="Main-Class" value="fr.inrialpes.exmo.align.util.Procalign"/>
+        <attribute name="Class-Path" value="procalign.jar jwnl.jar"/>
+	<attribute name="Implementation-Title" value="Alignment API WordNet support"/>
+	<attribute name="Implementation-Version" value="${version}"/> 
+      </manifest>
+      <fileset dir="classes" includes="fr/inrialpes/exmo/align/ling/**/*.class"/>
+      <fileset dir="classes" includes="LICENSE.TXT"/>
+    </jar>
+    <delete file="lib/alignsvc.jar"/>
+    <copy file="src/fr/inrialpes/exmo/align/service/aserv.wsdl" tofile="classes/fr/inrialpes/exmo/align/service/aserv.wsdl" filtering="false"/>
+    <jar jarfile="lib/alignsvc.jar">
+      <manifest>
+	<attribute name="Built-Date" value="${TODAY}"/>
+        <attribute name="Main-Class" value="fr.inrialpes.exmo.align.service.AlignmentService"/>
+        <attribute name="Class-Path" value="procalign.jar alignwn.jar jade.jar iiop.jar http.jar mysql-connector-java-5.0.3-bin.jar servlet-api.jar jetty.jar jetty-util.jar"/>
+	<attribute name="Implementation-Title" value="Alignment server"/>
+	<attribute name="Implementation-Version" value="${version}"/> 
+      </manifest>
+      <fileset dir="classes" includes="fr/inrialpes/exmo/align/service/**/*.class"/>
+      <fileset dir="classes" includes="fr/inrialpes/exmo/align/service/**/*.wsdl"/>
+      <fileset dir="classes" includes="fr/inrialpes/exmo/queryprocessor/**/*.class"/>
+      <fileset dir="classes" includes="LICENSE.TXT"/>
+    </jar>
+  </target>
+
+  <!-- tested -->
+  <target name="cleanjar" depends="init">
+    <echo message="Erasing..."/>
+    <delete file="lib/align.jar"/>
+    <delete file="lib/alignsvc.jar"/>
+    <delete file="lib/alignwn.jar"/>
+    <delete file="lib/procalign.jar"/>
+  </target>
+
+  <!-- tested -->
+  <target name="aserv" depends="init">
+    <echo message="Setting property..."/>
+    <jar jarfile="lib/aserv.jar">
+      <manifest>
+	<attribute name="Built-Date" value="${TODAY}"/>
+        <attribute name="Main-Class" value="fr.inrialpes.exmo.align.service.AlignmentService"/>
+	<!-- usually each MANIFEST knows what it needs -->
+	<!-- oyster2.jar, semanticmapper-0.2.jar, sboalgorithms.jar -->
+        <attribute name="Class-Path" value="alignsvc.jar oyster2.jar semanticmapper-0.2.jar sboalgorithms.jar"/>
+	<attribute name="Implementation-Title" value="Alignment server custom launcher"/>
+	<attribute name="Implementation-Version" value="${version}"/> 
+      </manifest>
+    </jar>
+  </target>
+
+  <!-- tested -->
+  <target name="test" depends="init">
+    <echo message="Testing..."/>
+    <javac srcdir="test/src" destdir="test/classes" debug="on">
+      <classpath refid="classpath"/>
+    </javac>
+    <!-- possible groups: impl, serv, ling, onto, full -->
+    <testng groups="full"
+	    sourcedir="test/src"
+	    outputDir="test/html"
+	    haltOnFailure="true" verbose="1">
+      <classpath>
+        <path refid="classpath"/>
+        <pathelement location="test/classes"/>
+      </classpath>
+      <!--xmlfileset dir="${test14.dir}" includes="testng.xml"/-->
+      <classfileset dir="test" includes="classes/**/*.class"/>
+    </testng>
+  </target>
+
+  <!-- tested -->
+  <target name="cleantest" depends="init">
+    <echo message="Cleaning tests..."/>
+    <delete>
+      <fileset dir="test/classes" includes="**/*.class"/>
+      <fileset dir="test/output" includes="**/*.*"/>
+      <fileset dir="test/html" includes="**/*.html,**/*.xml,**/*.css"/>
+    </delete>
+    <delete dir="test/html/Ant suite"/>
+  </target>
+
+  <!-- tested -->
+  <target name="javadoc" depends="init">
+   <echo message="Javadocing..."/>
+   <javadoc
+      destdir="javadoc"
+      author="true"
+      version="true"
+      Use="true" Splitindex="true" private="true"
+      Windowtitle="Alignment API and Server"
+      doctitle="Alignment API and Server ${version}" 
+      header="Alignment API and Server ${version}"
+      bottom="(C) INRIA &amp; friends, 2003-2008"
+      >
+     <classpath refid="classpath"/>
+     <packageset dir="src" defaultexcludes="yes">
+       <include name="org/semanticweb/owl/align/**"/>
+       <include name="fr/inrialpes/**"/>
+       <include name="org/ivml/alimo/**"/>
+       <!--exclude name="org/semanticweb/owl/**"/-->
+     </packageset>
+     <!-- This works but the classpath is not set correctly -->
+     <!--packageset dir="plugins/neon/src" defaultexcludes="yes">
+	 <include name="fr/inrialpes/**"/>
+     </packageset-->
+     <link href="http://java.sun.com/j2se/1.5.0/docs/api"/>
+    </javadoc>
+  </target>
+
+  <!-- tested -->
+  <target name="release" depends="init">
+    <echo message="Releasing version ${version}" />
+    <copy file="distrib/README.TXT" tofile="README.TXT" filtering="true"/>
+    <copy file="distrib/LICENSE.TXT" tofile="LICENSE.TXT" filtering="true"/>
+    <antcall target="zip"/>
+    <!-- This should now go to GForge -->
+    <!--copy file="${FTPDir}/align-${version}.zip" tofile="${WebDir}/align.zip" /-->
+    <echo message="Please upload the released file to Gforge" />
+    <echo message="svn copy svn+ssh://euzenat@scm.gforge.inria.fr/svn/alignapi/trunk svn+ssh://euzenat@scm.gforge.inria.fr/svn/alignapi/tags/version-${version} -m 'release ${version}'"/>
+    <delete file="LICENSE.TXT"/>
+  </target>
+
+  <!-- tested -->
+  <target name="zip" depends="init">
+    <echo message="Ziping..."/>
+    <!--echo message="Are you sure that everything is OK (update/ci/compile)?"/-->
+    <antcall target="clean"/>
+    <!-- Unfortunately commit is not functional -->
+    <!--antcall target="commit"/-->
+    <antcall target="compileall"/>
+    <antcall target="jar"/>
+    <antcall target="test"/>
+    <antcall target="cleantest"/>
+    <antcall target="javadoc"/>
+    <ant dir="plugins/neon" target="jar">
+      <property name="version" value="${version}"/>
+    </ant>
+    <!-- may be useful to change directory -->
+    <zip zipfile="${FTPDir}/align-${version}.zip">
+      <fileset dir=".">
+	<include name="**/*"/>
+	<exclude name="**/.svn"/>
+	<exclude name="plugins/neon/lib"/>
+      </fileset>
+    </zip>
+  </target>
+
+  <target name="svnCommit">
+    <property name="source-root" value="/usr/src"/>
+    <property name="repository.URL" value="http://sources.example.com"/>
+    <java classname="org.tmatesoft.svn.cli.SVN"
+      dir="${source-root}/TESTREPO" fork="true">
+      <arg value="commit"/>
+      <arg value="--username"/>
+      <arg value="admin"/>
+      <arg value="--password"/>
+      <arg value="admin"/>
+      <arg value="-m"/> 
+      <arg value='"Testing"'/>
+      <arg value="${repository.URL}/TESTING"/>
+      <classpath>
+        <pathelement location="${antroot}/LIB/ganymed.jar" />
+        <pathelement location="${antroot}/LIB/javasvn.jar" />
+        <pathelement location="${antroot}/LIB/javasvn-cli.jar" />
+      </classpath>
+    </java>
+  </target>
+
+  <!-- This is for testing purposes, but has been found to work -->
+  <target name="status" depends="init">
+    <java classname="org.tmatesoft.svn.cli.SVN" dir="." fork="true">
+      <arg value="status" />
+      <classpath refid="classpath"/>
+    </java>
+  </target>
+
+  <!-- not tested yet -->
+  <target name="update" depends="init">
+    <java classname="org.tmatesoft.svn.cli.SVN" dir="." fork="true"
+         failonerror="true">
+      <sysproperty key="javasvn.ssh2.key" 
+                   value="/Volumes/Khata/.ssh/id_dsa" />
+      <!--sysproperty key="javasvn.ssh2.username" value="${login}" />
+      <sysproperty key="javasvn.ssh2.passphrase" value="aa" /-->
+      <arg value="update" />
+      <classpath refid="classpath"/>
+    </java>
+  </target>
+
+  <!-- not tested yet -->
+  <target name="commit" depends="update">
+    <java classname="org.tmatesoft.svn.cli.SVN" dir="." fork="true">
+      <arg value="commit" />
+      <arg value="--username" />
+      <arg value="${login}" />
+      <arg value="-m" />
+      <arg value='"Pre-release ${version}"' />
+      <classpath refid="classpath"/>
+    </java>
+  </target>
+
+  <!-- not tested yet -->
+  <target name="svnbranch" depends="">
+    <java classname="org.tmatesoft.svn.cli.SVN" dir="." fork="true">
+      <arg value="copy" />
+      <arg value="--username" />
+      <arg value="${login}" />
+      <arg value="${rep}/trunk" />
+      <arg value="${rep}/tags/version-${version}" />
+      <arg value="-m" />
+      <arg value='"Release ${version}"' />
+      <classpath refid="classpath"/>
+    </java>
+  </target>
+
+  <!-- tested -->
+  <target name="clean">
+    <echo message="Cleaning..."/>
+    <antcall target="cleantest"/>
+    <!-- This instruction does not seem to work -->
+    <delete dir="plugins/neon/neonalign" />
+    <delete>
+      <fileset dir="classes" includes="**/*.class"/>
+      <fileset dir="examples" includes="**/*.class"/>
+      <fileset dir="examples/omwg" includes="wine?.xml"/>
+      <fileset dir="examples" includes="**/*.jar"/>
+      <fileset dir="html/tutorial" includes="**/*.class"/>
+    </delete>
+  </target>
+
+</project>

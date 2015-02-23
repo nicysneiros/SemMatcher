@@ -1,0 +1,756 @@
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Name</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Name</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Email</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Email</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#BirthDate</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#BirthDate</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Teacher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Researcher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Researcher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Teacher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Teacher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Researcher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Professor</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Monitor</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Work</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Class</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Work</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Class</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Work</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Class</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Work</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Researcher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Professor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Professor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Teacher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#AssistantProfessor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Professor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Teacher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Monitor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Teacher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#FullProfessor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Professor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Researcher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Monitor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Teacher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Professor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Researcher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#FullProfessor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Monitor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Monitor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Monitor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Researcher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#AssistantProfessor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Name</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Name</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Email</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Email</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#BirthDate</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isEquivalentTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#BirthDate</Object>
+	<Similarity>1.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Teacher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Researcher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Researcher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Teacher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Teacher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Researcher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSubConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Professor</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Monitor</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Education</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isSuperConceptOf</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Work</Object>
+	<Similarity>0.8</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Class</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Work</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Class</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Person</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Work</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Class</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isDisjointWith</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Work</Object>
+	<Similarity>0.0</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Researcher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Professor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Professor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Teacher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#AssistantProfessor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Professor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Teacher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Monitor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Teacher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#FullProfessor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Professor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Researcher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Monitor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Teacher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Professor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Researcher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#FullProfessor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Monitor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Student</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Faculty</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#UndergraduateStudent</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Worker</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Monitor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#GraduateStudent</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#Monitor</Object>
+	<Similarity>0.7</Similarity>
+</Match>
+<Match>
+	<Subject>http://www.owl-ontologies.com/Ontology1220896776.owl#Researcher</Subject>
+	<Predicate>http://www.speed.com/Speed.owl#isCloseTo</Predicate>
+	<Object>http://www.owl-ontologies.com/Ontology1220896776.owl#AssistantProfessor</Object>
+	<Similarity>0.7</Similarity>
+</Match>

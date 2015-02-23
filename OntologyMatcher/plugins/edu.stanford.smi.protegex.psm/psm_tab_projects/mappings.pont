@@ -1,0 +1,270 @@
+; Thu Jun 10 16:37:23 PDT 2004
+; 
+;+ (version "2.1")
+;+ (build "Build 228")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot target-class
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot mapping
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot source-class
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot slot-maps
+		(type INSTANCE)
+;+		(allowed-classes slot-map)
+		(create-accessor read-write))
+	(single-slot inherit
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot reverse-mapping
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot const-val
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot on-demand
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot aux-source-classes-desc
+		(type INSTANCE)
+;+		(allowed-classes source-class-description)
+		(create-accessor read-write))
+	(single-slot target-slot
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot source-slot
+		(type STRING)
+		(create-accessor read-write))
+	(single-slot language
+		(type STRING)
+		(default "TCL")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot mappings
+		(type STRING)
+		(create-accessor read-write))
+	(single-slot source-class-desc
+		(type INSTANCE)
+;+		(allowed-classes source-class-description)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot mapping-name
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot condition
+;+		(comment "value consists of an optional language spec prefix, followed by the expr to eval.\nE.g.: \"<LANG:TCL>(< *<.size>* 5)\"")
+		(type STRING)
+		(default "t")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot source-slot-composition
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot regexp-edit-str
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass MAPPING
+	(is-a USER)
+	(role abstract)
+	(single-slot source-class-desc
+		(type INSTANCE)
+;+		(allowed-classes source-class-description)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot condition
+;+		(comment "value consists of an optional language spec prefix, followed by the expr to eval.\nE.g.: \"<LANG:TCL>(< *<.size>* 5)\"")
+		(type STRING)
+		(default "t")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot mapping-name
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot target-class
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass instance-mapping "MC: factored slot-maps at this level. Why do we need source-class-desc, just for the \"inherit\" flag?"
+	(is-a MAPPING)
+	(role abstract)
+	(multislot aux-source-classes-desc
+		(type INSTANCE)
+;+		(allowed-classes source-class-description)
+		(create-accessor read-write))
+	(multislot slot-maps
+		(type INSTANCE)
+;+		(allowed-classes slot-map)
+		(create-accessor read-write))
+	(single-slot on-demand
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot reverse-mapping
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass renaming-mapping
+	(is-a instance-mapping)
+	(role concrete)
+	(multislot slot-maps
+		(type INSTANCE)
+;+		(allowed-classes renaming-slot-map)
+		(create-accessor read-write)))
+
+(defclass direct-mapping
+	(is-a instance-mapping)
+	(role concrete)
+	(multislot slot-maps
+		(type INSTANCE)
+;+		(allowed-classes renaming-slot-map constant-slot-map)
+		(create-accessor read-write)))
+
+(defclass lexical-mapping
+	(is-a instance-mapping)
+	(role concrete)
+	(multislot slot-maps
+		(type INSTANCE)
+;+		(allowed-classes renaming-slot-map constant-slot-map lexical-slot-map)
+		(create-accessor read-write)))
+
+(defclass transform-mapping
+	(is-a instance-mapping)
+	(role concrete)
+	(multislot slot-maps
+		(type INSTANCE)
+;+		(allowed-classes renaming-slot-map constant-slot-map lexical-slot-map regexp-slot-map numexp-slot-map functional-slot-map recursive-slot-map)
+		(create-accessor read-write)))
+
+(defclass slot-map "MC: Should we factor source-slot here, declined to have 0, 1 or multiple values depending on subclasses?\nActually, should be called \"source-slots\"."
+	(is-a USER)
+	(role abstract)
+	(single-slot target-slot
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass renaming-slot-map
+	(is-a slot-map)
+	(role concrete)
+	(single-slot source-slot
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass constant-slot-map
+	(is-a slot-map)
+	(role concrete)
+	(single-slot const-val
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass lexical-slot-map "MC: source-slot explicits the source-slot-composition."
+	(is-a slot-map)
+	(role concrete)
+	(multislot source-slot
+		(type STRING)
+		(create-accessor read-write))
+	(single-slot source-slot-composition
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass regexp-slot-map "MC: source-slot explicits the source-slot-composition."
+	(is-a slot-map)
+	(role concrete)
+	(single-slot regexp-edit-str
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot source-slot
+		(type STRING)
+		(create-accessor read-write))
+	(single-slot source-slot-composition
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass numexp-slot-map "MC: source-slot explicits the source-slot-composition."
+	(is-a slot-map)
+	(role concrete)
+	(multislot source-slot
+		(type STRING)
+		(create-accessor read-write))
+	(single-slot source-slot-composition
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass functional-slot-map "MC: source-slot explicits the source-slot-composition."
+	(is-a slot-map)
+	(role concrete)
+	(single-slot language
+		(type STRING)
+		(default "TCL")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot source-slot
+		(type STRING)
+		(create-accessor read-write))
+	(single-slot source-slot-composition
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass recursive-slot-map
+	(is-a slot-map)
+	(role concrete)
+	(single-slot source-slot
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot mappings
+		(type STRING)
+		(create-accessor read-write)))
+
+(defclass source-class-description
+	(is-a USER)
+	(role concrete)
+	(single-slot source-class
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot inherit
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))

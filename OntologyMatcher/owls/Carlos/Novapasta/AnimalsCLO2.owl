@@ -1,0 +1,898 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rss="http://purl.org/rss/1.0/"
+    xmlns="http://a.com/ontology#"
+    xmlns:jms="http://jena.hpl.hp.com/2003/08/jms#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xml:base="http://a.com/ontology">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://protege.stanford.edu/plugins/owl/protege"/>
+  </owl:Ontology>
+  <owl:Class rdf:ID="SensitiveEars">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Ears"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Tail">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="BodyPart"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Skeleton">
+    <rdfs:subClassOf rdf:resource="#BodyPart"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Backbone">
+    <rdfs:subClassOf rdf:resource="#BodyPart"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Snake">
+    <rdfs:subClassOf>
+      <owl:Class>
+        <owl:complementOf>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="ExternalEars"/>
+            </owl:someValuesFrom>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:ID="HasBodypart"/>
+            </owl:onProperty>
+          </owl:Restriction>
+        </owl:complementOf>
+      </owl:Class>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom>
+          <owl:Class rdf:ID="Invertebrate"/>
+        </owl:allValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="Eat"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Lepidosaurae"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="HasEyes"/>
+        </owl:onProperty>
+        <owl:someValuesFrom>
+          <owl:Class rdf:ID="CoveredEyes"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="SmoothSkin">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Skin"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="RoughSkin"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Lepidosaurae">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Crocodilae"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Reptile"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Animals">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Living things which can go around and need food and air</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Parrot">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Penguin"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Bird"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="NonFlying">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="BabyBirth"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Apoda">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Salamender"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#HasEyes"/>
+        </owl:onProperty>
+        <owl:allValuesFrom>
+          <owl:Class rdf:ID="FunctionalEyes"/>
+        </owl:allValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</owl:cardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="HasLimbs"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Amphibian"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Quill">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="BodyCover"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Lion">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Carnivore"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="BonyShell">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BodyCover"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Lemur">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="HasBodyCover"/>
+        </owl:onProperty>
+        <owl:allValuesFrom>
+          <owl:Class rdf:ID="Fur"/>
+        </owl:allValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Primate"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#RoughSkin">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Skin"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#SmoothSkin"/>
+  </owl:Class>
+  <owl:Class rdf:ID="HookedUpperBeak">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Beak"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Human">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Primate"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="InternalEars">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Ears"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="BonySkeleton">
+    <rdfs:subClassOf rdf:resource="#Skeleton"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Invertebrate">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Animals without backbone</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Vertebrate"/>
+    </owl:disjointWith>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Animals"/>
+          <owl:Restriction>
+            <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</owl:cardinality>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:ID="HasBackBone"/>
+            </owl:onProperty>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Alligator">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Crocodilae"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Crocodile"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Ears">
+    <rdfs:subClassOf rdf:resource="#BodyPart"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Vertebrate">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Aniamls with a backbone</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="HasHeartchamber"/>
+        </owl:onProperty>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2</owl:minCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Animals"/>
+          <owl:Restriction>
+            <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >1</owl:cardinality>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:about="#HasBackBone"/>
+            </owl:onProperty>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <owl:disjointWith rdf:resource="#Invertebrate"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Fish">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#Eat"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="#Fish"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Coldblooded"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</owl:cardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#HasLimbs"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#HasHeartchamber"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Amphibian"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Reptile"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="CommonBeak">
+    <rdfs:subClassOf rdf:resource="#HookedUpperBeak"/>
+  </owl:Class>
+  <owl:Class rdf:ID="GrowingIncisor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Incisor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Primate">
+    <rdfs:subClassOf rdf:resource="#NonFlying"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Carnivore"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Rodent"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class>
+    <owl:unionOf rdf:parseType="Collection">
+      <owl:Class rdf:about="#Animals"/>
+      <owl:Class rdf:about="#Parrot"/>
+    </owl:unionOf>
+  </owl:Class>
+  <owl:Class rdf:ID="FunctionlessEyes">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#FunctionalEyes"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Eyes"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="LongTail">
+    <rdfs:subClassOf rdf:resource="#Tail"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Brain">
+    <rdfs:subClassOf rdf:resource="#BodyPart"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Salamender">
+    <owl:disjointWith rdf:resource="#Apoda"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4</owl:cardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#HasLimbs"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Amphibian"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="HasTail"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Incisor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Teeth"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Penguin">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Bird"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#Eat"/>
+        </owl:onProperty>
+        <owl:allValuesFrom rdf:resource="#Fish"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Parrot"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Squirrel">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Porcupine"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#HasBodyCover"/>
+        </owl:onProperty>
+        <owl:allValuesFrom>
+          <owl:Class rdf:about="#Fur"/>
+        </owl:allValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Rodent"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Carnivore">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Rodent"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Primate"/>
+    <rdfs:subClassOf rdf:resource="#NonFlying"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Tusk">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Teeth"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Reptile">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Amphibian"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Fish"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >4</owl:cardinality>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="#HasHeartchamber"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Class rdf:about="#Coldblooded"/>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom>
+          <owl:Class rdf:ID="Scale"/>
+        </owl:allValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#HasBodyCover"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Scale">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BodyCover"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Skin"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Feather"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Fur"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="ShortRound">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Wing"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Eyes">
+    <rdfs:subClassOf rdf:resource="#BodyPart"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Skin">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="BreathOrgan"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BodyCover"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Feather"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Scale"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Fur"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="CartilaginousSkeleton">
+    <rdfs:subClassOf rdf:resource="#Skeleton"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Amphibian">
+    <owl:disjointWith rdf:resource="#Fish"/>
+    <owl:disjointWith rdf:resource="#Reptile"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#Eat"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="#Invertebrate"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Coldblooded"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="BreathBy"/>
+        </owl:onProperty>
+        <owl:allValuesFrom>
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <owl:Class rdf:about="#Skin"/>
+              <owl:Class rdf:ID="Lungs"/>
+            </owl:unionOf>
+          </owl:Class>
+        </owl:allValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Coldblooded">
+    <rdfs:subClassOf rdf:resource="#Vertebrate"/>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Warmblooded"/>
+    </owl:disjointWith>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Body temperature is not regulated</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Beak">
+    <rdfs:subClassOf rdf:resource="#BodyPart"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Rodent">
+    <owl:disjointWith rdf:resource="#Primate"/>
+    <owl:disjointWith rdf:resource="#Carnivore"/>
+    <rdfs:subClassOf rdf:resource="#NonFlying"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="HaveTeeth"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="#GrowingIncisor"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Crocodile">
+    <owl:disjointWith rdf:resource="#Alligator"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Crocodilae"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Tiger">
+    <rdfs:subClassOf rdf:resource="#Carnivore"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Rays">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Cartilaginous"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Cartilaginous">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="#CartilaginousSkeleton"/>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="HasSkeleton"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#HasBodypart"/>
+        </owl:onProperty>
+        <owl:allValuesFrom>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Class>
+                <owl:complementOf>
+                  <owl:Class rdf:ID="SwimBladder"/>
+                </owl:complementOf>
+              </owl:Class>
+              <owl:Class>
+                <owl:complementOf>
+                  <owl:Class rdf:about="#Lungs"/>
+                </owl:complementOf>
+              </owl:Class>
+            </owl:intersectionOf>
+          </owl:Class>
+        </owl:allValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Fish"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Fur">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BodyCover"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Scale"/>
+    <owl:disjointWith rdf:resource="#Skin"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Feather"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#BabyBirth">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Mammal"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="LargeRound">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Wing"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Lungs">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BreathOrgan"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Gills"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="SharpEyes">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#FunctionalEyes"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Teeth">
+    <rdfs:subClassOf rdf:resource="#BodyPart"/>
+  </owl:Class>
+  <owl:Class rdf:about="#FunctionalEyes">
+    <owl:disjointWith rdf:resource="#FunctionlessEyes"/>
+    <rdfs:subClassOf rdf:resource="#Eyes"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Canine">
+    <rdfs:subClassOf rdf:resource="#Teeth"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Feather">
+    <owl:disjointWith rdf:resource="#Fur"/>
+    <owl:disjointWith rdf:resource="#Scale"/>
+    <owl:disjointWith rdf:resource="#Skin"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BodyCover"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Hair">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BodyCover"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Wing">
+    <rdfs:subClassOf rdf:resource="#BodyPart"/>
+  </owl:Class>
+  <owl:Class rdf:about="#BreathOrgan">
+    <rdfs:subClassOf rdf:resource="#BodyPart"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ShortTail">
+    <rdfs:subClassOf rdf:resource="#Tail"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Bird">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Mammal"/>
+    </owl:disjointWith>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="#HasBodypart"/>
+            </owl:onProperty>
+            <owl:someValuesFrom rdf:resource="#Wing"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Beak"/>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="#HasBodypart"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Class rdf:about="#Warmblooded"/>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</owl:cardinality>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:about="#HaveTeeth"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#HasBodyCover"/>
+        </owl:onProperty>
+        <owl:allValuesFrom>
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <owl:Class rdf:about="#Fur"/>
+              <owl:Class rdf:about="#Feather"/>
+            </owl:unionOf>
+          </owl:Class>
+        </owl:allValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class>
+        <owl:complementOf>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="#HasBodypart"/>
+            </owl:onProperty>
+            <owl:someValuesFrom rdf:resource="#Teeth"/>
+          </owl:Restriction>
+        </owl:complementOf>
+      </owl:Class>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#Beak"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#HasBodypart"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Shark">
+    <rdfs:subClassOf rdf:resource="#Cartilaginous"/>
+  </owl:Class>
+  <owl:Class rdf:about="#BodyCover">
+    <rdfs:subClassOf rdf:resource="#BodyPart"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Warmblooded">
+    <rdfs:subClassOf rdf:resource="#Vertebrate"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4</owl:cardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#HasHeartchamber"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Coldblooded"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Body temperature is regulated</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#SwimBladder">
+    <rdfs:subClassOf rdf:resource="#BreathOrgan"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Common">
+    <rdfs:subClassOf rdf:resource="#Wing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Gills">
+    <owl:disjointWith rdf:resource="#Lungs"/>
+    <rdfs:subClassOf rdf:resource="#BreathOrgan"/>
+  </owl:Class>
+  <owl:Class rdf:about="#ExternalEars">
+    <rdfs:subClassOf rdf:resource="#Ears"/>
+  </owl:Class>
+  <owl:Class rdf:about="#CoveredEyes">
+    <rdfs:subClassOf rdf:resource="#Eyes"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Crocodilae">
+    <owl:disjointWith rdf:resource="#Lepidosaurae"/>
+    <rdfs:subClassOf rdf:resource="#Reptile"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Mammal">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#HasHeartchamber"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Warmblooded"/>
+    <owl:disjointWith rdf:resource="#Bird"/>
+  </owl:Class>
+  <owl:Class rdf:ID="WeakEyes">
+    <rdfs:subClassOf rdf:resource="#FunctionalEyes"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Porcupine">
+    <owl:disjointWith rdf:resource="#Squirrel"/>
+    <rdfs:subClassOf>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="#HasBodyCover"/>
+            </owl:onProperty>
+            <owl:someValuesFrom rdf:resource="#Fur"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Quill"/>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="#HasBodyCover"/>
+            </owl:onProperty>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Rodent"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="#HasEyes">
+    <rdfs:subPropertyOf>
+      <owl:ObjectProperty rdf:about="#HasBodypart"/>
+    </rdfs:subPropertyOf>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="HasClaws">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#HasLimbs">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf>
+      <owl:ObjectProperty rdf:about="#HasBodypart"/>
+    </rdfs:subPropertyOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="EatenBy">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Animals"/>
+          <owl:Class rdf:about="#Fish"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:about="#Eat"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#HasBodypart">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#BreathBy">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="Partof">
+    <rdfs:domain rdf:resource="#BodyPart"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#Eat">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:inverseOf rdf:resource="#EatenBy"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#HasHeartchamber">
+    <rdfs:subPropertyOf rdf:resource="#HasBodypart"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="HasNose">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="#HasBodypart"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#HasBodyCover">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="HasEars">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="#HasBodypart"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="HasLifecycle">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:DatatypeProperty>
+  <owl:FunctionalProperty rdf:ID="HasWing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="#HasBodypart"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="#Animals"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#HasTail">
+    <rdfs:subPropertyOf rdf:resource="#HasBodypart"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="CanBark">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="HasHibernation">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="IsEndangered">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#HasBackBone">
+    <rdfs:subPropertyOf rdf:resource="#HasBodypart"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="HasJaw">
+    <rdfs:subPropertyOf rdf:resource="#HasBodypart"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="HasBeak">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="#HasBodypart"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#HasSkeleton">
+    <rdfs:range rdf:resource="#Skeleton"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Fish"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="IsDomestic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#HaveTeeth">
+    <rdfs:subPropertyOf rdf:resource="#HasBodypart"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <Shark rdf:ID="SmallShark"/>
+  <Rays rdf:ID="Salmon"/>
+  <Shark rdf:ID="WhiteShark">
+    <Eat rdf:resource="#Salmon"/>
+    <Eat rdf:resource="#SmallShark"/>
+  </Shark>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->

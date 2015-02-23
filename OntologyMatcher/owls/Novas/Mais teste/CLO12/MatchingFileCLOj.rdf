@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF
+  xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <Alignment>
+    <xml>yes</xml>
+    <level>0</level>
+    <type>**</type>
+    <onto1>http://www.owl-ontologies.com/Ontology1217266757.owl#</onto1>
+    <onto2>http://www.owl-ontologies.com/Ontology1217266757.owl#</onto2>
+    <uri1>http://www.owl-ontologies.com/Ontology1217266757.owl#</uri1>
+    <uri2>http://www.owl-ontologies.com/Ontology1217266757.owl#</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mineral_Water"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mineral_Water"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mineral"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Mineral"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Plant"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Alga"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fungi"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Fungi"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Hyena"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Salt"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Salt"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tiger"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Tiger"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#isPartOf"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#isPartOf"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+      <Cell>
+        <entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1217266757.owl#Animal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>
